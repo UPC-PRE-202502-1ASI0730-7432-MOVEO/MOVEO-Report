@@ -240,6 +240,7 @@ aun no acabamos
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
+En esta sección se define un repositorio centralizado y debidamente organizado para el uso de todo el equipo, el cual incluye recursos como assets, tipografías y demás elementos necesarios. Su finalidad es asegurar una presentación coherente, estandarizada y alineada en todo el proyecto.
 
 ### 4.1.1. General Style Guidelines.
 
