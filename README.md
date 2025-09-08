@@ -250,7 +250,7 @@ Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea
 **Logo**
 
 Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
-<img src= "assets/Logo.png">
+<img src= "assets/Logo.png" height="200">
 
 **Typography**
 
