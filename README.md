@@ -243,11 +243,14 @@ aun no acabamos
 En esta sección se define un repositorio centralizado y debidamente organizado para el uso de todo el equipo, el cual incluye recursos como assets, tipografías y demás elementos necesarios. Su finalidad es asegurar una presentación coherente, estandarizada y alineada en todo el proyecto.
 
 ### 4.1.1. General Style Guidelines.
-Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea de compartir vehículos de manera segura y práctica, integramos un logo en el que un automóvil verde profundo se ubica frente a una casa en tonos verde y crema, ambos unidos por un pin rosa al estilo de Google Maps que simboliza ubicación y conexión. El branding se construye sobre la base de:
+Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea de compartir vehículos de manera segura y práctica, integramos un logo en el que un automóvil  se ubica frente a una casa , ambos unidos por un pin que simboliza ubicación y conexión. El branding se construye sobre la base de:
 * **Misión:** Facilitar el acceso a la movilidad mediante una plataforma confiable donde las personas puedan compartir y alquilar autos con seguridad.
 * **Visión:** Crear entornos dignos y seguros para adultos mayores usando tecnología.
-### 4.1.2. Web Style Guidelines.
 
+**Logo**
+Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
+
+### 4.1.2. Web Style Guidelines.
 
 ## 4.2. Information Architecture.
 
