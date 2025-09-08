@@ -38,7 +38,7 @@
 |version|Fecha|Autor|Descripcion de Modificacion|
 |---|---|---|---|
 |0.1| 29/08/2025 | Andreow Santiago | Creacion y primera version del informe |
-|0.2|   |   |   |
+|0.2| 08/09/2025  | Franco Huang  | Primer avance del Style Guideline  |
 
 
 # Project Report Collaboration Insights
@@ -247,12 +247,27 @@ Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea
 * **Misión:** Facilitar el acceso a la movilidad mediante una plataforma confiable donde las personas puedan compartir y alquilar autos con seguridad.
 * **Visión:** Crear entornos dignos y seguros para adultos mayores usando tecnología.
 
-**Logo**
+#### Logo
 
 Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
-<img src= "assets/Logo.png" height="200">
+![Moveo Logo](<./assets/Logo.png>)
 
-**Typography**
+#### Typography
+
+#### Colors
+
+#### Spacing
+
+#### Communication Tone
+
+| Dimensión              | Nivel Adoptado    |
+|------------------------|-------------------|
+| Divertido/Serio        | Medio-Serio       |
+| Formal/Casual          | Semi-Formal       |
+| Respetuoso/Irreverente | Muy Respetuoso    |
+| Entusiasta/Sereno      | Sereno y Empático |
+
+Decidimos mantener una comunicación clara, cálida y profesional, porque este enfoque nos permite conectar de manera efectiva con el público, especialmente en un contexto tan sensible como la seguridad del usuario. 
 
 ### 4.1.2. Web Style Guidelines.
 
