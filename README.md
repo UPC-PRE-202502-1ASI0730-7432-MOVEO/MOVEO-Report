@@ -248,6 +248,7 @@ Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea
 * **Visión:** Crear entornos dignos y seguros para adultos mayores usando tecnología.
 
 **Logo**
+
 Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
 
 ### 4.1.2. Web Style Guidelines.
