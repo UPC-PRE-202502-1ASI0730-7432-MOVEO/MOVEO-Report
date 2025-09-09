@@ -38,7 +38,7 @@
 |version|Fecha|Autor|Descripcion de Modificacion|
 |---|---|---|---|
 |0.1| 29/08/2025 | Andreow Santiago | Creacion y primera version del informe |
-|0.2|   |   |   |
+|0.2| 08/09/2025 | Franco Huang | Avance de Syle Guidelines  |
 
 
 # Project Report Collaboration Insights
@@ -240,11 +240,60 @@ aun no acabamos
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
+En esta sección se define un repositorio centralizado y debidamente organizado para el uso de todo el equipo, el cual incluye recursos como assets, tipografías y demás elementos necesarios. Su finalidad es asegurar una presentación coherente, estandarizada y alineada en todo el proyecto.
 
 ### 4.1.1. General Style Guidelines.
+Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea de compartir vehículos de manera segura y práctica, integramos un logo en el que un automóvil  se ubica frente a una casa , ambos unidos por un pin que simboliza ubicación y conexión. El branding se construye sobre la base de:
+* **Misión:** Facilitar el acceso a la movilidad mediante una plataforma confiable donde las personas puedan compartir y alquilar autos con seguridad.
+* **Visión:** Crear entornos dignos y seguros para adultos mayores usando tecnología.
+
+#### Logo
+
+Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
+<img src="./assets/Logo.png" alt="Moveo_Logo" height="200"/>
+
+#### Typography
+
+La tipografía debe transmitir claridad, calidez y profesionalismo. Por esa razón decidimos usar **Poppins** e **Inter**, ya que tienen un diseño limpio y sencillo, lo que facilita la lectura en pantallas.
+En este caso se usará **Poppins** para titulos y/o subtitulos e **Inter** para texto y/o subtexto.
+<img src="./assets/Typography.png" alt="Moveo_Typo" height="200"/>
+
+#### Colors
+
+Elegimos los siguientes colores buscando plasmar una paleta que influya seguridad y profesionalismo:
+<img src="./assets/Color.png" alt="Moveo_Colors" height="200"/>
+
+#### Spacing
+
+En este proyecto el espaciado cumple un papel clave para mantener la legibilidad y la accesibilidad. Por ello:
+
+* Párrafos: Se añade un espacio equivalente a una línea completa entre cada uno, lo que facilita distinguir las ideas.
+
+* Elementos interactivos: Se deja entre 8 y 12 píxeles de separación en botones, enlaces u otros componentes, reduciendo posibles errores en dispositivos táctiles.
+
+* Márgenes y padding: Se aplican márgenes de 16 a 24 píxeles alrededor del contenido, evitando que la interfaz se vea saturada.
+* 
+#### Communication Tone
+
+| Dimensión              | Nivel Adoptado    |
+|------------------------|-------------------|
+| Divertido/Serio        | Medio-Serio       |
+| Formal/Casual          | Semi-Formal       |
+| Respetuoso/Irreverente | Muy Respetuoso    |
+| Entusiasta/Sereno      | Sereno y Empático |
+
+Decidimos mantener una comunicación clara, cálida y profesional, porque este enfoque nos permite conectar de manera efectiva con el público, especialmente en un contexto tan sensible como la seguridad del usuario. 
 
 ### 4.1.2. Web Style Guidelines.
 
+Para garantizar que la página se adapte a diferentes tamaños de pantalla y mantenga una presentación clara y atractiva, se empleará CSS con el apoyo de media queries. De esta manera, será posible definir estilos específicos según la resolución del dispositivo. Elementos clave como la barra de navegación y el pie de página se ajustarán automáticamente, ofreciendo una experiencia consistente en cualquier dispositivo. Los puntos de quiebre definidos son los siguientes:
+
+| Dispositivo     | Ancho mínimo | Ejemplo de uso            |
+|-----------------|--------------|----------------------------|
+| Mobile          | ≥ 320px      | Teléfonos                  |
+| Tablet          | ≥ 768px      | iPad / tablets genéricas   |
+| Laptop  | ≥ 1024px     | Monitores y laptops        |
+| Wide Screen     | ≥ 1440px     | Pantallas grandes o TV     |
 
 ## 4.2. Information Architecture.
 
