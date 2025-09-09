@@ -316,6 +316,33 @@ Si bien ambos acceden a las mismas secciones, la diferencia radica en los nivele
 <img src="./assets/Diagrama.png" alt="Moveo_Diagram"/>
 </p>
 
+Como se ve en el diagrama, se sigue un proceso estructurado para facilitar la gestión de la salud de los pacientes, permitiendo la interacción entre médicos y familiares. Aquí explicamos cada etapa del proceso y las funciones disponibles:
+
+1. **Landing Page**: Es la página de inicio donde los usuarios pueden explorar la aplicación y conocer sus beneficios.
+
+2. **Inicio**: Los usuarios pueden iniciar sesión si ya tienen una cuenta o registrarse como nuevos usuarios.
+
+3. **Registro**:
+   - **Crear Cuenta**: Los nuevos usuarios ingresan sus datos manualmente.
+   - **Registrarse con Google**: Opción para facilitar el acceso mediante una cuenta de Google.
+   - **Llenar Datos**: Se completa un formulario con información personal.
+
+4. **Inicio de Sesión**: Los usuarios existentes ingresan sus credenciales para acceder a la plataforma.
+
+5. **Página Principal**: Una vez dentro, los usuarios pueden acceder a diversas funcionalidades.
+
+6. **Autos**: Los usuarios pueden ver autos disponibles.
+
+7. **Aventuras**: Rutas por auto creadas por personas hacia diversos destinos con alguna temática.
+
+8. **Servicios**: Servicios brinda.
+
+9. **Conviertete en dueño**: Complementa la experiencia de alquiler, ofreciendo beneficios adicionales que mejoran la seguridad, comodidad y confianza del usuario.
+
+10. **Perfil**: Configuración de la cuenta, donde los usuarios pueden actualizar su información personal.
+
+Este flujo de trabajo permite que los médicos tomen decisiones informadas sobre la salud del paciente y que los familiares estén al tanto de su evolución.
+
 ### 4.2.2. Labeling Systems.
 
 ### 4.2.3. SEO Tags and Meta Tags
