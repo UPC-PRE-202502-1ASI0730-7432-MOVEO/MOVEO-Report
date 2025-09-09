@@ -252,7 +252,7 @@ Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea
 Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
 
 <p align="center">
-<img src="./assets/Logo.png" alt="Moveo_Logo" height="50"/>
+<img src="./assets/Logo.png" alt="Moveo_Logo" height="500"/>
 </p>
 
 #### Typography
