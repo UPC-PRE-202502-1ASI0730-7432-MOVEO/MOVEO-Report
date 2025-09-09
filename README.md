@@ -38,7 +38,7 @@
 |version|Fecha|Autor|Descripcion de Modificacion|
 |---|---|---|---|
 |0.1| 29/08/2025 | Andreow Santiago | Creacion y primera version del informe |
-|0.2| 08/09/2025  | Franco Huang  | Primer avance del Style Guideline  |
+|   |   |    |   |
 
 
 # Project Report Collaboration Insights
@@ -250,7 +250,7 @@ Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea
 #### Logo
 
 Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
-![Moveo Logo](<./assets/Logo.png>)
+<img src="./assets/Logo.png" alt="Moveo_Logo" height="200"/>
 
 #### Typography
 
