@@ -250,18 +250,27 @@ Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea
 #### Logo
 
 Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
-<img src="./assets/Logo.png" alt="Moveo_Logo" height="200"/>
+
+<p align="center">
+<img src="./assets/Logo.png" alt="Moveo_Logo" height="500"/>
+</p>
 
 #### Typography
 
 La tipografía debe transmitir claridad, calidez y profesionalismo. Por esa razón decidimos usar **Poppins** e **Inter**, ya que tienen un diseño limpio y sencillo, lo que facilita la lectura en pantallas.
 En este caso se usará **Poppins** para titulos y/o subtitulos e **Inter** para texto y/o subtexto.
-<img src="./assets/Typography.png" alt="Moveo_Typo" height="200"/>
+
+<p align="center">
+<img src="./assets/Typography.png" alt="Moveo_Typo"/>
+</p>
 
 #### Colors
 
 Elegimos los siguientes colores buscando plasmar una paleta que influya seguridad y profesionalismo:
-<img src="./assets/Color.png" alt="Moveo_Colors" height="200"/>
+
+<p align="center">
+<img src="./assets/Color.png" alt="Moveo_Colors"/>
+</p>
 
 #### Spacing
 
