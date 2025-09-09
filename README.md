@@ -308,6 +308,14 @@ Para garantizar que la página se adapte a diferentes tamaños de pantalla y man
 
 ### 4.2.1. Organization Systems.
 
+Nuestro propósito es garantizar una experiencia de usuario coherente y sin fricciones en la plataforma web, tanto en la versión de sobremesa como la versión móvil. La estructura visual que presentamos ha sido diseñada estratégicamente para responder a las necesidades de nuestros dos segmentos principales.
+
+Si bien ambos acceden a las mismas secciones, la diferencia radica en los niveles de permiso. Los dueños pueden prestar el transporte, ofrecer rutas de aventuras y prestar servicios adicionales, mientras que los inquilinos cuentan únicamente con acceso a la visualización de autos, aventuras y servicios disponibles, además de la posibilidad de filtrar por locación, fecha y/o cantidad de personas.
+
+<p align="center">
+<img src="./assets/Diagrama.png" alt="Moveo_Diagram"/>
+</p>
+
 ### 4.2.2. Labeling Systems.
 
 ### 4.2.3. SEO Tags and Meta Tags
