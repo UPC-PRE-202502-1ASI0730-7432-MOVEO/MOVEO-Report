@@ -39,6 +39,7 @@
 |---|---|---|---|
 |0.1| 29/08/2025 | Andreow Santiago | Creacion y primera version del informe |
 |0.2| 08/09/2025 | Franco Huang | Avance de Syle Guidelines  |
+|0.2| 10/09/2025 | Franco Huang | Avance de Information Architecture  |
 
 
 # Project Report Collaboration Insights
@@ -281,7 +282,7 @@ En este proyecto el espaciado cumple un papel clave para mantener la legibilidad
 * Elementos interactivos: Se deja entre 8 y 12 píxeles de separación en botones, enlaces u otros componentes, reduciendo posibles errores en dispositivos táctiles.
 
 * Márgenes y padding: Se aplican márgenes de 16 a 24 píxeles alrededor del contenido, evitando que la interfaz se vea saturada.
-* 
+  
 #### Communication Tone
 
 | Dimensión              | Nivel Adoptado    |
@@ -308,13 +309,145 @@ Para garantizar que la página se adapte a diferentes tamaños de pantalla y man
 
 ### 4.2.1. Organization Systems.
 
+Nuestro propósito es garantizar una experiencia de usuario coherente y sin fricciones en la plataforma web, tanto en la versión de sobremesa como la versión móvil. La estructura visual que presentamos ha sido diseñada estratégicamente para responder a las necesidades de nuestros dos segmentos principales.
+
+Si bien ambos acceden a las mismas secciones, la diferencia radica en los niveles de permiso. Los dueños pueden prestar el transporte, ofrecer rutas de aventuras y prestar servicios adicionales, mientras que los inquilinos cuentan únicamente con acceso a la visualización de autos, aventuras y servicios disponibles, además de la posibilidad de filtrar por locación, fecha y/o cantidad de personas.
+
+<p align="center">
+<img src="./assets/Diagrama.png" alt="Moveo_Diagram"/>
+</p>
+
+Como se ve en el diagrama, se sigue un proceso estructurado para facilitar la gestión de la salud de los pacientes, permitiendo la interacción entre médicos y familiares. Aquí explicamos cada etapa del proceso y las funciones disponibles:
+
+1. **Landing Page**: Es la página de inicio donde los usuarios pueden explorar la aplicación y conocer sus beneficios.
+
+2. **Inicio**: Los usuarios pueden iniciar sesión si ya tienen una cuenta o registrarse como nuevos usuarios.
+
+3. **Registro**:
+   - **Crear Cuenta**: Los nuevos usuarios ingresan sus datos manualmente.
+   - **Registrarse con Google**: Opción para facilitar el acceso mediante una cuenta de Google.
+   - **Llenar Datos**: Se completa un formulario con información personal.
+
+4. **Inicio de Sesión**: Los usuarios existentes ingresan sus credenciales para acceder a la plataforma.
+
+5. **Página Principal**: Una vez dentro, los usuarios pueden acceder a diversas funcionalidades.
+
+6. **Autos**: Los usuarios pueden ver autos disponibles.
+
+7. **Aventuras**: Rutas por auto creadas por personas hacia diversos destinos con alguna temática.
+
+8. **Servicios**: Servicios brinda.
+
+9. **Conviertete en dueño**: Complementa la experiencia de alquiler, ofreciendo beneficios adicionales que mejoran la seguridad, comodidad y confianza del usuario.
+
+10. **Perfil**: Configuración de la cuenta, donde los usuarios pueden actualizar su información personal.
+
+Este flujo de trabajo permite que los médicos tomen decisiones informadas sobre la salud del paciente y que los familiares estén al tanto de su evolución.
+
 ### 4.2.2. Labeling Systems.
+
+Los sistemas de etiquetado seguirán la misma estructura presentada en Organization Systems. El usuario podrá seleccionar el encabezado de su interés y, al hacer clic, será dirigido automáticamente a la sección correspondiente dentro de la plataforma.
+
+| **Sección**  | **Contenido** |
+|-------------|--------------|
+| **Página Principal** | Es el primer punto de contacto con Moveo. Aquí se introduce la aplicación, explicando su propósito, misión y visión, además de resaltar esta manera de alquilar automóviles. |
+| **About** | Proporciona una descripción detallada de las herramientas y funcionalidades que ofrece Moveo. Se explican los módulos principales, cómo interactúa el dueño de automóvil y el arrendador, y los beneficios del uso de la aplicación. |
+| **Contacto** | Espacio donde los usuarios pueden encontrar los canales de comunicación con el equipo de soporte. Se incluyen redes sociales, un correo de asistencia técnica y un correo para consultas de negocios o colaboraciones. |
+
+##### Secciones y contenido de Moveo
+
+| **Sección**  | **Contenido** |
+|-------------|--------------|
+| **Autos** | Esta es la página principal en la que tambipen contiene la selección de autos disponibles para alquilar. |
+| **Aventuras** | Sección donde los usuarios pueden publicar rutas personalizadas con actividades planeadas y destinos diferentes. |
+| **Servicios** | Espacio dedicado a multiples servicios automovilisticos seleccionables . |
+| **Conviertete en dueño** | Permite al usuario poner su auto en alquiler, publicar una aventura o publicar un servicio. |
+| **Perfil** | Sección para la administración del perfil del usuario, permitiendo la actualización de datos personales, preferencias y configuración de accesibilidad. |
 
 ### 4.2.3. SEO Tags and Meta Tags
 
+La **Landing Page** está diseñada para atraer nuevos usuarios, informar sobre la propuesta de valor y generar confianza en la marca.  Las etiquetas meta se centran en captar tráfico orgánico de personas interesadas en alquilar un auto, ir de viaje manejando o buscando un servicio automovilístico.
+
+
+**Título de la página (Title)**
+
+El título resume de forma directa el propósito del sitio, incluyendo las palabras clave **"autos"**, **"alquilar"** y **"seguro"**, que son términos con alta relevancia SEO para nuestro público objetivo.
+
+```html
+<title>Moveo – Alquilar autos de manera segura</title>
+```
+
+**Meta descripción (Meta Description)**
+
+La meta descripción ofrece una vista clara del valor que ofrece la plataforma, motivando al clic desde los resultados de búsqueda.
+
+```html
+<meta name="description" content="Moveo es una plataforma digital que mejora la seguridad al alquilar autos, brindadndo viajes y servicios automovilísticos.">
+```
+
+**Palabras clave (Meta Keywords)**
+
+Los términos elegidos cubren conceptos clave relacionados con el contexto de uso de Moveo, permitiendo un mayor alcance en búsquedas asociadas.
+
+```html
+<meta name="keywords" content="autos, alquiler, viajes, actividades, plataforma digital, aventuras, servicios automovilísticos">
+```
+
+
+**Autor del sitio (Meta Author)**
+
+La etiqueta autor identifica al equipo creador, útil para fines de propiedad y referencia en motores de búsqueda.
+
+```html
+<meta name="author" content="Moveo Team">
+```
+
+
 ### 4.2.4. Searching Systems.
 
+La plataforma Moveo incorpora un sistema de búsqueda global que permite a los usuarios encontrar rápidamente lo que necesitan sin importar en qué sección se encuentren.
+
+#### **Busqueda Global**
+
+* Disponible en la barra superior de navegación en todas las páginas.
+* El usuario puede escribir palabras clave como “SUV Lima”, “aventura playa” o “servicio mantenimiento”.
+* El motor de búsqueda devuelve resultados clasificados por secciones:
+  * Autos disponibles
+  * Aventuras creadas por otros usuarios
+  * Servicios automovilísticos
+  * Usuarios/Dueños (en caso de búsqueda por nombre o alias)
+
+#### **Filtrado de información**
+
+* En cada sección principal (Autos, Aventuras, Servicios), los usuarios disponen de filtros específicos:
+  * **Autos**: por ubicación, tipo de vehículo (sedán, SUV, deportivo), precio por día, transmisión (manual/automática), y valoraciones de otros usuarios.
+  * **Aventuras**: por destino, temática (playa, montaña, ciudad), duración y popularidad.
+  * **Servicios**: por tipo (lavado, mantenimiento, chofer privado, asistencia en carretera) y disponibilidad.
+* Los filtros se combinan con la búsqueda global para entregar resultados personalizados y relevantes.
+
 ### 4.2.5. Navigation Systems.
+
+Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad entre distintas funcionalidades. La navegación está basada en una barra de menú principal, accesos rápidos y una estructura jerárquica clara que guía al usuario en su recorrido.
+
+#### **Estructura de Navegación en la Landing Page**
+ La landing page consta de las siguientes secciones principales:
+
+ | **Sección**  | **Contenido** |
+|-------------|--------------|
+| **Página Principal** | Introduce Moveo, su propósito, misión y visión. Desde aquí, los usuarios pueden acceder rápidamente a las funciones clave. |
+| **About** | Explica las herramientas principales de Moveo, cómo funcionan y cómo beneficia a los usuarios. |
+| **Contacto** | Incluye enlaces a redes sociales, un correo de asistencia técnica y otro para consultas de negocio. |
+
+#### **Estructura de Navegación en Moveo**
+ La aplicación consta de las siguientes secciones principales:
+
+ | **Sección**  | **Contenido** |
+|-------------|--------------|
+| **Autos** | Muestra de manera simple los carros disponibles y a la vez divididos por categorías. |
+| **Aventuras** | Proporciona rutas personalizadas con actividades planeadas y destinos diferentes. |
+| **Servicios** | Sección enfocada en brindar una variedad de opciones de servicios automotrices disponibles para selección. |
+| **Conviertete en dueño** | Espacio donde el usuario puede publicar su automóvil para alquiler, proponer rutas personalizadas o agregar servicios complementarios. |
+| **Perfil** | Área dedicada al control del perfil del usuario, con herramientas para mantener actualizados los datos, preferencias y accesos personalizados. |
 
 ## 4.3. Landing Page UI Design.
 
