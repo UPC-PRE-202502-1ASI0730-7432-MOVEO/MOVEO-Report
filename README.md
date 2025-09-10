@@ -281,7 +281,7 @@ En este proyecto el espaciado cumple un papel clave para mantener la legibilidad
 * Elementos interactivos: Se deja entre 8 y 12 píxeles de separación en botones, enlaces u otros componentes, reduciendo posibles errores en dispositivos táctiles.
 
 * Márgenes y padding: Se aplican márgenes de 16 a 24 píxeles alrededor del contenido, evitando que la interfaz se vea saturada.
-* 
+  
 #### Communication Tone
 
 | Dimensión              | Nivel Adoptado    |
@@ -404,7 +404,49 @@ La etiqueta autor identifica al equipo creador, útil para fines de propiedad y 
 
 ### 4.2.4. Searching Systems.
 
+La plataforma Moveo incorpora un sistema de búsqueda global que permite a los usuarios encontrar rápidamente lo que necesitan sin importar en qué sección se encuentren.
+
+#### **Busqueda Global**
+
+* Disponible en la barra superior de navegación en todas las páginas.
+* El usuario puede escribir palabras clave como “SUV Lima”, “aventura playa” o “servicio mantenimiento”.
+* El motor de búsqueda devuelve resultados clasificados por secciones:
+  * Autos disponibles
+  * Aventuras creadas por otros usuarios
+  * Servicios automovilísticos
+  * Usuarios/Dueños (en caso de búsqueda por nombre o alias)
+
+#### **Filtrado de información**
+
+* En cada sección principal (Autos, Aventuras, Servicios), los usuarios disponen de filtros específicos:
+  * **Autos**: por ubicación, tipo de vehículo (sedán, SUV, deportivo), precio por día, transmisión (manual/automática), y valoraciones de otros usuarios.
+  * **Aventuras**: por destino, temática (playa, montaña, ciudad), duración y popularidad.
+  * **Servicios**: por tipo (lavado, mantenimiento, chofer privado, asistencia en carretera) y disponibilidad.
+* Los filtros se combinan con la búsqueda global para entregar resultados personalizados y relevantes.
+
 ### 4.2.5. Navigation Systems.
+
+Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad entre distintas funcionalidades. La navegación está basada en una barra de menú principal, accesos rápidos y una estructura jerárquica clara que guía al usuario en su recorrido.
+
+#### **Estructura de Navegación en la Landing Page**
+ La landing page consta de las siguientes secciones principales:
+
+ | **Sección**  | **Contenido** |
+|-------------|--------------|
+| **Página Principal** | Introduce Moveo, su propósito, misión y visión. Desde aquí, los usuarios pueden acceder rápidamente a las funciones clave. |
+| **About** | Explica las herramientas principales de Moveo, cómo funcionan y cómo beneficia a los usuarios. |
+| **Contacto** | Incluye enlaces a redes sociales, un correo de asistencia técnica y otro para consultas de negocio. |
+
+#### **Estructura de Navegación en Moveo**
+ La aplicación consta de las siguientes secciones principales:
+
+ | **Sección**  | **Contenido** |
+|-------------|--------------|
+| **Autos** | Muestra de manera simple los carros disponibles y a la vez divididos por categorías. |
+| **Aventuras** | Proporciona rutas personalizadas con actividades planeadas y destinos diferentes. |
+| **Servicios** | Sección enfocada en brindar una variedad de opciones de servicios automotrices disponibles para selección. |
+| **Conviertete en dueño** | Espacio donde el usuario puede publicar su automóvil para alquiler, proponer rutas personalizadas o agregar servicios complementarios. |
+| **Perfil** | Área dedicada al control del perfil del usuario, con herramientas para mantener actualizados los datos, preferencias y accesos personalizados. |
 
 ## 4.3. Landing Page UI Design.
 
