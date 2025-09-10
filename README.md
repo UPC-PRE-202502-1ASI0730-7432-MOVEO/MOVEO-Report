@@ -345,7 +345,62 @@ Este flujo de trabajo permite que los médicos tomen decisiones informadas sobre
 
 ### 4.2.2. Labeling Systems.
 
+Los sistemas de etiquetado seguirán la misma estructura presentada en Organization Systems. El usuario podrá seleccionar el encabezado de su interés y, al hacer clic, será dirigido automáticamente a la sección correspondiente dentro de la plataforma.
+
+| **Sección**  | **Contenido** |
+|-------------|--------------|
+| **Página Principal** | Es el primer punto de contacto con Moveo. Aquí se introduce la aplicación, explicando su propósito, misión y visión, además de resaltar esta manera de alquilar automóviles. |
+| **About** | Proporciona una descripción detallada de las herramientas y funcionalidades que ofrece Moveo. Se explican los módulos principales, cómo interactúa el dueño de automóvil y el arrendador, y los beneficios del uso de la aplicación. |
+| **Contacto** | Espacio donde los usuarios pueden encontrar los canales de comunicación con el equipo de soporte. Se incluyen redes sociales, un correo de asistencia técnica y un correo para consultas de negocios o colaboraciones. |
+
+##### Secciones y contenido de Moveo
+
+| **Sección**  | **Contenido** |
+|-------------|--------------|
+| **Autos** | Esta es la página principal en la que tambipen contiene la selección de autos disponibles para alquilar. |
+| **Aventuras** | Sección donde los usuarios pueden publicar rutas personalizadas con actividades planeadas y destinos diferentes. |
+| **Servicios** | Espacio dedicado a multiples servicios automovilisticos seleccionables . |
+| **Conviertete en dueño** | Permite al usuario poner su auto en alquiler, publicar una aventura o publicar un servicio. |
+| **Perfil** | Sección para la administración del perfil del usuario, permitiendo la actualización de datos personales, preferencias y configuración de accesibilidad. |
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+La **Landing Page** está diseñada para atraer nuevos usuarios, informar sobre la propuesta de valor y generar confianza en la marca.  Las etiquetas meta se centran en captar tráfico orgánico de personas interesadas en alquilar un auto, ir de viaje manejando o buscando un servicio automovilístico.
+
+
+**Título de la página (Title)**
+
+El título resume de forma directa el propósito del sitio, incluyendo las palabras clave **"autos"**, **"alquilar"** y **"seguro"**, que son términos con alta relevancia SEO para nuestro público objetivo.
+
+```html
+<title>Moveo – Alquilar autos de manera segura</title>
+```
+
+**Meta descripción (Meta Description)**
+
+La meta descripción ofrece una vista clara del valor que ofrece la plataforma, motivando al clic desde los resultados de búsqueda.
+
+```html
+<meta name="description" content="Moveo es una plataforma digital que mejora la seguridad al alquilar autos, brindadndo viajes y servicios automovilísticos.">
+```
+
+**Palabras clave (Meta Keywords)**
+
+Los términos elegidos cubren conceptos clave relacionados con el contexto de uso de Moveo, permitiendo un mayor alcance en búsquedas asociadas.
+
+```html
+<meta name="keywords" content="autos, alquiler, viajes, actividades, plataforma digital, aventuras, servicios automovilísticos">
+```
+
+
+**Autor del sitio (Meta Author)**
+
+La etiqueta autor identifica al equipo creador, útil para fines de propiedad y referencia en motores de búsqueda.
+
+```html
+<meta name="author" content="Moveo Team">
+```
+
 
 ### 4.2.4. Searching Systems.
 
