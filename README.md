@@ -39,7 +39,7 @@
 |---|---|---|---|
 |0.1| 29/08/2025 | Andreow Santiago | Creacion y primera version del informe |
 |0.2| 08/09/2025 | Franco Huang | Avance de Syle Guidelines  |
-|0.3| 10/09/2025 | Franco Huang | Avance de Information Architecture  |
+|0.3| 10/09/2025 | Franco Huang | Avance de Information Architecture y entrevistas  |
 
 
 # Project Report Collaboration Insights
