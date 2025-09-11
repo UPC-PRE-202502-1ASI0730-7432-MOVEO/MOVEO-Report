@@ -214,7 +214,7 @@ aun no acabamos
 ##### **Roy Hsieh:** 
 
 <p align="center">
-<img src="./assets/Roy.png" alt="Roy_Hsieh" height=500/>
+<img src="./assets/Roy.jpg" alt="Roy_Hsieh" height=500/>
 </p>
 
 Link: <https://youtu.be/kJXcfmofi8g>
