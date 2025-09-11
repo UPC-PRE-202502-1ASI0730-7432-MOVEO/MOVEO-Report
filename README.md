@@ -206,6 +206,69 @@ aun no acabamos
 
 ### 2.2.1. Diseño de entrevistas.
 
+**Segmento 1: Propietarios**
+
+¿Cuál es tu nombre completo?
+
+¿Qué edad tienes actualmente?
+
+¿En qué distrito resides?
+
+¿A qué te dedicas (trabajo, estudios, negocio propio)?
+
+¿Qué requisitos solicitas a una persona antes de entregarle tu vehículo?
+
+¿Qué tipo de unidades sueles alquilar (auto, SUV, camioneta, moto, otro)?
+
+¿Cuál es el tiempo mínimo y máximo que normalmente estás dispuesto a prestar tu vehículo?
+
+¿Cómo gestionas el control de tus autos disponibles y en uso (anotaciones, Excel, aplicación, otro)?
+
+¿Dónde publicas actualmente tus vehículos para alquilarlos (apps, redes sociales, conocidos)?
+
+¿Prefieres usar computadora, celular o ambos para manejar estas publicaciones?
+
+¿Qué tan confiable consideras que son las plataformas actuales para validar a los clientes?
+
+¿Qué tan útil sería para ti ver comentarios de otros dueños sobre un cliente antes de alquilar?
+
+¿Te interesaría contar con un panel digital donde registres todos tus autos y su estado?
+
+¿Qué tan importante consideras poder calificar a los clientes después de cada alquiler?
+
+
+
+**Segmento 2: Inquilinos**
+
+¿Cuál es tu nombre completo?
+
+¿Qué edad tienes actualmente?
+
+¿En qué distrito vives?
+
+¿Cuál es tu ocupación principal?
+
+¿Qué documentos te han solicitado en tus experiencias previas al alquilar un auto?
+
+¿Qué tipo de vehículo prefieres alquilar según tu necesidad (trabajo, viaje, ocasión especial)?
+
+¿Qué requisitos o condiciones suelen ponerte antes de alquilar (edad mínima, tarjeta de crédito, otros)?
+
+¿Qué factores te desaniman al momento de querer alquilar un auto (precio, desconfianza, restricciones, otro)?
+
+¿Dónde sueles buscar opciones de autos en alquiler (apps, redes, páginas web, conocidos)?
+
+¿Desde qué dispositivo sueles hacerlo más (celular, laptop, ambos)?
+
+¿Qué tanto confías en que las aplicaciones muestran información real de los dueños y autos?
+
+¿Qué tan valioso sería para ti revisar reseñas de otros usuarios sobre el dueño antes de alquilar?
+
+¿Te resultaría útil poder reservar un vehículo con anticipación directamente desde la app?
+
+¿Qué tan importante es para ti dejar una opinión sobre tu experiencia con el dueño o el vehículo?
+
+
 
 ### 2.2.2. Registro de entrevistas
 
