@@ -39,7 +39,7 @@
 |---|---|---|---|
 |0.1| 29/08/2025 | Andreow Santiago | Creacion y primera version del informe |
 |0.2| 08/09/2025 | Franco Huang | Avance de Syle Guidelines  |
-|0.3| 10/09/2025 | Franco Huang | Avance de Information Architecture  |
+|0.3| 10/09/2025 | Franco Huang | Avance de Information Architecture y entrevistas  |
 
 
 # Project Report Collaboration Insights
@@ -209,9 +209,39 @@ aun no acabamos
 
 ### 2.2.2. Registro de entrevistas
 
+#### **Segmento 1:**
+
+##### **Roy Hsieh:** 
+
+<p align="center">
+<img src="./assets/Roy.jpg" alt="Roy_Hsieh" height=500/>
+</p>
+
+Link: <https://youtu.be/kJXcfmofi8g>
+
+#### **Segmento 2:**
+
+##### **Gabriel Torres**
+
+<p align="center">
+<img src="./assets/Gabriel.png" alt="Gabriel_Torres" height=500/>
+</p>
+
+Link: <https://youtu.be/pLZNIzb0hL0>
 
 ### 2.2.3. Análisis de Entrevistas
 
+#### **Segmento 1:**
+
+##### **Roy Hsieh:** 
+
+#### **Segmento 2:**
+
+##### **Gabriel Torres:** 
+
+Gabriel Eduardo Torres Campos, un joven de 19 años, compartió su visión sobre el alquiler de autos a partir de la experiencia de su padre, aunque él nunca ha alquilado uno directamente. Mencionó que los documentos más comunes son el DNI, la licencia de conducir y, posiblemente, un contrato. También señaló que los requisitos suelen incluir ser mayor de edad, tener licencia con al menos 1 o 2 años de vigencia y contar con una tarjeta como garantía. Para él, los factores que más pesan al momento de alquilar son el precio y el estado del vehículo, ya que espera que el costo se justifique con la calidad y seguridad del auto.
+
+Gabriel destacó que confía más en recomendaciones de familiares o conocidos que en plataformas abiertas, pues teme fraudes o autos en mal estado. Prefiere comunicarse por WhatsApp o llamadas si trata con dueños particulares, mientras que con empresas prefiere usar la computadora para navegar mejor por sus páginas. Además, valoró mucho la posibilidad de reservar con anticipación mediante una app para ahorrar tiempo y evitar trámites al llegar a un destino. Finalmente, comentó que casi nunca deja reseñas, salvo cuando la experiencia es muy buena.
 
 ## 2.3. Needfinding
 
