@@ -194,7 +194,27 @@ aun no acabamos
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
+Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones que ya existen en el mercado, para ver que es lo que ofrecen y como podemos diferenciarnos de ellos.
+- **Peru Rent A Car:**
+  Esta plataforma se especializa en el alquiler de coches en Perú. Ofrece una amplia gama de vehículos y opciones de alquiler, así como información sobre destinos turísticos en Perú. 
+  La plataforma también permite a los usuarios comparar precios y reservar coches en línea.
+  <div style="text-align: center;">
+<img src="assets/PeruRentACar.png" width=310  alt="">
+  </div>
+  
+- **Kayak:**
+  Kayak es una de las plataformas de búsqueda de viajes más grandes del mundo. Permite a los usuarios buscar y comparar precios de vuelos, hoteles y alquiler de coches en una sola plataforma. 
+  Kayak también ofrece herramientas para planificar viajes, como alertas de precios y recomendaciones personalizadas.
+  <div style="text-align: center;">
+<img src="assets/Kayak.png" width=310  alt="">
+  </div>
 
+- **Budget Car Rental Peru:**
+  A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional que ofrece servicios de alquiler de coches en Perú. 
+  La plataforma permite a los usuarios buscar y comparar precios de coches de alquiler en diferentes ubicaciones y reservar en línea. Budget Car Rental también ofrece opciones de alquiler a largo plazo y programas de fidelización.
+  <div style="text-align: center;">
+<img src="assets/Budget.png" width=310  alt="">
+  </div>
 
 ### 2.1.1. Análisis competitivo.
 
