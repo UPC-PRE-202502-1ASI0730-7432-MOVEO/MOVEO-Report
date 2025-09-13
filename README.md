@@ -221,7 +221,7 @@ Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones qu
 <table border="1" style="text-align: center;">
 	<tbody>
 		<tr><td colspan="6">Análisis de competidores</td></tr>
-		<tr><td colspan="2"></td><td>Automovil-Unite</td><td>Kayak</td><td>Peru Rent A Car</td><td>Budget Car Rental Peru</td></tr>
+		<tr><td colspan="2"></td><td>Moveo</td><td>Kayak</td><td>Peru Rent A Car</td><td>Budget Car Rental Peru</td></tr>
 		<tr><td rowspan="2">Perfil</td><td>Resumen</td>
 			<td>Una aplicación que busca ofrecer una plataforma rápida y ágil para el alquiler de autos, con un fuerte enfoque en la seguridad de ambas partes.</td>
 			<td>Kayak es una plataforma líder de búsqueda tanto de vuelos, como cuartos de hotel, alquiler de vehículos, etc.</td>
