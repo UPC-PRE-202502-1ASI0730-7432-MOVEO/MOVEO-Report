@@ -395,6 +395,13 @@ Gabriel destacó que confía más en recomendaciones de familiares o conocidos q
 ## 2.3. Needfinding
 
 ### 2.3.1. User Persona
+Segmento Objetivo 1: **Propietarios de Vehículos**
+
+<img src="./assets/User-Roy.png" alt="Gabriel_Torres" height=500/>
+
+Segmento Objetivo 1: **Inquilinos**
+
+<img src="./assets/User-Gabriel.png" alt="Gabriel_Torres" height=500/>
 
 ### 2.3.2. User Task Matrix
 
