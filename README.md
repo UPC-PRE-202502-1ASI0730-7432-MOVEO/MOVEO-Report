@@ -443,17 +443,20 @@ Segmento Objetivo 1: **Inquilinos**
     <td><b><i>Nunca</i></b></td>
     <td><b><i>Baja</i></b></td></tr></table>
 
-**Tareas con mayor frecuencia e importancia**
+**Tareas con mayor frecuencia e importancia** <br>
+
 -Para Roy Hsieh, destacan la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de publicación de vehículos, todas con alta importancia y ejecutadas con mucha frecuencia. 
 Esto refleja su rol enfocado en la interacción directa y en la gestión de la oferta.
 
 -Para Gabriel Torres, las más relevantes son la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de navegación de vehículos, lo que evidencia que su rol está más orientado al control y monitoreo de los vehículos disponibles.
 
-**Diferencias principales**
+**Diferencias principales** <br>
+
 -Roy nunca accede al historial de alquileres ni al panel de navegación, mientras que Gabriel sí utiliza con frecuencia el panel de navegación, aunque no se involucra en la publicación de vehículos.
 Esto marca un contraste claro: Roy está centrado en publicar y relacionarse con el cliente, mientras Gabriel se dedica más a la gestión operativa y seguimiento.
 
-**Coincidencias**
+**Coincidencias** <br>
+
 Ambos coinciden en dar alta importancia a la comunicación con el cliente y al acceso a documentos de garantía, aunque la frecuencia varía ligeramente.
 
 También consideran la valoración del dueño o cliente como poco frecuente pero siempre muy importante para la confianza en el servicio.
