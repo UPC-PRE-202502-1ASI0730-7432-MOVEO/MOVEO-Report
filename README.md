@@ -219,7 +219,10 @@ Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones qu
 ### 2.1.1. Análisis competitivo.
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
-
+Moveo se diferenciará mediante un enfoque local y seguro, integrando tanto a dueños de vehículos como a arrendatarios. 
+Para contrarrestar la falta de reconocimiento como nuevo competidor, se aplicarán tácticas de marketing digital y alianzas con influencers, generando confianza y visibilidad rápida. 
+Aprovechando la ausencia de un líder nacional en movilidad tipo Airbnb, la estrategia será posicionarse como la primera opción peruana especializada en alquiler de autos. 
+Frente a amenazas de grandes plataformas, Moveo enfocará sus esfuerzos en segmentos desatendidos y en brindar soporte inmediato y flexibilidad en precios, destacando su cercanía y adaptabilidad frente a la oferta internacional y tradicional.
 
 ## 2.2. Entrevistas
 
