@@ -405,6 +405,62 @@ Segmento Objetivo 1: **Inquilinos**
 
 ### 2.3.2. User Task Matrix
 
+<table><tr><th rowspan="2" valign="top"><b><i>User Task Matrix</i></b></th>
+    <th colspan="2" valign="top"><b><i>Roy Hsieh</i></b></th>
+    <th colspan="2" valign="top"><b><i>Gabriel Torres</i></b></th></tr>
+  <tr><td valign="top"><b><i>Frecuencia</i></b></td>
+    <td valign="top"><b><i>Importancia</i></b></td>
+    <td valign="top"><b><i>Frecuencia</i></b></td>
+    <td valign="top"><b><i>Importancia</i></b></td></tr>
+  <tr><td>Comunicación directa con el dueño o cliente</td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>A menudo</i></b></td>
+    <td><b><i>Alta</i></b></td></tr>
+  <tr><td>Valoración del dueño o cliente</td>
+    <td><b><i>Baja</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>Baja</i></b></td>
+    <td><b><i>Alta</i></b></td></tr>
+  <tr><td>Historial de alquileres realizados</td>
+    <td><b><i>Nunca</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>Nunca</i></b></td>
+    <td><b><i>Media</i></b></td></tr>
+  <tr><td>Acceso a los documentos de garantía del cliente o dueño</td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td></tr>
+  <tr><td>Panel de navegación de vehículos</td>
+    <td><b><i>Nunca</i></b></td>
+    <td><b><i>Baja</i></b></td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td></tr>
+  <tr><td>Panel de publicación de vehículos</td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>Nunca</i></b></td>
+    <td><b><i>Baja</i></b></td></tr></table>
+
+**Tareas con mayor frecuencia e importancia** <br>
+
+-Para Roy Hsieh, destacan la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de publicación de vehículos, todas con alta importancia y ejecutadas con mucha frecuencia. 
+Esto refleja su rol enfocado en la interacción directa y en la gestión de la oferta.
+
+-Para Gabriel Torres, las más relevantes son la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de navegación de vehículos, lo que evidencia que su rol está más orientado al control y monitoreo de los vehículos disponibles.
+
+**Diferencias principales** <br>
+
+-Roy nunca accede al historial de alquileres ni al panel de navegación, mientras que Gabriel sí utiliza con frecuencia el panel de navegación, aunque no se involucra en la publicación de vehículos.
+Esto marca un contraste claro: Roy está centrado en publicar y relacionarse con el cliente, mientras Gabriel se dedica más a la gestión operativa y seguimiento.
+
+**Coincidencias** <br>
+
+Ambos coinciden en dar alta importancia a la comunicación con el cliente y al acceso a documentos de garantía, aunque la frecuencia varía ligeramente.
+
+También consideran la valoración del dueño o cliente como poco frecuente pero siempre muy importante para la confianza en el servicio.
+
 ### 2.3.3. User Journey Mapping
 
 ### 2.3.4. Empathy Mapping
