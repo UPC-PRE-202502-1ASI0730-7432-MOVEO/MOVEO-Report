@@ -498,13 +498,21 @@ Segmento 2: **Inquilinos**
 ## 2.4. Ubiquitous Language
 
 Arrendador:	Usuario que publica su vehículo para alquiler.
+
 Arrendatario:	Usuario que alquila un vehículo disponible en la app.
+
 Vehículo:	Entidad principal registrada por un arrendador.
+
 Reserva:	Proceso mediante el cual un arrendatario aparta un vehículo en una fecha.
+
 Publicación:	Objeto que contiene los datos visibles de un vehículo (precio, fotos, reglas).
+
 Reseña:	Valoración escrita o numérica sobre el arrendador o vehículo.
+
 Framework:	Conjunto de herramientas y librerías que usamos para construir la aplicación .
+
 Entidad:	Objeto del dominio que tiene identidad propia .
+
 Repositorio: Componente de software que gestiona la persistencia de entidades en la base de datos.
 
 # Capítulo III: Requirements Specification
