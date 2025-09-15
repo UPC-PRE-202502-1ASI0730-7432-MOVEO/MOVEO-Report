@@ -463,7 +463,7 @@ También consideran la valoración del dueño o cliente como poco frecuente pero
 
 ### 2.3.3. User Journey Mapping
 
-Segmento Objetivo 1: **Arrendador de vehículos** 
+Segmento Objetivo 1: **Propietario de vehículos** 
 
 <img src="./assets/Journey%20map-Roy.png" alt="Roy" height=500/>
 
@@ -476,6 +476,14 @@ Segmento Objetivo 2: **Inquilinos**
 Por su lado Gabriel se siente frustrado por la falta de opciones y la poca seguridad que le ofrecen las plataformas gratuitas, por ello una vez identifica dueños confiables, deja de utilizar dicha plataforma a menos que sea estrictamente necesario.
 
 ### 2.3.4. Empathy Mapping
+
+Segmento 1: **Propietarios**
+
+<img src="./assets/Empathy%20map-Roy.png" alt="Roy" height=500/>
+
+Segmento 2: **Inquilinos**
+
+<img src="./assets/Empathy%20map-Gabriel.png" alt="Gabriel" height=500/>
 
 ### 2.3.5. As-is Scenario Mapping
 
