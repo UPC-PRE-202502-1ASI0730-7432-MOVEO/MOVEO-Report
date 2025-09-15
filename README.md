@@ -741,6 +741,10 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 
 ### 4.3.1. Landing Page Wireframe.
 
+<p align="center">
+  <img src="./assets/Landing_wireframe.png" alt="landing_page_wireframe""/>
+</p>
+
 ### 4.3.2. Landing Page Mock-up.
 
 
