@@ -487,6 +487,14 @@ Segmento 2: **Inquilinos**
 
 ### 2.3.5. As-is Scenario Mapping
 
+Segmento 1: **Propietarios**
+
+<img src="./assets/AsIs-Roy.jpg" alt="Roy" height=500/>
+
+Segmento 2: **Inquilinos**
+
+<img src="./assets/AsIs-Gabriel.jpg" alt="Gabriel" height=500/>
+
 ## 2.4. Ubiquitous Language
 
 # Capítulo III: Requirements Specification
