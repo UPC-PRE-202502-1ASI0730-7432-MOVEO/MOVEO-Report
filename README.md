@@ -747,6 +747,14 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 
+<p align="center">
+  <img src="./assets/App_wireframe_1.png" alt="app_wireframes_1""/>
+</p>
+
+<p align="center">
+  <img src="./assets/App_wireframe_2.png" alt="app_wireframes_2""/>
+</p>
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 ### 4.4.3. Web Applications Mock-ups.
