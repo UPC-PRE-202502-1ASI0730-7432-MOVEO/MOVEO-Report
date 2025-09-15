@@ -516,9 +516,28 @@ Entidad:	Objeto del dominio que tiene identidad propia .
 Repositorio: Componente de software que gestiona la persistencia de entidades en la base de datos.
 
 # Capítulo III: Requirements Specification
+
+En este capítulo se definen los requisitos del producto digital, basados en los hallazgos de investigación y los escenarios ideales de usuario. 
+
 ## 3.1. To-Be Scenario Mapping
 
+Este mapa describe la experiencia ideal de dos usuarios clave en la plataforma:
+
+ **Segmento 1: Propietario (Roy)**  
+Busca una forma segura y sencilla de ganar dinero extra alquilando su auto. Valora la verificación de identidad, la publicación guiada, el chat seguro dentro de la app, los contratos automáticos y los pagos sin contacto. Su motivación principal: confianza, simplicidad y profesionalismo.
+
+![Segmento-1](/Assets//img/chapter-3/segmento-1.png)
+
+ **Segmento 2: Inquilino (Gabriel)**  
+Necesita un auto rápido, confiable y sin riesgos. Confía en fotos verificadas, reseñas reales, historial del vehículo y procesos claros. Valora la reserva con un clic, el pago digital, las llaves virtuales y el soporte integrado. Su motivación: seguridad, ahorro de tiempo y tranquilidad.
+
+![Segmento-2](/Assets//img/chapter-3/segmento-2.png)
+
+Miro con el To-Be: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497
+
 ## 3.2. User Stories
+
+
 
 ## 3.3. Impact Mapping
 
