@@ -183,13 +183,13 @@ Visión: Aspiramos a consolidarnos como la plataforma más reconocida en el Per�
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-| Integrantes | Descripción | Conocimientos |
-| :--- | :--- | :--- |
-| <img src="./assets/foto01.png" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | texto | texto |
-| <img src="./assets/Franco.jpeg" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345 |  Soy estudiante de la carrera de Ingeniería de Software. Mi principal meta es poder desarrollar software de manera freelance. Me interesa mucho desarrollar software para maquinas industriales | Tengo conocimientos básicos en C++, HTML, Python y Typescript |
-| <img src="./assets/foto03.png" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343 | texto | texto |
-| <img src="./assets/foto04.png" width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362 | texto | texto |
-| <img src="./assets/foto05.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479 | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
+| Integrantes                                                                                               | Descripción | Conocimientos |
+|:----------------------------------------------------------------------------------------------------------| :--- | :--- |
+| <img src="./assets/carlos" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | soy un estudiante de Ingeniería de Software, tengo 22 años y vivo en Lima. Mis pasatiempos son hacer deporte, jugar videojuegos y escuchar música. Me gusta trabajar en equipo porque de esta manera todos los integrantes podemos dar nuestro punto de vista e ideas para poder lograr el objetivo del curso |  Tengo conocimientos básicos en C#, Java y Python, y estoy en constante búsqueda de mejorar mis habilidades técnicas.|
+| <img src="./assets/Franco.jpeg" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345         |  Soy estudiante de la carrera de Ingeniería de Software. Mi principal meta es poder desarrollar software de manera freelance. Me interesa mucho desarrollar software para maquinas industriales | Tengo conocimientos básicos en C++, HTML, Python y Typescript |
+| <img src="./assets/foto03.png" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343          | texto | texto |
+| <img src="./assets/foto04.png" width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362      | texto | texto |
+| <img src="./assets/foto05.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479    | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
 
 
 # 1.2. Solución Profile
