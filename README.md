@@ -797,9 +797,47 @@ https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
 
+<p align="center">
+  <img src="./assets/moveo_context.png" alt="moveo_context_diagram""/>
+</p>
+
 ### 4.6.2. Software Architecture Container Diagrams.
 
+<p align="center">
+  <img src="./assets/moveo_container.png" alt="moveo_container_diagram""/>
+</p>
+
 ### 4.6.3. Software Architecture Components Diagrams.
+
+**UserBC:**
+
+<p align="center">
+  <img src="./assets/userBC.png" alt="userBC""/>
+</p>
+
+**ProfileBC:**
+
+<p align="center">
+  <img src="./assets/profileBC.png" alt="profileBC""/>
+</p>
+
+**CarRentBC:**
+
+<p align="center">
+  <img src="./assets/carBC.png" alt="CarRentBC""/>
+</p>
+
+**AdventureBC:**
+
+<p align="center">
+  <img src="./assets/adventureBC.png" alt="adventureBC""/>
+</p>
+
+**ServiceBC:**
+
+<p align="center">
+  <img src="./assets/serviceBC.png" alt="serviceBC""/>
+</p>
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
