@@ -185,17 +185,63 @@ Visión: Aspiramos a consolidarnos como la plataforma más reconocida en el Per�
 
 | Integrantes | Descripción | Conocimientos |
 | :--- | :--- | :--- |
-| <img src="./img/foto01.png" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | texto | texto |
-| <img src="./img/foto02.png" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345 | texto | texto |
-| <img src="./img/foto03.png" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343 | texto | texto |
-| <img src="./img/foto04.png" width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362 | texto | texto |
-| <img src="./img/foto05.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479 | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
+| <img src="./assets/foto01.png" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | texto | texto |
+| <img src="./assets/foto02.png" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345 | texto | texto |
+| <img src="./assets/foto03.png" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343 | texto | texto |
+| <img src="./assets/foto04.png" width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362 | texto | texto |
+| <img src="./assets/foto05.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479 | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
 
 
 # 1.2. Solución Profile
 
 ## 1.2.1. Antecedentes y Problemática
 
+Para explicar los fundamentos de nuestra startup utilizaremos una adaptación de la técnica de análisis 5W + 2H, que permite organizar la información respondiendo a las preguntas clave de cualquier iniciativa.
+
+**Antecedentes**
+
+- En los últimos años la necesidad de soluciones de movilidad temporal ha crecido considerablemente, especialmente en zonas urbanas donde adquirir un vehículo propio no siempre es viable. Ante ello surge la oportunidad de una plataforma digital que facilite el contacto directo entre propietarios de automóviles y personas interesadas en alquilarlos, optimizando el proceso a través de un aplicativo accesible.
+
+**Problemática**
+
+- La ausencia de servicios que ofrezcan un alquiler directo entre dueños y arrendatarios dificulta satisfacer la demanda de transporte temporal. Esto genera dos consecuencias principales: los usuarios que requieren un vehículo de manera inmediata encuentran limitaciones, y los propietarios pierden la posibilidad de generar ingresos adicionales con sus autos.
+
+Aplicación del método 5W + 2H
+
+**¿Qué?**
+
+El proyecto busca responder a la falta de un sistema eficiente que conecte a quienes desean rentabilizar sus vehículos con quienes necesitan arrendarlos. La iniciativa está directamente relacionada con dos tipos de clientes: propietarios con autos disponibles y arrendatarios que requieren alternativas accesibles y confiables.
+
+**¿Cuándo?**
+
+La problemática se presenta en el momento en que un propietario desea alquilar su vehículo, pero no cuenta con un canal formal ni seguro para hacerlo. A su vez, los arrendatarios se ven afectados cuando requieren un vehículo por un tiempo limitado —sea por un viaje, una urgencia o una necesidad puntual— y no encuentran opciones adecuadas.
+El uso de la plataforma se da justamente en esos escenarios: el dueño publica su vehículo y el arrendatario selecciona la opción que mejor se adapta a su situación.
+
+**¿Dónde?**
+
+El servicio puede utilizarse en cualquier lugar con acceso a internet, ya sea desde casa, el trabajo o en desplazamiento.
+La propuesta está dirigida principalmente a contextos urbanos donde la demanda de movilidad es más alta y, paradójicamente, la oferta de plataformas colaborativas de alquiler es todavía reducida.
+
+**¿Quiénes?**
+
+Participan dos grupos principales: los propietarios que desean ofrecer su auto en alquiler y los arrendatarios que buscan una solución práctica sin trámites extensos.
+El problema afecta sobre todo a los dueños que no logran monetizar sus vehículos y a las personas que necesitan movilidad temporal pero no encuentran opciones seguras y confiables.
+En consecuencia, el público objetivo que hará uso del servicio corresponde a ambos segmentos, integrados en una misma plataforma.
+
+**¿Por qué?**
+
+La raíz del problema se encuentra en la falta de un canal especializado y confiable que asegure la interacción entre dueños y arrendatarios. Esta ausencia limita la rentabilidad de los primeros y restringe la variedad de opciones para los segundos.
+
+**¿Cómo?**
+
+El servicio se utiliza cuando los dueños desean generar ingresos con su vehículo o cuando un arrendatario necesita resolver rápidamente una necesidad de transporte.
+Los usuarios llegan a la plataforma a través de campañas digitales, publicidad segmentada en redes sociales y recomendaciones de otros clientes.
+En general, el detonante es la búsqueda de una alternativa segura, flexible y accesible frente a los servicios tradicionales de alquiler.
+
+**¿Cuánto cuesta?**
+
+Para los propietarios no existen costos de inscripción ni inversión inicial; únicamente se descuenta una comisión en caso de concretarse el alquiler.
+Los arrendatarios, en cambio, acceden a tarifas variables y flexibles, con opciones que resultan más económicas en comparación con las agencias de renta tradicionales.
 
 ## 1.2.2. Lean UX Process
 
