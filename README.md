@@ -281,6 +281,12 @@ El mayor reto es garantizar la seguridad y confianza de los propietarios respect
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
+1. Consideramos que los propietarios interesados en generar ingresos pasivos, sin invertir grandes sumas ni dedicar mucho tiempo, verán en nuestra plataforma una fuente confiable para monetizar sus vehículos.
+
+2. Creemos que los arrendatarios que buscan alternativas de alquiler flexibles y asequibles optarán por MOVEO, debido a su sencillez de uso, precios competitivos y garantías de seguridad.
+
+3. Suponemos que, al operar bajo un modelo sin grupo de automoviles listos para la reserva y alquiler correspondiente propio, podremos redirigir recursos hacia innovación y mejoras en la experiencia de usuario. Esto nos permitirá mantener tarifas estables y atractivas, atrayendo tanto a quienes alquilan como a quienes ofrecen sus autos.
+
 #### 1.2.2.4. Lean UX Canvas.
 
 ## 1.3. Segmentos objetivo
