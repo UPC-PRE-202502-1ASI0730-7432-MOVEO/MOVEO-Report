@@ -293,6 +293,40 @@ El mayor reto es garantizar la seguridad y confianza de los propietarios respect
 
 ## 1.3. Segmentos objetivo
 
+**Segmento 1: Propietarios de vehículos**
+
+Datos demográficos:
+- Género: hombres y mujeres.
+- Rango etario: de 18 a 70 años.
+- Condición socioeconómica: sectores A, B y C (clase media o clase alta).
+
+Datos geográficos:
+- Nacionalidad: peruana.
+- Área de residencia: zonas urbanas.
+- Ubicación principal: Lima Metropolitana.
+
+Datos psicográficos:
+- Individuos (naturales o jurídicos) que poseen un vehículo que permanece sin uso la mayor parte del tiempo.
+- Personas interesadas en generar ingresos adicionales a través de un recurso que ya poseen, sin necesidad de destinar grandes cantidades de tiempo a la gestión.
+- Propietarios que aún no cuentan con un mecanismo práctico, seguro y rápido para ofrecer sus autos en alquiler.
+
+**Segmento 2: Inquilinos o usuarios finales**
+
+Datos demográficos:
+- Género: tanto masculino como femenino.
+- Edad: entre 18 y 50 años.
+- Nivel socioeconómico: clases A, B y C (clase media, media alta y alta).
+
+Datos geográficos:
+- Nacionalidad: peruana.
+- Lugar de residencia: zonas urbanas.
+- Departamento: Lima Metropolitana.
+
+Datos psicográficos:
+- Personas que pasan una cantidad considerable de horas en transporte público o en el tráfico y buscan alternativas más cómodas y flexibles.
+- Usuarios que no cuentan con los recursos para adquirir un auto propio (nuevo o de segunda mano), pero que requieren movilidad en situaciones específicas.
+- Personas que necesitan disponer de un vehículo particular por un período corto, ya sea para actividades puntuales, compromisos laborales o viajes.
+
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
 Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones que ya existen en el mercado, para ver que es lo que ofrecen y como podemos diferenciarnos de ellos.
