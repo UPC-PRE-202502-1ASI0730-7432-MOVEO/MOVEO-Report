@@ -405,43 +405,16 @@ Segmento Objetivo 1: **Inquilinos**
 
 ### 2.3.2. User Task Matrix
 
-<table><tr><th rowspan="2" valign="top"><b><i>User Task Matrix</i></b></th>
-    <th colspan="2" valign="top"><b><i>Roy Hsieh</i></b></th>
-    <th colspan="2" valign="top"><b><i>Gabriel Torres</i></b></th></tr>
-  <tr><td valign="top"><b><i>Frecuencia</i></b></td>
-    <td valign="top"><b><i>Importancia</i></b></td>
-    <td valign="top"><b><i>Frecuencia</i></b></td>
-    <td valign="top"><b><i>Importancia</i></b></td></tr>
-  <tr><td>Comunicación directa con el dueño o cliente</td>
-    <td><b><i>Siempre</i></b></td>
-    <td><b><i>Alta</i></b></td>
-    <td><b><i>A menudo</i></b></td>
-    <td><b><i>Alta</i></b></td></tr>
-  <tr><td>Valoración del dueño o cliente</td>
-    <td><b><i>Baja</i></b></td>
-    <td><b><i>Alta</i></b></td>
-    <td><b><i>Baja</i></b></td>
-    <td><b><i>Alta</i></b></td></tr>
-  <tr><td>Historial de alquileres realizados</td>
-    <td><b><i>Nunca</i></b></td>
-    <td><b><i>Alta</i></b></td>
-    <td><b><i>Nunca</i></b></td>
-    <td><b><i>Media</i></b></td></tr>
-  <tr><td>Acceso a los documentos de garantía del cliente o dueño</td>
-    <td><b><i>Siempre</i></b></td>
-    <td><b><i>Alta</i></b></td>
-    <td><b><i>Siempre</i></b></td>
-    <td><b><i>Alta</i></b></td></tr>
-  <tr><td>Panel de navegación de vehículos</td>
-    <td><b><i>Nunca</i></b></td>
-    <td><b><i>Baja</i></b></td>
-    <td><b><i>Siempre</i></b></td>
-    <td><b><i>Alta</i></b></td></tr>
-  <tr><td>Panel de publicación de vehículos</td>
-    <td><b><i>Siempre</i></b></td>
-    <td><b><i>Alta</i></b></td>
-    <td><b><i>Nunca</i></b></td>
-    <td><b><i>Baja</i></b></td></tr></table>
+| **User Task Matrix**                              | **Roy Hsieh** |           | **Gabriel Torres** |           |
+|---------------------------------------------------|---------------|-----------|--------------------|-----------|
+|                                                   | Frecuencia    | Importancia | Frecuencia       | Importancia |
+| Comunicación directa con el dueño o cliente       | *Siempre*     | *Alta*    | *A menudo*        | *Alta*    |
+| Valoración del dueño o cliente                    | *Baja*        | *Alta*    | *Baja*            | *Alta*    |
+| Historial de alquileres realizados                | *Nunca*       | *Alta*    | *Nunca*           | *Media*   |
+| Acceso a los documentos de garantía del cliente o dueño | *Siempre* | *Alta*    | *Siempre*         | *Alta*    |
+| Panel de navegación de vehículos                  | *Nunca*       | *Baja*    | *Siempre*         | *Alta*    |
+| Panel de publicación de vehículos                 | *Siempre*     | *Alta*    | *Nunca*           | *Baja*    |
+
 
 **Tareas con mayor frecuencia e importancia** <br>
 
