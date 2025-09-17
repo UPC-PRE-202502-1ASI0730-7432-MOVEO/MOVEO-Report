@@ -770,6 +770,10 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
+<p align="center">
+  <img src="./assets/moveo_wireflow.jpg" alt="app_wireflow""/>
+</p>
+
 ### 4.4.3. Web Applications Mock-ups.
 
 <p align="center">
@@ -778,7 +782,13 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
+<p align="center">
+  <img src="./assets/user_flow_diagram.png" alt="userflow""/>
+</p>
+
 ## 4.5. Web Applications Prototyping.
+
+https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560
 
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
