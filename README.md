@@ -748,7 +748,13 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 ### 4.3.2. Landing Page Mock-up.
 
 <p align="center">
-  <img src="./assets/Moveo Landing Mockup.png" alt="landing_page_mockup""/>
+  <img src="./assets/Landing_1.png" alt="landing_page_mockup_1""/>
+</p>
+<p align="center">
+  <img src="./assets/Landing_2.png" alt="landing_page_mockup_2""/>
+</p>
+<p align="center">
+  <img src="./assets/Landing_3.png" alt="landing_page_mockup_3""/>
 </p>
 
 ## 4.4. Web Applications UX/UI Design.
