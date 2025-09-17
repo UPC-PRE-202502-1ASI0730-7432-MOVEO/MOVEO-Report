@@ -789,7 +789,7 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 ## 4.5. Web Applications Prototyping.
 
 <p align="center">
-  <img src="./assets/prototype_moveo.png" alt="prototype""/>
+  <img src="./assets/protoype_moveo.png" alt="prototype""/>
 </p>
 
 https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560
