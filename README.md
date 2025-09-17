@@ -747,6 +747,9 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 
 ### 4.3.2. Landing Page Mock-up.
 
+<p align="center">
+  <img src="./assets/Moveo Landing Mockup.png" alt="landing_page_mockup""/>
+</p>
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
@@ -762,6 +765,10 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 ### 4.4.3. Web Applications Mock-ups.
+
+<p align="center">
+  <img src="./assets/Moveo App Mockup.png" alt="app_mockup""/>
+</p>
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
