@@ -539,41 +539,28 @@ Miro con el To-Be: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494
 
 Las User Stories traducen las necesidades de propietarios, inquilinos, visitantes y desarrolladores en requisitos verificables. Cada historia sigue el formato “Como <rol>, quiero <acción> para <beneficio>” y tiene criterios de aceptación en Gherkin (Given-When-Then), en tercera persona, sin UI y comprobables. Incluyen historias para la Landing Page (rol: visitante) y la API (rol: Developer), alineadas con los mapas “As-Is” y “To-Be”. El cuadro a continuación presenta todas las historias del proyecto.
 
-| ID  | Título| Descripción | Criterios de Aceptación | Relacionado con (Epic ID)|
-|----|---|------|----|---|
-| EP01   | Información del producto en Landing Page | Como visitante, quiero entender qué ofrece la plataforma para decidir si me registro. | Given el visitante está en la landing page<br>When lee la descripción del servicio<br>Then comprende que puede alquilar o rentar autos de forma segura<br>And considera registrarse | -   |
-| HU01     | Ver beneficios del alquiler | Como visitante, quiero ver los beneficios de usar la plataforma.  | Given el visitante está en la sección "Beneficios"<br>When lee los puntos clave (seguro incluido, pagos automáticos, verificación de usuarios)<br>Then entiende por qué es mejor que WhatsApp o Facebook<br>And se motiva a registrarse | EP01 |
-| HU02 | Leer testimonios de usuarios reales | Como visitante, quiero leer experiencias de otros usuarios para confiar en la plataforma. | Given el visitante está en la sección "Testimonios"<br>When lee reseñas de propietarios e inquilinos<br>Then siente mayor confianza en el servicio<br>And considera crear una cuenta | EP01  |
-| HU03 | Ver planes de precios y comisiones | Como visitante, quiero conocer cuánto cuesta usar la plataforma y qué comisiones se aplican. | Given el visitante está en la sección "Precios"<br>When revisa los planes para propietarios e inquilinos<br>Then entiende las tarifas y comisiones<br>And decide si le conviene registrarse | EP01  |
-| HU04 | Contactar al soporte desde la web | Como visitante, quiero contactar a soporte fácilmente si tengo dudas. | Given el visitante está en la sección "Contacto"<br>When envía un mensaje o ve los canales de atención<br>Then recibe respuesta en menos de 24h<br>And se siente atendido | EP01                      |
-| EP02 | Crear cuenta como usuario | Como propietario o inquilino, quiero crear una cuenta para usar la plataforma. | Given el usuario hace clic en "Registrarse"<br>When ingresa su correo, DNI y datos básicos<br>Then recibe un correo de verificación<br>And puede iniciar sesión tras confirmar | - |
-| HU05 | Registrarse como propietario | Como propietario, quiero registrarme para publicar mi auto. | Given el usuario selecciona "Soy propietario"<br>When completa su perfil y sube documentos del auto<br>Then su cuenta queda en estado "Pendiente de verificación"<br>And recibe notificación cuando sea aprobada | EP02 |
-| HU06 | Registrarse como inquilino | Como inquilino, quiero registrarme para buscar y alquilar autos. | Given el usuario selecciona "Soy inquilino"<br>When completa su perfil y verifica su identidad<br>Then puede buscar y reservar autos<br>And recibe confirmación de registro | EP02 |
-| EP03 | Publicar y gestionar autos (propietario) | Como propietario, quiero publicar y gestionar mis autos en alquiler. | Given el propietario tiene cuenta verificada<br>When publica un auto con fotos, precio y disponibilidad<br>Then el auto aparece en búsquedas<br>And puede editar o desactivar la publicación | - |
-| HU07 | Publicar un vehículo | Como propietario, quiero publicar mi auto para que los inquilinos lo vean. | Given el propietario está en "Mis autos"<br>When hace clic en "Publicar nuevo auto"<br>And sube fotos, precio, ubicación y condiciones<br>Then el auto se publica con estado "Activo"<br>And recibe notificaciones de interesados | EP03 |
-| HU08 | Editar información del auto | Como propietario, quiero editar los datos de mi auto publicado. | Given el propietario está en "Mis autos"<br>When selecciona un auto y hace clic en "Editar"<br>And modifica precio o disponibilidad<br>Then los cambios se guardan y se actualizan en la plataforma | EP03 |
-| HU09 | Recibir notificaciones de reservas | Como propietario, quiero recibir notificaciones cuando alguien quiera reservar mi auto. | Given un inquilino solicita reservar un auto<br>When el sistema envía notificación al propietario<br>Then el propietario ve los detalles de la reserva<br>And puede aceptar o rechazar en menos de 24h | EP03  |
-| EP04     | Buscar y reservar autos (inquilino) | Como inquilino, quiero buscar y reservar un auto que se ajuste a mis necesidades. | Given el inquilino está logueado<br>When filtra por ubicación, fecha y precio<br>Then ve autos disponibles con fotos y reseñas<br>And puede reservar uno con contrato digital | -                         |
-| HU10     | Filtrar autos por ubicación y fecha         | Como inquilino, quiero filtrar autos disponibles en mi zona y fecha.        | Given el inquilino está en la página de búsqueda<br>When selecciona su distrito y fechas<br>Then ve solo autos disponibles en ese rango<br>And puede ordenar por precio o calificación | EP04                      |
-| HU11     | Reservar un auto con pago seguro            | Como inquilino, quiero reservar un auto y pagar de forma segura.            | Given el inquilino selecciona un auto<br>When hace clic en "Reservar"<br>And paga con tarjeta o transferencia<br>Then recibe contrato digital<br>And el propietario es notificado | EP04                      |
-| HU12     | Calificar al propietario después del alquiler | Como inquilino, quiero dejar una reseña después de usar el auto.            | Given el alquiler ha finalizado<br>When el inquilino accede a "Mis reservas"<br>And califica de 1 a 5 estrellas y deja comentario<br>Then la calificación se publica en el perfil del propietario | EP04                      |
-| EP05     | Gestión de pagos y contratos                | Como plataforma, debo gestionar pagos, contratos y seguros automáticamente. | Given se confirma una reserva<br>When el inquilino paga<br>Then se genera contrato digital<br>And se libera el pago al propietario tras la devolución del auto | -                         |
-| HU13     | Generar contrato digital automático         | Como sistema, debo generar un contrato digital al confirmar la reserva.     | Given la reserva es aceptada por el propietario<br>When el pago es confirmado<br>Then se genera un PDF con condiciones, fechas, datos de ambas partes<br>And se envía por correo a ambos usuarios | EP05                      |
-| HU14     | Liberar pago al propietario tras devolución | Como sistema, debo liberar el pago al propietario solo tras confirmar la devolución. | Given el auto es devuelto<br>When el inquilino confirma la devolución en la app<br>And no hay reporte de daños<br>Then se transfiere el 90% del pago al propietario (10% es comisión)<br>And se notifica a ambos | EP05                      |
-| EP06     | Seguridad y verificación de usuarios        | Como plataforma, debo verificar la identidad de propietarios e inquilinos.  | Given un usuario se registra<br>When sube DNI y selfies para verificación<br>Then su perfil queda como "Verificado"<br>And solo usuarios verificados pueden publicar o reservar | -                         |
-| HU15     | Verificar identidad con DNI y selfie        | Como sistema, debo verificar la identidad del usuario con DNI y selfie.     | Given el usuario sube foto de su DNI y una selfie<br>When el sistema compara rostros y datos<br>Then aprueba o rechaza la verificación<br>And notifica al usuario el resultado | EP06                      |
-| HU16     | Mostrar badge de "Usuario Verificado"       | Como sistema, debo mostrar un ícono de verificación en perfiles verificados. | Given el usuario completó la verificación<br>When otro usuario ve su perfil<br>Then aparece un badge "Verificado"<br>And aumenta la confianza en las transacciones | EP06                      |
-| EP07     | API RESTful para operaciones del sistema    | Como desarrollador, necesito APIs para gestionar usuarios, autos, reservas y pagos. | Given el frontend necesita datos<br>When llama a los endpoints de la API<br>Then recibe respuestas en JSON con status 200/400/500 según corresponda | -                         |
-| HU17     | API de Autenticación (Login/Register)       | Como desarrollador, necesito una API para login y registro de usuarios.     | Given el frontend envía credenciales<br>When la API valida datos y genera JWT<br>Then devuelve token de acceso<br>And status 200 si es correcto, 401 si falla | EP07                      |
-| HU18     | API de Gestión de Autos                     | Como desarrollador, necesito endpoints para crear, leer, actualizar y eliminar autos. | Given el frontend envía datos de un auto<br>When la API procesa la solicitud CRUD<br>Then devuelve el auto actualizado o lista de autos<br>And status 200 si es exitoso | EP07                      |
-| HU19     | API de Reservas y Contratos                 | Como desarrollador, necesito gestionar reservas y contratos vía API.        | Given se crea una reserva<br>When la API genera el contrato y bloquea fechas<br>Then devuelve ID de reserva y URL de contrato<br>And status 201 si se crea correctamente | EP07                      |
-| EP08     | Soporte y gestión de incidencias            | Como usuario, quiero reportar problemas y recibir soporte rápido.           | Given el usuario tiene un problema con una reserva o auto<br>When envía un reporte desde la app<br>Then el equipo de soporte lo atiende en menos de 12h<br>And recibe solución o reembolso si aplica | -                         |
-| HU20     | Reportar un problema con un auto            | Como inquilino, quiero reportar un problema con el auto alquilado.          | Given el inquilino está en "Mi reserva"<br>When hace clic en "Reportar problema"<br>And describe el daño o incidencia<br>Then el soporte recibe el reporte<br>And se inicia proceso de revisión | EP08                      |
-| HU21     | Recibir reembolso parcial por incidencia    | Como inquilino, quiero recibir reembolso si el auto no cumple lo prometido. | Given se confirma una incidencia válida<br>When el equipo de soporte aprueba el reembolso<br>Then se devuelve un % del pago al inquilino<br>And se notifica al propietario | EP08                      |
 
-## 3.3. Impact Mapping
+
+## 3.3. Impact Mapping:
+
+Este Impact Map visualiza estratégicamente cómo las funcionalidades de la plataforma contribuyen a alcanzar objetivos de negocio concretos, alineando las acciones de nuestros dos segmentos clave: Roy, el propietario de vehículo, y Gabriel, el inquilino.
+
+El mapa parte de Business Goals SMART (como alcanzar 500 usuarios en 6 meses) y desciende en niveles:
+
+Actores (Personas): Roy y Gabriel, cuyos comportamientos impulsan el éxito del negocio.
+
+Impacts: Los cambios deseados en su comportamiento (ej: Roy publica su auto con confianza; Gabriel reserva rápido y seguro).
+
+Deliverables: Las soluciones que la plataforma ofrece para provocar esos cambios (ej: verificación de identidad, motor de búsqueda, sistema de reseñas).
+
+User Stories: Las historias de usuario concretas que implementan cada deliverable, asegurando trazabilidad desde la estrategia hasta la funcionalidad
+
+![Impact-map](/Assets//img/chapter-3/Impact-map.png)
+
 
 ## 3.4. Product Backlog.
+
+
 
 ## 3.5. Entity Diagram.
 
