@@ -183,6 +183,15 @@ Visión: Aspiramos a consolidarnos como la plataforma más reconocida en el Per�
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
+| Integrantes | Descripción | Conocimientos |
+| :--- | :--- | :--- |
+| <img src="./img/foto01.png" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | texto | texto |
+| <img src="./img/foto02.png" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345 | texto | texto |
+| <img src="./img/foto03.png" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343 | texto | texto |
+| <img src="./img/foto04.png" width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362 | texto | texto |
+| <img src="./img/foto05.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479 | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
+
+
 # 1.2. Solución Profile
 
 ## 1.2.1. Antecedentes y Problemática
