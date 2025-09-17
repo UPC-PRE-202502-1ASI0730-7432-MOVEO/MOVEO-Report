@@ -247,6 +247,11 @@ Los arrendatarios, en cambio, acceden a tarifas variables y flexibles, con opcio
 
 ### 1.2.2.1. Lean UX Problem Statement
 
+La propuesta de MOVEO nace como respuesta a la falta de opciones innovadoras en el mercado de alquiler de vehículos. Actualmente, gran parte de las compañías del rubro trabajan con un esquema rígido, caracterizado por una oferta limitada y costos elevados para los usuarios. Otro aspecto que no ha sido bien explotado por los competidores es el hecho de que la mayoría depende de contar con una flota propia de autos, lo que exige una fuerte inversión inicial y reduce la flexibilidad del negocio. En contraste, nuestro modelo se fundamenta en no adquirir vehículos, sino en integrar aquellos que pertenecen a los propietarios registrados, generando así un sistema más ligero y escalable.
+El valor diferencial de MOVEO se basa y encuentra en esta estructura de “entrada y salida”: los dueños incorporan sus autos a la plataforma, mientras que los arrendatarios acceden a ellos bajo un esquema seguro y eficiente. De esta manera, tanto propietarios como usuarios obtienen beneficios económicos, consolidando un círculo de confianza y rentabilidad.
+
+Consideramos que habremos alcanzado un avance significativo cuando logremos que el número de propietarios inscritos crezca de forma constante y que la oferta de vehículos disponibles se adapte a la demanda real del mercado.
+
 ### 1.2.2.2. Lean UX Assumptions
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
