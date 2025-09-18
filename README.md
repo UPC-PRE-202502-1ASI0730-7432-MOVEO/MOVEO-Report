@@ -958,7 +958,7 @@ costo   | double  | Costo del servicio
 ### 4.8.1. Database Diagram.
 
 <p align="center">
-  <img src="./assets/moveo_db.png" alt="moveo_database_diagram""/>
+  <img src="./assets/move_db.png" alt="moveo_database_diagram""/>
 </p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
