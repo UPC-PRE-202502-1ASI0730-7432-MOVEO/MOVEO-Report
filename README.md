@@ -842,10 +842,124 @@ https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
+<p align="center">
+  <img src="./assets/moveo_class.png" alt="moveo_class_diagram""/>
+</p>
+
 ### 4.7.2. Class Dictionary.
+
+### Usuario  
+**Descripción**: Representa a los usuarios del sistema, tanto arrendadores como clientes.  
+
+Campo        | Tipo    | Descripción  
+-------------|---------|---------------------------------------  
+id           | int     | Identificador único del usuario  
+nombre       | String  | Nombre completo del usuario  
+email        | String  | Correo electrónico (único)  
+contraseña   | String  | Clave de acceso cifrada  
+tipo         | String  | Rol del usuario (arrendador/cliente)  
+
+**Métodos**:  
+- registrar()  
+- iniciarSesion()  
+- actualizarPerfil()  
+
+---
+
+### Auto  
+**Descripción**: Vehículos disponibles para alquiler dentro de la plataforma.  
+
+Campo          | Tipo     | Descripción  
+---------------|----------|-------------------------------------  
+id             | int      | Identificador único del auto  
+marca          | String   | Marca del vehículo  
+modelo         | String   | Modelo del vehículo  
+año            | int      | Año de fabricación  
+categoria      | String   | Categoría (sedán, SUV, deportivo…)  
+precioPorDia   | double   | Costo de renta por día  
+disponibilidad | boolean  | Indica si el vehículo está disponible  
+
+**Métodos**:  
+- publicar()  
+- actualizarDisponibilidad()  
+- calcularCosto()  
+
+---
+
+### Reserva  
+**Descripción**: Gestión de las reservas realizadas por los usuarios sobre autos.  
+
+Campo       | Tipo    | Descripción  
+------------|---------|---------------------------------  
+id          | int     | Identificador único de la reserva  
+fechaInicio | Date    | Fecha de inicio de la reserva  
+fechaFin    | Date    | Fecha de fin de la reserva  
+estado      | String  | Estado actual (pendiente, confirmada, cancelada)  
+total       | double  | Costo total de la reserva  
+
+**Métodos**:  
+- crear()  
+- cancelar()  
+- confirmar()  
+
+---
+
+### Pago  
+**Descripción**: Información de los pagos asociados a reservas.  
+
+Campo   | Tipo    | Descripción  
+--------|---------|---------------------------------  
+id      | int     | Identificador único del pago  
+monto   | double  | Monto pagado  
+fecha   | Date    | Fecha en que se realizó el pago  
+metodo  | String  | Método de pago (tarjeta, efectivo…)  
+estado  | String  | Estado del pago (aprobado, rechazado, pendiente)  
+
+**Métodos**:  
+- procesar()  
+- reembolsar()  
+
+---
+
+### Aventura  
+**Descripción**: Viajes planificados de un origen a un destino con actividades incluidas.  
+
+Campo           | Tipo     | Descripción  
+----------------|----------|-----------------------------------------  
+id              | int      | Identificador único de la aventura  
+origen          | String   | Punto de partida del viaje  
+destino         | String   | Lugar de llegada  
+actividades     | List     | Lista de actividades reservadas  
+precioEstimado  | double   | Costo aproximado del viaje  
+
+**Métodos**:  
+- reservarAventura()  
+- calcularCosto()  
+
+---
+
+### Servicio  
+**Descripción**: Servicios adicionales que pueden contratarse en las aventuras.  
+
+Campo   | Tipo    | Descripción  
+--------|---------|-----------------------------------  
+id      | int     | Identificador único del servicio  
+nombre  | String  | Nombre del servicio  
+tipo    | String  | Categoría del servicio (viaje, confort, asistencia, premium)  
+costo   | double  | Costo del servicio  
+
+**Métodos**:  
+- activar()  
+- desactivar()  
+
+---
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
+
+<p align="center">
+  <img src="./assets/moveo_db.png" alt="moveo_database_diagram""/>
+</p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
