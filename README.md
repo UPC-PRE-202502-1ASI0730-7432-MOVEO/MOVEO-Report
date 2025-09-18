@@ -852,15 +852,81 @@ Se establece como práctica futura que cada release final se etiquete en GitHub 
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
+El equipo de Moveo adopta estrictamente las convenciones de codificación estandarizadas por la industria para garantizar coherencia, legibilidad y mantenibilidad en todos los lenguajes utilizados en el proyecto. Todas las identificaciones —variables, funciones, clases, archivos, rutas y comentarios— se realizan en **inglés**, siguiendo las guías oficiales de cada tecnología. A continuación, se detallan las convenciones aplicadas por lenguaje, junto con las referencias adoptadas:
 
+| Lenguaje | Referencia Adoptada | Convenciones Aplicadas |
+|----------|---------------------|------------------------|
+| **HTML** | HTML Style Guide and Coding Conventions: https://google.github.io/styleguide/htmlcssguide.html   | Uso de minúsculas, indentación de 2 espacios, atributos entre comillas dobles, elementos semánticos (`<header>`, `<main>`, `<section>`, `<article>`, `<nav>`), nombres de clases e IDs en `kebab-case` (ej. `patient-card`, `login-button`). Se prioriza accesibilidad mediante atributos `alt`, `aria-*` y estructura lógica. |
+| **CSS** | Google HTML/CSS Style Guide: https://google.github.io/styleguide/htmlcssguide.html   | Nombres de clases en `kebab-case` (ej. `btn-primary`, `card-vertical`), uso de BEM-like naming para modularidad (`block__element--modifier`), orden alfabético de propiedades, comentarios en inglés para estilos complejos, evitación de selectores profundos o anidados. |
+| **JavaScript / TypeScript** | Google TypeScript Style Guide: https://google.github.io/styleguide/jsguide.html   | Uso de `const` y `let` en lugar de `var`, funciones flecha (`() => {}`), desestructuración, módulos ES6 (`import/export`), nombres en `lowerCamelCase` (ej. `getPatientById`, `validateEmail`), tipado explícito, y programación funcional inmutable. Estructura por capas: `components/`, `services/`, `models/`, `utils/`. |
+| **Vue 3** | Vue 3 Style Guide: https://vuejs.org/style-guide/   | Uso de componentes en `PascalCase` (ej. `PatientCard.vue`), archivos en `kebab-case` (ej. `patient-card.vue`), Single File Components (SFC) con secciones `<script setup>`, `<template>`, `<style scoped>`. Uso de Composition API, nombres de props y emits en `kebab-case`, variables reactivas con `ref()` o `reactive()`, y funciones en `lowerCamelCase`. Evitar `v-if` con `v-for`, usar `key` en listas, y mantener componentes pequeños y reutilizables. |
+| **C#** | Microsoft C# Coding Conventions: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions   | Nombres de clases, interfaces y métodos en `PascalCase` (ej. `PatientService`, `GetMedicalRecordAsync`), variables locales y parámetros en `lowerCamelCase` (ej. `patientId`, `emailAddress`), constantes en `PascalCase` (ej. `MaxPatientAge`), uso de `async/await` para operaciones asíncronas, anotaciones de nulabilidad (`string?`, `int value = 0`), y comentarios XML para documentación pública (`/// <summary>...</summary>`). Evitar `var` cuando el tipo no es obvio. |
+| **Microsoft .NET** | .NET Coding Conventions: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/   | Estructura de proyecto por capas: `Controllers/`, `Services/`, `Repositories/`, `Models/`, `DTOs/`. Uso de Dependency Injection nativo, configuración en `appsettings.json`, validación con `FluentValidation` o atributos de Data Annotations (`[Required]`, `[EmailAddress]`), manejo de errores con `ProblemDetails` y middleware centralizado. Uso de Entity Framework Core con convenciones de nombres de tablas en plural y propiedades en `PascalCase`. |
+
+Además, se aplica **Conventional Commits** para los mensajes de Git, en inglés, con formato:  
+`<tipo>(<alcance>): <descripción breve>`  
+Ejemplo:  
+- `docs(chapter-2): update user stories diagram in README`
+
+Todas las convenciones son validadas automáticamente mediante herramientas integradas en el pipeline de CI/CD: **Prettier** (frontend), **Spotless** (backend), **ESLint** y **Checkstyle**, asegurando consistencia en cada commit. La adopción del **inglés como idioma oficial** en todo el código, documentación y comunicación técnica garantiza claridad global, reutilización de bibliotecas y preparación para entornos profesionales internacionales.
 
 ### 5.1.4. Software Deployment Configuration.
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
+
+Esta sección explica la metodología de Sprints implementada durante el desarrollo del proyecto, evidenciando el proceso iterativo de implementación, pruebas, documentación y despliegue del Landing Page, Web Services y Frontend Web Applications. Una vez definido el Product Backlog, el equipo organizó el trabajo en sprints semanales de una duración fija, donde cada ciclo se centró en entregar un conjunto mínimo viable de funcionalidades priorizadas. Cada Sprint incluyó planificación diaria, ejecución colaborativa mediante Discord para comunicación ágil, revisión de avances y retroalimentación continua. Al final de cada Sprint, se generó evidencia tangible: código commitado, pruebas automatizadas, documentación actualizada y demos funcionales, asegurando transparencia, calidad y progreso constante hacia la entrega final del producto digital.
+
 ## 5.2.1. Sprint 1
+
+
+Este Sprint se centró en el desarrollo inicial de la Landing Page de Moveo y en la estructuración del informe técnico del proyecto, estableciendo las bases visuales, funcionales y documentales del producto digital. Se priorizó la creación de una primera versión funcional y accesible de la página de inicio, junto con la organización del repositorio, la definición de convenciones de código y la preparación de la documentación inicial del proyecto. Todo ello bajo un enfoque colaborativo y ágil, garantizando coherencia entre el producto y su descripción técnica desde el primer día.
+
 ### 5.2.1.1. Sprint Planning 1.
+
+
+A continuación, se detallan los aspectos principales del Sprint Planning Meeting realizado para el Sprint 1.
+
+| **Sprint #**| **Sprint 1** |
+|--- | ---|
+| ***Sprint Planning Background***  |  |
+| **Date** | 2025-09-06 |
+| **Time** | 14:00 PM (GMT-5) | 
+| **Location** | Reunión virtual por Discord (Lima, Perú) |
+| **Prepared By**  | Andreow Santiago |
+| **Attendees (to planning meeting)** | Andreow Santiago, Gianfranco Luna , Carlos De La Cruz Villarreal, Franco Huang Liu, Sebastian Zuñiga | 
+| **Sprint n – 1 Review Summary** | No aplica. Este es el primer sprint del proyecto; no existe un Sprint anterior. |
+| **Sprint n – 1 Retrospective Summary** | No aplica. Este es el primer sprint del proyecto; no existe un Sprint anterior. |
+| ***Sprint Goal & User Stories*** | |
+| **Sprint 1 Goal** | Our focus is on delivering a professional, responsive, and accessible landing page for Moveo that clearly communicates the project’s purpose and value proposition. We believe it delivers first impressions of professionalism and clarity to stakeholders, educators, and future users. This will be confirmed when the landing page is deployed on Netlify, accessible via public URL, and includes all agreed content sections with semantic HTML, CSS/Bootstrap styling, and documented source code in the repository. |
+| **Sprint 1 Velocity** | 8 | 
+| **Sum of Story Points** | 8 |
+
 ### 5.2.1.2. Aspect Leaders and Collaborators.
+
+En esta sección se presentan los principales aspectos funcionales y técnicos abordados durante el Sprint 1 del desarrollo de Moveo. Cada aspecto corresponde a un componente crítico del alcance del sprint, dividido en dos pilares fundamentales: **desarrollo de la Landing Page** y **estructuración del informe técnico del proyecto**. 
+
+Para cada aspecto, se ha asignado un **Líder (L)**, quien asumió la responsabilidad principal de su diseño, implementación o coordinación técnica; y uno o más **Colaboradores (C)**, quienes participaron activamente en la ejecución, revisión, pruebas o soporte. Esta matriz LACX (Leadership and Collaboration Matrix) permite visualizar de manera clara y estructurada la distribución de responsabilidades dentro del equipo, promoviendo la trazabilidad del trabajo colaborativo realizado durante el Sprint.
+
+A continuación, se detallan los aspectos definidos y los roles asignados:
+
+| Team Member (Last Name, First Name) | GitHub Username | LP | ID | IN | DO | RI |
+|-----------------------------------|-----------------|----|----|----|----|----|
+| Andreow Santiago                  | andrews5738     | L  | C  | C  | C  | C  |
+| Gianfranco Luna                   | --------------- | C  | L  | C  | C  | C  |
+| Carlos De La Cruz Villarreal      | --------------- | C  | C  | L  | C  | C  |
+| Franco Huang Liu                  | --------------- | C  | C  | C  | L  | C  |
+| Sebastian Zuñiga                  | --------------- | C  | C  | C  | C  | L  |
+
+**Legenda de Aspectos:**
+- **LP**: Landing Page Implementation — Desarrollo de la página principal con HTML, CSS, Bootstrap y estructura semántica.
+- **ID**: Interface Design & Figma Alignment — Traducción del diseño visual de Figma a código frontend, consistencia de colores, tipografía y espaciado.
+- **IN**: Informe Técnico — Elaboración, estructuración y redacción del informe del proyecto (documentación de arquitectura, convenciones, sprints).
+- **DO**: Deployment & Hosting — Configuración y despliegue de la Landing Page en Netlify, verificación de URL pública y acceso.
+- **RI**: Repository Initialization — Configuración inicial del repositorio en GitHub, organización de carpetas, archivos README.md, .gitignore y convenciones de código.
+
+> *Nota: Todos los miembros del equipo participaron activamente en todos los aspectos, pero se designó un líder por área para facilitar la toma de decisiones y la trazabilidad del trabajo.*
+
 ### 5.2.1.3. Sprint Backlog 1.
 ### 5.2.1.4. Development Evidence for Sprint Review.
 ### 5.2.1.5. Execution Evidence for Sprint Review.
