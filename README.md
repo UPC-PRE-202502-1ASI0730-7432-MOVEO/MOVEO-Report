@@ -218,6 +218,13 @@ Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones qu
 
 ### 2.1.1. Análisis competitivo.
 
+En esta sección tiene como objetivo que su startup conozca mejor a sus competidores, en contraste con la idea inicial que pudiera tener sobre ellos. Se debe desarrollar el siguiente Landscape:  
+**Se realiza un mapeo estratégico comparativo entre nuestra propuesta (Moveo) y los principales actores del mercado, evaluando su perfil, marketing, producto y análisis SWOT, con el fin de identificar brechas de mercado, fortalezas propias y oportunidades de posicionamiento diferenciado.**
+
+**¿Por qué llevar a cabo este análisis?**  
+*Objetivo: Comprender a fondo el posicionamiento de nuestra startup frente a competidores clave en el mercado de alquiler de autos en Perú, identificando sus fortalezas, debilidades y estrategias, para definir con precisión nuestra ventaja competitiva y oportunidades de diferenciación.*
+
+
 <table border="1" style="text-align: center;">
 	<tbody>
 		<tr><td colspan="6">Análisis de competidores</td></tr>
@@ -289,71 +296,86 @@ Frente a amenazas de grandes plataformas, Moveo enfocará sus esfuerzos en segme
 
 ## 2.2. Entrevistas
 
+En esta sección se presenta la investigación cualitativa realizada mediante entrevistas profundas a representantes de nuestros dos segmentos objetivo: **propietarios de vehículos** (Segmento 1) e **inquilinos o usuarios que desean alquilar autos** (Segmento 2). El objetivo es comprender sus necesidades reales, frustraciones, hábitos de consumo y expectativas frente a una plataforma de alquiler de autos, validando así los supuestos del modelo de negocio y ajustando la propuesta de valor de Moveo a lo que el mercado realmente demanda.
 
 ### 2.2.1. Diseño de entrevistas.
 
-**Segmento 1: Propietarios**
+Esta sección incluye preguntas demográficas, conductuales y psicográficas dirigidas a cada segmento, con el fin de construir arquetipos (personas) basados en evidencia real. Se aplican buenas prácticas de diseño de entrevistas: preguntas abiertas, no sugestivas, orden lógico (de lo general a lo específico) y enfoque en comportamientos reales, no hipotéticos.
 
-¿Cuál es tu nombre completo?
+Antes de realizar las entrevistas profundas, se aplicó un formulario digital (Google Forms) a todos los participantes con el objetivo de recolectar información demográfica y conductual básica. Esto permitió segmentar adecuadamente a los entrevistados, personalizar el enfoque de cada entrevista según su perfil, y optimizar el tiempo durante las sesiones cualitativas.
 
-¿Qué edad tienes actualmente?
-
-¿En qué distrito resides?
-
-¿A qué te dedicas (trabajo, estudios, negocio propio)?
-
-¿Qué requisitos solicitas a una persona antes de entregarle tu vehículo?
-
-¿Qué tipo de unidades sueles alquilar (auto, SUV, camioneta, moto, otro)?
-
-¿Cuál es el tiempo mínimo y máximo que normalmente estás dispuesto a prestar tu vehículo?
-
-¿Cómo gestionas el control de tus autos disponibles y en uso (anotaciones, Excel, aplicación, otro)?
-
-¿Dónde publicas actualmente tus vehículos para alquilarlos (apps, redes sociales, conocidos)?
-
-¿Prefieres usar computadora, celular o ambos para manejar estas publicaciones?
-
-¿Qué tan confiable consideras que son las plataformas actuales para validar a los clientes?
-
-¿Qué tan útil sería para ti ver comentarios de otros dueños sobre un cliente antes de alquilar?
-
-¿Te interesaría contar con un panel digital donde registres todos tus autos y su estado?
-
-¿Qué tan importante consideras poder calificar a los clientes después de cada alquiler?
+ Formulario segmento propietarios: https://forms.gle/uyVSkqSiuiKx1nb69
 
 
+Formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9
 
-**Segmento 2: Inquilinos**
+#### **Segmento 1: Propietarios**
 
-¿Cuál es tu nombre completo?
+**Demográficas (para arquetipo):**
+- ¿Cuál es tu nombre completo?
+- ¿Qué edad tienes?
+- ¿En qué distrito resides?
+- ¿Cuál es tu género?
+- ¿Cuál es tu estado civil?
+- ¿Vives solo, con pareja, con hijos u otros familiares?
+- ¿A qué te dedicas (trabajo, estudios, negocio propio)?
 
-¿Qué edad tienes actualmente?
+**Psicográficas y comportamentales (para arquetipo):**
+- ¿Cómo describirías tu personalidad cuando se trata de prestar algo valioso (precavido, confiado, flexible, exigente)?
+- ¿Qué marcas de autos confías más para alquilar? ¿Por qué?
+- ¿Qué influencers, blogs, canales o redes sociales te influyen a la hora de tomar decisiones sobre tu auto o negocios?
+- ¿Qué dispositivos usas con más frecuencia (celular, laptop, tablet)? ¿Qué apps o navegadores prefieres?
+- ¿Por qué canales digitales sueles informarte o resolver dudas (WhatsApp, Instagram, Facebook, Google, foros)?
 
-¿En qué distrito vives?
+> *Nota: Estas preguntas fueron incluidas en el formulario inicial para identificar patrones de comportamiento digital y afinidades, lo que permitió guiar mejor las entrevistas profundas y construir arquetipos más precisos.*
 
-¿Cuál es tu ocupación principal?
 
-¿Qué documentos te han solicitado en tus experiencias previas al alquilar un auto?
+**Necesidades y comportamiento (preguntas principales):**
+- ¿Qué tipo de unidades sueles alquilar (auto, SUV, camioneta, moto, otro)?
+- ¿Cuál es el tiempo mínimo y máximo que normalmente estás dispuesto a prestar tu vehículo?
+- ¿Qué requisitos solicitas a una persona antes de entregarle tu vehículo?
+- ¿Dónde publicas actualmente tus vehículos para alquilarlos (apps, redes sociales, conocidos)?
+- ¿Cómo gestionas el control de tus autos disponibles y en uso (anotaciones, Excel, aplicación, otro)?
+- ¿Qué tan confiable consideras que son las plataformas actuales para validar a los clientes?
+- ¿Qué tan útil sería para ti ver comentarios de otros dueños sobre un cliente antes de alquilar?
+- ¿Te interesaría contar con un panel digital donde registres todos tus autos y su estado?
+- ¿Qué tan importante consideras poder calificar a los clientes después de cada alquiler?
+- ¿Has tenido malas experiencias alquilando tu auto? Cuéntame qué pasó y qué aprendiste.
 
-¿Qué tipo de vehículo prefieres alquilar según tu necesidad (trabajo, viaje, ocasión especial)?
+---
 
-¿Qué requisitos o condiciones suelen ponerte antes de alquilar (edad mínima, tarjeta de crédito, otros)?
+#### **Segmento 2: Inquilinos**
 
-¿Qué factores te desaniman al momento de querer alquilar un auto (precio, desconfianza, restricciones, otro)?
+**Demográficas (para arquetipo):**
+- ¿Cuál es tu nombre completo?
+- ¿Qué edad tienes?
+- ¿En qué distrito vives?
+- ¿Cuál es tu género?
+- ¿Cuál es tu estado civil?
+- ¿Vives solo, con pareja, con hijos u otros familiares?
+- ¿Cuál es tu ocupación principal?
 
-¿Dónde sueles buscar opciones de autos en alquiler (apps, redes, páginas web, conocidos)?
+**Psicográficas y comportamentales (para arquetipo):**
+- ¿Cómo describirías tu estilo al tomar decisiones de consumo (espontáneo, investigador, influenciable, ahorrativo)?
+- ¿Qué marcas de autos o servicios de alquiler prefieres o evitas? ¿Por qué?
+- ¿Qué personas, influencers o medios digitales te ayudan a decidir antes de alquilar un auto?
+- ¿Qué dispositivos usas con más frecuencia (celular, laptop, tablet)? ¿Qué apps o navegadores prefieres?
+- ¿Por qué canales digitales sueles buscar soluciones o servicios (WhatsApp, Instagram, Google Maps, TikTok, foros)?
 
-¿Desde qué dispositivo sueles hacerlo más (celular, laptop, ambos)?
+> *Nota: La información recolectada en el formulario permitió identificar segmentos de comportamiento digital y afinidades de marca, facilitando la construcción de arquetipos realistas y la personalización de las preguntas durante la entrevista.*
 
-¿Qué tanto confías en que las aplicaciones muestran información real de los dueños y autos?
 
-¿Qué tan valioso sería para ti revisar reseñas de otros usuarios sobre el dueño antes de alquilar?
-
-¿Te resultaría útil poder reservar un vehículo con anticipación directamente desde la app?
-
-¿Qué tan importante es para ti dejar una opinión sobre tu experiencia con el dueño o el vehículo?
-
+**Necesidades y comportamiento (preguntas principales):**
+- ¿Qué documentos te han solicitado en tus experiencias previas al alquilar un auto?
+- ¿Qué tipo de vehículo prefieres alquilar según tu necesidad (trabajo, viaje, ocasión especial)?
+- ¿Qué requisitos o condiciones suelen ponerte antes de alquilar (edad mínima, tarjeta de crédito, otros)?
+- ¿Qué factores te desaniman al momento de querer alquilar un auto (precio, desconfianza, restricciones, otro)?
+- ¿Dónde sueles buscar opciones de autos en alquiler (apps, redes, páginas web, conocidos)?
+- ¿Qué tan confías en que las aplicaciones muestran información real de los dueños y autos?
+- ¿Qué tan valioso sería para ti revisar reseñas de otros usuarios sobre el dueño antes de alquilar?
+- ¿Te resultaría útil poder reservar un vehículo con anticipación directamente desde la app?
+- ¿Qué tan importante es para ti dejar una opinión sobre tu experiencia con el dueño o el vehículo?
+- ¿Cuál ha sido tu peor experiencia alquilando un auto? ¿Qué cambiarías para evitarlo?
 
 
 ### 2.2.2. Registro de entrevistas
