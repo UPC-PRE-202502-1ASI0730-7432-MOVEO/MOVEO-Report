@@ -744,7 +744,25 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 ### 4.8.1. Database Diagram.
 
 # Capítulo V: Product Implementation, Validation & Deployment
+
+En este último capítulo, abordaremos la puesta en marcha, la verificación y la liberación de nuestro proyecto, detallando los pasos clave y las decisiones adoptadas para su completa ejecución.
+
 ## 5.1. Software Configuration Management.
+
+A lo largo del desarrollo del proyecto, aplicaremos las siguientes normas o convenciones con el fin de garantizar la coherencia y uniformidad en todas las etapas:
+
+| Contexto | Convención |
+|----------|------------|
+| El nombre de archivos creados en el proyecto | Todos los archivos se nombrarán en minúsculas, utilizando guiones bajos o puntos para separar componentes (ej. `user-service.cs`, `config.json`). |
+| Convención de nomenclatura | Las propiedades de un objeto se nombrarán en `PascalCase`, las funciones y variables en `lowerCamelCase`, y las clases también en `PascalCase`. |
+| Convención de estructura de código | Se organizará el proyecto en carpetas lógicas por módulos (ej. `Models/`, `Services/`) para facilitar la navegación y el mantenimiento. |
+| Convención de estilos de codificación | Seguir las convenciones de codificación de Microsoft C#, es decir usar espacios en blanco para mejorar legibilidad, convenciones de nombre para clases, funciones, constantes; y también usar nombres claros o lógicos para variables. |
+| Convención de documentación | Todo el código relevante —especialmente funciones complejas, clases y APIs— debe estar documentado con comentarios claros, concisos y actualizados. Los comentarios deben explicar el “por qué”, no solo el “qué”. |
+| Convención de control de versiones | Se utilizará el flujo de trabajo **Git Flow** junto con las convenciones de **Conventional Commits**. Todos los mensajes de commit estarán en inglés y seguirán el formato: `<type>(<scope>): <description>`. Ejemplos: <ul><li>`feat(auth): add email validation`</li><li>`fix(login): resolve session timeout bug`</li><li>`chore(deps): update Newtonsoft.Json to v13.0.3`</li></ul> Las ramas se organizarán como: `main` (estable), `develop` (integración), y ramas de características (`feature/`), correcciones (`bugfix/`) o hotfixes (`hotfix/`). Cada cambio se desarrolla en una rama independiente y se fusiona mediante pull request revisado por al menos un compañero. |
+| Convención de gestión de dependencias | En el caso de C# usaremos el administrador de paquetes NuGet. Para el caso de Javascript usaremos Node.JS. |
+| Convención de pruebas | Utilizar comentarios descriptivos y claros para explicar el propósito del test y codigo. |
+| Convención de seguridad |Encriptar las contraseñas de los usuarios con distintos algoritmos. Implementar sistema de autenticación seguro para proteger el acceso al sistema. Instalar librerías para validar la información ingresada por el usuario en los formularios. |
+| Convención de colaboración y comunicación | <ul><li>Se utilizará **Discord** como plataforma principal  para llamadas o reuniones.</li><li>Se realizarán reuniones semanales sincrónicas para revisar avances, resolver bloqueos y compartir aprendizajes.</li><li>Se fomentará una cultura de retroalimentación constructiva, colaboración activa y aprendizaje mutuo a partir de errores y mejores prácticas.</li></ul> |
 
 ### 5.1.1. Software Development Environment Configuration.
 
