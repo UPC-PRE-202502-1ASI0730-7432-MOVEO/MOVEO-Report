@@ -627,21 +627,21 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 
 | Característica | Descripción | Relación con Entrevistas |
 |----------------|-------------|--------------------------|
-| **Uso predominante de smartphones** | 50% de los propietarios usan Android o iPhone como dispositivo principal. | Confirma que todas las entrevistas (Alison, Mathías, Mauricio) manejan todo desde su celular. |
-| **Gestión manual de inventario** | 100% usan Excel o hojas de cálculo manuales. | Alison usa Google Sheets; Mathías también; Mauricio lo menciona explícitamente. |
+| **Uso predominante de smartphones** | 50% de los propietarios usan Android o iPhone como dispositivo principal. | Confirma que todas las entrevistas (Alisa, Mathías, Mauricio) manejan todo desde su celular. |
+| **Gestión manual de inventario** | 100% usan Excel o hojas de cálculo manuales. | Alisa usa Google Sheets; Mathías también; Mauricio lo menciona explícitamente. |
 | **Publicación en redes sociales** | 71.4% publican en Facebook Marketplace, TikTok o Instagram. | Todas las entrevistas confirmaron uso de estas plataformas. |
 | **Requisitos mínimos de validación** | DNI, licencia vigente, selfie con documento, depósito (S/500). | Mencionado por todos los entrevistados. |
-| **Desconfianza en plataformas actuales** | 71.4% no confían en apps formales por altas comisiones o falsificaciones. | Mathías menciona screenshots falsos; Alison dice “nula confianza”. |
-| **Interés en sistema de reputación compartida** | 100% valoran ver reseñas de otros dueños sobre clientes. | “Sería mi salvación” (Mathías), “mi salvavidas” (Alison). |
+| **Desconfianza en plataformas actuales** | 71.4% no confían en apps formales por altas comisiones o falsificaciones. | Mathías menciona screenshots falsos; Alisa dice “nula confianza”. |
+| **Interés en sistema de reputación compartida** | 100% valoran ver reseñas de otros dueños sobre clientes. | “Sería mi salvación” (Mathías), “mi salvavidas” (Alisa). |
 
 #### Características Subjetivas
 
 | Característica | Descripción | Relación con Entrevistas |
 |----------------|-------------|--------------------------|
-| **Preocupación por seguridad y riesgo** | Alta sensibilidad a fraudes, daños no reportados, y pérdida de dinero. | “He tenido gente que paga con foto falsa” (Mathías); “me robó el depósito” (Alison). |
-| **Deseo de control total** | Buscan tener dominio absoluto sobre quién alquila su auto. | Prefieren videollamadas (Mauricio), selfies (Alison), y videos de presentación (Mathías). |
+| **Preocupación por seguridad y riesgo** | Alta sensibilidad a fraudes, daños no reportados, y pérdida de dinero. | “He tenido gente que paga con foto falsa” (Mathías); “me robó el depósito” (Alisa). |
+| **Deseo de control total** | Buscan tener dominio absoluto sobre quién alquila su auto. | Prefieren videollamadas (Mauricio), selfies (Alisa), y videos de presentación (Mathías). |
 | **Necesidad de eficiencia** | Quieren soluciones que ahorren tiempo y reduzcan estrés. | “Me pierdo horas organizando” (Mathías); “quiero tenerlo todo en un solo lugar” (Mathías). |
-| **Visión emprendedora** | Tratan el alquiler como negocio, no como favor. | “Es mi ingreso principal” (Mathías); “para pagar mis clases” (Alison). |
+| **Visión emprendedora** | Tratan el alquiler como negocio, no como favor. | “Es mi ingreso principal” (Mathías); “para pagar mis clases” (Alisa). |
 | **Resistencia a modelos tradicionales** | No confían en apps grandes ni en sistemas rígidos. | “No confío en apps formales por las altas comisiones” (Mathías). |
 
 #### Hallazgos Clave
@@ -753,14 +753,84 @@ Este análisis servirá como base para la construcción de **User Personas**, **
 
 ## 2.3. Needfinding
 
+Para identificar las necesidades reales y prioritarias tanto de los **propietarios de vehículos** como de los **inquilinos que buscan alquilar autos**, se realizaron entrevistas en profundidad a representantes clave de ambos segmentos. A través de estas conversaciones, surgieron patrones claros: los propietarios buscan **seguridad, control y eficiencia** en la gestión de sus autos, mientras que los inquilinos priorizan **confianza, transparencia y simplicidad** en el proceso de alquiler.
+
+Este proceso de *needfinding* permitió comprender en profundidad las motivaciones, puntos de dolor y expectativas de los usuarios, sentando las bases para el diseño de una plataforma centrada en el usuario, capaz de responder eficazmente a las demandas reales del mercado de alquiler de autos en Lima.
+
+> **Enlace para ver los User Personas en UXPressia:**  
+> https://drive.google.com/drive/folders/1gfPSZzYH1iOk98j_BjI5e1GNAR5Lxt6Q?usp=sharing
+
+
 ### 2.3.1. User Persona
-Segmento Objetivo 1: **Propietarios de Vehículos**
 
-<img src="./assets/User-Roy.png" alt="Gabriel_Torres" height=500/>
+Como parte del análisis del proceso de *needfinding*, se desarrollaron **User Personas** representativas de los dos segmentos principales: **Propietarios de Vehículos** e **Inquilinos de Vehículos**. Estas personas sintetizan características clave obtenidas del análisis cualitativo de las entrevistas realizadas, tales como comportamientos recurrentes, motivaciones, frustraciones, objetivos personales, dispositivos utilizados y canales de interacción tecnológica.
 
-Segmento Objetivo 1: **Inquilinos**
+Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y accionables, orientando decisiones estratégicas sobre funcionalidades, experiencia de usuario y priorización de desarrollo técnico. Las personas creadas reflejan claramente las necesidades emergentes durante las entrevistas, facilitando un diseño más empático y efectivo de **Moveo**.
 
-<img src="./assets/User-Gabriel.png" alt="Gabriel_Torres" height=500/>
+---
+
+#### Persona 1: Propietario Emprendedor Digital
+
+![User-persona-1](/Assets//img/chapter-2/Roy-userpersona.png)
+
+**Nombre:** Roy Hsie  
+**Edad:** 24 años  
+**Ocupación:** Estudiante de Administración + Emprendedor de alquiler de autos  
+**Distrito:** Surco, Lima  
+**Perfil:** Maneja 3 vehículos (auto, SUV, moto) como negocio principal. 100% digital, rápido, exigente y enfocado en resultados. Publica en TikTok e Instagram Reels. No tolera la lentitud ni la falta de seguridad.
+
+##### Motivaciones:
+- Automatizar el control de sus autos para ahorrar tiempo.
+- Evitar pérdidas económicas por clientes irresponsables o estafadores.
+- Construir una reputación sólida mediante un sistema de calificaciones compartido.
+- Tener un panel tipo “Spotify” que le muestre ingresos, disponibilidad y alertas de mantenimiento.
+
+##### Frustraciones:
+- Gestionar todo con Google Sheets manual y desorganizado.
+- No poder verificar la identidad real de los clientes antes de entregar el auto.
+- Perder horas en mensajes de WhatsApp por confirmaciones simples.
+- Que las plataformas actuales no permitan calificar a los clientes.
+- No recibir alertas automáticas de seguro, lavado o revisión técnica.
+
+##### Objetivos:
+- Centralizar toda la gestión de sus vehículos en una sola app móvil.
+- Ver reseñas de otros dueños sobre clientes potenciales.
+- Enviar contratos digitales y recibir pagos automáticos (Yape/Plin).
+- Recibir notificaciones proactivas sobre el estado de cada auto.
+- Reducir estrés y errores humanos en su operación diaria.
+
+---
+
+#### Persona 2: Inquilina Justiciera Digital
+
+![User-persona-2](/Assets//img/chapter-2/Gabriel-userpersona.png)
+
+**Nombre:** Gabriel Torres  
+**Edad:** 19 años  
+**Ocupación:** Estudiante universitario  
+**Distrito:** Lima
+**Perfil:** Aunque no alquila directamente, observa y aprende de la experiencia de su padre. Es analítico, precavido y valora la transparencia. Confía más en recomendaciones personales que en plataformas abiertas. Busca autos seguros, limpios y con precio justo.
+
+##### Motivaciones:
+- Alquilar un auto sin riesgos, sin depósitos en efectivo ni tarjetas de crédito.
+- Reservar con anticipación y tener confirmación inmediata.
+- Ver reseñas reales de otros usuarios sobre el dueño y el vehículo.
+- Participar en una comunidad donde se comparta honestidad y se castigue la mala fe.
+
+##### Frustraciones:
+- Fotos falsas de autos, perfiles inventados, kilómetros mentirosos.
+- Que le exijan tarjeta de crédito o depósitos en efectivo.
+- Dueños que no responden rápido o desaparecen después del pago.
+- No poder dejar una opinión si la experiencia fue mala.
+- Apps complicadas que piden muchos pasos o datos innecesarios.
+
+##### Objetivos:
+- Encontrar un auto real, limpio y seguro en menos de 10 minutos.
+- Pagar con Yape o Plin sin necesidad de tarjeta.
+- Reservar con un clic y recibir confirmación automática.
+- Dejar una reseña honesta (buena o mala) después del alquiler.
+- Sentirse protegido por un sistema de reputación bidireccional.
+
 
 ### 2.3.2. User Task Matrix
 
@@ -777,14 +847,14 @@ Segmento Objetivo 1: **Inquilinos**
 
 **Tareas con mayor frecuencia e importancia** <br>
 
--Para Roy Hsieh, destacan la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de publicación de vehículos, todas con alta importancia y ejecutadas con mucha frecuencia. 
+Para Roy Hsieh, destacan la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de publicación de vehículos, todas con alta importancia y ejecutadas con mucha frecuencia. 
 Esto refleja su rol enfocado en la interacción directa y en la gestión de la oferta.
 
--Para Gabriel Torres, las más relevantes son la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de navegación de vehículos, lo que evidencia que su rol está más orientado al control y monitoreo de los vehículos disponibles.
+Para Gabriel Torres, las más relevantes son la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de navegación de vehículos, lo que evidencia que su rol está más orientado al control y monitoreo de los vehículos disponibles.
 
 **Diferencias principales** <br>
 
--Roy nunca accede al historial de alquileres ni al panel de navegación, mientras que Gabriel sí utiliza con frecuencia el panel de navegación, aunque no se involucra en la publicación de vehículos.
+Roy nunca accede al historial de alquileres ni al panel de navegación, mientras que Gabriel sí utiliza con frecuencia el panel de navegación, aunque no se involucra en la publicación de vehículos.
 Esto marca un contraste claro: Roy está centrado en publicar y relacionarse con el cliente, mientras Gabriel se dedica más a la gestión operativa y seguimiento.
 
 **Coincidencias** <br>
@@ -794,6 +864,10 @@ Ambos coinciden en dar alta importancia a la comunicación con el cliente y al a
 También consideran la valoración del dueño o cliente como poco frecuente pero siempre muy importante para la confianza en el servicio.
 
 ### 2.3.3. User Journey Mapping
+
+Con el objetivo de comprender en profundidad las necesidades, comportamientos, emociones y puntos de fricción de nuestros principales segmentos de usuario, se desarrolló un User Journey Mapping utilizando la herramienta especializada UXPressia. Este proceso nos permitió visualizar de manera estructurada y empática el recorrido que cada tipo de usuario realiza desde su primera interacción hasta la experiencia completa con Custom Host.
+
+La actividad se centró en dos segmentos clave:
 
 Segmento Objetivo 1: **Propietario de vehículos** 
 
@@ -808,6 +882,11 @@ Segmento Objetivo 2: **Inquilinos**
 Por su lado Gabriel se siente frustrado por la falta de opciones y la poca seguridad que le ofrecen las plataformas gratuitas, por ello una vez identifica dueños confiables, deja de utilizar dicha plataforma a menos que sea estrictamente necesario.
 
 ### 2.3.4. Empathy Mapping
+
+Como parte del proceso de diseño centrado en el usuario para **Moveo**, se elaboraron **mapas de empatía (Empathy Maps)** para los dos segmentos clave identificados: **Propietarios de Vehículos** e **Inquilinos de Vehículos**. Esta técnica, desarrollada inicialmente por Dave Gray, permite representar de forma visual lo que el usuario **piensa, siente, dice y hace** en relación con el proceso de alquiler de autos, ayudando a comprender mejor su experiencia emocional, cognitiva y conductual.
+
+> **Objetivo del Empathy Mapping en Moveo:**  
+> Profundizar en la perspectiva del usuario más allá de sus acciones observables, explorando sus **motivaciones, miedos, frustraciones y deseos no explícitos**. Esta herramienta resulta fundamental para detectar oportunidades de mejora desde un enfoque cualitativo, complementando la información obtenida a través de entrevistas, encuestas y análisis de comportamientos. El objetivo final es diseñar una plataforma que no solo resuelva problemas funcionales, sino que también genere confianza, reduzca ansiedad y aumente la satisfacción de ambos lados de la transacción.
 
 Segmento 1: **Propietarios**
 
