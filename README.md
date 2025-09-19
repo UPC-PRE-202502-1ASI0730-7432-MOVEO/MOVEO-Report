@@ -742,19 +742,28 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 ### 4.3.1. Landing Page Wireframe.
 
 <p align="center">
-  <img src="./assets/Landing_wireframe.png" alt="landing_page_wireframe""/>
+  <img src="./assets/L1.png" alt="landing_page_wireframe""/>
+</p>
+
+<p align="center">
+  <img src="./assets/L2.png" alt="landing_page_wireframe""/>
+</p>
+
+<p align="center">
+  <img src="./assets/L3.png" alt="landing_page_wireframe""/>
+</p>
+
+<p align="center">
+  <img src="./assets/L4.png" alt="landing_page_wireframe""/>
 </p>
 
 ### 4.3.2. Landing Page Mock-up.
 
 <p align="center">
-  <img src="./assets/Landing_1.png" alt="landing_page_mockup_1""/>
+  <img src="./assets/Home.png" alt="landing_page_mockup_1""/>
 </p>
 <p align="center">
-  <img src="./assets/Landing_2.png" alt="landing_page_mockup_2""/>
-</p>
-<p align="center">
-  <img src="./assets/Landing_3.png" alt="landing_page_mockup_3""/>
+  <img src="./assets/Extra.png" alt="landing_page_mockup_2""/>
 </p>
 
 ## 4.4. Web Applications UX/UI Design.
