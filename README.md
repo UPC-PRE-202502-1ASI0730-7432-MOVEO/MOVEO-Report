@@ -871,13 +871,13 @@ La actividad se centró en dos segmentos clave:
 
 Segmento Objetivo 1: **Propietario de vehículos** 
 
-<img src="./assets/Journey%20map-Roy.png" alt="Roy" height=500/>
+![journey map 2](assets/img/chapter-2/Journey%20map-Roy.png)
 
 Se puede evidenciar el flujo de trabajo y captación de Roy para encontrar nuevos clientes, no es ideal y se encuentra frustrado con la poca seguridad que le ofrecen las plataformas gratuitas, por eso no las usa.
 
 Segmento Objetivo 2: **Inquilinos**
 
-<img src="./assets/Journey%20Map-Gabriel.png" alt="Gabriel_Torres" height=500/>
+![journey map 2](assets/img/chapter-2/Journey%20Map-Gabriel.png)
 
 Por su lado Gabriel se siente frustrado por la falta de opciones y la poca seguridad que le ofrecen las plataformas gratuitas, por ello una vez identifica dueños confiables, deja de utilizar dicha plataforma a menos que sea estrictamente necesario.
 
@@ -892,21 +892,24 @@ Segmento 1: **Propietarios**
 
 <img src="./assets/Empathy%20map-Roy.png" alt="Roy" height=500/>
 
-Segmento 2: **Inquilinos**
 
-<img src="./assets/Empathy%20map-Gabriel.png" alt="Gabriel" height=500/>
-
-### 2.3.5. As-is Scenario Mapping
-
-Segmento 1: **Propietarios**
-
-<img src="./assets/BigPicture-Roy.jpg" alt="Roy" height=500/>
+![empathy map Gabriel](assets/img/chapter-2/Empathy%20map-Roy.png)
 
 Segmento 2: **Inquilinos**
 
-<img src="./assets/BigPicture-Inquilino.jpg" alt="Gabriel" height=500/>
+![empathy map Gabriel](assets/img/chapter-2/Empathy%20map-Gabriel.png)
 
-## 2.4. Ubiquitous Language
+### 2.4. Big Picture Event Storming
+
+En esta sección, el equipo presenta el resultado de una sesión colaborativa de Big Picture Event Storming, una técnica visual y dinámica utilizada para explorar y comprender el dominio completo del negocio de Moveo — plataforma de alquiler de autos entre particulares.
+
+El objetivo fue mapear los eventos clave que ocurren desde que un propietario decide alquilar su auto hasta que un inquilino lo devuelve (o surge un conflicto), identificando actores, sistemas externos, relaciones, y — sobre todo — los problemas reales y oportunidades de mejora que emergen del proceso actual.
+
+![big picture event storming](assets/img/chapter-2/big-picture.png)
+
+Link del event stotming: https://miro.com/app/board/uXjVJF6vK1o=/?share_link_id=355761890687
+
+## 2.5. Ubiquitous Language
 
 Arrendador:	Usuario que publica su vehículo para alquiler.
 
