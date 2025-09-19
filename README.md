@@ -164,10 +164,40 @@ aun no acabamos
 
 # Student Outcome
 
-| Criterio Específico | Acciones Realizadas |
-|---|---|
-     
+<table> <tr> <td><b>Criterio específico</b></td> <td><b>Acciones realizadas</b></td> <td><b>Conclusiones</b></td> </tr> <tr> <td> <p>Trabaja en equipo para proporcionar liderazgo en forma conjunta</p> </td> <td> 
+  <p><strong>TB1</strong></p> 
+  <p><strong>Luna Morales, Gianfranco:</strong> Bla</p> 
+  <p><strong>Alumno 1:</strong>Bla</p> 
+  <p><strong>Alumno 2:</strong>Bla</p> 
+  <p><strong>Alumno 3:</strong>Bla</p>
+  <p><strong>Alumno 4:</strong>Bla</p>
+  
 
+
+
+</td>
+<td>
+  <p><strong>TB1</strong></p>
+  <p>En conclusión: La comunicación efectiva y constante entre los miembros favoreció la coordinación y el avance armónico del proyecto.</p>
+
+</td>
+</tr> <tr> <td> <p><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></p> </td> <td> <p><strong>TB1</strong></p> 
+<p><strong>Luna Morales, Gianfranco:</strong> bla</p>
+  <p><strong>Alumno 1:</strong>Bla</p> 
+  <p><strong>Alumno 2:</strong>Bla</p> 
+  <p><strong>Alumno 3:</strong>Bla</p>
+  <p><strong>Alumno 4:</strong>Bla</p>
+
+
+</td>
+<td>
+  <p><strong>TB1</strong></p>
+  <p>En conclusión: La comunicación interdisciplinaria permitió un mejor desarrollo y entendimiento del proyecto en todas sus fases.</p>
+  
+ 
+
+</td>
+</tr> </table>
 
 
 # Capítulo I: Introducción
