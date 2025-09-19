@@ -54,8 +54,43 @@ https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-Report
 
 #### TB1
 
-aun no acabamos
+La entrega del TB1 finalizó con éxito y está documentada en el repositorio de Github perteneciente a la organización del equipo:
 
+Link al repositorio de la organización: https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO
+
+Durante el desarrollo del informe, se siguieron los siguientes lineamientos:
+
+Los contenidos asignados a cada miembro fueron redactados y estructurados utilizando el formato Markdown , asegurando una presentación clara y estandarizada.
+Cada cambio realizado fue respaldado mediante commits en el repositorio, garantizando trazabilidad y control de versiones del avance del proyecto.
+Se crearon los artefactos necesarios utilizando las herramientas recomendadas. Las imágenes utilizadas fueron obtenidas a través de la carpeta assets o publicadas desde Imgur , para su correcta integración en el informe.
+Se realizaron reuniones periódicas para coordinar el avance de los elementos del informe y reportar los progresos del Sprint 1, centrado en la definición inicial del alcance del proyecto y el diseño preliminar del sistema.
+Coherencia con el Registro de Versiones del Informe
+Los cambios realizados durante esta etapa están alineados con la evolución del documento, reflejando el trabajo colaborativo y constante refinamiento del contenido por parte del equipo.
+
+Este historial de actualizaciones coincide con el trabajo desarrollado durante el TB1, mostrando cómo el equipo fue avanzando en la elaboración del informe de forma continua y colaborativa.
+
+Actividad en GitHub - TB1 (Septiembre 2025)
+Se muestra el gráfico de actividad en GitHub durante la preparación del TB1:
+
+![Actividad TB-1 Report]()
+
+![Actividad TB-1 Landing]()
+
+
+Commits para TB1
+Estos commits reflejan el progreso constante y la colaboración entre los miembros del equipo.
+
+![Commits TB-1 Report]()
+
+Commit
+
+![Commits TB-1 Landing]()
+
+Network graph para TB1
+
+![Network TB-1]()
+
+![Network TB-1 Landing]()
 
 # Contenido
 
@@ -216,10 +251,10 @@ Visión: Aspiramos a consolidarnos como la plataforma más reconocida en el Per�
 
 | Integrantes                                                                                                   | Descripción | Conocimientos |
 |:--------------------------------------------------------------------------------------------------------------| :--- | :--- |
-| <img src="./assets/carlos.jpg" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | soy un estudiante de Ingeniería de Software, tengo 22 años y vivo en Lima. Mis pasatiempos son hacer deporte, jugar videojuegos y escuchar música. Me gusta trabajar en equipo porque de esta manera todos los integrantes podemos dar nuestro punto de vista e ideas para poder lograr el objetivo del curso |  Tengo conocimientos básicos en C#, Java y Python, y estoy en constante búsqueda de mejorar mis habilidades técnicas.|
-| <img src="./assets/Franco.jpeg" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345             |  Soy estudiante de la carrera de Ingeniería de Software. Mi principal meta es poder desarrollar software de manera freelance. Me interesa mucho desarrollar software para maquinas industriales | Tengo conocimientos básicos en C++, HTML, Python y Typescript |
-| <img src="./assets/Gianfranco.jpg" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343              | Me gusta observar el comportamiento de las personas para así crear un ambiente cómodo y activo; soy práctico y racional para los percances que puedan surgir.  | Si bien poseo conocimientos básicos en la programación en el lenguaje C + +, aportaré en lo que pueda para realizar con éxito la idea planteada. |
-| <img src="./assets/foto04.png" width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362          | texto | texto |
+| <img src="assets/img/cover/carlos.jpg" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | soy un estudiante de Ingeniería de Software, tengo 22 años y vivo en Lima. Mis pasatiempos son hacer deporte, jugar videojuegos y escuchar música. Me gusta trabajar en equipo porque de esta manera todos los integrantes podemos dar nuestro punto de vista e ideas para poder lograr el objetivo del curso |  Tengo conocimientos básicos en C#, Java y Python, y estoy en constante búsqueda de mejorar mis habilidades técnicas.|
+| <img src="assets/img/cover/Franco.jpeg" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345             |  Soy estudiante de la carrera de Ingeniería de Software. Mi principal meta es poder desarrollar software de manera freelance. Me interesa mucho desarrollar software para maquinas industriales | Tengo conocimientos básicos en C++, HTML, Python y Typescript |
+| <img src="assets/img/cover/Gianfranco.jpg" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343              | Me gusta observar el comportamiento de las personas para así crear un ambiente cómodo y activo; soy práctico y racional para los percances que puedan surgir.  | Si bien poseo conocimientos básicos en la programación en el lenguaje C + +, aportaré en lo que pueda para realizar con éxito la idea planteada. |
+| <img src="assets/img/cover/Andreow.jpg " width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362          | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mi principal meta es especializarme en la creación de agentes inteligentes y soluciones basadas en Inteligencia Artificial, con enfoque en aprendizaje automático, procesamiento del lenguaje natural y sistemas autónomos.| Tengo experiencia en múltiples lenguajes de programación como Python, C#, Java, JavaScript y SQL, y estoy familiarizado con frameworks comoVue.js, ASP.NET Core y TensorFlow/Keras. Me apasiona aprender tecnologías emergentes y aplicarlas en proyectos reales que generen impacto. |
 | <img src="./assets/foto05.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479        | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
 
 
@@ -319,8 +354,14 @@ El mayor reto es garantizar la seguridad y confianza de los propietarios respect
 3. Suponemos que, al operar bajo un modelo sin grupo de automoviles listos para la reserva y alquiler correspondiente propio, podremos redirigir recursos hacia innovación y mejoras en la experiencia de usuario. Esto nos permitirá mantener tarifas estables y atractivas, atrayendo tanto a quienes alquilan como a quienes ofrecen sus autos.
 
 #### 1.2.2.4. Lean UX Canvas.
+En el apartado de Lean UX Canvas se desarrolló una estructuración completa y académica de las principales hipótesis estratégicas que sustentan la propuesta de valor y la arquitectura de la plataforma Moveo
 
-<img src="./assets/Leanuxcanva.jpg"  >
+Cada hipótesis fue traducida en un Lean UX Canvas formal, siguiendo un enfoque científico-experimental que articula: el problema de negocio detectado (Business Problem ), las soluciones propuestas a nivel funcional y técnico (Solutions ), los resultados esperados a nivel organizacional (Business Outcomes ), la caracterización de los usuarios objetivos (Users ), los beneficios esperados para estos usuarios (User Outcomes & Benefits ), la formulación de hipótesis de aprendizaje (Hypotheses ), y el diseño de experimentos estratégicos para validar o refutar dichas hipótesis (What's the most important thing we need to learn first? y What's the least amount of work we need to do to learn the next most important thing? ).
+
+Este trabajo metodológico permitió no solo establecer un marco claro de experimentación y validación temprana de las decisiones de diseño y tecnología, sino también alinear todos los esfuerzos de desarrollo a métricas de éxito específicas y medibles. Así, el apartado de Lean UX Canvas representa una pieza fundamental dentro del enfoque de construcción iterativa, ágil y centrada en el usuario de Moveo, asegurando que cada funcionalidad propuesta responde a necesidades reales, riesgos priorizados y oportunidades de negocio tangibles.
+
+![Lean ux Canva](assets/img/chapter-1/Leanuxcanva.jpg)
+
 
 ## 1.3. Segmentos objetivo
 
@@ -365,21 +406,21 @@ Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones qu
   Esta plataforma se especializa en el alquiler de coches en Perú. Ofrece una amplia gama de vehículos y opciones de alquiler, así como información sobre destinos turísticos en Perú. 
   La plataforma también permite a los usuarios comparar precios y reservar coches en línea.
   <div style="text-align: center;">
-<img src="assets/PeruRentACar.png" width=310  alt="">
+ <img src="assets/img/chapter-1/PeruRentACar.png" width=310  alt="">
   </div>
   
 - **Kayak:**
   Kayak es una de las plataformas de búsqueda de viajes más grandes del mundo. Permite a los usuarios buscar y comparar precios de vuelos, hoteles y alquiler de coches en una sola plataforma. 
   Kayak también ofrece herramientas para planificar viajes, como alertas de precios y recomendaciones personalizadas.
   <div style="text-align: center;">
-<img src="assets/Kayak.png" width=310  alt="">
+<img src="assets/img/chapter-1/Kayak.png" width=310  alt="">
   </div>
 
 - **Budget Car Rental Peru:**
   A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional que ofrece servicios de alquiler de coches en Perú. 
   La plataforma permite a los usuarios buscar y comparar precios de coches de alquiler en diferentes ubicaciones y reservar en línea. Budget Car Rental también ofrece opciones de alquiler a largo plazo y programas de fidelización.
   <div style="text-align: center;">
-<img src="assets/Budget.png" width=310  alt="">
+<img src="assets/img/chapter-1/Budget.png" width=310  alt="">
   </div>
 
 ### 2.1.1. Análisis competitivo.
