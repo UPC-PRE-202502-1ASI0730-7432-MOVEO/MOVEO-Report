@@ -166,11 +166,12 @@ aun no acabamos
 
 <table> <tr> <td><b>Criterio específico</b></td> <td><b>Acciones realizadas</b></td> <td><b>Conclusiones</b></td> </tr> <tr> <td> <p>Trabaja en equipo para proporcionar liderazgo en forma conjunta</p> </td> <td> 
   <p><strong>TB1</strong></p> 
-  <p><strong>Luna Morales, Gianfranco:</strong> Bla</p> 
-  <p><strong>Alumno 1:</strong>Bla</p> 
-  <p><strong>Alumno 2:</strong>Bla</p> 
-  <p><strong>Alumno 3:</strong>Bla</p>
-  <p><strong>Alumno 4:</strong>Bla</p>
+ <p><strong>Luna Morales, Gianfranco:</strong>Facilité todas las reuniones de planning del Sprint 1 donde coordiné la distribución de HU entre desarrolladores, propuse la metodología de seguimiento en Trello que adoptamos como equipo y medié los conflictos que surgieron sobre la priorización de features, logrando que todos llegáramos a consensos constructivos.</p> 
+  <p><strong>De la cruz Villareal,Carlos Alejandro:</strong>Propuse la estructura de archivos que seguimos para mantener el código organizado y compartí tutoriales básicos de Git con los compañeros que tenían menos experiencia.</p> 
+  <p><strong>Huang Liu, Franco Gabriel :</strong>Lideré el análisis exhaustivo de nuestros competidores Peru Rent A Car, Kayak y Budget Car Rental, coordiné todas las sesiones de user research y testing de usabilidad, facilité workshops de ideación para UX/UI donde todos aportamos ideas creativas, y representé constantemente la voz del usuario en las decisiones técnicas para mantener el foco en la experiencia.</p> 
+  <p><strong>Santiago Peña, Andreow Jomark :</strong>Organicé las reuniones iniciales del equipo para definir roles y responsabilidades, coordiné la creación del repositorio GitHub y la estructura de carpetas del proyecto, facilité las sesiones de brainstorming para definir el alcance del landing page y medié en la toma de decisiones sobre qué secciones incluir en la primera versión de MOVEO</p>
+  <p><strong>Zuñiga Calle, Sebastian Gabriel :</strong>Lideré la validación manual de todas las secciones del landing page para asegurar que funcionaran correctamente, coordiné las pruebas de responsividad en diferentes dispositivos con ayuda de mis compañeros, propuse mejoras de usabilidad basadas en mi navegación por el sitio, y guié las correcciones finales antes de la entrega para garantizar que todo estuviera pulido.</p>
+  
   
 
 
@@ -182,11 +183,11 @@ aun no acabamos
 
 </td>
 </tr> <tr> <td> <p><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></p> </td> <td> <p><strong>TB1</strong></p> 
-<p><strong>Luna Morales, Gianfranco:</strong> bla</p>
-  <p><strong>Alumno 1:</strong>Bla</p> 
-  <p><strong>Alumno 2:</strong>Bla</p> 
-  <p><strong>Alumno 3:</strong>Bla</p>
-  <p><strong>Alumno 4:</strong>Bla</p>
+<p><strong>Luna Morales, Gianfranco:</strong>Creé el workspace de Trello completo y definí el flujo de trabajo que seguimos actualmente, establecí junto al equipo la Definition of Ready y Done que nos guía en cada tarea, organicé daily standups virtuales diarios e implementé retrospectivas semanales donde todos participamos para mejorar continuamente nuestros procesos.</p>
+ <p><strong>De la cruz Villareal,Carlos Alejandro:</strong>Configuré el repositorio de GitHub con las ramas principales para que todos pudieran trabajar sin conflictos, establecí como meta crear un landing page responsive y funcional, dividí el desarrollo en componentes básicos (header, hero section, features, footer) asignando uno a cada miembro, y ayudé a resolver los problemas técnicos básicos que surgieron durante el desarrollo.</p> 
+  <p><strong>Huang Liu, Franco Gabriel :</strong>Diseñé wireframes de forma colaborativa involucrando a todo el equipo en las decisiones de diseño, establecí métricas UX específicas como tiempo de carga menor a 3 segundos y usabilidad superior al 85%, organicé sesiones de testing con usuarios reales para validar nuestras hipótesis y creé un design system unificado que mantiene la coherencia visual en todo el proyecto.</p> 
+  <p><strong>Santiago Peña, Andreow Jomark :</strong>Creé el canal de comunicación principal del equipo en WhatsApp y Discord, establecí las metas iniciales de completar el landing page y la documentación básica para la primera entrega, planifiqué la distribución de tareas entre compañeros según sus fortalezas e implementé reuniones de seguimiento diarias para mantener a todos alineados con los objetivos.</p>
+  <p><strong>Zuñiga Calle, Sebastian Gabriel :</strong>Creé una lista de verificación básica que usamos como equipo para revisar cada sección del landing page, establecí como meta que el sitio se viera bien en móvil y desktop sin errores visuales, organicé sesiones de testing grupal donde todos navegamos el sitio y reportamos observaciones, e implementé un proceso de revisión final donde cada uno verificó el trabajo de otro compañero antes de dar por terminado.</p>
 
 
 </td>
