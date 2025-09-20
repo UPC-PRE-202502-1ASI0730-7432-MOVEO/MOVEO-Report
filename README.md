@@ -541,8 +541,10 @@ Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea
 Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
 
 <p align="center">
-<img src="./assets/Logo.png" alt="Moveo_Logo" height="500"/>
+<img src="./assets/chapter-4/Logo.png" alt="Moveo_Logo" height="500"/>
 </p>
+
+
 
 #### Typography
 
@@ -550,16 +552,21 @@ La tipografía debe transmitir claridad, calidez y profesionalismo. Por esa raz�
 En este caso se usará **Poppins** para titulos y/o subtitulos e **Inter** para texto y/o subtexto.
 
 <p align="center">
-<img src="./assets/Typography.png" alt="Moveo_Typo"/>
+<img src="./assets/chapter-4/Typography.png" alt="Moveo_Typo"/>
 </p>
+
+![tipografia usada](assets/chapter-4/typografia.png)
 
 #### Colors
 
 Elegimos los siguientes colores buscando plasmar una paleta que influya seguridad y profesionalismo:
 
 <p align="center">
-<img src="./assets/Color.png" alt="Moveo_Colors"/>
+<img src="./assets/chapter-4/Color.png" alt="Moveo_Colors"/>
 </p>
+
+![Colores usados](assets/chapter-4/Colores.png)
+
 
 #### Spacing
 
@@ -602,7 +609,7 @@ Nuestro propósito es garantizar una experiencia de usuario coherente y sin fric
 Si bien ambos acceden a las mismas secciones, la diferencia radica en los niveles de permiso. Los dueños pueden prestar el transporte, ofrecer rutas de aventuras y prestar servicios adicionales, mientras que los inquilinos cuentan únicamente con acceso a la visualización de autos, aventuras y servicios disponibles, además de la posibilidad de filtrar por locación, fecha y/o cantidad de personas.
 
 <p align="center">
-<img src="./assets/Diagrama.png" alt="Moveo_Diagram"/>
+<img src="./assets/chapter-4/Diagrama.png" alt="Moveo_Diagram"/>
 </p>
 
 Como se ve en el diagrama, se sigue un proceso estructurado para facilitar la gestión de la salud de los pacientes, permitiendo la interacción entre médicos y familiares. Aquí explicamos cada etapa del proceso y las funciones disponibles:
