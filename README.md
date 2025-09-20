@@ -11,7 +11,7 @@
 
 <center>
 
-#### Startup: **-----**
+#### Startup: **Aureal**
 #### Product: **Moveo**
 ### Team  Members:
 
@@ -40,7 +40,10 @@
 |0.1| 29/08/2025 | Andreow Santiago | Creacion y primera version del informe |
 |0.2| 08/09/2025 | Franco Huang | Avance de Syle Guidelines  |
 |0.3| 10/09/2025 | Franco Huang | Avance de Information Architecture y entrevistas  |
-
+|0.4| 12/09/2025 | Carlos De la Cruz | Avance to be escenary |
+|0.5| 13/09/2025 | Gianfranco Luna | implementacion de user stories y entrevistas |
+|0.6| 14/09/2025 | Gianfranco Luna | implementacion de capitulo 4 style guidelines|
+|0.7| 15/09/2025 | Andreow | implementacion de la totalidad del capitulo 5|
 
 # Project Report Collaboration Insights
 
@@ -51,6 +54,10 @@ A continuacion, se detalla el trabajo realizado durante cada entrega, acompañad
 Link del reporte del equipo: 
 
 https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-Report
+
+Link del reporte del equipo: 
+
+https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-Landing
 
 #### TB1
 
@@ -72,25 +79,24 @@ Este historial de actualizaciones coincide con el trabajo desarrollado durante e
 Actividad en GitHub - TB1 (Septiembre 2025)
 Se muestra el gráfico de actividad en GitHub durante la preparación del TB1:
 
-![Actividad TB-1 Report]()
+![Actividad TB-1 Report](assets/img/chapter-1/tb-1.png)
 
-![Actividad TB-1 Landing]()
-
+![Actividad TB-1 Landing](assets/img/chapter-1/tb-1c.png)
 
 Commits para TB1
 Estos commits reflejan el progreso constante y la colaboración entre los miembros del equipo.
 
-![Commits TB-1 Report]()
+![Commits TB-1 Report](assets/img/chapter-1/tb-1a.png)
 
 Commit
 
-![Commits TB-1 Landing]()
+![Commits TB-1 Landing](assets/img/chapter-1/tb-1d.png)
 
 Network graph para TB1
 
-![Network TB-1]()
+![Network TB-1](assets/img/chapter-1/tb-1b.png)
 
-![Network TB-1 Landing]()
+![Network TB-1 Landing](assets/img/chapter-1/tb-1e.png)
 
 # Contenido
 
@@ -255,7 +261,7 @@ Visión: Aspiramos a consolidarnos como la plataforma más reconocida en el Per�
 | <img src="assets/img/cover/Franco.jpeg" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345             |  Soy estudiante de la carrera de Ingeniería de Software. Mi principal meta es poder desarrollar software de manera freelance. Me interesa mucho desarrollar software para maquinas industriales | Tengo conocimientos básicos en C++, HTML, Python y Typescript |
 | <img src="assets/img/cover/Gianfranco.jpg" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343              | Me gusta observar el comportamiento de las personas para así crear un ambiente cómodo y activo; soy práctico y racional para los percances que puedan surgir.  | Si bien poseo conocimientos básicos en la programación en el lenguaje C + +, aportaré en lo que pueda para realizar con éxito la idea planteada. |
 | <img src="assets/img/cover/Andreow.jpg " width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362          | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mi principal meta es especializarme en la creación de agentes inteligentes y soluciones basadas en Inteligencia Artificial, con enfoque en aprendizaje automático, procesamiento del lenguaje natural y sistemas autónomos.| Tengo experiencia en múltiples lenguajes de programación como Python, C#, Java, JavaScript y SQL, y estoy familiarizado con frameworks comoVue.js, ASP.NET Core y TensorFlow/Keras. Me apasiona aprender tecnologías emergentes y aplicarlas en proyectos reales que generen impacto. |
-| <img src="./assets/foto05.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479        | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
+| <img src="assets/img/cover/gabriel.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479        | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
 
 
 # 1.2. Solución Profile
@@ -601,7 +607,7 @@ Video de todas las entrevistas: http://bit.ly/46qhU6i
 **Dispositivos utilizados:** iPhone (exclusivo)  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-1](/Assets//img/chapter-2/entrevista-1.png)
+![Entrevistado-1](assets/img//chapter-2//entrevista-1.png)
 **Instante en el que inicia:** 0:00   
 **Duración de la entrevista:** 2:42 min  
 
@@ -636,7 +642,7 @@ Alisa es una joven emprendedora, estudiante y digital native que alquila su Toyo
 **Dispositivos utilizados:** iPhone (exclusivo), Laptop solo para entretenimiento  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-2](/Assets//img/chapter-2/entrevista-2.png)
+![Entrevistado-2](assets/img//chapter-2//entrevista-2.png)
 **Instante en el que inicia:** 2:43   
 **Fin de la entrevista:** 5:31 min  
 
@@ -672,7 +678,7 @@ Mathías es un emprendedor digital nativo. Maneja su negocio de alquiler (Hyunda
 **Dispositivos utilizados:** iPhone (principal), Laptop ocasional  
 **Navegador habitual:** Safari (móvil), Chrome (laptop)  
 **Imagen de entrevista:**  
-![Entrevistado-3](/Assets//img/chapter-2/entrevista-3.png)
+![Entrevistado-3](assets/img//chapter-2//entrevista-3.png)
 **Instante en el que inicia:** 7:15  
 **Duración de la entrevista:** 3:37 min  
 
@@ -708,7 +714,7 @@ Mauricio es un joven organizado, pragmático y con mentalidad de emprendedor. Al
 **Dispositivos utilizados:** iPhone  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-4](/Assets//img/chapter-2/entrevista-4.png)
+![Entrevistado-4](assets/img/chapter-2/entrevista-4.png)
 **Instante en el que inicia:** 10:53  
 **Duración de la entrevista:** 3:42 min  
 
@@ -743,7 +749,7 @@ Claudia es una joven realista, precavida y enfocada en la justicia. Alquila auto
 **Dispositivos utilizados:** Celular Android, Laptop ocasional  
 **Navegador habitual:** Chrome  
 **Imagen de entrevista:**  
-![Entrevistado-5](/Assets//img/chapter-2/entrevista-5.png)
+![Entrevistado-5](assets/img//chapter-2//entrevista-5.png)
 **Instante en el que inicia:** 13:35 
 **Duración de la entrevista:** 9:28 min  
 
@@ -777,7 +783,7 @@ Gabriel no alquila autos directamente, pero ha observado de cerca la operación 
 **Dispositivos utilizados:** iPhone (exclusivo)  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-6](/Assets//img/chapter-2/entrevista-6.png)
+![Entrevistado-6](assets/img//chapter-2//entrevista-6.png)
 **Instante en el que inicia:** 22:07  
 **Duración de la entrevista:** 4:40 min  
 
@@ -861,17 +867,17 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 
 ### Estadisticas:
 
-![Estadistica-1a](/Assets//img/chapter-2/estadistica-1a.png)
+![Estadistica-1a](assets/img//chapter-2/estadistica-1a.png)
 
-![Estadistica-1b](/Assets//img/chapter-2/estadistica-1b.png)
+![Estadistica-1b](assets/img//chapter-2/estadistica-1b.png)
 
-![Estadistica-1c](/Assets//img/chapter-2/estadistica-1c.png)
+![Estadistica-1c](assets/img//chapter-2/estadistica-1c.png)
 
 ![Estadistica-1d](/Assets//img/chapter-2/estadistica-1d.png)
 
-![Estadistica-1e](/Assets//img/chapter-2/estadistica-1e.png)
+![Estadistica-1e](assets/img//chapter-2/estadistica-1e.png)
 
-![Estadistica-1f](/Assets//img/chapter-2/estadistica-1f.png)
+![Estadistica-1f](assets/img//chapter-2/estadistica-1f.png)
 
 ---
 
@@ -920,17 +926,17 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 
 ### Estadisticas:
 
-![Estadistica-2a](/Assets//img/chapter-2/estadistica-2a.png)
+![Estadistica-2a](assets/img//chapter-2/estadistica-2a.png)
 
-![Estadistica-2b](/Assets//img/chapter-2/estadistica-2b.png)
+![Estadistica-2b](assets/img//chapter-2/estadistica-2b.png)
 
-![Estadistica-2c](/Assets//img/chapter-2/estadistica-2c.png)
+![Estadistica-2c](assets/img//chapter-2/estadistica-2c.png)
 
-![Estadistica-2d](/Assets//img/chapter-2/estadistica-2d.png)
+![Estadistica-2d](assets/img//chapter-2/estadistica-2d.png)
 
-![Estadistica-2e](/Assets//img/chapter-2/estadistica-2e.png)
+![Estadistica-2e](assets/img//chapter-2/estadistica-2e.png)
 
-![Estadistica-2f](/Assets//img/chapter-2/estadistica-2f.png)
+![Estadistica-2f](assets/img//chapter-2/estadistica-2f.png)
 
 
 
@@ -978,7 +984,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 
 #### Persona 1: Propietario Emprendedor Digital
 
-![User-persona-1](/Assets//img/chapter-2/Roy-userpersona.png)
+![User-persona-1](assets/img//chapter-2/Roy-userpersona.png)
 
 **Nombre:** Roy Hsie  
 **Edad:** 24 años  
@@ -1010,7 +1016,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 
 #### Persona 2: Inquilina Justiciera Digital
 
-![User-persona-2](/Assets//img/chapter-2/Gabriel-userpersona.png)
+![User-persona-2](assets/img//chapter-2/Gabriel-userpersona.png)
 
 **Nombre:** Gabriel Torres  
 **Edad:** 19 años  
@@ -1097,9 +1103,6 @@ Como parte del proceso de diseño centrado en el usuario para **Moveo**, se elab
 
 Segmento 1: **Propietarios**
 
-<img src="./assets/Empathy%20map-Roy.png" alt="Roy" height=500/>
-
-
 ![empathy map Gabriel](assets/img/chapter-2/Empathy%20map-Roy.png)
 
 Segmento 2: **Inquilinos**
@@ -1147,12 +1150,12 @@ Este mapa describe la experiencia ideal de dos usuarios clave en la plataforma:
  **Segmento 1: Propietario (Roy)**  
 Busca una forma segura y sencilla de ganar dinero extra alquilando su auto. Valora la verificación de identidad, la publicación guiada, el chat seguro dentro de la app, los contratos automáticos y los pagos sin contacto. Su motivación principal: confianza, simplicidad y profesionalismo.
 
-![Segmento-1](/Assets//img/chapter-3/segmento-1.png)
+![Segmento-1](assets/img//chapter-3/segmento-1.png)
 
  **Segmento 2: Inquilino (Gabriel)**  
 Necesita un auto rápido, confiable y sin riesgos. Confía en fotos verificadas, reseñas reales, historial del vehículo y procesos claros. Valora la reserva con un clic, el pago digital, las llaves virtuales y el soporte integrado. Su motivación: seguridad, ahorro de tiempo y tranquilidad.
 
-![Segmento-2](/Assets//img/chapter-3/segmento-2.png)
+![Segmento-2](assets/img//chapter-3/segmento-2.png)
 
 Miro con el To-Be: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497
 
@@ -1213,7 +1216,7 @@ Deliverables: Las soluciones que la plataforma ofrece para provocar esos cambios
 
 User Stories: Las historias de usuario concretas que implementan cada deliverable, asegurando trazabilidad desde la estrategia hasta la funcionalidad
 
-![Impact-map](/Assets//img/chapter-3/Impact-map.png)
+![Impact-map](assets/img//chapter-3/Impact-map.png)
 
 ## 3.4. Product Backlog.
 
