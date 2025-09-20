@@ -54,8 +54,43 @@ https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-Report
 
 #### TB1
 
-aun no acabamos
+La entrega del TB1 finalizó con éxito y está documentada en el repositorio de Github perteneciente a la organización del equipo:
 
+Link al repositorio de la organización: https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO
+
+Durante el desarrollo del informe, se siguieron los siguientes lineamientos:
+
+Los contenidos asignados a cada miembro fueron redactados y estructurados utilizando el formato Markdown , asegurando una presentación clara y estandarizada.
+Cada cambio realizado fue respaldado mediante commits en el repositorio, garantizando trazabilidad y control de versiones del avance del proyecto.
+Se crearon los artefactos necesarios utilizando las herramientas recomendadas. Las imágenes utilizadas fueron obtenidas a través de la carpeta assets o publicadas desde Imgur , para su correcta integración en el informe.
+Se realizaron reuniones periódicas para coordinar el avance de los elementos del informe y reportar los progresos del Sprint 1, centrado en la definición inicial del alcance del proyecto y el diseño preliminar del sistema.
+Coherencia con el Registro de Versiones del Informe
+Los cambios realizados durante esta etapa están alineados con la evolución del documento, reflejando el trabajo colaborativo y constante refinamiento del contenido por parte del equipo.
+
+Este historial de actualizaciones coincide con el trabajo desarrollado durante el TB1, mostrando cómo el equipo fue avanzando en la elaboración del informe de forma continua y colaborativa.
+
+Actividad en GitHub - TB1 (Septiembre 2025)
+Se muestra el gráfico de actividad en GitHub durante la preparación del TB1:
+
+![Actividad TB-1 Report]()
+
+![Actividad TB-1 Landing]()
+
+
+Commits para TB1
+Estos commits reflejan el progreso constante y la colaboración entre los miembros del equipo.
+
+![Commits TB-1 Report]()
+
+Commit
+
+![Commits TB-1 Landing]()
+
+Network graph para TB1
+
+![Network TB-1]()
+
+![Network TB-1 Landing]()
 
 # Contenido
 
@@ -164,33 +199,205 @@ aun no acabamos
 
 # Student Outcome
 
-| Criterio Específico | Acciones Realizadas |
-|---|---|
-     
+<table> <tr> <td><b>Criterio específico</b></td> <td><b>Acciones realizadas</b></td> <td><b>Conclusiones</b></td> </tr> <tr> <td> <p>Trabaja en equipo para proporcionar liderazgo en forma conjunta</p> </td> <td> 
+  <p><strong>TB1</strong></p> 
+ <p><strong>Luna Morales, Gianfranco:</strong>Facilité todas las reuniones de planning del Sprint 1 donde coordiné la distribución de HU entre desarrolladores, propuse la metodología de seguimiento en Trello que adoptamos como equipo y medié los conflictos que surgieron sobre la priorización de features, logrando que todos llegáramos a consensos constructivos.</p> 
+  <p><strong>De la cruz Villareal,Carlos Alejandro:</strong>Propuse la estructura de archivos que seguimos para mantener el código organizado y compartí tutoriales básicos de Git con los compañeros que tenían menos experiencia.</p> 
+  <p><strong>Huang Liu, Franco Gabriel :</strong>Lideré el análisis exhaustivo de nuestros competidores Peru Rent A Car, Kayak y Budget Car Rental, coordiné todas las sesiones de user research y testing de usabilidad, facilité workshops de ideación para UX/UI donde todos aportamos ideas creativas, y representé constantemente la voz del usuario en las decisiones técnicas para mantener el foco en la experiencia.</p> 
+  <p><strong>Santiago Peña, Andreow Jomark :</strong>Organicé las reuniones iniciales del equipo para definir roles y responsabilidades, coordiné la creación del repositorio GitHub y la estructura de carpetas del proyecto, facilité las sesiones de brainstorming para definir el alcance del landing page y medié en la toma de decisiones sobre qué secciones incluir en la primera versión de MOVEO</p>
+  <p><strong>Zuñiga Calle, Sebastian Gabriel :</strong>Lideré la validación manual de todas las secciones del landing page para asegurar que funcionaran correctamente, coordiné las pruebas de responsividad en diferentes dispositivos con ayuda de mis compañeros, propuse mejoras de usabilidad basadas en mi navegación por el sitio, y guié las correcciones finales antes de la entrega para garantizar que todo estuviera pulido.</p>
+  
+  
 
+
+
+</td>
+<td>
+  <p><strong>TB1</strong></p>
+  <p>En conclusión: La comunicación efectiva y constante entre los miembros favoreció la coordinación y el avance armónico del proyecto.</p>
+
+</td>
+</tr> <tr> <td> <p><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></p> </td> <td> <p><strong>TB1</strong></p> 
+<p><strong>Luna Morales, Gianfranco:</strong>Creé el workspace de Trello completo y definí el flujo de trabajo que seguimos actualmente, establecí junto al equipo la Definition of Ready y Done que nos guía en cada tarea, organicé daily standups virtuales diarios e implementé retrospectivas semanales donde todos participamos para mejorar continuamente nuestros procesos.</p>
+ <p><strong>De la cruz Villareal,Carlos Alejandro:</strong>Configuré el repositorio de GitHub con las ramas principales para que todos pudieran trabajar sin conflictos, establecí como meta crear un landing page responsive y funcional, dividí el desarrollo en componentes básicos (header, hero section, features, footer) asignando uno a cada miembro, y ayudé a resolver los problemas técnicos básicos que surgieron durante el desarrollo.</p> 
+  <p><strong>Huang Liu, Franco Gabriel :</strong>Diseñé wireframes de forma colaborativa involucrando a todo el equipo en las decisiones de diseño, establecí métricas UX específicas como tiempo de carga menor a 3 segundos y usabilidad superior al 85%, organicé sesiones de testing con usuarios reales para validar nuestras hipótesis y creé un design system unificado que mantiene la coherencia visual en todo el proyecto.</p> 
+  <p><strong>Santiago Peña, Andreow Jomark :</strong>Creé el canal de comunicación principal del equipo en WhatsApp y Discord, establecí las metas iniciales de completar el landing page y la documentación básica para la primera entrega, planifiqué la distribución de tareas entre compañeros según sus fortalezas e implementé reuniones de seguimiento diarias para mantener a todos alineados con los objetivos.</p>
+  <p><strong>Zuñiga Calle, Sebastian Gabriel :</strong>Creé una lista de verificación básica que usamos como equipo para revisar cada sección del landing page, establecí como meta que el sitio se viera bien en móvil y desktop sin errores visuales, organicé sesiones de testing grupal donde todos navegamos el sitio y reportamos observaciones, e implementé un proceso de revisión final donde cada uno verificó el trabajo de otro compañero antes de dar por terminado.</p>
+
+
+</td>
+<td>
+  <p><strong>TB1</strong></p>
+  <p>En conclusión: La comunicación interdisciplinaria permitió un mejor desarrollo y entendimiento del proyecto en todas sus fases.</p>
+  
+ 
+
+</td>
+</tr> </table>
 
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+Nuestro proyecto consiste en un servicio digital diseñado para conectar a personas que poseen un vehículo con quienes necesitan uno por un tiempo determinado. A diferencia de una compañía de alquiler tradicional, nuestra propuesta no requiere contar con un parque automotor propio, lo que reduce significativamente los costos iniciales. En lugar de ello, los autos registrados por los mismos usuarios son los que conforman la oferta disponible en la plataforma, generando así una red colaborativa similar a una flota virtual.
+El modelo se centra en la intermediación: los dueños obtienen ingresos únicamente cuando su vehículo es efectivamente arrendado, mientras que los arrendatarios acceden a precios más accesibles que en el mercado convencional. De esta manera, se construye un sistema rentable, flexible y equitativo para ambas partes.
+
+Misión: Ofrecer una solución moderna y segura que simplifique el acceso a un vehículo de alquiler, generando confianza y beneficios tanto para el propietario como para el arrendatario. Buscamos que nuestra plataforma sea percibida como una alternativa práctica, clara y orientada a las necesidades reales de los usuarios.
+
+Visión: Aspiramos a consolidarnos como la plataforma más reconocida en el Perú para la renta de automóviles entre particulares. Queremos ser identificados por la innovación de nuestro modelo, la seguridad de nuestras operaciones y la facilidad de uso del sistema. Nuestra meta es que, al pensar en alquiler de autos sin trámites complicados, las personas recurran primero a nosotros.
+
 #### 1.1.2. Perfiles de integrantes del equipo
+
+| Integrantes                                                                                                   | Descripción | Conocimientos |
+|:--------------------------------------------------------------------------------------------------------------| :--- | :--- |
+| <img src="assets/img/cover/carlos.jpg" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | soy un estudiante de Ingeniería de Software, tengo 22 años y vivo en Lima. Mis pasatiempos son hacer deporte, jugar videojuegos y escuchar música. Me gusta trabajar en equipo porque de esta manera todos los integrantes podemos dar nuestro punto de vista e ideas para poder lograr el objetivo del curso |  Tengo conocimientos básicos en C#, Java y Python, y estoy en constante búsqueda de mejorar mis habilidades técnicas.|
+| <img src="assets/img/cover/Franco.jpeg" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345             |  Soy estudiante de la carrera de Ingeniería de Software. Mi principal meta es poder desarrollar software de manera freelance. Me interesa mucho desarrollar software para maquinas industriales | Tengo conocimientos básicos en C++, HTML, Python y Typescript |
+| <img src="assets/img/cover/Gianfranco.jpg" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343              | Me gusta observar el comportamiento de las personas para así crear un ambiente cómodo y activo; soy práctico y racional para los percances que puedan surgir.  | Si bien poseo conocimientos básicos en la programación en el lenguaje C + +, aportaré en lo que pueda para realizar con éxito la idea planteada. |
+| <img src="assets/img/cover/Andreow.jpg " width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362          | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mi principal meta es especializarme en la creación de agentes inteligentes y soluciones basadas en Inteligencia Artificial, con enfoque en aprendizaje automático, procesamiento del lenguaje natural y sistemas autónomos.| Tengo experiencia en múltiples lenguajes de programación como Python, C#, Java, JavaScript y SQL, y estoy familiarizado con frameworks comoVue.js, ASP.NET Core y TensorFlow/Keras. Me apasiona aprender tecnologías emergentes y aplicarlas en proyectos reales que generen impacto. |
+| <img src="./assets/foto05.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479        | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
+
 
 # 1.2. Solución Profile
 
 ## 1.2.1. Antecedentes y Problemática
 
+Para explicar los fundamentos de nuestra startup utilizaremos una adaptación de la técnica de análisis 5W + 2H, que permite organizar la información respondiendo a las preguntas clave de cualquier iniciativa.
+
+**Antecedentes**
+
+- En los últimos años la necesidad de soluciones de movilidad temporal ha crecido considerablemente, especialmente en zonas urbanas donde adquirir un vehículo propio no siempre es viable. Ante ello surge la oportunidad de una plataforma digital que facilite el contacto directo entre propietarios de automóviles y personas interesadas en alquilarlos, optimizando el proceso a través de un aplicativo accesible.
+
+**Problemática**
+
+- La ausencia de servicios que ofrezcan un alquiler directo entre dueños y arrendatarios dificulta satisfacer la demanda de transporte temporal. Esto genera dos consecuencias principales: los usuarios que requieren un vehículo de manera inmediata encuentran limitaciones, y los propietarios pierden la posibilidad de generar ingresos adicionales con sus autos.
+
+Aplicación del método 5W + 2H
+
+**¿Qué?**
+
+El proyecto busca responder a la falta de un sistema eficiente que conecte a quienes desean rentabilizar sus vehículos con quienes necesitan arrendarlos. La iniciativa está directamente relacionada con dos tipos de clientes: propietarios con autos disponibles y arrendatarios que requieren alternativas accesibles y confiables.
+
+**¿Cuándo?**
+
+La problemática se presenta en el momento en que un propietario desea alquilar su vehículo, pero no cuenta con un canal formal ni seguro para hacerlo. A su vez, los arrendatarios se ven afectados cuando requieren un vehículo por un tiempo limitado —sea por un viaje, una urgencia o una necesidad puntual— y no encuentran opciones adecuadas.
+El uso de la plataforma se da justamente en esos escenarios: el dueño publica su vehículo y el arrendatario selecciona la opción que mejor se adapta a su situación.
+
+**¿Dónde?**
+
+El servicio puede utilizarse en cualquier lugar con acceso a internet, ya sea desde casa, el trabajo o en desplazamiento.
+La propuesta está dirigida principalmente a contextos urbanos donde la demanda de movilidad es más alta y, paradójicamente, la oferta de plataformas colaborativas de alquiler es todavía reducida.
+
+**¿Quiénes?**
+
+Participan dos grupos principales: los propietarios que desean ofrecer su auto en alquiler y los arrendatarios que buscan una solución práctica sin trámites extensos.
+El problema afecta sobre todo a los dueños que no logran monetizar sus vehículos y a las personas que necesitan movilidad temporal pero no encuentran opciones seguras y confiables.
+En consecuencia, el público objetivo que hará uso del servicio corresponde a ambos segmentos, integrados en una misma plataforma.
+
+**¿Por qué?**
+
+La raíz del problema se encuentra en la falta de un canal especializado y confiable que asegure la interacción entre dueños y arrendatarios. Esta ausencia limita la rentabilidad de los primeros y restringe la variedad de opciones para los segundos.
+
+**¿Cómo?**
+
+El servicio se utiliza cuando los dueños desean generar ingresos con su vehículo o cuando un arrendatario necesita resolver rápidamente una necesidad de transporte.
+Los usuarios llegan a la plataforma a través de campañas digitales, publicidad segmentada en redes sociales y recomendaciones de otros clientes.
+En general, el detonante es la búsqueda de una alternativa segura, flexible y accesible frente a los servicios tradicionales de alquiler.
+
+**¿Cuánto cuesta?**
+
+Para los propietarios no existen costos de inscripción ni inversión inicial; únicamente se descuenta una comisión en caso de concretarse el alquiler.
+Los arrendatarios, en cambio, acceden a tarifas variables y flexibles, con opciones que resultan más económicas en comparación con las agencias de renta tradicionales.
 
 ## 1.2.2. Lean UX Process
 
 ### 1.2.2.1. Lean UX Problem Statement
 
+La propuesta de MOVEO nace como respuesta a la falta de opciones innovadoras en el mercado de alquiler de vehículos. Actualmente, gran parte de las compañías del rubro trabajan con un esquema rígido, caracterizado por una oferta limitada y costos elevados para los usuarios. Otro aspecto que no ha sido bien explotado por los competidores es el hecho de que la mayoría depende de contar con una flota propia de autos, lo que exige una fuerte inversión inicial y reduce la flexibilidad del negocio. En contraste, nuestro modelo se fundamenta en no adquirir vehículos, sino en integrar aquellos que pertenecen a los propietarios registrados, generando así un sistema más ligero y escalable.
+El valor diferencial de MOVEO se basa y encuentra en esta estructura de “entrada y salida”: los dueños incorporan sus autos a la plataforma, mientras que los arrendatarios acceden a ellos bajo un esquema seguro y eficiente. De esta manera, tanto propietarios como usuarios obtienen beneficios económicos, consolidando un círculo de confianza y rentabilidad.
+
+Consideramos que habremos alcanzado un avance significativo cuando logremos que el número de propietarios inscritos crezca de forma constante y que la oferta de vehículos disponibles se adapte a la demanda real del mercado.
+
 ### 1.2.2.2. Lean UX Assumptions
+
+**Segmento de Usuarios:**
+
+**¿Quién es el usuario?**
+
+Nuestros principales usuarios son dos: los dueños de vehículos que desean generar ingresos pasivos sin tener que involucrarse en la gestión diaria de sus autos, y las personas que buscan alternativas de alquiler de vehiculos seguras, cómodas y accesibles.
+
+**¿Dónde se integra el servicio en su vida?**
+
+Para los propietarios, el servicio se convierte en un medio para obtener ingresos extra sin esfuerzo operativo. Para los inquilinos, representa la posibilidad de acceder a un vehículo en el momento en que lo necesitan, sin asumir compromisos de propiedad ni altos costos.
+
+**¿Cuándo y cómo se utiliza el servicio?**
+
+Los dueños lo usan al registrar su vehículo y seguir sus ganancias, mientras que los inquilinos lo emplean cuando requieren transporte para viajes, mudanzas, diligencias o necesidades puntuales de movilidad.
+
+**¿Qué problemas enfrenta el servicio?**
+
+El mayor reto es garantizar la seguridad y confianza de los propietarios respecto al uso de sus vehículos, al mismo tiempo que se asegura que los inquilinos disfruten de una experiencia rápida, sencilla y sin complicaciones.
+
+**Resultados de Negocio (Business Outcomes):**
+
+- Anticipamos que los propietarios valorarán una plataforma que les permita alquilar sin preocuparse de la gestión operativa.
+- Creemos que los arrendatarios encontrarán en nuestro servicio una alternativa más económica y variada que las opciones tradicionales.
+- Reconocemos que existen competidores en el sector, pero nuestro modelo —sin flota propia— nos permitirá mantener precios atractivos y una mejor experiencia de usuario.
+- Sabemos que para mantener la confianza, debemos reforzar la calidad del servicio con pruebas constantes, mejoras continuas y canales abiertos de comunicación con nuestros clientes.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
+1. Consideramos que los propietarios interesados en generar ingresos pasivos, sin invertir grandes sumas ni dedicar mucho tiempo, verán en nuestra plataforma una fuente confiable para monetizar sus vehículos.
+
+2. Creemos que los arrendatarios que buscan alternativas de alquiler flexibles y asequibles optarán por MOVEO, debido a su sencillez de uso, precios competitivos y garantías de seguridad.
+
+3. Suponemos que, al operar bajo un modelo sin grupo de automoviles listos para la reserva y alquiler correspondiente propio, podremos redirigir recursos hacia innovación y mejoras en la experiencia de usuario. Esto nos permitirá mantener tarifas estables y atractivas, atrayendo tanto a quienes alquilan como a quienes ofrecen sus autos.
+
 #### 1.2.2.4. Lean UX Canvas.
+En el apartado de Lean UX Canvas se desarrolló una estructuración completa y académica de las principales hipótesis estratégicas que sustentan la propuesta de valor y la arquitectura de la plataforma Moveo
+
+Cada hipótesis fue traducida en un Lean UX Canvas formal, siguiendo un enfoque científico-experimental que articula: el problema de negocio detectado (Business Problem ), las soluciones propuestas a nivel funcional y técnico (Solutions ), los resultados esperados a nivel organizacional (Business Outcomes ), la caracterización de los usuarios objetivos (Users ), los beneficios esperados para estos usuarios (User Outcomes & Benefits ), la formulación de hipótesis de aprendizaje (Hypotheses ), y el diseño de experimentos estratégicos para validar o refutar dichas hipótesis (What's the most important thing we need to learn first? y What's the least amount of work we need to do to learn the next most important thing? ).
+
+Este trabajo metodológico permitió no solo establecer un marco claro de experimentación y validación temprana de las decisiones de diseño y tecnología, sino también alinear todos los esfuerzos de desarrollo a métricas de éxito específicas y medibles. Así, el apartado de Lean UX Canvas representa una pieza fundamental dentro del enfoque de construcción iterativa, ágil y centrada en el usuario de Moveo, asegurando que cada funcionalidad propuesta responde a necesidades reales, riesgos priorizados y oportunidades de negocio tangibles.
+
+![Lean ux Canva](assets/img/chapter-1/Leanuxcanva.jpg)
+
 
 ## 1.3. Segmentos objetivo
+
+**Segmento 1: Propietarios de vehículos**
+
+Datos demográficos:
+- Género: hombres y mujeres.
+- Rango etario: de 18 a 70 años.
+- Condición socioeconómica: sectores A, B y C (clase media o clase alta).
+
+Datos geográficos:
+- Nacionalidad: peruana.
+- Área de residencia: zonas urbanas.
+- Ubicación principal: Lima Metropolitana.
+
+Datos psicográficos:
+- Individuos (naturales o jurídicos) que poseen un vehículo que permanece sin uso la mayor parte del tiempo.
+- Personas interesadas en generar ingresos adicionales a través de un recurso que ya poseen, sin necesidad de destinar grandes cantidades de tiempo a la gestión.
+- Propietarios que aún no cuentan con un mecanismo práctico, seguro y rápido para ofrecer sus autos en alquiler.
+
+**Segmento 2: Inquilinos o usuarios finales**
+
+Datos demográficos:
+- Género: tanto masculino como femenino.
+- Edad: entre 18 y 50 años.
+- Nivel socioeconómico: clases A, B y C (clase media, media alta y alta).
+
+Datos geográficos:
+- Nacionalidad: peruana.
+- Lugar de residencia: zonas urbanas.
+- Departamento: Lima Metropolitana.
+
+Datos psicográficos:
+- Personas que pasan una cantidad considerable de horas en transporte público o en el tráfico y buscan alternativas más cómodas y flexibles.
+- Usuarios que no cuentan con los recursos para adquirir un auto propio (nuevo o de segunda mano), pero que requieren movilidad en situaciones específicas.
+- Personas que necesitan disponer de un vehículo particular por un período corto, ya sea para actividades puntuales, compromisos laborales o viajes.
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
@@ -199,21 +406,21 @@ Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones qu
   Esta plataforma se especializa en el alquiler de coches en Perú. Ofrece una amplia gama de vehículos y opciones de alquiler, así como información sobre destinos turísticos en Perú. 
   La plataforma también permite a los usuarios comparar precios y reservar coches en línea.
   <div style="text-align: center;">
-<img src="assets/PeruRentACar.png" width=310  alt="">
+ <img src="assets/img/chapter-1/PeruRentACar.png" width=310  alt="">
   </div>
   
 - **Kayak:**
   Kayak es una de las plataformas de búsqueda de viajes más grandes del mundo. Permite a los usuarios buscar y comparar precios de vuelos, hoteles y alquiler de coches en una sola plataforma. 
   Kayak también ofrece herramientas para planificar viajes, como alertas de precios y recomendaciones personalizadas.
   <div style="text-align: center;">
-<img src="assets/Kayak.png" width=310  alt="">
+<img src="assets/img/chapter-1/Kayak.png" width=310  alt="">
   </div>
 
 - **Budget Car Rental Peru:**
   A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional que ofrece servicios de alquiler de coches en Perú. 
   La plataforma permite a los usuarios buscar y comparar precios de coches de alquiler en diferentes ubicaciones y reservar en línea. Budget Car Rental también ofrece opciones de alquiler a largo plazo y programas de fidelización.
   <div style="text-align: center;">
-<img src="assets/Budget.png" width=310  alt="">
+<img src="assets/img/chapter-1/Budget.png" width=310  alt="">
   </div>
 
 ### 2.1.1. Análisis competitivo.
