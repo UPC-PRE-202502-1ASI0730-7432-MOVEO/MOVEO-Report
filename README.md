@@ -737,130 +737,237 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 | **Conviertete en dueño** | Espacio donde el usuario puede publicar su automóvil para alquiler, proponer rutas personalizadas o agregar servicios complementarios. |
 | **Perfil** | Área dedicada al control del perfil del usuario, con herramientas para mantener actualizados los datos, preferencias y accesos personalizados. |
 
-## 4.3. Landing Page UI Design.
 
-### 4.3.1. Landing Page Wireframe.
+### 4.3.1. Landing Page Wireframe
 
-<p align="center">
-  <img src="./assets/L1.png" alt="landing_page_wireframe""/>
-</p>
+> ** Enlace al prototipo interactivo en Figma:**  
+> https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560
 
-<p align="center">
-  <img src="./assets/L2.png" alt="landing_page_wireframe""/>
-</p>
+Los wireframes representan la estructura básica y funcional de la landing page de **Moveo**, sin elementos visuales finales. Su objetivo es definir la jerarquía de contenido, los flujos de navegación y la disposición de componentes clave antes de pasar al diseño visual.
 
-<p align="center">
-  <img src="./assets/L3.png" alt="landing_page_wireframe""/>
-</p>
+---
 
-<p align="center">
-  <img src="./assets/L4.png" alt="landing_page_wireframe""/>
-</p>
+#### Header y Hero
+![header y hero](assets/chapter-4/wire-header-hero.png)  
+*Define la primera impresión del usuario: logo, menú de navegación, llamado a acción principal (“Alquila tu auto” o “Encuentra tu viaje”) y espacio para imagen/video hero. Diseñado para captar atención en menos de 3 segundos.*
 
-### 4.3.2. Landing Page Mock-up.
+---
 
-<p align="center">
-  <img src="./assets/Home.png" alt="landing_page_mockup_1""/>
-</p>
-<p align="center">
-  <img src="./assets/Extra.png" alt="landing_page_mockup_2""/>
-</p>
+#### What is Moveo
+![what is moveo](assets/chapter-4/wire-whatismoveo.png)  
+*Sección explicativa que comunica el valor central de Moveo: conectar propietarios e inquilinos con confianza, transparencia y tecnología. Incluye iconografía simple y bullets de beneficios.*
 
-## 4.4. Web Applications UX/UI Design.
-### 4.4.1. Web Applications Wireframes.
+---
 
-<p align="center">
-  <img src="./assets/App_wireframe_1.png" alt="app_wireframes_1""/>
-</p>
+#### Team Members
+![Tema members](assets/chapter-4/wire-team.png)  
+*Muestra al equipo fundador o clave. Construye confianza y humaniza la marca. Cada tarjeta incluye foto, nombre, rol y redes sociales.*
 
-<p align="center">
-  <img src="./assets/App_wireframe_2.png" alt="app_wireframes_2""/>
-</p>
+---
 
-### 4.4.2. Web Applications Wireflow Diagrams.
+#### Services
+![services](assets/chapter-4/wire-services.png)  
+*Presenta los servicios principales: alquiler de autos, aventuras guiadas, seguros integrados. Usa tarjetas modulares con ícono, título y descripción corta.*
 
-<p align="center">
-  <img src="./assets/moveo_wireflow.jpg" alt="app_wireflow""/>
-</p>
+---
 
-### 4.4.3. Web Applications Mock-ups.
+#### Moveo Services — Learn More
+![moveo services learn more](assets/chapter-4/wire-services.png)  
+*Sección de profundización: explica cómo funciona la plataforma, pasos para alquilar o listar un auto, y garantías de seguridad. Incluye botones de CTA secundarios.*
 
-<p align="center">
-  <img src="./assets/Moveo App Mockup.png" alt="app_mockup""/>
-</p>
+---
 
-### 4.4.4. Web Applications User Flow Diagrams.
+#### Impacto de Moveo
+![Impacto de moveo](assets/chapter-4/wire-impact.png)  
+*Visualiza métricas de impacto: “+500 autos listados”, “+2000 viajes realizados”, “98% de satisfacción”. Refuerza credibilidad y escala.*
 
-<p align="center">
-  <img src="./assets/user_flow_diagram.jpg" alt="userflow""/>
-</p>
+---
 
-## 4.5. Web Applications Prototyping.
+#### Footer
+![Footer](assets/chapter-4/wire-questions.png)  
+*Contiene enlaces legales, contacto, redes sociales, newsletter y logos de partners o certificaciones. Es la base de confianza y cierre de la página.*
 
-<p align="center">
-  <img src="./assets/protoype_moveo.png" alt="prototype""/>
-</p>
+---
 
-https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560
+### 4.3.2. Landing Page Mock-up
 
-## 4.6. Domain-Driven Software Architecture.
-### 4.6.1. Software Architecture Context Diagram.
+> ** Enlace al diseño final en Figma:**  
+> https://www.figma.com/design/lRjIRg3YuUVRpVKoibbAKt/Moveo-Landing-Mockup?node-id=0-1&t=xZb8804mKmhW8bFn-1
 
-<p align="center">
-  <img src="./assets/moveo_context.png" alt="moveo_context_diagram""/>
-</p>
+Los mock-ups son la versión visual final de la landing page, con colores, tipografías, imágenes reales y microinteracciones definidas. Representan la identidad de marca y la experiencia estética que el usuario final verá.
 
-### 4.6.2. Software Architecture Container Diagrams.
+---
 
-<p align="center">
-  <img src="./assets/moveo_container.png" alt="moveo_container_diagram""/>
-</p>
+#### Header y Hero
+![header y hero](assets/chapter-4/header%20y%20hero.png)  
+*Hero impactante con fondo dinámico (auto en movimiento), tipografía bold, botón principal con sombra y hover effect. Transmite energía, libertad y confianza.*
 
-### 4.6.3. Software Architecture Components Diagrams.
+---
 
-**UserBC:**
+#### What is Moveo
+![what is moveo](assets/chapter-4/what%20is%20Moveo.png)  
+*Diseño limpio con ilustraciones vectoriales, gradientes suaves y cards con sombras sutiles. Comunica profesionalismo y cercanía.*
 
-<p align="center">
-  <img src="./assets/userBC.png" alt="userBC""/>
-</p>
+---
 
-**ProfileBC:**
+#### Team Members
+![Tema members](assets/chapter-4/teammember.png)  
+*Fotos profesionales con fondo desenfocado, bordes redondeados, hover con redes sociales. Genera empatía y confianza institucional.*
 
-<p align="center">
-  <img src="./assets/profileBC.png" alt="profileBC""/>
-</p>
+---
 
-**CarRentBC:**
+#### Services
+![services](assets/chapter-4/services.png)  
+*Iconos personalizados, colores por categoría, animaciones de entrada suaves. Cada servicio tiene un tono visual que refuerza su propósito (ej. verde para “seguro”, azul para “aventuras”).*
 
-<p align="center">
-  <img src="./assets/carBC.png" alt="CarRentBC""/>
-</p>
+---
 
-**AdventureBC:**
+#### Moveo Services — Learn More
+![moveo services learn more](assets/chapter-4/moveo.png)  
+*Sección con fondo dividido, ilustración a la izquierda y texto a la derecha. Botones con estados hover y focus definidos. Microcopy persuasivo y claro.*
 
-<p align="center">
-  <img src="./assets/adventureBC.png" alt="adventureBC""/>
-</p>
+---
 
-**ServiceBC:**
+#### Impacto de Moveo
+![Impacto de moveo](assets/chapter-4/impacto.png)  
+*Números grandes en negrita, íconos animados al scroll, fondo con textura sutil. Diseñado para generar asombro y validación social.*
 
-<p align="center">
-  <img src="./assets/serviceBC.png" alt="serviceBC""/>
-</p>
+---
 
-## 4.7. Software Object-Oriented Design.
-### 4.7.1. Class Diagrams.
+#### Footer
+![Footer](assets/chapter-4/footer.png)  
+*Fondo oscuro, texto claro, separadores sutiles. Incluye logo pequeño, links organizados en columnas, formulario de newsletter con validación visual y redes con íconos hover.*
+
+---
+
+## 4.4. Web Applications UX/UI Design
+
+### 4.4.1. Web Applications Wireframes
 
 <p align="center">
-  <img src="./assets/moveo_class.png" alt="moveo_class_diagram""/>
+  <img src="./assets/chapter-4/App_wireframe_1.png" alt="app_wireframes_1"/>
 </p>
-
-## 4.8. Database Design.
-### 4.8.1. Database Diagram.
+*Wireframe de la pantalla principal de la app: feed de autos disponibles, filtros superiores (ubicación, fechas, tipo de auto), barra de navegación inferior. Enfoque en funcionalidad y flujo de búsqueda.*
 
 <p align="center">
-  <img src="./assets/move_db.png" alt="moveo_database_diagram""/>
+  <img src="./assets/chapter-4/App_wireframe_2.png" alt="app_wireframes_2"/>
 </p>
+*Wireframe del perfil de usuario y detalle de auto: información del dueño, fotos, reseñas, botón de reserva, sección de preguntas frecuentes. Define la estructura de toma de decisión.*
+
+---
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+<p align="center">
+  <img src="./assets/chapter-4/moveo_wireflow.jpg" alt="app_wireflow"/>
+</p>
+*Mapa visual del flujo completo del usuario: desde el onboarding → búsqueda → reserva → pago → entrega → calificación. Identifica puntos críticos y oportunidades de mejora en la experiencia.*
+
+---
+
+### 4.4.3. Web Applications Mock-ups
+
+<p align="center">
+  <img src="./assets/chapter-4/Moveo App Mockup.png" alt="app_mockup"/>
+</p>
+*Diseño visual final de la aplicación móvil. Paleta de colores vibrante pero profesional, tipografía legible, componentes con estados interactivos (presionado, cargando, error). Refleja la identidad de marca en cada pantalla.*
+
+---
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+<p align="center">
+  <img src="./assets/chapter-4/user_flow_diagram.jpg" alt="userflow"/>
+</p>
+*Diagrama detallado de los caminos que sigue un usuario para completar tareas clave: “Reservar un auto en 3 clics”, “Publicar mi auto en 5 pasos”, “Dejar una reseña”. Sirve para validar usabilidad y eliminar fricciones.*
+
+---
+
+## 4.5. Web Applications Prototyping
+
+<p align="center">
+  <img src="./assets/chapter-4/protoype_moveo.png" alt="prototype"/>
+</p>
+*Prototipo interactivo de alta fidelidad. Permite simular la navegación real entre pantallas, probar transiciones, microinteracciones y flujos completos. Herramienta esencial para pruebas de usabilidad con usuarios reales antes del desarrollo.*
+
+> **🔗 Enlace al prototipo interactivo en Figma:**  
+> https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560
+
+---
+
+## 4.6. Domain-Driven Software Architecture
+
+### 4.6.1. Software Architecture Context Diagram
+
+<p align="center">
+  <img src="./assets/chapter-4/moveo_context.png" alt="moveo_context_diagram"/>
+</p>
+*Diagrama de contexto que muestra cómo Moveo se relaciona con actores externos: usuarios (propietarios e inquilinos), sistemas de pago (Yape, Plin), servicios de geolocalización, y notificaciones push. Define los límites del sistema.*
+
+---
+
+### 4.6.2. Software Architecture Container Diagrams
+
+<p align="center">
+  <img src="./assets/chapter-4/moveo_container.png" alt="moveo_container_diagram"/>
+</p>
+*Desglosa la arquitectura en contenedores: frontend (React), backend (Node.js), base de datos (PostgreSQL), almacenamiento de archivos (AWS S3), y servicios externos (Firebase Auth, Cloudinary). Muestra cómo se comunican entre sí.*
+
+---
+
+### 4.6.3. Software Architecture Components Diagrams
+
+**UserBC (User Bounded Context):**
+<p align="center">
+  <img src="./assets/chapter-4/userBC.png" alt="userBC"/>
+</p>
+*Gestiona autenticación, autorización y perfiles de usuario. Componentes clave: AuthService, UserService, RoleManager.*
+
+**ProfileBC (Profile Bounded Context):**
+<p align="center">
+  <img src="./assets/chapter-4/profileBC.png" alt="profileBC"/>
+</p>
+*Maneja la información detallada del usuario: documentos subidos, historial de alquileres, reputación, preferencias. Componentes: ProfileService, DocumentValidator, ReputationEngine.*
+
+**CarRentBC (Car Rental Bounded Context):**
+<p align="center">
+  <img src="./assets/chapter-4/carBC.png" alt="CarRentBC"/>
+</p>
+*Core del negocio: listado de autos, reservas, pagos, contratos digitales. Componentes: CarListingService, BookingManager, PaymentGateway, ContractGenerator.*
+
+**AdventureBC (Adventure Bounded Context):**
+<p align="center">
+  <img src="./assets/chapter-4/adventureBC.png" alt="adventureBC"/>
+</p>
+*Opcional: gestiona paquetes de “aventuras” (rutas turísticas, guías, seguros especiales). Componentes: AdventureCatalog, RoutePlanner, GuideMatcher.*
+
+**ServiceBC (Service Bounded Context):**
+<p align="center">
+  <img src="./assets/chapter-4/serviceBC.png" alt="serviceBC"/>
+</p>
+*Maneja servicios transversales: notificaciones, alertas, soporte, reportes. Componentes: NotificationService, AlertEngine, SupportTicketSystem.*
+
+---
+
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
+
+<p align="center">
+  <img src="./assets/chapter-4/moveo_class.png" alt="moveo_class_diagram"/>
+</p>
+*Diagrama UML que modela las clases principales del sistema: User, Car, Booking, Payment, Review, Document, etc. Muestra atributos, métodos, relaciones (herencia, asociación, agregación) y responsabilidades. Base para el desarrollo orientado a objetos.*
+
+---
+
+## 4.8. Database Design
+
+### 4.8.1. Database Diagram
+
+<p align="center">
+  <img src="./assets/chapter-4/move_db.png" alt="moveo_database_diagram"/>
+</p>
+*Modelo entidad-relación (ERD) de la base de datos. Tablas principales: users, cars, bookings, payments, reviews, documents, notifications. Muestra claves primarias, foráneas, índices y relaciones (1:1, 1:N, N:M). Optimizado para consultas de reserva, reputación y reportes.*
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
