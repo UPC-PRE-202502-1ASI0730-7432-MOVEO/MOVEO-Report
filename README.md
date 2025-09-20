@@ -1028,23 +1028,171 @@ Este sprint ha sentado las bases para una Landing Page profesional, internaciona
 
 ### 5.2.1.5. Execution Evidence for Sprint Review.
 
+
+En este Sprint, el equipo logró implementar y desplegar completamente la **Landing Page de Moveo**, cumpliendo con todos los requisitos definidos en el Sprint Backlog. Se desarrollaron todas las secciones clave: Hero, Propuesta de Valor, Equipo, Servicios, Proceso de Uso, Impacto, Testimonios y Footer — cada una alineada con las User Stories priorizadas (HU22, HU01, HU02, HU24, HU25, HU23, HU26, HU27, HU04).
+
+La página es completamente responsive, está optimizada para SEO, y cuenta con soporte multilingüe básico (español/inglés). Además, se integró un sistema de navegación intuitiva, microinteracciones suaves y un diseño visual coherente con la identidad de marca de Moveo.
+
+> **🔗 Enlace a la versión desplegada (producción):**  
+> https://moveo-landing.netlify.app/
+
+> **📹 Enlace al video de demostración (navegación y funcionalidades):**  
+> https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EfbDbq8O2vJLjZqHrR1-WQ4BJ_stYdiTVMOVlDR6QnnATA?e=LFGgeR
+
+![hero](assets/chapter-5/netlify.png)  
+
+**Estado del Sprint:**  
+**COMPLETADO.**  
+Todas las User Stories del Sprint 1 fueron implementadas, probadas y desplegadas en producción. La Landing Page está lista para recibir tráfico real, pruebas A/B y campañas de marketing.
+
+
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 En este sprint, se completó el desarrollo del landing page, al ser landing page no se requiere de documentación de servicios.
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-En el este sprint, se completó el desarrollo del landing page y se utilizó un conjunto de herramientas para su despliegue:
+n este Sprint, se completó con éxito el **despliegue de la Landing Page de Moveo** en producción, utilizando una cadena de herramientas modernas y automatizadas que garantizan entrega continua, trazabilidad del código y escalabilidad. Este proceso no solo incluyó el hospedaje del sitio, sino también la configuración de flujos de trabajo colaborativos, integración de ramas, automatización de builds y despliegues, y monitoreo básico del entorno.
 
-- Git: Utilizado como sistema de control de versiones para facilitar el trabajo en equipo durante el desarrollo del
-landing page.
-- GitFlow: Implementado como flujo de trabajo para gestionar el progreso individual de cada miembro del equipo en el
-desarrollo del landing page.
-- GitHub: Empleado como plataforma colaborativa para almacenar las versiones del proyecto y facilitar el desarrollo
-conjunto del equipo.
-- Netlify: Utilizado como plataforma para automatizar la hospedaje y despliegue del landing page, especialmente diseñada
-para sitios web estáticos.
+Se implementó una infraestructura CI/CD (Integración y Entrega Continua) utilizando **GitHub + Netlify**, con el flujo de trabajo **GitFlow** como estándar de colaboración del equipo. Cada commit en la rama `main` dispara automáticamente un despliegue en producción, asegurando que los cambios aprobados estén disponibles para los usuarios en cuestión de minutos.
+
+Además, se crearon cuentas institucionales, se configuraron variables de entorno, dominios personalizados y se establecieron políticas de revisión de código para garantizar la calidad y seguridad del despliegue.
+
+
+### Proceso de Despliegue Implementado
+
+#### 1. Configuración del Repositorio y GitFlow
+Se estructuró el repositorio con el flujo **GitFlow**:
+- `main`: versión estable en producción.
+- `develop`: integración continua de nuevas funcionalidades.
+- `feature/*`: ramas para desarrollo de funcionalidades específicas (ej: `feature/team-section`, `feature/i18n`).
+- `release/*`: ramas para preparar versiones listas para producción.
+
+Cada funcionalidad fue desarrollada en su propia rama, revisada mediante Pull Requests, y fusionada a `develop`. Al finalizar el Sprint, se creó una rama `release/v1.0.0` que se fusionó a `main`, disparando el despliegue automático.
+
+
+#### 2. Integración con Netlify
+Se vinculó el repositorio de GitHub con **Netlify**, configurando:
+- Rama de despliegue: `main`
+- Comando de build: `npm run build` (para proyectos estáticos generados con Vite/React)
+- Directorio de publicación: `dist/`
+- Dominio personalizado: `https://moveo-landing.netlify.app` (y próximamente `moveo.pe`)
+
+Cada push a `main` o merge de Pull Request dispara automáticamente:
+1. Clonado del repositorio
+2. Instalación de dependencias
+3. Ejecución del build
+4. Despliegue del sitio estático
+5. Notificación por correo y Slack al equipo
+
+![netlify](assets/chapter-5/netlify1.png)  
+
+![netlify](assets/chapter-5/netlify2.png)  
+
+---
+
+###  Sitio Desplegado en Producción
+
+> ** Enlace al sitio en producción:**  
+> https://moveo-landing.netlify.app
+
+El sitio incluye todas las secciones desarrolladas en el Sprint 1:
+- Hero con CTA y propuesta de valor
+- Sección “¿Qué es Moveo?”
+- Presentación del equipo con fotos y roles
+- Servicios (Alquilar / Registrar auto)
+- Proceso paso a paso
+- Impacto y métricas
+- Testimonios
+- Footer con enlaces y contacto
+
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de ramas permitió que cada miembro del equipo trabajara en una parte del proyecto sin interferir en el trabajo de los demás. Al terminar cada 'feature' se comprueba que no tenga conflictos con la rama principal y se procede a hacer un 'pull request' para que se integre con la rama principal. A continuación, se muestra una imagen de la colaboración del equipo en GitHub.
+
+![commits-1](assets/chapter-5//insight%20(1).png)
+
+![commits-1](assets/chapter-5//insight%20(2).png)
+
+![commits-1](assets/chapter-5//insight%20(3).png)
+
+### Bibliografia
+
+
+A continuación, se presenta la lista de fuentes, herramientas, plataformas y recursos utilizados durante la investigación, diseño, desarrollo e implementación del proyecto **Moveo**. Esta bibliografía incluye referencias técnicas, metodológicas, visuales y de infraestructura que respaldan el trabajo realizado.
+
+
+- **Entrevistas realizadas a usuarios reales** (Propietarios e Inquilinos)  
+  *Recopiladas entre septiembre de 2025. Datos cualitativos utilizados para construcción de User Personas, Empathy Maps y User Stories.*
+
+- **Formularios de Google aplicados a segmentos objetivo**  
+  *Links:*
+  - Propietarios: https://forms.gle/uyVSkqSiuiKx1nb69
+  - Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9  
+  *Utilizados para segmentación demográfica y validación estadística de comportamientos.*
+
+- **Videos de entrevistas registradas**  
+  *Compilado en:* http://bit.ly/46qhU6i  
+  *Evidencia audiovisual del proceso de needfinding y validación de supuestos.*
+
+- **Videos de expo grupal**  
+  
+  
+
+
+- **UXPressia**  
+  *Herramienta empleada para la creación de User Personas y Empathy Maps basados en datos reales de entrevistas.*
+
+
+- **Netlify**  
+  *Plataforma de hosting y CI/CD utilizada para el despliegue automático de la Landing Page en producción.*  
+  - Sitio desplegado: https://moveo-landing.netlify.app
+
+- **GitHub**  
+  *Repositorio de control de versiones y colaboración del equipo de desarrollo.*  
+  - Repositorio: `UPC-PRE-202502-1ASI0730-7432-MOVEO`
+
+- **Lean UX**  
+  *Enfoque utilizado para validar supuestos mediante entrevistas y prototipos rápidos.*
+
+- **Design Thinking**  
+  *Proceso aplicado en fases de empatía, definición, ideación, prototipado y prueba.*
+
+- **GitFlow**  
+  *Flujo de trabajo de desarrollo adoptado para gestión de ramas y releases.*
+
+- **Domain-Driven Design (DDD)**  
+  *Enfoque arquitectónico utilizado para modelar los Bounded Contexts: UserBC, ProfileBC, CarRentBC, AdventureBC, ServiceBC.*
+
+- **Scrum**  
+  *Metodología ágil aplicada para la gestión de sprints, product backlog y sprint reviews.*
+
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+), React (para futuras iteraciones)
+- **Backend:** Node.js, Express.js (en desarrollo)
+- **Base de Datos:** PostgreSQL
+- **Autenticación:** Firebase Authentication
+- **Almacenamiento de archivos:** AWS S3 / Cloudinary
+- **Notificaciones:** Firebase Cloud Messaging
+
+- **Trello / Notion**  
+  *Tableros de gestión de tareas y seguimiento de sprints.*
+
+- **Google Sheets**  
+  *Utilizado por usuarios reales (y replicado en requerimientos) para gestión manual de inventario de autos.*
+
+- **Gherkin (Given-When-Then)**  
+  *Formato utilizado para redacción de criterios de aceptación en User Stories.*
+
+- **Imágenes y fotografías de equipo y testimonios**  
+  *Hospedadas en el sitio y utilizadas para generar confianza y humanizar la marca.*  
+  Ejemplo: https://moveo-landing.netlify.app/src/assets/carlos.jpg
+
+- **Ilustraciones y assets gráficos**  
+  *Creados por el equipo de diseño o adaptados de librerías libres de derechos (Freepik, Flaticon, Undraw).*
+
+---
+
+### Concluciones
+
+Este primer entregable nos permitió moldear la idea detrás de Moveo, estudiar nuestro mercado objetivo asi como entender sus necesidades para poder ofrecerles una experiencia con base en las mismas. El flujo de trabajo se realizó mediante reuniones por discord y asignación de tareas, finalmente el despliegue de la landing page fue exitoso y se logró cumplir con los objetivos planteados al inicio del sprint.
