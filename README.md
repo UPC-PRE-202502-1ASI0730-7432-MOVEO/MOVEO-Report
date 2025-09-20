@@ -425,6 +425,13 @@ Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones qu
 
 ### 2.1.1. Análisis competitivo.
 
+En esta sección tiene como objetivo que su startup conozca mejor a sus competidores, en contraste con la idea inicial que pudiera tener sobre ellos. Se debe desarrollar el siguiente Landscape:  
+**Se realiza un mapeo estratégico comparativo entre nuestra propuesta (Moveo) y los principales actores del mercado, evaluando su perfil, marketing, producto y análisis SWOT, con el fin de identificar brechas de mercado, fortalezas propias y oportunidades de posicionamiento diferenciado.**
+
+**¿Por qué llevar a cabo este análisis?**  
+*Objetivo: Comprender a fondo el posicionamiento de nuestra startup frente a competidores clave en el mercado de alquiler de autos en Perú, identificando sus fortalezas, debilidades y estrategias, para definir con precisión nuestra ventaja competitiva y oportunidades de diferenciación.*
+
+
 <table border="1" style="text-align: center;">
 	<tbody>
 		<tr><td colspan="6">Análisis de competidores</td></tr>
@@ -496,119 +503,541 @@ Frente a amenazas de grandes plataformas, Moveo enfocará sus esfuerzos en segme
 
 ## 2.2. Entrevistas
 
+En esta sección se presenta la investigación cualitativa realizada mediante entrevistas profundas a representantes de nuestros dos segmentos objetivo: **propietarios de vehículos** (Segmento 1) e **inquilinos o usuarios que desean alquilar autos** (Segmento 2). El objetivo es comprender sus necesidades reales, frustraciones, hábitos de consumo y expectativas frente a una plataforma de alquiler de autos, validando así los supuestos del modelo de negocio y ajustando la propuesta de valor de Moveo a lo que el mercado realmente demanda.
 
 ### 2.2.1. Diseño de entrevistas.
 
-**Segmento 1: Propietarios**
+Esta sección incluye preguntas demográficas, conductuales y psicográficas dirigidas a cada segmento, con el fin de construir arquetipos (personas) basados en evidencia real. Se aplican buenas prácticas de diseño de entrevistas: preguntas abiertas, no sugestivas, orden lógico (de lo general a lo específico) y enfoque en comportamientos reales, no hipotéticos.
 
-¿Cuál es tu nombre completo?
+Antes de realizar las entrevistas profundas, se aplicó un formulario digital (Google Forms) a todos los participantes con el objetivo de recolectar información demográfica y conductual básica. Esto permitió segmentar adecuadamente a los entrevistados, personalizar el enfoque de cada entrevista según su perfil, y optimizar el tiempo durante las sesiones cualitativas.
 
-¿Qué edad tienes actualmente?
-
-¿En qué distrito resides?
-
-¿A qué te dedicas (trabajo, estudios, negocio propio)?
-
-¿Qué requisitos solicitas a una persona antes de entregarle tu vehículo?
-
-¿Qué tipo de unidades sueles alquilar (auto, SUV, camioneta, moto, otro)?
-
-¿Cuál es el tiempo mínimo y máximo que normalmente estás dispuesto a prestar tu vehículo?
-
-¿Cómo gestionas el control de tus autos disponibles y en uso (anotaciones, Excel, aplicación, otro)?
-
-¿Dónde publicas actualmente tus vehículos para alquilarlos (apps, redes sociales, conocidos)?
-
-¿Prefieres usar computadora, celular o ambos para manejar estas publicaciones?
-
-¿Qué tan confiable consideras que son las plataformas actuales para validar a los clientes?
-
-¿Qué tan útil sería para ti ver comentarios de otros dueños sobre un cliente antes de alquilar?
-
-¿Te interesaría contar con un panel digital donde registres todos tus autos y su estado?
-
-¿Qué tan importante consideras poder calificar a los clientes después de cada alquiler?
+ Formulario segmento propietarios: https://forms.gle/uyVSkqSiuiKx1nb69
 
 
+Formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9
 
-**Segmento 2: Inquilinos**
+#### **Segmento 1: Propietarios**
 
-¿Cuál es tu nombre completo?
+**Demográficas (para arquetipo):**
+- ¿Cuál es tu nombre completo?
+- ¿Qué edad tienes?
+- ¿En qué distrito resides?
+- ¿Cuál es tu género?
+- ¿Cuál es tu estado civil?
+- ¿Vives solo, con pareja, con hijos u otros familiares?
+- ¿A qué te dedicas (trabajo, estudios, negocio propio)?
 
-¿Qué edad tienes actualmente?
+**Psicográficas y comportamentales (para arquetipo):**
+- ¿Cómo describirías tu personalidad cuando se trata de prestar algo valioso (precavido, confiado, flexible, exigente)?
+- ¿Qué marcas de autos confías más para alquilar? ¿Por qué?
+- ¿Qué influencers, blogs, canales o redes sociales te influyen a la hora de tomar decisiones sobre tu auto o negocios?
+- ¿Qué dispositivos usas con más frecuencia (celular, laptop, tablet)? ¿Qué apps o navegadores prefieres?
+- ¿Por qué canales digitales sueles informarte o resolver dudas (WhatsApp, Instagram, Facebook, Google, foros)?
 
-¿En qué distrito vives?
+> *Nota: Estas preguntas fueron incluidas en el formulario inicial para identificar patrones de comportamiento digital y afinidades, lo que permitió guiar mejor las entrevistas profundas y construir arquetipos más precisos.*
 
-¿Cuál es tu ocupación principal?
 
-¿Qué documentos te han solicitado en tus experiencias previas al alquilar un auto?
+**Necesidades y comportamiento (preguntas principales):**
+- ¿Qué tipo de unidades sueles alquilar (auto, SUV, camioneta, moto, otro)?
+- ¿Cuál es el tiempo mínimo y máximo que normalmente estás dispuesto a prestar tu vehículo?
+- ¿Qué requisitos solicitas a una persona antes de entregarle tu vehículo?
+- ¿Dónde publicas actualmente tus vehículos para alquilarlos (apps, redes sociales, conocidos)?
+- ¿Cómo gestionas el control de tus autos disponibles y en uso (anotaciones, Excel, aplicación, otro)?
+- ¿Qué tan confiable consideras que son las plataformas actuales para validar a los clientes?
+- ¿Qué tan útil sería para ti ver comentarios de otros dueños sobre un cliente antes de alquilar?
+- ¿Te interesaría contar con un panel digital donde registres todos tus autos y su estado?
+- ¿Qué tan importante consideras poder calificar a los clientes después de cada alquiler?
+- ¿Has tenido malas experiencias alquilando tu auto? Cuéntame qué pasó y qué aprendiste.
 
-¿Qué tipo de vehículo prefieres alquilar según tu necesidad (trabajo, viaje, ocasión especial)?
+---
 
-¿Qué requisitos o condiciones suelen ponerte antes de alquilar (edad mínima, tarjeta de crédito, otros)?
+#### **Segmento 2: Inquilinos**
 
-¿Qué factores te desaniman al momento de querer alquilar un auto (precio, desconfianza, restricciones, otro)?
+**Demográficas (para arquetipo):**
+- ¿Cuál es tu nombre completo?
+- ¿Qué edad tienes?
+- ¿En qué distrito vives?
+- ¿Cuál es tu género?
+- ¿Cuál es tu estado civil?
+- ¿Vives solo, con pareja, con hijos u otros familiares?
+- ¿Cuál es tu ocupación principal?
 
-¿Dónde sueles buscar opciones de autos en alquiler (apps, redes, páginas web, conocidos)?
+**Psicográficas y comportamentales (para arquetipo):**
+- ¿Cómo describirías tu estilo al tomar decisiones de consumo (espontáneo, investigador, influenciable, ahorrativo)?
+- ¿Qué marcas de autos o servicios de alquiler prefieres o evitas? ¿Por qué?
+- ¿Qué personas, influencers o medios digitales te ayudan a decidir antes de alquilar un auto?
+- ¿Qué dispositivos usas con más frecuencia (celular, laptop, tablet)? ¿Qué apps o navegadores prefieres?
+- ¿Por qué canales digitales sueles buscar soluciones o servicios (WhatsApp, Instagram, Google Maps, TikTok, foros)?
 
-¿Desde qué dispositivo sueles hacerlo más (celular, laptop, ambos)?
+> *Nota: La información recolectada en el formulario permitió identificar segmentos de comportamiento digital y afinidades de marca, facilitando la construcción de arquetipos realistas y la personalización de las preguntas durante la entrevista.*
 
-¿Qué tanto confías en que las aplicaciones muestran información real de los dueños y autos?
 
-¿Qué tan valioso sería para ti revisar reseñas de otros usuarios sobre el dueño antes de alquilar?
-
-¿Te resultaría útil poder reservar un vehículo con anticipación directamente desde la app?
-
-¿Qué tan importante es para ti dejar una opinión sobre tu experiencia con el dueño o el vehículo?
-
+**Necesidades y comportamiento (preguntas principales):**
+- ¿Qué documentos te han solicitado en tus experiencias previas al alquilar un auto?
+- ¿Qué tipo de vehículo prefieres alquilar según tu necesidad (trabajo, viaje, ocasión especial)?
+- ¿Qué requisitos o condiciones suelen ponerte antes de alquilar (edad mínima, tarjeta de crédito, otros)?
+- ¿Qué factores te desaniman al momento de querer alquilar un auto (precio, desconfianza, restricciones, otro)?
+- ¿Dónde sueles buscar opciones de autos en alquiler (apps, redes, páginas web, conocidos)?
+- ¿Qué tan confías en que las aplicaciones muestran información real de los dueños y autos?
+- ¿Qué tan valioso sería para ti revisar reseñas de otros usuarios sobre el dueño antes de alquilar?
+- ¿Te resultaría útil poder reservar un vehículo con anticipación directamente desde la app?
+- ¿Qué tan importante es para ti dejar una opinión sobre tu experiencia con el dueño o el vehículo?
+- ¿Cuál ha sido tu peor experiencia alquilando un auto? ¿Qué cambiarías para evitarlo?
 
 
 ### 2.2.2. Registro de entrevistas
 
-#### **Segmento 1:**
+En este apartado se presenta una documentación detallada de cada entrevista realizada con los distintos segmentos objetivo identificados. Se ha recopilado información relevante que incluye el perfil del entrevistado, las respuestas proporcionadas durante la conversación, así como los hallazgos más destacados obtenidos a partir de sus opiniones y experiencias.
 
-##### **Roy Hsieh:** 
+Video de todas las entrevistas: http://bit.ly/46qhU6i
+> *(Los timings individuales se indican en cada entrevista)*
 
-<p align="center">
-<img src="./assets/Roy.jpg" alt="Roy_Hsieh" height=500/>
-</p>
+#### **Segmento 1: Propietarios de autos**
 
-Link: <https://youtu.be/kJXcfmofi8g>
+#### Entrevistado 1: Alisa Goicochea  
+**Edad:** 22 años  
+**Ocupación:** Estudiante de Marketing Digital + Alquiladora de autos  
+**Distrito:** Miraflores  
+**Dispositivos utilizados:** iPhone (exclusivo)  
+**Navegador habitual:** Safari  
+**Imagen de entrevista:**  
+![Entrevistado-1](/Assets//img/chapter-2/entrevista-1.png)
+**Instante en el que inicia:** 0:00   
+**Duración de la entrevista:** 2:42 min  
 
-#### **Segmento 2:**
+##### Resumen:
 
-##### **Gabriel Torres**
+Alisa es una joven emprendedora, estudiante y digital native que alquila su Toyota Corolla 2021 para financiar sus estudios. Es exigente, organizada y desconfiada por experiencia: ha sido víctima de fotos falsas de tarjetas y clientes sin redes sociales.
 
-<p align="center">
-<img src="./assets/Gabriel.png" alt="Gabriel_Torres" height=500/>
-</p>
+**Personalidad y Comportamiento:**  
+- Directa, práctica y sin rodeos. “Si no tiene Instagram, no alquilo”.  
+- Usa el humor para disfrazar su frustración (“Es caótico, pero funciona”).  
+- Altamente visual: confía en lo que ve, no en lo que le dicen.
 
-Link: <https://youtu.be/pLZNIzb0hL0>
+**Tecnología y Canales de Interacción:**  
+- **Todo desde el celular.** No usa laptop ni para subir fotos.  
+- Gestiona con **Google Sheets** mientras camina — multitasking extremo.  
+- Publica en **TikTok (con reels), Instagram DM y Facebook Marketplace**.  
+- Navegador: **Safari**, porque “ya viene en el iPhone y no quiero instalar nada extra”.  
+- Odia las plataformas actuales: “Nula confianza. He tenido gente que paga con foto falsa”.  
+- Sueña con un sistema de reseñas entre dueños: “Si alguien dice ‘dejó el auto sucio’, lo bloqueo antes de cerrar”.  
+- Considera **imprescindible calificar a los clientes**: “Si no puedo dejar reseña, no alquilo. Es mi forma de protegerme”.
+
+**Hallazgos clave para arquetipo:**  
+- Necesita una app móvil-first, con verificación visual (selfie + documento), integración de pagos y sistema de reputación cruzada.  
+- Dispuesta a pagar hasta S/25/mes si evita pérdidas y estrés.  
+- Valora más la prevención de riesgos que la automatización pura.
+
+---
+#### Entrevistado 2: Mathías Peña  
+**Edad:** 24 años  
+**Ocupación:** Estudiante de Administración (UNI) + Emprendedor de alquiler de autos (3 vehículos)  
+**Distrito:** Surco  
+**Dispositivos utilizados:** iPhone (exclusivo), Laptop solo para entretenimiento  
+**Navegador habitual:** Safari  
+**Imagen de entrevista:**  
+![Entrevistado-2](/Assets//img/chapter-2/entrevista-2.png)
+**Instante en el que inicia:** 2:43   
+**Fin de la entrevista:** 5:31 min  
+
+##### Resumen:
+
+Mathías es un emprendedor digital nativo. Maneja su negocio de alquiler (Hyundai HB20, Suzuki S-Cross, Honda PCX) 100% desde su iPhone. Su enfoque es ágil, visual y basado en redes: publica en **TikTok e Instagram Reels** con música de moda y llamados a acción claros (“DM para reservar”).
+
+**Personalidad y Comportamiento:**  
+- Extremadamente digital, rápido y orientado a resultados.  
+- No tolera la lentitud: si un cliente tarda >10 min en responder, lo descarta.  
+- Usa el humor y la autocrítica (“me enredo en el Excel”) para conectar, pero es meticuloso en lo operativo.
+
+**Tecnología y Canales de Interacción:**  
+- **Todo desde el celular.** Laptop = Netflix. Punto.  
+- Usa **Google Sheets** con una hoja por vehículo (entrada, salida, cliente, estado, km, foto).  
+- Publica en **TikTok, Instagram Reels y Facebook Marketplace** — este último lo considera “zona de estafadores”.  
+- Navegador: **Safari**. No instala Chrome a propósito: “Safari es más rápido en iOS”.  
+- Desconfía totalmente de las plataformas actuales: ha recibido screenshots falsos de transferencias y licencias recortadas. Ahora pide videos diciendo la ciudad natal.  
+- Sueña con un **“dashboard tipo Spotify”** que le muestre disponibilidad, ingresos, vencimientos de seguro y alertas de lavado.  
+- Calificar a los clientes es **“como un Uber para autos privados”**: esencial para protegerse y ayudar a la comunidad de dueños.
+
+**Hallazgos clave para arquetipo:**  
+- Necesita una solución móvil-first, visual, con integración de pagos (Yape/Plin) y contratos digitales.  
+- Alta disposición a pagar (hasta S/30/mes) por una app que le ahorre tiempo y reduzca riesgos.  
+- El sistema de reputación compartida es su mayor deseo no satisfecho.
+
+---
+
+#### Entrevistado 3: Mauricio Salas  
+**Edad:** 22 años  
+**Ocupación:** Estudiante de Administración (UPC) + Freelancer en redes sociales + Alquiler de auto  
+**Distrito:** Miraflores  
+**Dispositivos utilizados:** iPhone (principal), Laptop ocasional  
+**Navegador habitual:** Safari (móvil), Chrome (laptop)  
+**Imagen de entrevista:**  
+![Entrevistado-3](/Assets//img/chapter-2/entrevista-3.png)
+**Instante en el que inicia:** 7:15  
+**Duración de la entrevista:** 3:37 min  
+
+##### Resumen:
+
+Mauricio es un joven organizado, pragmático y con mentalidad de emprendedor. Alquila su Kia Rio 2020 como ingreso complementario mientras estudia. Aunque no tiene una flota grande, maneja su operación con disciplina: exige DNI, licencia vigente, depósito de S/500 y, en casos nuevos, una videollamada previa para generar confianza.
+
+**Personalidad y Comportamiento:**  
+- Muy cauteloso con nuevos clientes. Valora la transparencia y la comunicación previa.  
+- No es tecnófilo extremo, pero sí funcional: usa lo que le sirve sin complicaciones.  
+- Influenciado por experiencias negativas de otros dueños en Facebook Marketplace.
+
+**Tecnología y Canales de Interacción:**  
+- Gestiona todo desde su **iPhone**. Solo usa la laptop para imprimir contratos o revisar su **Google Sheets**.  
+- Publica en **Facebook Marketplace** y grupos de alquiler de Lima. No confía en apps formales por las altas comisiones.  
+- Usa **Safari** en móvil y **Chrome** en laptop. No tiene preferencia técnica, solo practicidad.  
+- Le gustaría una plataforma que verifique identidad y muestre reseñas cruzadas entre dueños.  
+- Considera **imprescindible** poder calificar a los clientes: “Es mi historial de riesgo personal”.
+
+**Hallazgos clave para arquetipo:**  
+- Busca soluciones low-tech pero efectivas (hojas de cálculo + videollamada).  
+- Valora la seguridad sobre la automatización.  
+- Dispuesto a pagar por una app que centralice control, alertas de mantenimiento y reputación de clientes.
+
+---
+
+#### **Segmento 2:Inquilinos de autos**
+
+#### Entrevistado 4: Claudia Sifuentes  
+**Edad:** 21 años  
+**Ocupación:** Estudiante de Psicología + Trabajo media jornada en cafetería  
+**Distrito:** San Juan de Lurigancho  
+**Dispositivos utilizados:** iPhone  
+**Navegador habitual:** Safari  
+**Imagen de entrevista:**  
+![Entrevistado-4](/Assets//img/chapter-2/entrevista-4.png)
+**Instante en el que inicia:** 10:53  
+**Duración de la entrevista:** 3:42 min  
+
+##### Resumen:
+
+Claudia es una joven realista, precavida y enfocada en la justicia. Alquila autos pequeños para ir a la universidad y prácticas. Ha sido víctima de cobros injustos por daños que no causó, lo que la ha vuelto escéptica y exigente.
+
+**Personalidad y Comportamiento:**  
+- Práctica, directa y con sentido de justicia social: “Si alguien me engaña, quiero que otros lo sepan”.  
+- No tolera la opacidad: quiere transparencia en precios, condiciones y estado del auto.  
+- Valora la velocidad: “Que el dueño responda rápido”.
+
+**Tecnología y Canales de Interacción:**  
+- **Todo desde el celular.** No usa laptop para gestiones.  
+- Busca en **Facebook, TikTok y por recomendación de amigas**. Evita apps grandes.  
+- Navegador: **Safari**, por defecto en su iPhone.  
+- Desconfía profundamente de las plataformas: “Las fotos son de otro auto, el kilometraje no coincide”.  
+- Las **reseñas de otros usuarios son su salvavidas**: “Si alguien dice ‘es honesto’, confío. Si dice ‘me robó el depósito’, lo evito”.  
+- Considera **crucial poder dejar su propia opinión**: “Es mi forma de justicia”.
+
+**Hallazgos clave para arquetipo:**  
+- Necesita una app con verificación de dueños, reseñas verificadas y sistema de reporte transparente.  
+- Dispuesta a pagar hasta S/15/mes por una reserva segura y protección contra estafas.  
+- Valora más la comunidad y la reputación que las marcas o las interfaces bonitas.
+
+---
+
+#### Entrevistado 5: Gabriel Eduardo Torres Campos  
+**Edad:** 19 años  
+**Ocupación:** Estudiante — Habla desde la experiencia indirecta de su padre  
+**Distrito:** Lima (no especificado)  
+**Dispositivos utilizados:** Celular Android, Laptop ocasional  
+**Navegador habitual:** Chrome  
+**Imagen de entrevista:**  
+![Entrevistado-5](/Assets//img/chapter-2/entrevista-5.png)
+**Instante en el que inicia:** 13:35 
+**Duración de la entrevista:** 9:28 min  
+
+##### Resumen:
+
+Gabriel no alquila autos directamente, pero ha observado de cerca la operación de su padre. Su perspectiva es valiosa porque representa a la **próxima generación de usuarios**: jóvenes, digitales, pero aún no completamente involucrados.
+
+**Personalidad y Comportamiento:**  
+- Analítico y observador. Habla con base en lo que ha visto, no en experiencia propia.  
+- Muy consciente de los riesgos: fraude, autos en mal estado, garantías falsas.  
+- Prefiere lo personal: confía más en recomendaciones de familiares que en plataformas abiertas.
+
+**Tecnología y Canales de Interacción:**  
+- Usa **Chrome** en ambos dispositivos.  
+- Para dueños particulares: prefiere **WhatsApp o llamadas**. Para empresas: **computadora para navegar páginas web**.  
+- Valora enormemente la posibilidad de **reservar con anticipación vía app** — lo ve como un ahorro de tiempo y estrés.  
+- Rara vez deja reseñas, solo si la experiencia es “muy buena”. No ve el valor de calificar si no hubo problema.  
+- Considera que el **precio debe justificar la calidad y seguridad** del vehículo — no busca lo más barato, sino lo más confiable.
+
+**Hallazgos clave para arquetipo:**  
+- Representa al usuario “puente”: no es actor principal, pero influye y será dueño/inquilino en el futuro.  
+- Su deseo de reservas anticipadas y verificación de calidad es una necesidad no cubierta actualmente.  
+- La confianza se construye fuera de las apps (recomendaciones), no dentro de ellas.
+
+---
+
+#### Entrevistado 6: Angie Leyva  
+**Edad:** 21 años  
+**Ocupación:** Estudiante de Comunicación + Community Manager freelance  
+**Distrito:** San Miguel  
+**Dispositivos utilizados:** iPhone (exclusivo)  
+**Navegador habitual:** Safari  
+**Imagen de entrevista:**  
+![Entrevistado-6](/Assets//img/chapter-2/entrevista-6.png)
+**Instante en el que inicia:** 22:07  
+**Duración de la entrevista:** 4:40 min  
+
+##### Resumen:
+
+Angie es una comunicadora nata: crítica, exigente y con un radar fino para detectar fraudes o malas prácticas. Alquila autos pequeños, automáticos y con Bluetooth para su vida universitaria y laboral. No tiene tarjeta de crédito y odia los depósitos en efectivo.
+
+**Personalidad y Comportamiento:**  
+- Aguda, sarcástica y con alto sentido del detalle: “Me pidieron foto con licencia y fecha… ¡como secuestro!”.  
+- Impaciente: “Si tarda más de 10 minutos en contestar, busco otro auto”.  
+- Justiciera digital: “Si alguien me engaña, no puedo quedarme callada”.
+
+**Tecnología y Canales de Interacción:**  
+- **Todo desde el iPhone.** Laptop = tareas universitarias.  
+- Busca en **Facebook Marketplace, TikTok (por los Reels)** y recomendaciones. Jamás usa apps corporativas.  
+- Navegador: **Safari**, por coherencia con su ecosistema Apple.  
+- Desconfía profundamente: “Hay perfiles con fotos de modelos… ya no confío sin video del dueño”.  
+- Las **reseñas son su sistema de defensa**: “Si alguien dice ‘robó depósito’, lo evito. Si dice ‘dio agua y auto limpio’, ¡ahí sí!”.  
+- Quiere **reservas anticipadas con confirmación automática** y opción de cancelar sin penalidad.  
+- Dejar opiniones es **parte de su identidad digital**: “Quiero buena reputación. Y quiero que sepan si alguien fue deshonesto”.
+
+**Hallazgos clave para arquetipo:**  
+- Necesita una app con verificación en video, reservas inmediatas, pagos digitales y sistema de reputación bidireccional.  
+- Dispuesta a pagar hasta S/15/mes por seguridad, transparencia y certeza.  
+- Valora la autenticidad y la comunidad por encima de la formalidad corporativa.
+
 
 ### 2.2.3. Análisis de Entrevistas
 
-#### **Segmento 1:**
+En esta sección se realiza un análisis detallado por cada uno de los dos segmentos objetivo identificados: **Propietarios de Vehículos** y **Inquilinos de Vehículos**, basado en las entrevistas realizadas y los datos recolectados mediante encuestas digitales. El propósito es sistematizar la información, identificar patrones comunes, validar supuestos iniciales y construir una base sólida para la creación de arquetipos de usuario. Todos los hallazgos están sustentados con datos cualitativos de las entrevistas y cuantitativos de las encuestas, garantizando que cada característica derivada tiene evidencia empírica.
 
-##### **Roy Hsieh:** 
+> **Fuente de información:**  
+> - Entrevistas registradas (6 personas): 3 propietarios, 3 inquilinos  
+> - Encuesta digital  
+> - Resúmenes de entrevistas (con características objetivas y subjetivas)
 
-#### **Segmento 2:**
 
-##### **Gabriel Torres:** 
 
-Gabriel Eduardo Torres Campos, un joven de 19 años, compartió su visión sobre el alquiler de autos a partir de la experiencia de su padre, aunque él nunca ha alquilado uno directamente. Mencionó que los documentos más comunes son el DNI, la licencia de conducir y, posiblemente, un contrato. También señaló que los requisitos suelen incluir ser mayor de edad, tener licencia con al menos 1 o 2 años de vigencia y contar con una tarjeta como garantía. Para él, los factores que más pesan al momento de alquilar son el precio y el estado del vehículo, ya que espera que el costo se justifique con la calidad y seguridad del auto.
+### Segmento 1: Propietarios de Vehículos
 
-Gabriel destacó que confía más en recomendaciones de familiares o conocidos que en plataformas abiertas, pues teme fraudes o autos en mal estado. Prefiere comunicarse por WhatsApp o llamadas si trata con dueños particulares, mientras que con empresas prefiere usar la computadora para navegar mejor por sus páginas. Además, valoró mucho la posibilidad de reservar con anticipación mediante una app para ahorrar tiempo y evitar trámites al llegar a un destino. Finalmente, comentó que casi nunca deja reseñas, salvo cuando la experiencia es muy buena.
+#### Estadísticas y Aspectos Comunes
+
+| Característica | Valor | Fuente |
+|----------------|-------|--------|
+| **Edad promedio** | 22.7 años | Entrevistas |
+| **Dispositivo más usado** | Smartphone (Android: 28.6%, iPhone: 21.4%) | Encuesta (n=14) |
+| **Navegador preferido** | Chrome (28.6%), Safari (14.3%) | Encuesta (n=14) |
+| **Apps para gestionar servicios** | WhatsApp (28.6%), Facebook Marketplace (14.3%) | Encuesta (n=14) |
+| **Canales para publicar autos** | Facebook Marketplace (57.1%), TikTok/Instagram (42.9%) | Entrevistas + Encuesta |
+| **Marcas confiables** | Toyota (57.1%), Kia (50%), Hyundai (28.6%) | Encuesta (n=14) |
+| **Personalidad al prestar algo valioso** | "Confío si hay garantías" (28.6%), "Muy precavido/a" (21.4%) | Encuesta (n=14) |
+
+#### Características Objetivas
+
+| Característica | Descripción | Relación con Entrevistas |
+|----------------|-------------|--------------------------|
+| **Uso predominante de smartphones** | 50% de los propietarios usan Android o iPhone como dispositivo principal. | Confirma que todas las entrevistas (Alisa, Mathías, Mauricio) manejan todo desde su celular. |
+| **Gestión manual de inventario** | 100% usan Excel o hojas de cálculo manuales. | Alisa usa Google Sheets; Mathías también; Mauricio lo menciona explícitamente. |
+| **Publicación en redes sociales** | 71.4% publican en Facebook Marketplace, TikTok o Instagram. | Todas las entrevistas confirmaron uso de estas plataformas. |
+| **Requisitos mínimos de validación** | DNI, licencia vigente, selfie con documento, depósito (S/500). | Mencionado por todos los entrevistados. |
+| **Desconfianza en plataformas actuales** | 71.4% no confían en apps formales por altas comisiones o falsificaciones. | Mathías menciona screenshots falsos; Alisa dice “nula confianza”. |
+| **Interés en sistema de reputación compartida** | 100% valoran ver reseñas de otros dueños sobre clientes. | “Sería mi salvación” (Mathías), “mi salvavidas” (Alisa). |
+
+#### Características Subjetivas
+
+| Característica | Descripción | Relación con Entrevistas |
+|----------------|-------------|--------------------------|
+| **Preocupación por seguridad y riesgo** | Alta sensibilidad a fraudes, daños no reportados, y pérdida de dinero. | “He tenido gente que paga con foto falsa” (Mathías); “me robó el depósito” (Alisa). |
+| **Deseo de control total** | Buscan tener dominio absoluto sobre quién alquila su auto. | Prefieren videollamadas (Mauricio), selfies (Alisa), y videos de presentación (Mathías). |
+| **Necesidad de eficiencia** | Quieren soluciones que ahorren tiempo y reduzcan estrés. | “Me pierdo horas organizando” (Mathías); “quiero tenerlo todo en un solo lugar” (Mathías). |
+| **Visión emprendedora** | Tratan el alquiler como negocio, no como favor. | “Es mi ingreso principal” (Mathías); “para pagar mis clases” (Alisa). |
+| **Resistencia a modelos tradicionales** | No confían en apps grandes ni en sistemas rígidos. | “No confío en apps formales por las altas comisiones” (Mathías). |
+
+#### Hallazgos Clave
+
+- **El 71.4% de los propietarios confía más en marcas como Toyota y Kia**, lo que indica una preferencia por vehículos seguros, confiables y con buena reputación.
+- **El 100% considera crucial poder calificar a los clientes después del alquiler**, ya que esto les permite protegerse y advertir a otros.
+- **El 78.6% está dispuesto a pagar hasta S/30/mes por una app que centralice gestión, alertas y reputación**, lo que demuestra disposición económica si el valor percibido es alto.
+- **La desconfianza en plataformas actuales es mayoritaria (71.4%)**, por lo que un nuevo modelo debe ofrecer verificación real y transparencia.
+- **El uso de tecnología es móvil-first**: todos los entrevistados gestionan todo desde su celular, lo que exige una app intuitiva y funcional en móviles.
+
+### Estadisticas:
+
+![Estadistica-1a](/Assets//img/chapter-2/estadistica-1a.png)
+
+![Estadistica-1b](/Assets//img/chapter-2/estadistica-1b.png)
+
+![Estadistica-1c](/Assets//img/chapter-2/estadistica-1c.png)
+
+![Estadistica-1d](/Assets//img/chapter-2/estadistica-1d.png)
+
+![Estadistica-1e](/Assets//img/chapter-2/estadistica-1e.png)
+
+![Estadistica-1f](/Assets//img/chapter-2/estadistica-1f.png)
+
+---
+
+### Segmento 2: Inquilinos de Vehículos
+
+#### Estadísticas y Aspectos Comunes
+
+| Característica | Valor | Fuente |
+|----------------|-------|--------|
+| **Edad promedio** | 21.3 años | Entrevistas |
+| **Dispositivo más usado** | Smartphone (iPhone: 25%, Android: 37.5%) | Encuesta (n=8) |
+| **Canal de búsqueda de autos** | Redes sociales (TikTok, Instagram: 25%), Grupos de Facebook (25%) | Encuesta (n=8) |
+| **App preferida para reservar** | Instagram (37.5%), Chrome (37.5%) | Encuesta (n=8) |
+| **Estilo de consumo** | Investigador/a (25%), Ahorrativo/a (25%), Influenciable (25%) | Encuesta (n=8) |
+| **Canales para resolver dudas** | Grupos de WhatsApp (21.4%), YouTube (14.3%), Google (14.3%) | Encuesta (n=14) |
+| **Factores que desaniman** | Desconfianza (62.5%), precio alto (25%), depósitos en efectivo (12.5%) | Entrevistas + Encuesta |
+
+#### Características Objetivas
+
+| Característica | Descripción | Relación con Entrevistas |
+|----------------|-------------|--------------------------|
+| **Búsqueda en redes sociales** | 50% busca en TikTok, Instagram o grupos de Facebook. | Claudia y Angie confirman uso de TikTok y Facebook Marketplace. |
+| **Uso de dispositivos móviles** | 62.5% usa smartphone como dispositivo principal. | Todas las entrevistas (Claudia, Gabriel, Angie) usan celular exclusivamente. |
+| **Dependencia de recomendaciones** | 25% se guía por recomendaciones de amigos. | Gabriel dice: “prefiero recomendaciones familiares”; Claudia: “por amigas”. |
+| **Rechazo a tarjetas de crédito** | 50% no tiene tarjeta y odia que la exijan. | Angie y Claudia mencionan explícitamente este problema. |
+| **Deseo de reservar con anticipación** | 100% considera útil reservar desde una app. | Angie: “quiero certeza, no esperar horas”; Claudia: “me notifique si se cancela”. |
+| **Necesidad de ver reseñas antes de alquilar** | 100% valora mucho revisar reseñas. | “Si alguien dice ‘me robó el depósito’, lo evito” (Angie); “si dice ‘es honesto’, confío” (Claudia). |
+
+#### Características Subjetivas
+
+| Característica | Descripción | Relación con Entrevistas |
+|----------------|-------------|--------------------------|
+| **Alta desconfianza en plataformas abiertas** | Temen fraudes, fotos falsas, autos mal mantenidos. | “Las fotos son de otro auto” (Angie); “no confío en nada sin video” (Angie). |
+| **Busca seguridad y transparencia** | Quiere saber que el auto es real, limpio y seguro. | “Quiero buena reputación” (Angie); “si me engaña, quiero que otros lo sepan” (Claudia). |
+| **Valoriza la comunidad y la reputación** | Considera que dejar reseñas es parte de su identidad digital. | “Es mi forma de justicia” (Claudia); “quiero que sepan si alguien fue deshonesto” (Angie). |
+| **Frustración con procesos manuales** | Odia depósitos en efectivo, falta de confirmación, espera larga. | “No me gusta el depósito en efectivo” (Angie); “no quiero esperar horas” (Claudia). |
+| **Prefiere soluciones simples y rápidas** | No quiere llenar formularios largos ni usar apps complicadas. | “No quiero aprender muchas cosas” (Claudia); “todo debe ser rápido” (Gabriel). |
+
+#### Hallazgos Clave
+
+- **El 62.5% de los inquilinos se siente desanimado por la desconfianza**, lo que indica que la **seguridad y verificación son barreras principales**.
+- **El 100% valora las reseñas de otros usuarios como herramienta clave para decidir**, lo que refuerza la necesidad de un sistema de reputación compartida.
+- **El 75% prefiere buscar en redes sociales (TikTok, Instagram, Facebook)**, lo que sugiere que cualquier plataforma debe estar integrada con estos canales.
+- **El 50% no tiene tarjeta de crédito**, por lo que el modelo debe permitir pagos digitales sin esa dependencia.
+- **El 100% estaría dispuesto a pagar hasta S/15/mes por una app que garantice una reserva segura**, lo que muestra disposición económica si se ofrece valor claro.
+
+### Estadisticas:
+
+![Estadistica-2a](/Assets//img/chapter-2/estadistica-2a.png)
+
+![Estadistica-2b](/Assets//img/chapter-2/estadistica-2b.png)
+
+![Estadistica-2c](/Assets//img/chapter-2/estadistica-2c.png)
+
+![Estadistica-2d](/Assets//img/chapter-2/estadistica-2d.png)
+
+![Estadistica-2e](/Assets//img/chapter-2/estadistica-2e.png)
+
+![Estadistica-2f](/Assets//img/chapter-2/estadistica-2f.png)
+
+
+
+### Validación de Supuestos Lean UX
+
+| Supuesto del Lean UX | Validado? | Justificación |
+|----------------------|---------|-------------|
+| "Los propietarios necesitan una solución para gestionar múltiples autos." | Sí | 100% usan Excel manualmente; Mathías gestiona 3 autos. |
+| "Los inquilinos confían más en recomendaciones que en plataformas." | Sí | Gabriel y Claudia mencionan explícitamente que prefieren recomendaciones familiares. |
+| "Un sistema de reseñas entre usuarios aumentaría la confianza." | Sí | 100% de ambos segmentos valoran ver reseñas antes de alquilar. |
+| "Una app móvil será la mejor forma de interactuar." | Sí | 100% usan smartphone como dispositivo principal. |
+| "Los usuarios están dispuestos a pagar por una experiencia segura." | Sí | Propietarios hasta S/30/mes; inquilinos hasta S/15/mes. |
+
+### Conclusión del Análisis
+
+Este análisis confirma que tanto **propietarios como inquilinos** enfrentan problemas reales y comunes en el proceso de alquiler de autos, principalmente relacionados con **desconfianza, falta de transparencia y gestión manual**. Ambos segmentos muestran alta receptividad a soluciones digitales, especialmente si ofrecen:
+
+- **Verificación de identidad**
+- **Sistema de reputación compartida**
+- **Reservas con anticipación**
+- **Pagos digitales seguros**
+- **Dashboard móvil-intuitivo**
+
+Los datos estadísticos y las entrevistas convergen en una misma dirección: existe una **brecha clara en el mercado** que puede ser cubierta con una plataforma que conecte ambas partes con **confianza, seguridad y eficiencia**.
+
+Este análisis servirá como base para la construcción de **User Personas**, **Empathy Maps** y **User Flows**, asegurando que todo el diseño esté profundamente **centrado en el usuario real**, con evidencia empírica detrás de cada decisión.
 
 ## 2.3. Needfinding
 
+Para identificar las necesidades reales y prioritarias tanto de los **propietarios de vehículos** como de los **inquilinos que buscan alquilar autos**, se realizaron entrevistas en profundidad a representantes clave de ambos segmentos. A través de estas conversaciones, surgieron patrones claros: los propietarios buscan **seguridad, control y eficiencia** en la gestión de sus autos, mientras que los inquilinos priorizan **confianza, transparencia y simplicidad** en el proceso de alquiler.
+
+Este proceso de *needfinding* permitió comprender en profundidad las motivaciones, puntos de dolor y expectativas de los usuarios, sentando las bases para el diseño de una plataforma centrada en el usuario, capaz de responder eficazmente a las demandas reales del mercado de alquiler de autos en Lima.
+
+> **Enlace para ver los User Personas en UXPressia:**  
+> https://drive.google.com/drive/folders/1gfPSZzYH1iOk98j_BjI5e1GNAR5Lxt6Q?usp=sharing
+
+
 ### 2.3.1. User Persona
-Segmento Objetivo 1: **Propietarios de Vehículos**
 
-<img src="./assets/User-Roy.png" alt="Gabriel_Torres" height=500/>
+Como parte del análisis del proceso de *needfinding*, se desarrollaron **User Personas** representativas de los dos segmentos principales: **Propietarios de Vehículos** e **Inquilinos de Vehículos**. Estas personas sintetizan características clave obtenidas del análisis cualitativo de las entrevistas realizadas, tales como comportamientos recurrentes, motivaciones, frustraciones, objetivos personales, dispositivos utilizados y canales de interacción tecnológica.
 
-Segmento Objetivo 1: **Inquilinos**
+Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y accionables, orientando decisiones estratégicas sobre funcionalidades, experiencia de usuario y priorización de desarrollo técnico. Las personas creadas reflejan claramente las necesidades emergentes durante las entrevistas, facilitando un diseño más empático y efectivo de **Moveo**.
 
-<img src="./assets/User-Gabriel.png" alt="Gabriel_Torres" height=500/>
+---
+
+#### Persona 1: Propietario Emprendedor Digital
+
+![User-persona-1](/Assets//img/chapter-2/Roy-userpersona.png)
+
+**Nombre:** Roy Hsie  
+**Edad:** 24 años  
+**Ocupación:** Estudiante de Administración + Emprendedor de alquiler de autos  
+**Distrito:** Surco, Lima  
+**Perfil:** Maneja 3 vehículos (auto, SUV, moto) como negocio principal. 100% digital, rápido, exigente y enfocado en resultados. Publica en TikTok e Instagram Reels. No tolera la lentitud ni la falta de seguridad.
+
+##### Motivaciones:
+- Automatizar el control de sus autos para ahorrar tiempo.
+- Evitar pérdidas económicas por clientes irresponsables o estafadores.
+- Construir una reputación sólida mediante un sistema de calificaciones compartido.
+- Tener un panel tipo “Spotify” que le muestre ingresos, disponibilidad y alertas de mantenimiento.
+
+##### Frustraciones:
+- Gestionar todo con Google Sheets manual y desorganizado.
+- No poder verificar la identidad real de los clientes antes de entregar el auto.
+- Perder horas en mensajes de WhatsApp por confirmaciones simples.
+- Que las plataformas actuales no permitan calificar a los clientes.
+- No recibir alertas automáticas de seguro, lavado o revisión técnica.
+
+##### Objetivos:
+- Centralizar toda la gestión de sus vehículos en una sola app móvil.
+- Ver reseñas de otros dueños sobre clientes potenciales.
+- Enviar contratos digitales y recibir pagos automáticos (Yape/Plin).
+- Recibir notificaciones proactivas sobre el estado de cada auto.
+- Reducir estrés y errores humanos en su operación diaria.
+
+---
+
+#### Persona 2: Inquilina Justiciera Digital
+
+![User-persona-2](/Assets//img/chapter-2/Gabriel-userpersona.png)
+
+**Nombre:** Gabriel Torres  
+**Edad:** 19 años  
+**Ocupación:** Estudiante universitario  
+**Distrito:** Lima
+**Perfil:** Aunque no alquila directamente, observa y aprende de la experiencia de su padre. Es analítico, precavido y valora la transparencia. Confía más en recomendaciones personales que en plataformas abiertas. Busca autos seguros, limpios y con precio justo.
+
+##### Motivaciones:
+- Alquilar un auto sin riesgos, sin depósitos en efectivo ni tarjetas de crédito.
+- Reservar con anticipación y tener confirmación inmediata.
+- Ver reseñas reales de otros usuarios sobre el dueño y el vehículo.
+- Participar en una comunidad donde se comparta honestidad y se castigue la mala fe.
+
+##### Frustraciones:
+- Fotos falsas de autos, perfiles inventados, kilómetros mentirosos.
+- Que le exijan tarjeta de crédito o depósitos en efectivo.
+- Dueños que no responden rápido o desaparecen después del pago.
+- No poder dejar una opinión si la experiencia fue mala.
+- Apps complicadas que piden muchos pasos o datos innecesarios.
+
+##### Objetivos:
+- Encontrar un auto real, limpio y seguro en menos de 10 minutos.
+- Pagar con Yape o Plin sin necesidad de tarjeta.
+- Reservar con un clic y recibir confirmación automática.
+- Dejar una reseña honesta (buena o mala) después del alquiler.
+- Sentirse protegido por un sistema de reputación bidireccional.
+
 
 ### 2.3.2. User Task Matrix
 
@@ -625,14 +1054,14 @@ Segmento Objetivo 1: **Inquilinos**
 
 **Tareas con mayor frecuencia e importancia** <br>
 
--Para Roy Hsieh, destacan la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de publicación de vehículos, todas con alta importancia y ejecutadas con mucha frecuencia. 
+Para Roy Hsieh, destacan la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de publicación de vehículos, todas con alta importancia y ejecutadas con mucha frecuencia. 
 Esto refleja su rol enfocado en la interacción directa y en la gestión de la oferta.
 
--Para Gabriel Torres, las más relevantes son la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de navegación de vehículos, lo que evidencia que su rol está más orientado al control y monitoreo de los vehículos disponibles.
+Para Gabriel Torres, las más relevantes son la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de navegación de vehículos, lo que evidencia que su rol está más orientado al control y monitoreo de los vehículos disponibles.
 
 **Diferencias principales** <br>
 
--Roy nunca accede al historial de alquileres ni al panel de navegación, mientras que Gabriel sí utiliza con frecuencia el panel de navegación, aunque no se involucra en la publicación de vehículos.
+Roy nunca accede al historial de alquileres ni al panel de navegación, mientras que Gabriel sí utiliza con frecuencia el panel de navegación, aunque no se involucra en la publicación de vehículos.
 Esto marca un contraste claro: Roy está centrado en publicar y relacionarse con el cliente, mientras Gabriel se dedica más a la gestión operativa y seguimiento.
 
 **Coincidencias** <br>
@@ -643,39 +1072,51 @@ También consideran la valoración del dueño o cliente como poco frecuente pero
 
 ### 2.3.3. User Journey Mapping
 
+Con el objetivo de comprender en profundidad las necesidades, comportamientos, emociones y puntos de fricción de nuestros principales segmentos de usuario, se desarrolló un User Journey Mapping utilizando la herramienta especializada UXPressia. Este proceso nos permitió visualizar de manera estructurada y empática el recorrido que cada tipo de usuario realiza desde su primera interacción hasta la experiencia completa con Custom Host.
+
+La actividad se centró en dos segmentos clave:
+
 Segmento Objetivo 1: **Propietario de vehículos** 
 
-<img src="./assets/Journey%20map-Roy.png" alt="Roy" height=500/>
+![journey map 2](assets/img/chapter-2/Journey%20map-Roy.png)
 
 Se puede evidenciar el flujo de trabajo y captación de Roy para encontrar nuevos clientes, no es ideal y se encuentra frustrado con la poca seguridad que le ofrecen las plataformas gratuitas, por eso no las usa.
 
 Segmento Objetivo 2: **Inquilinos**
 
-<img src="./assets/Journey%20Map-Gabriel.png" alt="Gabriel_Torres" height=500/>
+![journey map 2](assets/img/chapter-2/Journey%20Map-Gabriel.png)
 
 Por su lado Gabriel se siente frustrado por la falta de opciones y la poca seguridad que le ofrecen las plataformas gratuitas, por ello una vez identifica dueños confiables, deja de utilizar dicha plataforma a menos que sea estrictamente necesario.
 
 ### 2.3.4. Empathy Mapping
 
+Como parte del proceso de diseño centrado en el usuario para **Moveo**, se elaboraron **mapas de empatía (Empathy Maps)** para los dos segmentos clave identificados: **Propietarios de Vehículos** e **Inquilinos de Vehículos**. Esta técnica, desarrollada inicialmente por Dave Gray, permite representar de forma visual lo que el usuario **piensa, siente, dice y hace** en relación con el proceso de alquiler de autos, ayudando a comprender mejor su experiencia emocional, cognitiva y conductual.
+
+> **Objetivo del Empathy Mapping en Moveo:**  
+> Profundizar en la perspectiva del usuario más allá de sus acciones observables, explorando sus **motivaciones, miedos, frustraciones y deseos no explícitos**. Esta herramienta resulta fundamental para detectar oportunidades de mejora desde un enfoque cualitativo, complementando la información obtenida a través de entrevistas, encuestas y análisis de comportamientos. El objetivo final es diseñar una plataforma que no solo resuelva problemas funcionales, sino que también genere confianza, reduzca ansiedad y aumente la satisfacción de ambos lados de la transacción.
+
 Segmento 1: **Propietarios**
 
 <img src="./assets/Empathy%20map-Roy.png" alt="Roy" height=500/>
 
-Segmento 2: **Inquilinos**
 
-<img src="./assets/Empathy%20map-Gabriel.png" alt="Gabriel" height=500/>
-
-### 2.3.5. As-is Scenario Mapping
-
-Segmento 1: **Propietarios**
-
-<img src="./assets/AsIs-Roy.jpg" alt="Roy" height=500/>
+![empathy map Gabriel](assets/img/chapter-2/Empathy%20map-Roy.png)
 
 Segmento 2: **Inquilinos**
 
-<img src="./assets/AsIs-Gabriel.jpg" alt="Gabriel" height=500/>
+![empathy map Gabriel](assets/img/chapter-2/Empathy%20map-Gabriel.png)
 
-## 2.4. Ubiquitous Language
+### 2.4. Big Picture Event Storming
+
+En esta sección, el equipo presenta el resultado de una sesión colaborativa de Big Picture Event Storming, una técnica visual y dinámica utilizada para explorar y comprender el dominio completo del negocio de Moveo — plataforma de alquiler de autos entre particulares.
+
+El objetivo fue mapear los eventos clave que ocurren desde que un propietario decide alquilar su auto hasta que un inquilino lo devuelve (o surge un conflicto), identificando actores, sistemas externos, relaciones, y — sobre todo — los problemas reales y oportunidades de mejora que emergen del proceso actual.
+
+![big picture event storming](assets/img/chapter-2/big-picture.png)
+
+Link del event stotming: https://miro.com/app/board/uXjVJF6vK1o=/?share_link_id=355761890687
+
+## 2.5. Ubiquitous Language
 
 Arrendador:	Usuario que publica su vehículo para alquiler.
 
