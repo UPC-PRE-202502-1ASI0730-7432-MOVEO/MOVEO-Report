@@ -928,8 +928,100 @@ A continuación, se detallan los aspectos definidos y los roles asignados:
 > *Nota: Todos los miembros del equipo participaron activamente en todos los aspectos, pero se designó un líder por área para facilitar la toma de decisiones y la trazabilidad del trabajo.*
 
 ### 5.2.1.3. Sprint Backlog 1.
+
+A continuación, se presenta el **Sprint Backlog para Sprint 1**, que contiene las User Stories seleccionadas del Product Backlog para la primera iteración del proyecto **Moveo**. Este sprint se enfoca en el desarrollo de la **Landing Page**, con el objetivo de convertir a los visitantes anónimos en usuarios interesados y registrados.
+
+El enfoque de este sprint es **completar la experiencia del usuario en la página web**, asegurando que todos los elementos clave estén funcionales, visualmente atractivos y alineados con las necesidades identificadas en el *needfinding*. Las tareas están asignadas a roles técnicos (Frontend, UX/UI, QA) y estimadas en horas de trabajo.
+
+> **Duración del Sprint:** 2 semanas  
+> **Objetivo del Sprint:** Entregar una Landing Page funcional, completa y lista para pruebas de usabilidad.
+
+
+### Sprint Backlog – Sprint 1
+
+| Sprint # | Sprint 1 |
+|----------|---------|
+| **User Story** | **Work-Item / Task** |
+
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| --- | --- | --- | --- |--- | --- | ---| ---|
+| HU22 | Ver propuesta de valor clara en la página principal | T01 | Diseñar wireframe de Hero Section | Crear estructura básica del header y hero con CTA, imagen y texto principal. | 4 | UX/UI | Done |
+|  |  | T02 | Desarrollar mock-up de Hero Section | Implementar diseño final con tipografía, colores y animaciones. | 6 | UX/UI | Done |
+|  |  | T03 | Codificar Hero Section en HTML/CSS | Implementar el componente en el frontend con responsividad. | 8 | Frontend | Done |
+|  |  | T04 | Validar diseño en diferentes dispositivos | Probar en móvil, tablet y desktop. | 2 | QA | Done |
+| HU01 | Ver beneficios del alquiler entre particulares | T05 | Diseñar wireframe de sección "Beneficios" | Definir estructura de cards con iconos y texto. | 3 | UX/UI | Done |
+|  |  | T06 | Desarrollar mock-up de sección "Beneficios" | Ajustar diseño visual y jerarquía. | 4 | UX/UI | Done |
+|  |  | T07 | Codificar sección "Beneficios" | Implementar en frontend con grid y hover effects. | 6 | Frontend | Done |
+|  |  | T08 | Validar funcionalidad y accesibilidad | Revisar contraste, etiquetas y navegación por teclado. | 2 | QA | Done |
+| HU02 | Leer testimonios de usuarios reales | T09 | Diseñar wireframe de sección "Testimonios" | Estructurar tarjetas con foto, nombre, rol y texto. | 3 | UX/UI | Done |
+|  |  | T10 | Desarrollar mock-up de sección "Testimonios" | Ajustar espaciado, tipografía y efectos visuales. | 4 | UX/UI | Done |
+|  |  | T11 | Codificar sección "Testimonios" | Implementar con JavaScript para carrusel automático. | 7 | Frontend | Done |
+|  |  | T12 | Validar interacción del carrusel | Probar en móviles y navegadores. | 2 | QA | Done |
+| HU24 | Entender el proceso de alquiler paso a paso | T13 | Diseñar wireframe de sección "Cómo funciona" | Crear flujo visual de 4 pasos (propietario e inquilino). | 3 | UX/UI | Done |
+|  |  | T14 | Desarrollar mock-up de sección "Cómo funciona" | Integrar ilustraciones y texto claro. | 4 | UX/UI | Done |
+|  |  | T15 | Codificar sección "Cómo funciona" | Implementar con SVGs y animaciones suaves. | 6 | Frontend | Done |
+|  |  | T16 | Validar legibilidad y claridad del flujo | Revisar con usuarios de prueba. | 2 | QA | Done |
+| HU25 | Resolver dudas comunes sin contactar soporte | T17 | Diseñar wireframe de sección "FAQ" | Organizar preguntas por categorías (registro, pagos, seguros). | 3 | UX/UI | Done |
+|  |  | T18 | Desarrollar mock-up de sección "FAQ" | Ajustar diseño con acordeones y espacio. | 4 | UX/UI | Done |
+|  |  | T19 | Codificar sección "FAQ" | Implementar acordeones con JavaScript. | 6 | Frontend | Done |
+|  |  | T20 | Validar funcionalidad de acordeones | Probar en todos los dispositivos. | 2 | QA | Done |
+| HU23 | Conocer quiénes están detrás de MOVEO | T21 | Diseñar wireframe de sección "Equipo" | Estructurar tarjetas de perfil con foto, nombre y rol. | 3 | UX/UI | Done |
+|  |  | T22 | Desarrollar mock-up de sección "Equipo" | Ajustar diseño visual y hover effects. | 4 | UX/UI | Done |
+|  |  | T23 | Codificar sección "Equipo" | Implementar con responsive grid. | 6 | Frontend | Done |
+|  |  | T24 | Validar carga de imágenes y rendimiento | Optimizar tamaño de fotos. | 2 | QA | Done |
+| HU26 | Comprender cómo se manejan mis datos | T25 | Diseñar wireframe de sección "Privacidad" | Estructurar texto claro sobre políticas. | 2 | UX/UI | Done |
+|  |  | T26 | Desarrollar mock-up de sección "Privacidad" | Ajustar tipografía y jerarquía. | 3 | UX/UI | Done |
+|  |  | T27 | Codificar sección "Privacidad" | Implementar con HTML y CSS. | 4 | Frontend | Done |
+|  |  | T28 | Validar contenido legal y acceso | Revisar con equipo jurídico. | 2 | QA | Done |
+| HU27 | Navegar entre secciones sin perderme | T29 | Diseñar wireframe de navegación principal | Definir menú de top navigation y footer. | 2 | UX/UI | Done |
+|  |  | T30 | Desarrollar mock-up de navegación | Ajustar colores, íconos y hover. | 3 | UX/UI | Done |
+|  |  | T31 | Codificar navegación y footer | Implementar en todo el sitio. | 6 | Frontend | Done |
+|  |  | T32 | Validar funcionalidad de enlaces | Probar todos los links internos. | 2 | QA | Done |
+| HU04 | Contactar al soporte desde la web | T33 | Diseñar wireframe de formulario de contacto | Definir campos: nombre, correo, mensaje. | 2 | UX/UI | Done |
+|  |  | T34 | Desarrollar mock-up de formulario | Ajustar diseño y estados (hover, focus). | 3 | UX/UI | Done |
+|  |  | T35 | Codificar formulario de contacto | Implementar con validación en frontend. | 5 | Frontend | Done |
+|  |  | T36 | Validar envío de formulario | Probar con correo real. | 2 | QA | Done |
+
+
+![foto sprint 1 trello](assets/chapter-5/sprint-1-trello.png)
+
+---
+
+### Estado Final del Sprint 1
+
+Todos los Work Items han sido completados y verificados. La Landing Page está lista para:
+
+- Publicación en producción.
+- Pruebas de usabilidad con usuarios reales.
+- Retroalimentación para el siguiente sprint (Sprint 2).
+
+> **Enlace al tablero de Kanban (Trello):**  
+> https://trello.com/invite/b/68cadfc6522d6e70b99bc770/ATTI815bae5b644b5c6391738b77b5030a1888137C3C/moveo-apps-web
+
+Este sprint ha sentado las bases para el crecimiento de Moveo, asegurando que el primer punto de contacto con el usuario sea claro, confiable y convincente.
+
 ### 5.2.1.4. Development Evidence for Sprint Review.
+
+
 ### 5.2.1.5. Execution Evidence for Sprint Review.
+
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+En este sprint, se completó el desarrollo del landing page, al ser landing page no se requiere de documentación de servicios.
+
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+En el este sprint, se completó el desarrollo del landing page y se utilizó un conjunto de herramientas para su despliegue:
+
+- Git: Utilizado como sistema de control de versiones para facilitar el trabajo en equipo durante el desarrollo del
+landing page.
+- GitFlow: Implementado como flujo de trabajo para gestionar el progreso individual de cada miembro del equipo en el
+desarrollo del landing page.
+- GitHub: Empleado como plataforma colaborativa para almacenar las versiones del proyecto y facilitar el desarrollo
+conjunto del equipo.
+- Netlify: Utilizado como plataforma para automatizar la hospedaje y despliegue del landing page, especialmente diseñada
+para sitios web estáticos.
+
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de ramas permitió que cada miembro del equipo trabajara en una parte del proyecto sin interferir en el trabajo de los demás. Al terminar cada 'feature' se comprueba que no tenga conflictos con la rama principal y se procede a hacer un 'pull request' para que se integre con la rama principal. A continuación, se muestra una imagen de la colaboración del equipo en GitHub.
