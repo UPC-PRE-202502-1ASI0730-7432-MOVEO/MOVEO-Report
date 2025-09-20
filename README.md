@@ -1137,9 +1137,8 @@ A continuación, se presenta la lista de fuentes, herramientas, plataformas y re
   *Evidencia audiovisual del proceso de needfinding y validación de supuestos.*
 
 - **Videos de expo grupal**  
+  Link:https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EdJ_Z3Fz6bJPq3Gr6gcDWfsB9o_eRQXAQ9ODNCXJ3AsjyQ?e=0SXfoj
   
-  
-
 
 - **UXPressia**  
   *Herramienta empleada para la creación de User Personas y Empathy Maps basados en datos reales de entrevistas.*
