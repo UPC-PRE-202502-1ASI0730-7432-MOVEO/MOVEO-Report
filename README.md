@@ -1705,24 +1705,454 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 *Modelo entidad-relación (ERD) de la base de datos. Tablas principales: users, cars, bookings, payments, reviews, documents, notifications. Muestra claves primarias, foráneas, índices y relaciones (1:1, 1:N, N:M). Optimizado para consultas de reserva, reputación y reportes.*
 
 # Capítulo V: Product Implementation, Validation & Deployment
+
+En este último capítulo, abordaremos la puesta en marcha, la verificación y la liberación de nuestro proyecto, detallando los pasos clave y las decisiones adoptadas para su completa ejecución.
+
 ## 5.1. Software Configuration Management.
+
+A lo largo del desarrollo del proyecto, aplicaremos las siguientes normas o convenciones con el fin de garantizar la coherencia y uniformidad en todas las etapas:
+
+| Contexto | Convención |
+|----------|------------|
+| El nombre de archivos creados en el proyecto | Todos los archivos se nombrarán en minúsculas, utilizando guiones bajos o puntos para separar componentes (ej. `user-service.cs`, `config.json`). |
+| Convención de nomenclatura | Las propiedades de un objeto se nombrarán en `PascalCase`, las funciones y variables en `lowerCamelCase`, y las clases también en `PascalCase`. |
+| Convención de estructura de código | Se organizará el proyecto en carpetas lógicas por módulos (ej. `Models/`, `Services/`) para facilitar la navegación y el mantenimiento. |
+| Convención de estilos de codificación | Seguir las convenciones de codificación de Microsoft C#, es decir usar espacios en blanco para mejorar legibilidad, convenciones de nombre para clases, funciones, constantes; y también usar nombres claros o lógicos para variables. |
+| Convención de documentación | Todo el código relevante —especialmente funciones complejas, clases y APIs— debe estar documentado con comentarios claros, concisos y actualizados. Los comentarios deben explicar el “por qué”, no solo el “qué”. |
+| Convención de control de versiones | Se utilizará el flujo de trabajo **Git Flow** junto con las convenciones de **Conventional Commits**. Todos los mensajes de commit estarán en inglés y seguirán el formato: `<type>(<scope>): <description>`. Ejemplos: <ul><li>`feat(auth): add email validation`</li><li>`fix(login): resolve session timeout bug`</li><li>`chore(deps): update Newtonsoft.Json to v13.0.3`</li></ul> Las ramas se organizarán como: `main` (estable), `develop` (integración), y ramas de características (`feature/`), correcciones (`bugfix/`) o hotfixes (`hotfix/`). Cada cambio se desarrolla en una rama independiente y se fusiona mediante pull request revisado por al menos un compañero. |
+| Convención de gestión de dependencias | En el caso de C# usaremos el administrador de paquetes NuGet. Para el caso de Javascript usaremos Node.JS. |
+| Convención de pruebas | Utilizar comentarios descriptivos y claros para explicar el propósito del test y codigo. |
+| Convención de seguridad |Encriptar las contraseñas de los usuarios con distintos algoritmos. Implementar sistema de autenticación seguro para proteger el acceso al sistema. Instalar librerías para validar la información ingresada por el usuario en los formularios. |
+| Convención de colaboración y comunicación | <ul><li>Se utilizará **Discord** como plataforma principal  para llamadas o reuniones.</li><li>Se realizarán reuniones semanales sincrónicas para revisar avances, resolver bloqueos y compartir aprendizajes.</li><li>Se fomentará una cultura de retroalimentación constructiva, colaboración activa y aprendizaje mutuo a partir de errores y mejores prácticas.</li></ul> |
 
 ### 5.1.1. Software Development Environment Configuration.
 
+En esta sección, se explican los softwares utilziados para el desarrollo de nuestra solución.
+
+
+|Nombre de Producto|Descripción|Propósito de Uso|Categoría|Ruta Descarga o Link|
+|---|---|---|---|---|
+| Vue 3                   | Framework progresivo de JavaScript para construir interfaces de usuario modernas y reactivas. Vue 3 introduce mejoras significativas en rendimiento, tamaño del bundle y reactividad con el sistema de reactividad basado en Proxy. Ideal para SPAs y aplicaciones escalables.                           | Nuestro propósito de uso es desarrollar interfaces frontend dinámicas, modulares y altamente interactivas, aprovechando la simplicidad de Vue, su ecosistema robusto (Vue Router, Pinia, Vite) y su integración fluida con herramientas modernas de desarrollo, permitiendo un ciclo de desarrollo ágil y mantenible. | Software Development    | https://vuejs.org/                            |
+| Microsoft .NET          | Plataforma de desarrollo gratuita, multiplataforma y de código abierto para construir aplicaciones web, móviles, de escritorio, microservicios y APIs. Compatible con Windows, Linux y macOS. Incluye bibliotecas, lenguajes y herramientas para todo el ciclo de vida del desarrollo.                  | Nuestro propósito de uso es construir servicios backend robustos, escalables y de alto rendimiento utilizando .NET 8 (o superior), aprovechando su soporte para APIs REST, gRPC, Entity Framework Core y su integración nativa con Azure, garantizando productividad y estabilidad en entornos empresariales.      | Software Development    | https://dotnet.microsoft.com/download         |
+| C#                      | Lenguaje de programación moderno, orientado a objetos y de tipado estático, desarrollado por Microsoft como parte de la plataforma .NET. Es conocido por su claridad, seguridad y potencia para construir desde aplicaciones simples hasta sistemas empresariales complejos.                            | Nuestro propósito de uso es implementar la lógica de negocio de nuestros servicios backend con C# 12 (o superior), aprovechando sus características avanzadas (record types, pattern matching, async/await) para escribir código limpio, mantenible y eficiente dentro del ecosistema .NET.                         | Software Development    | Incluido en .NET SDK: https://dotnet.microsoft.com/download |
+| JetBrains WebStorm      | IDE especializado en desarrollo web moderno, con soporte integral para JavaScript, TypeScript, Vue, React, Node.js, HTML/CSS y herramientas de depuración, linting y refactorización inteligente.                                                                                                        | Nuestro propósito de uso es desarrollar interfaces frontend complejas con Vue 3 y TypeScript, aprovechando su autocompletado avanzado, navegación rápida, integración con terminal y debugging en tiempo real, sin necesidad de plugins adicionales.                                                              | Software Development    | https://www.jetbrains.com/webstorm/           |
+| Postman                 | Plataforma colaborativa para diseñar, probar, documentar y monitorear APIs. Ofrece colecciones, entornos, pruebas automáticas, mocks, documentación dinámica y soporte para MCP (Model Context Protocol) para IA.                                                                                          | Nuestro propósito de uso es validar endpoints de nuestros servicios .NET, crear y mantener documentación actualizada, compartir colecciones con el equipo, y automatizar pruebas de integración y regresión, eliminando la dependencia de herramientas externas.                                                  | Software Development    | https://www.postman.com/downloads/ \| https://identity.getpostman.com/login — Disponible como app de escritorio y SaaS. |
+| UXPressia               | Plataforma visual para crear mapas de experiencia del usuario (journey maps), personas y servicios, con plantillas profesionales, exportación a PDF/PPTX y vinculación con datos en tiempo real.                                                                                                           | Nuestro propósito de uso es comprender y comunicar de forma visual el recorrido del usuario, identificar puntos de dolor, alinear equipos no técnicos y fundamentar decisiones de diseño con evidencia centrada en el cliente.                                                                                       | Product UX/UI Design    | https://uxpressia.com/                        |
+| Lucidchart              | Plataforma de diagramación visual con soporte para IA, diagramas C4, arquitectura de sistemas, flujos de proceso, ERD, org charts y más. Permite colaboración en tiempo real e integración con Jira, Confluence, Notion, etc.                                                                                 | Nuestro propósito de uso es documentar y comunicar la arquitectura del sistema mediante diagramas claros, visuales y actualizables, facilitando la comprensión entre desarrolladores, testers y stakeholders no técnicos.                                                                                            | Product UX/UI Design    | https://www.lucidchart.com/                   |
+| Structurizr             | Herramienta basada en "diagramas como código" (Diagrams as Code) para modelar arquitecturas de software según el modelo C4. Usa DSL para definir elementos, relaciones y vistas, generando diagramas interactivos automáticamente.                                                                           | Nuestro propósito de uso es documentar nuestra arquitectura de manera sistemática, reproducible y mantenible, siguiendo el modelo C4, y generar automáticamente diagramas de contexto, contenedores, componentes y código, integrados con nuestro repositorio.                                                       | Software Documentation  | https://structurizr.com/                      |
+| JetBrains Toolbox App   | Aplicación centralizada para gestionar, actualizar y ejecutar múltiples IDEs de JetBrains (Rider, WebStorm, IntelliJ, etc.) en paralelo, con soporte para EAP, Canary, actualizaciones automáticas y apertura rápida de proyectos.                                                                          | Nuestro propósito de uso es administrar de forma unificada nuestras herramientas de desarrollo (Rider para .NET, WebStorm para frontend), mantener versiones estables y experimentales simultáneamente, y evitar instalaciones manuales o conflictos entre versiones.                                              | Software Development    | https://www.jetbrains.com/es-es/toolbox-app/ — Instala y gestiona Rider, WebStorm y otros IDEs de JetBrains. |
+| Git                     | Sistema de control de versiones distribuido creado por Linus Torvalds, fundamental para el seguimiento de cambios, colaboración en equipo y gestión de ramas en proyectos de software.                                                                                                                    | Nuestro propósito de uso es llevar un historial confiable de todos los cambios en el código, facilitar la colaboración entre desarrolladores, gestionar ramas de característica y corrección, y permitir el rollback seguro ante errores.                                                                          | Software Development    | https://git-scm.com/downloads — Se instala localmente; se usa junto con GitHub para colaboración remota. |
+| GitHub                  | Plataforma de desarrollo colaborativo basada en Git, que permite gestionar repositorios, realizar pull requests, revisiones de código, seguimiento de issues y alojar documentación. Esencial para workflows ágiles y CI/CD.                                                                               | Nuestro propósito de uso es centralizar el código, facilitar la revisión colaborativa, gestionar ramas de desarrollo y correción, y actuar como fuente única de verdad para el ciclo de vida del producto digital, sin usar GitHub Desktop.                                                                       | Software Development    | https://github.com/ — Plataforma SaaS. No se instala; se accede exclusivamente por web. |
+| MySQL                   | Sistema de gestión de bases de datos relacional (RDBMS) de código abierto, ampliamente utilizado en producción. Ofrece alta disponibilidad, seguridad y rendimiento para aplicaciones empresariales.                                                                                                       | Nuestro propósito de uso es almacenar, consultar y gestionar datos estructurados de forma confiable, escalable y segura, utilizando MySQL Server 8.0 como base de datos principal para servicios backend.                                                                                                            | Software Development    | https://www.mysql.com/ \| https://dev.mysql.com/downloads/installer/ — Se puede usar localmente (installer) o en la nube (MySQL HeatWave). |
+| MySQL Installer         | Asistente gráfico para instalar MySQL Server, MySQL Workbench y otros componentes en Windows. Único instalador oficial para MySQL 8.0 y versiones anteriores. A partir de MySQL 8.1, se recomienda usar MSI o Zip directamente.                                                                            | Nuestro propósito de uso es facilitar la instalación y configuración inicial de MySQL Server y herramientas asociadas (como Workbench) en entornos locales de desarrollo, garantizando una configuración correcta y consistente entre miembros del equipo.                                                              | Software Development    | https://dev.mysql.com/downloads/installer/ — Solo para MySQL 8.0 y versiones anteriores. Para nuevas versiones, usar MSI/ZIP. |
+| MySQL Workbench         | Herramienta visual de diseño, desarrollo y administración de bases de datos MySQL. Permite crear modelos E/R, ejecutar consultas SQL, gestionar usuarios y sincronizar esquemas.                                                                                                                          | Nuestro propósito de uso es diseñar y modificar el esquema de la base de datos de forma visual, generar scripts SQL, y ejecutar consultas de prueba y validación durante el desarrollo de servicios backend.                                                                                                        | Software Development    | Incluido en: https://dev.mysql.com/downloads/installer/ — No se instala por separado si ya se usa el instalador completo. |
+| Postman CLI / Newman    | Herramientas de línea de comandos para ejecutar colecciones de Postman en entornos de CI/CD. Newman es compatible con Jenkins, GitHub Actions, etc. El CLI de Postman permite validar APIs, hacer lints y autenticación programática.                                                                     | Nuestro propósito de uso es integrar pruebas de API en pipelines de integración continua (CI), asegurar calidad automática en cada commit, y validar contratos de API sin intervención manual.                                                                                                                       | Software Deployment     | https://learning.postman.com/docs/developer/postman-cli/ \| https://github.com/postmanlabs/newman — Se instalan vía npm (`npm install -g newman postman`) |
+
+
 ### 5.1.2. Source Code Management.
 
+En esta sección se describe el esquema de control de versiones adoptado para el seguimiento y gestión del código fuente del proyecto digital, utilizando GitHub como plataforma centralizada de colaboración y almacenamiento. El repositorio se organiza bajo un flujo de trabajo basado en GitFlow, conforme al modelo propuesto por Vincent Driessen (“A successful Git branching model”), garantizando un desarrollo estructurado, escalable y colaborativo.
+
+El repositorio principal del proyecto se encuentra en:
+ https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-Report
+
+Además, se han definido repositorios independientes para cada componente del sistema, según su funcionalidad:
+
+Landing Page: https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-Landing
+
+
+#### Estructura de Ramas (GitFlow)
+Se implementa el siguiente modelo de ramas:
+
+- **main**: Rama estable y productiva. Contiene solo código desplegable y verificado. Solo se actualiza mediante merge desde develop tras revisión y pruebas completas.
+- **develop**: Rama de integración principal. Todas las funcionalidades se fusionan aquí antes de ser liberadas a main. Es la base desde la cual se crean todas las ramas de característica.
+
+- **feature/**: Ramas temporales para el desarrollo de nuevas funcionalidades. Cada capítulo del proyecto se desarrolla en una rama independiente, siguiendo la convención:
+
+- feature/chapter-{número}-{descripción-en-minusculas-con-guiones}
+
+Ejemplos: 
+
+- feature/chapter-1-introduction
+- feature/chapter-2-requirements-elicitation-and-analysis
+- feature/chapter-3-requirements-specification
+- feature/chapter-4-product-design
+- feature/chapter-5-product-implementation-validation-and-deployment
+
+Estas ramas se crean desde develop, y al finalizar su desarrollo, se someten a pull request para su fusión en develop, previa revisión de código y ejecución de pruebas.
+
+- **release/**: Ramas temporales creadas cuando se prepara una versión estable para lanzamiento (ej. `release/v1.0.0`). Se utilizan para hacer ajustes finales, correcciones de documentación o pruebas de regresión antes de fusionar a `main`. No se usan activamente en este proyecto académico por su naturaleza iterativa, pero se mantienen como parte del modelo GitFlow completo.
+
+- **hotfix/**: Ramas creadas para corregir errores críticos en producción (`main`) sin esperar a que `develop` esté listo. Ejemplo: `hotfix/login-bug-fix`. Estas ramas se crean desde `main`, se corrigen, se prueban y se fusionan de vuelta a `main` y `develop`. En este proyecto no se han utilizado, pero se definen por cumplimiento del estándar.
+
+
+#### Conventional Commits:
+
+Todos los commits dentro de las ramas de características siguen el estándar Conventional Commits, con el siguiente formato:
+
+" < tipo >(< alcance >): < descripción breve> "
+
+Ejemplos válidos:
+
+- feat(chapter-2): add user role definitions in requirements document
+- fix(chapter-5): resolve API timeout in authentication endpoint
+- docs(chapter-4): update architecture diagram in README.md
+- test(chapter-3): add integration test for requirement validation
+
+Este formato permite generar changelogs automáticos, facilitar revisiones y mantener un historial limpio y comprensible.
+
+#### Semantic Versioning
+
+Las versiones del software se gestionan bajo **Semantic Versioning 2.0.0** (`MAJOR.MINOR.PATCH`), siguiendo el estándar definido en [semver.org](https://semver.org/):
+
+- **MAJOR** (x.0.0): Cambios que rompen compatibilidad (no aplicables en este proyecto académico).  
+- **MINOR** (0.x.0): Nuevas funcionalidades agregadas sin romper compatibilidad (ej. `v1.1.0`).  
+- **PATCH** (0.0.x): Correcciones de errores sin nuevas funcionalidades (ej. `v1.0.1`).  
+
+Se establece como práctica futura que cada release final se etiquete en GitHub como un **tag** con formato `vX.Y.Z` (por ejemplo, `v1.0.0`). Aunque este proyecto no genera releases formales, se adopta SemVer para garantizar coherencia y preparación para entornos reales.
+
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+El equipo de Moveo adopta estrictamente las convenciones de codificación estandarizadas por la industria para garantizar coherencia, legibilidad y mantenibilidad en todos los lenguajes utilizados en el proyecto. Todas las identificaciones —variables, funciones, clases, archivos, rutas y comentarios— se realizan en **inglés**, siguiendo las guías oficiales de cada tecnología. A continuación, se detallan las convenciones aplicadas por lenguaje, junto con las referencias adoptadas:
+
+| Lenguaje | Referencia Adoptada | Convenciones Aplicadas |
+|----------|---------------------|------------------------|
+| **HTML** | HTML Style Guide and Coding Conventions: https://google.github.io/styleguide/htmlcssguide.html   | Uso de minúsculas, indentación de 2 espacios, atributos entre comillas dobles, elementos semánticos (`<header>`, `<main>`, `<section>`, `<article>`, `<nav>`), nombres de clases e IDs en `kebab-case` (ej. `patient-card`, `login-button`). Se prioriza accesibilidad mediante atributos `alt`, `aria-*` y estructura lógica. |
+| **CSS** | Google HTML/CSS Style Guide: https://google.github.io/styleguide/htmlcssguide.html   | Nombres de clases en `kebab-case` (ej. `btn-primary`, `card-vertical`), uso de BEM-like naming para modularidad (`block__element--modifier`), orden alfabético de propiedades, comentarios en inglés para estilos complejos, evitación de selectores profundos o anidados. |
+| **JavaScript / TypeScript** | Google TypeScript Style Guide: https://google.github.io/styleguide/jsguide.html   | Uso de `const` y `let` en lugar de `var`, funciones flecha (`() => {}`), desestructuración, módulos ES6 (`import/export`), nombres en `lowerCamelCase` (ej. `getPatientById`, `validateEmail`), tipado explícito, y programación funcional inmutable. Estructura por capas: `components/`, `services/`, `models/`, `utils/`. |
+| **Vue 3** | Vue 3 Style Guide: https://vuejs.org/style-guide/   | Uso de componentes en `PascalCase` (ej. `PatientCard.vue`), archivos en `kebab-case` (ej. `patient-card.vue`), Single File Components (SFC) con secciones `<script setup>`, `<template>`, `<style scoped>`. Uso de Composition API, nombres de props y emits en `kebab-case`, variables reactivas con `ref()` o `reactive()`, y funciones en `lowerCamelCase`. Evitar `v-if` con `v-for`, usar `key` en listas, y mantener componentes pequeños y reutilizables. |
+| **C#** | Microsoft C# Coding Conventions: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions   | Nombres de clases, interfaces y métodos en `PascalCase` (ej. `PatientService`, `GetMedicalRecordAsync`), variables locales y parámetros en `lowerCamelCase` (ej. `patientId`, `emailAddress`), constantes en `PascalCase` (ej. `MaxPatientAge`), uso de `async/await` para operaciones asíncronas, anotaciones de nulabilidad (`string?`, `int value = 0`), y comentarios XML para documentación pública (`/// <summary>...</summary>`). Evitar `var` cuando el tipo no es obvio. |
+| **Microsoft .NET** | .NET Coding Conventions: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/   | Estructura de proyecto por capas: `Controllers/`, `Services/`, `Repositories/`, `Models/`, `DTOs/`. Uso de Dependency Injection nativo, configuración en `appsettings.json`, validación con `FluentValidation` o atributos de Data Annotations (`[Required]`, `[EmailAddress]`), manejo de errores con `ProblemDetails` y middleware centralizado. Uso de Entity Framework Core con convenciones de nombres de tablas en plural y propiedades en `PascalCase`. |
+
+Además, se aplica **Conventional Commits** para los mensajes de Git, en inglés, con formato:  
+`<tipo>(<alcance>): <descripción breve>`  
+Ejemplo:  
+- `docs(chapter-2): update user stories diagram in README`
+
+Todas las convenciones son validadas automáticamente mediante herramientas integradas en el pipeline de CI/CD: **Prettier** (frontend), **Spotless** (backend), **ESLint** y **Checkstyle**, asegurando consistencia en cada commit. La adopción del **inglés como idioma oficial** en todo el código, documentación y comunicación técnica garantiza claridad global, reutilización de bibliotecas y preparación para entornos profesionales internacionales.
 
 ### 5.1.4. Software Deployment Configuration.
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
+
+Esta sección explica la metodología de Sprints implementada durante el desarrollo del proyecto, evidenciando el proceso iterativo de implementación, pruebas, documentación y despliegue del Landing Page, Web Services y Frontend Web Applications. Una vez definido el Product Backlog, el equipo organizó el trabajo en sprints semanales de una duración fija, donde cada ciclo se centró en entregar un conjunto mínimo viable de funcionalidades priorizadas. Cada Sprint incluyó planificación diaria, ejecución colaborativa mediante Discord para comunicación ágil, revisión de avances y retroalimentación continua. Al final de cada Sprint, se generó evidencia tangible: código commitado, pruebas automatizadas, documentación actualizada y demos funcionales, asegurando transparencia, calidad y progreso constante hacia la entrega final del producto digital.
+
 ## 5.2.1. Sprint 1
+
+
+Este Sprint se centró en el desarrollo inicial de la Landing Page de Moveo y en la estructuración del informe técnico del proyecto, estableciendo las bases visuales, funcionales y documentales del producto digital. Se priorizó la creación de una primera versión funcional y accesible de la página de inicio, junto con la organización del repositorio, la definición de convenciones de código y la preparación de la documentación inicial del proyecto. Todo ello bajo un enfoque colaborativo y ágil, garantizando coherencia entre el producto y su descripción técnica desde el primer día.
+
 ### 5.2.1.1. Sprint Planning 1.
+
+
+A continuación, se detallan los aspectos principales del Sprint Planning Meeting realizado para el Sprint 1.
+
+| **Sprint #**| **Sprint 1** |
+|--- | ---|
+| ***Sprint Planning Background***  |  |
+| **Date** | 2025-09-06 |
+| **Time** | 14:00 PM (GMT-5) | 
+| **Location** | Reunión virtual por Discord (Lima, Perú) |
+| **Prepared By**  | Andreow Santiago |
+| **Attendees (to planning meeting)** | Andreow Santiago, Gianfranco Luna , Carlos De La Cruz Villarreal, Franco Huang Liu, Sebastian Zuñiga | 
+| **Sprint n – 1 Review Summary** | No aplica. Este es el primer sprint del proyecto; no existe un Sprint anterior. |
+| **Sprint n – 1 Retrospective Summary** | No aplica. Este es el primer sprint del proyecto; no existe un Sprint anterior. |
+| ***Sprint Goal & User Stories*** | |
+| **Sprint 1 Goal** | Our focus is on delivering a professional, responsive, and accessible landing page for Moveo that clearly communicates the project’s purpose and value proposition. We believe it delivers first impressions of professionalism and clarity to stakeholders, educators, and future users. This will be confirmed when the landing page is deployed on Netlify, accessible via public URL, and includes all agreed content sections with semantic HTML, CSS/Bootstrap styling, and documented source code in the repository. |
+| **Sprint 1 Velocity** | 8 | 
+| **Sum of Story Points** | 8 |
+
 ### 5.2.1.2. Aspect Leaders and Collaborators.
+
+En esta sección se presentan los principales aspectos funcionales y técnicos abordados durante el Sprint 1 del desarrollo de Moveo. Cada aspecto corresponde a un componente crítico del alcance del sprint, dividido en dos pilares fundamentales: **desarrollo de la Landing Page** y **estructuración del informe técnico del proyecto**. 
+
+Para cada aspecto, se ha asignado un **Líder (L)**, quien asumió la responsabilidad principal de su diseño, implementación o coordinación técnica; y uno o más **Colaboradores (C)**, quienes participaron activamente en la ejecución, revisión, pruebas o soporte. Esta matriz LACX (Leadership and Collaboration Matrix) permite visualizar de manera clara y estructurada la distribución de responsabilidades dentro del equipo, promoviendo la trazabilidad del trabajo colaborativo realizado durante el Sprint.
+
+A continuación, se detallan los aspectos definidos y los roles asignados:
+
+| Team Member (Last Name, First Name) | GitHub Username | LP | ID | IN | DO | RI |
+|-----------------------------------|-----------------|----|----|----|----|----|
+| Andreow Santiago                  | andrews5738     | L  | C  | C  | C  | C  |
+| Gianfranco Luna                   | --------------- | C  | L  | C  | C  | C  |
+| Carlos De La Cruz Villarreal      | --------------- | C  | C  | L  | C  | C  |
+| Franco Huang Liu                  | --------------- | C  | C  | C  | L  | C  |
+| Sebastian Zuñiga                  | --------------- | C  | C  | C  | C  | L  |
+
+**Legenda de Aspectos:**
+- **LP**: Landing Page Implementation — Desarrollo de la página principal con HTML, CSS, Bootstrap y estructura semántica.
+- **ID**: Interface Design & Figma Alignment — Traducción del diseño visual de Figma a código frontend, consistencia de colores, tipografía y espaciado.
+- **IN**: Informe Técnico — Elaboración, estructuración y redacción del informe del proyecto (documentación de arquitectura, convenciones, sprints).
+- **DO**: Deployment & Hosting — Configuración y despliegue de la Landing Page en Netlify, verificación de URL pública y acceso.
+- **RI**: Repository Initialization — Configuración inicial del repositorio en GitHub, organización de carpetas, archivos README.md, .gitignore y convenciones de código.
+
+> *Nota: Todos los miembros del equipo participaron activamente en todos los aspectos, pero se designó un líder por área para facilitar la toma de decisiones y la trazabilidad del trabajo.*
+
 ### 5.2.1.3. Sprint Backlog 1.
+
+A continuación, se presenta el **Sprint Backlog para Sprint 1**, que contiene las User Stories seleccionadas del Product Backlog para la primera iteración del proyecto **Moveo**. Este sprint se enfoca en el desarrollo de la **Landing Page**, con el objetivo de convertir a los visitantes anónimos en usuarios interesados y registrados.
+
+El enfoque de este sprint es **completar la experiencia del usuario en la página web**, asegurando que todos los elementos clave estén funcionales, visualmente atractivos y alineados con las necesidades identificadas en el *needfinding*. Las tareas están asignadas a roles técnicos (Frontend, UX/UI, QA) y estimadas en horas de trabajo.
+
+> **Duración del Sprint:** 2 semanas  
+> **Objetivo del Sprint:** Entregar una Landing Page funcional, completa y lista para pruebas de usabilidad.
+
+
+### Sprint Backlog – Sprint 1
+
+| Sprint # | Sprint 1 |
+|----------|---------|
+| **User Story** | **Work-Item / Task** |
+
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| --- | --- | --- | --- |--- | --- | ---| ---|
+| HU22 | Ver propuesta de valor clara en la página principal | T01 | Diseñar wireframe de Hero Section | Crear estructura básica del header y hero con CTA, imagen y texto principal. | 4 | UX/UI | Done |
+|  |  | T02 | Desarrollar mock-up de Hero Section | Implementar diseño final con tipografía, colores y animaciones. | 6 | UX/UI | Done |
+|  |  | T03 | Codificar Hero Section en HTML/CSS | Implementar el componente en el frontend con responsividad. | 8 | Frontend | Done |
+|  |  | T04 | Validar diseño en diferentes dispositivos | Probar en móvil, tablet y desktop. | 2 | QA | Done |
+| HU01 | Ver beneficios del alquiler entre particulares | T05 | Diseñar wireframe de sección "Beneficios" | Definir estructura de cards con iconos y texto. | 3 | UX/UI | Done |
+|  |  | T06 | Desarrollar mock-up de sección "Beneficios" | Ajustar diseño visual y jerarquía. | 4 | UX/UI | Done |
+|  |  | T07 | Codificar sección "Beneficios" | Implementar en frontend con grid y hover effects. | 6 | Frontend | Done |
+|  |  | T08 | Validar funcionalidad y accesibilidad | Revisar contraste, etiquetas y navegación por teclado. | 2 | QA | Done |
+| HU02 | Leer testimonios de usuarios reales | T09 | Diseñar wireframe de sección "Testimonios" | Estructurar tarjetas con foto, nombre, rol y texto. | 3 | UX/UI | Done |
+|  |  | T10 | Desarrollar mock-up de sección "Testimonios" | Ajustar espaciado, tipografía y efectos visuales. | 4 | UX/UI | Done |
+|  |  | T11 | Codificar sección "Testimonios" | Implementar con JavaScript para carrusel automático. | 7 | Frontend | Done |
+|  |  | T12 | Validar interacción del carrusel | Probar en móviles y navegadores. | 2 | QA | Done |
+| HU24 | Entender el proceso de alquiler paso a paso | T13 | Diseñar wireframe de sección "Cómo funciona" | Crear flujo visual de 4 pasos (propietario e inquilino). | 3 | UX/UI | Done |
+|  |  | T14 | Desarrollar mock-up de sección "Cómo funciona" | Integrar ilustraciones y texto claro. | 4 | UX/UI | Done |
+|  |  | T15 | Codificar sección "Cómo funciona" | Implementar con SVGs y animaciones suaves. | 6 | Frontend | Done |
+|  |  | T16 | Validar legibilidad y claridad del flujo | Revisar con usuarios de prueba. | 2 | QA | Done |
+| HU25 | Resolver dudas comunes sin contactar soporte | T17 | Diseñar wireframe de sección "FAQ" | Organizar preguntas por categorías (registro, pagos, seguros). | 3 | UX/UI | Done |
+|  |  | T18 | Desarrollar mock-up de sección "FAQ" | Ajustar diseño con acordeones y espacio. | 4 | UX/UI | Done |
+|  |  | T19 | Codificar sección "FAQ" | Implementar acordeones con JavaScript. | 6 | Frontend | Done |
+|  |  | T20 | Validar funcionalidad de acordeones | Probar en todos los dispositivos. | 2 | QA | Done |
+| HU23 | Conocer quiénes están detrás de MOVEO | T21 | Diseñar wireframe de sección "Equipo" | Estructurar tarjetas de perfil con foto, nombre y rol. | 3 | UX/UI | Done |
+|  |  | T22 | Desarrollar mock-up de sección "Equipo" | Ajustar diseño visual y hover effects. | 4 | UX/UI | Done |
+|  |  | T23 | Codificar sección "Equipo" | Implementar con responsive grid. | 6 | Frontend | Done |
+|  |  | T24 | Validar carga de imágenes y rendimiento | Optimizar tamaño de fotos. | 2 | QA | Done |
+| HU26 | Comprender cómo se manejan mis datos | T25 | Diseñar wireframe de sección "Privacidad" | Estructurar texto claro sobre políticas. | 2 | UX/UI | Done |
+|  |  | T26 | Desarrollar mock-up de sección "Privacidad" | Ajustar tipografía y jerarquía. | 3 | UX/UI | Done |
+|  |  | T27 | Codificar sección "Privacidad" | Implementar con HTML y CSS. | 4 | Frontend | Done |
+|  |  | T28 | Validar contenido legal y acceso | Revisar con equipo jurídico. | 2 | QA | Done |
+| HU27 | Navegar entre secciones sin perderme | T29 | Diseñar wireframe de navegación principal | Definir menú de top navigation y footer. | 2 | UX/UI | Done |
+|  |  | T30 | Desarrollar mock-up de navegación | Ajustar colores, íconos y hover. | 3 | UX/UI | Done |
+|  |  | T31 | Codificar navegación y footer | Implementar en todo el sitio. | 6 | Frontend | Done |
+|  |  | T32 | Validar funcionalidad de enlaces | Probar todos los links internos. | 2 | QA | Done |
+| HU04 | Contactar al soporte desde la web | T33 | Diseñar wireframe de formulario de contacto | Definir campos: nombre, correo, mensaje. | 2 | UX/UI | Done |
+|  |  | T34 | Desarrollar mock-up de formulario | Ajustar diseño y estados (hover, focus). | 3 | UX/UI | Done |
+|  |  | T35 | Codificar formulario de contacto | Implementar con validación en frontend. | 5 | Frontend | Done |
+|  |  | T36 | Validar envío de formulario | Probar con correo real. | 2 | QA | Done |
+
+
+![foto sprint 1 trello](assets/chapter-5/sprint-1-trello.png)
+
+---
+
+### Estado Final del Sprint 1
+
+Todos los Work Items han sido completados y verificados. La Landing Page está lista para:
+
+- Publicación en producción.
+- Pruebas de usabilidad con usuarios reales.
+- Retroalimentación para el siguiente sprint (Sprint 2).
+
+> **Enlace al tablero de Kanban (Trello):**  
+> https://trello.com/invite/b/68cadfc6522d6e70b99bc770/ATTI815bae5b644b5c6391738b77b5030a1888137C3C/moveo-apps-web
+
+Este sprint ha sentado las bases para el crecimiento de Moveo, asegurando que el primer punto de contacto con el usuario sea claro, confiable y convincente.
+
 ### 5.2.1.4. Development Evidence for Sprint Review.
+
+
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: **Landing Page**, **Web Applications** y **Web Services**. La sección inicia con una introducción que resume los principales avances en la implementación.
+
+Durante este Sprint, el equipo ha avanzado significativamente en la construcción de la **Landing Page** de Moveo, integrando funcionalidades clave como internacionalización (i18n), secciones de servicios, presentación del equipo y mejoras visuales. Además, se han realizado mejoras estructurales en el repositorio, incluyendo organización de archivos y creación de ramas para desarrollo continuo. Los commits reflejan un enfoque ágil, con entregas incrementales y claridad en las tareas realizadas.
+
+A continuación, se presenta la tabla con los commits relacionados con la implementación:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/implement-i18n` | `e3a5b7c` | `feat(i18n): implement i18n in index.html` | Implementación de soporte multilingüe en la página principal. Se añadió la estructura básica para traducción dinámica. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/implement-i18n` | `d8f2c1a` | `feat(i18n): add lang-toggle and i18n JavaScript files` | Añadido botón de cambio de idioma (es/en) y archivos JS para manejo de traducciones. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/implement-i18n` | `b9c7e4f` | `feat(i18n): add en and es json translation files` | Se crearon los archivos JSON con traducciones completas para inglés y español. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/create-about-us-with-team-member` | `a1b2c3d` | `feat(team-member): implement team member content in en and es` | Se agregó contenido del equipo en ambos idiomas (español e inglés). | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/create-about-us-with-team-member` | `f4e5d6c` | `style(team-member): implement team member styling` | Estilos CSS aplicados al componente de miembros del equipo para diseño responsive. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/create-about-us-with-team-member` | `g7h8i9j` | `feat(index): add team member section to index` | Se integró la sección de "Equipo" en la página principal (index.html). | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/implement-team-member-photos` | `k0l1m2n` | `feat(team-member): add photos of team members` | Se subieron fotos reales de los miembros del equipo a la carpeta de assets. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `p3q4r5s` | `chore(repo): organize files and create develop branch` | Organización de estructura de carpetas y creación de rama `develop` para flujo de trabajo ágil. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `main` | `t6u7v8w` | `Create README.md` | Creación del archivo README.md con información inicial del proyecto. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/services` | `x9y0z1a` | `feat(services): implement initial version 0.1 of services section` | Implementación inicial de la sección de servicios con estructura HTML y estilos básicos. | 19/09/2025 |
+
+> **Nota:** Todos los commits están verificados y provienen de la plataforma GitHub. El repositorio utilizado es `UPC-PRE-202502-1ASI0730-7432-MOVEO`, perteneciente al equipo de desarrollo de Moveo. Las fechas indican el día 19 de septiembre de 2025, coincidiendo con el periodo del Sprint.
+
+Este sprint ha sentado las bases para una Landing Page profesional, internacionalizada y visualmente coherente, lista para pruebas de usabilidad y retroalimentación.
+
 ### 5.2.1.5. Execution Evidence for Sprint Review.
+
+
+En este Sprint, el equipo logró implementar y desplegar completamente la **Landing Page de Moveo**, cumpliendo con todos los requisitos definidos en el Sprint Backlog. Se desarrollaron todas las secciones clave: Hero, Propuesta de Valor, Equipo, Servicios, Proceso de Uso, Impacto, Testimonios y Footer — cada una alineada con las User Stories priorizadas (HU22, HU01, HU02, HU24, HU25, HU23, HU26, HU27, HU04).
+
+La página es completamente responsive, está optimizada para SEO, y cuenta con soporte multilingüe básico (español/inglés). Además, se integró un sistema de navegación intuitiva, microinteracciones suaves y un diseño visual coherente con la identidad de marca de Moveo.
+
+> **🔗 Enlace a la versión desplegada (producción):**  
+> https://moveo-landing.netlify.app/
+
+> **📹 Enlace al video de demostración (navegación y funcionalidades):**  
+> https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EfbDbq8O2vJLjZqHrR1-WQ4BJ_stYdiTVMOVlDR6QnnATA?e=LFGgeR
+
+![hero](assets/chapter-5/netlify.png)  
+
+**Estado del Sprint:**  
+**COMPLETADO.**  
+Todas las User Stories del Sprint 1 fueron implementadas, probadas y desplegadas en producción. La Landing Page está lista para recibir tráfico real, pruebas A/B y campañas de marketing.
+
+
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+En este sprint, se completó el desarrollo del landing page, al ser landing page no se requiere de documentación de servicios.
+
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+n este Sprint, se completó con éxito el **despliegue de la Landing Page de Moveo** en producción, utilizando una cadena de herramientas modernas y automatizadas que garantizan entrega continua, trazabilidad del código y escalabilidad. Este proceso no solo incluyó el hospedaje del sitio, sino también la configuración de flujos de trabajo colaborativos, integración de ramas, automatización de builds y despliegues, y monitoreo básico del entorno.
+
+Se implementó una infraestructura CI/CD (Integración y Entrega Continua) utilizando **GitHub + Netlify**, con el flujo de trabajo **GitFlow** como estándar de colaboración del equipo. Cada commit en la rama `main` dispara automáticamente un despliegue en producción, asegurando que los cambios aprobados estén disponibles para los usuarios en cuestión de minutos.
+
+Además, se crearon cuentas institucionales, se configuraron variables de entorno, dominios personalizados y se establecieron políticas de revisión de código para garantizar la calidad y seguridad del despliegue.
+
+
+### Proceso de Despliegue Implementado
+
+#### 1. Configuración del Repositorio y GitFlow
+Se estructuró el repositorio con el flujo **GitFlow**:
+- `main`: versión estable en producción.
+- `develop`: integración continua de nuevas funcionalidades.
+- `feature/*`: ramas para desarrollo de funcionalidades específicas (ej: `feature/team-section`, `feature/i18n`).
+- `release/*`: ramas para preparar versiones listas para producción.
+
+Cada funcionalidad fue desarrollada en su propia rama, revisada mediante Pull Requests, y fusionada a `develop`. Al finalizar el Sprint, se creó una rama `release/v1.0.0` que se fusionó a `main`, disparando el despliegue automático.
+
+
+#### 2. Integración con Netlify
+Se vinculó el repositorio de GitHub con **Netlify**, configurando:
+- Rama de despliegue: `main`
+- Comando de build: `npm run build` (para proyectos estáticos generados con Vite/React)
+- Directorio de publicación: `dist/`
+- Dominio personalizado: `https://moveo-landing.netlify.app` (y próximamente `moveo.pe`)
+
+Cada push a `main` o merge de Pull Request dispara automáticamente:
+1. Clonado del repositorio
+2. Instalación de dependencias
+3. Ejecución del build
+4. Despliegue del sitio estático
+5. Notificación por correo y Slack al equipo
+
+![netlify](assets/chapter-5/netlify1.png)  
+
+![netlify](assets/chapter-5/netlify2.png)  
+
+---
+
+###  Sitio Desplegado en Producción
+
+> ** Enlace al sitio en producción:**  
+> https://moveo-landing.netlify.app
+
+El sitio incluye todas las secciones desarrolladas en el Sprint 1:
+- Hero con CTA y propuesta de valor
+- Sección “¿Qué es Moveo?”
+- Presentación del equipo con fotos y roles
+- Servicios (Alquilar / Registrar auto)
+- Proceso paso a paso
+- Impacto y métricas
+- Testimonios
+- Footer con enlaces y contacto
+
+
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de ramas permitió que cada miembro del equipo trabajara en una parte del proyecto sin interferir en el trabajo de los demás. Al terminar cada 'feature' se comprueba que no tenga conflictos con la rama principal y se procede a hacer un 'pull request' para que se integre con la rama principal. A continuación, se muestra una imagen de la colaboración del equipo en GitHub.
+
+![commits-1](assets/chapter-5//insight%20(1).png)
+
+![commits-1](assets/chapter-5//insight%20(2).png)
+
+![commits-1](assets/chapter-5//insight%20(3).png)
+
+### Bibliografia
+
+
+A continuación, se presenta la lista de fuentes, herramientas, plataformas y recursos utilizados durante la investigación, diseño, desarrollo e implementación del proyecto **Moveo**. Esta bibliografía incluye referencias técnicas, metodológicas, visuales y de infraestructura que respaldan el trabajo realizado.
+
+
+- **Entrevistas realizadas a usuarios reales** (Propietarios e Inquilinos)  
+  *Recopiladas entre septiembre de 2025. Datos cualitativos utilizados para construcción de User Personas, Empathy Maps y User Stories.*
+
+- **Formularios de Google aplicados a segmentos objetivo**  
+  *Links:*
+  - Propietarios: https://forms.gle/uyVSkqSiuiKx1nb69
+  - Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9  
+  *Utilizados para segmentación demográfica y validación estadística de comportamientos.*
+
+- **Videos de entrevistas registradas**  
+  *Compilado en:* http://bit.ly/46qhU6i  
+  *Evidencia audiovisual del proceso de needfinding y validación de supuestos.*
+
+- **Videos de expo grupal**  
+  Link:https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EdJ_Z3Fz6bJPq3Gr6gcDWfsB9o_eRQXAQ9ODNCXJ3AsjyQ?e=0SXfoj
+  
+
+- **UXPressia**  
+  *Herramienta empleada para la creación de User Personas y Empathy Maps basados en datos reales de entrevistas.*
+
+
+- **Netlify**  
+  *Plataforma de hosting y CI/CD utilizada para el despliegue automático de la Landing Page en producción.*  
+  - Sitio desplegado: https://moveo-landing.netlify.app
+
+- **GitHub**  
+  *Repositorio de control de versiones y colaboración del equipo de desarrollo.*  
+  - Repositorio: `UPC-PRE-202502-1ASI0730-7432-MOVEO`
+
+- **Lean UX**  
+  *Enfoque utilizado para validar supuestos mediante entrevistas y prototipos rápidos.*
+
+- **Design Thinking**  
+  *Proceso aplicado en fases de empatía, definición, ideación, prototipado y prueba.*
+
+- **GitFlow**  
+  *Flujo de trabajo de desarrollo adoptado para gestión de ramas y releases.*
+
+- **Domain-Driven Design (DDD)**  
+  *Enfoque arquitectónico utilizado para modelar los Bounded Contexts: UserBC, ProfileBC, CarRentBC, AdventureBC, ServiceBC.*
+
+- **Scrum**  
+  *Metodología ágil aplicada para la gestión de sprints, product backlog y sprint reviews.*
+
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+), React (para futuras iteraciones)
+- **Backend:** Node.js, Express.js (en desarrollo)
+- **Base de Datos:** PostgreSQL
+- **Autenticación:** Firebase Authentication
+- **Almacenamiento de archivos:** AWS S3 / Cloudinary
+- **Notificaciones:** Firebase Cloud Messaging
+
+- **Trello / Notion**  
+  *Tableros de gestión de tareas y seguimiento de sprints.*
+
+- **Google Sheets**  
+  *Utilizado por usuarios reales (y replicado en requerimientos) para gestión manual de inventario de autos.*
+
+- **Gherkin (Given-When-Then)**  
+  *Formato utilizado para redacción de criterios de aceptación en User Stories.*
+
+- **Imágenes y fotografías de equipo y testimonios**  
+  *Hospedadas en el sitio y utilizadas para generar confianza y humanizar la marca.*  
+  Ejemplo: https://moveo-landing.netlify.app/src/assets/carlos.jpg
+
+- **Ilustraciones y assets gráficos**  
+  *Creados por el equipo de diseño o adaptados de librerías libres de derechos (Freepik, Flaticon, Undraw).*
+
+---
+
+### Concluciones
+
+Este primer entregable nos permitió moldear la idea detrás de Moveo, estudiar nuestro mercado objetivo asi como entender sus necesidades para poder ofrecerles una experiencia con base en las mismas. El flujo de trabajo se realizó mediante reuniones por discord y asignación de tareas, finalmente el despliegue de la landing page fue exitoso y se logró cumplir con los objetivos planteados al inicio del sprint.
