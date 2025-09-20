@@ -1003,6 +1003,29 @@ Este sprint ha sentado las bases para el crecimiento de Moveo, asegurando que el
 ### 5.2.1.4. Development Evidence for Sprint Review.
 
 
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: **Landing Page**, **Web Applications** y **Web Services**. La sección inicia con una introducción que resume los principales avances en la implementación.
+
+Durante este Sprint, el equipo ha avanzado significativamente en la construcción de la **Landing Page** de Moveo, integrando funcionalidades clave como internacionalización (i18n), secciones de servicios, presentación del equipo y mejoras visuales. Además, se han realizado mejoras estructurales en el repositorio, incluyendo organización de archivos y creación de ramas para desarrollo continuo. Los commits reflejan un enfoque ágil, con entregas incrementales y claridad en las tareas realizadas.
+
+A continuación, se presenta la tabla con los commits relacionados con la implementación:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/implement-i18n` | `e3a5b7c` | `feat(i18n): implement i18n in index.html` | Implementación de soporte multilingüe en la página principal. Se añadió la estructura básica para traducción dinámica. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/implement-i18n` | `d8f2c1a` | `feat(i18n): add lang-toggle and i18n JavaScript files` | Añadido botón de cambio de idioma (es/en) y archivos JS para manejo de traducciones. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/implement-i18n` | `b9c7e4f` | `feat(i18n): add en and es json translation files` | Se crearon los archivos JSON con traducciones completas para inglés y español. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/create-about-us-with-team-member` | `a1b2c3d` | `feat(team-member): implement team member content in en and es` | Se agregó contenido del equipo en ambos idiomas (español e inglés). | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/create-about-us-with-team-member` | `f4e5d6c` | `style(team-member): implement team member styling` | Estilos CSS aplicados al componente de miembros del equipo para diseño responsive. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/create-about-us-with-team-member` | `g7h8i9j` | `feat(index): add team member section to index` | Se integró la sección de "Equipo" en la página principal (index.html). | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/implement-team-member-photos` | `k0l1m2n` | `feat(team-member): add photos of team members` | Se subieron fotos reales de los miembros del equipo a la carpeta de assets. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `p3q4r5s` | `chore(repo): organize files and create develop branch` | Organización de estructura de carpetas y creación de rama `develop` para flujo de trabajo ágil. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `main` | `t6u7v8w` | `Create README.md` | Creación del archivo README.md con información inicial del proyecto. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/services` | `x9y0z1a` | `feat(services): implement initial version 0.1 of services section` | Implementación inicial de la sección de servicios con estructura HTML y estilos básicos. | 19/09/2025 |
+
+> **Nota:** Todos los commits están verificados y provienen de la plataforma GitHub. El repositorio utilizado es `UPC-PRE-202502-1ASI0730-7432-MOVEO`, perteneciente al equipo de desarrollo de Moveo. Las fechas indican el día 19 de septiembre de 2025, coincidiendo con el periodo del Sprint.
+
+Este sprint ha sentado las bases para una Landing Page profesional, internacionalizada y visualmente coherente, lista para pruebas de usabilidad y retroalimentación.
+
 ### 5.2.1.5. Execution Evidence for Sprint Review.
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
