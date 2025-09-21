@@ -79,24 +79,24 @@ Este historial de actualizaciones coincide con el trabajo desarrollado durante e
 Actividad en GitHub - TB1 (Septiembre 2025)
 Se muestra el gráfico de actividad en GitHub durante la preparación del TB1:
 
-![Actividad TB-1 Report](assets/img/chapter-1/tb-1.png)
+![Actividad TB-1 Report](/Assets/img/chapter-1/tb-1.png)
 
-![Actividad TB-1 Landing](assets/img/chapter-1/tb-1c.png)
+![Actividad TB-1 Landing](/Assets/img/chapter-1/tb-1c.png)
 
 Commits para TB1
 Estos commits reflejan el progreso constante y la colaboración entre los miembros del equipo.
 
-![Commits TB-1 Report](assets/img/chapter-1/tb-1a.png)
+![Commits TB-1 Report](/Assets/img/chapter-1/tb-1a.png)
 
 Commit
 
-![Commits TB-1 Landing](assets/img/chapter-1/tb-1d.png)
+![Commits TB-1 Landing](/Assets/img/chapter-1/tb-1d.png)
 
 Network graph para TB1
 
-![Network TB-1](assets/img/chapter-1/tb-1b.png)
+![Network TB-1](/Assets/img/chapter-1/tb-1b.png)
 
-![Network TB-1 Landing](assets/img/chapter-1/tb-1e.png)
+![Network TB-1 Landing](/Assets/img/chapter-1/tb-1e.png)
 
 # Contenido
 
@@ -257,11 +257,11 @@ Visión: Aspiramos a consolidarnos como la plataforma más reconocida en el Per�
 
 | Integrantes                                                                                                   | Descripción | Conocimientos |
 |:--------------------------------------------------------------------------------------------------------------| :--- | :--- |
-| <img src="assets/img/cover/carlos.jpg" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | soy un estudiante de Ingeniería de Software, tengo 22 años y vivo en Lima. Mis pasatiempos son hacer deporte, jugar videojuegos y escuchar música. Me gusta trabajar en equipo porque de esta manera todos los integrantes podemos dar nuestro punto de vista e ideas para poder lograr el objetivo del curso |  Tengo conocimientos básicos en C#, Java y Python, y estoy en constante búsqueda de mejorar mis habilidades técnicas.|
-| <img src="assets/img/cover/Franco.jpeg" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345             |  Soy estudiante de la carrera de Ingeniería de Software. Mi principal meta es poder desarrollar software de manera freelance. Me interesa mucho desarrollar software para maquinas industriales | Tengo conocimientos básicos en C++, HTML, Python y Typescript |
-| <img src="assets/img/cover/Gianfranco.jpg" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343              | Me gusta observar el comportamiento de las personas para así crear un ambiente cómodo y activo; soy práctico y racional para los percances que puedan surgir.  | Si bien poseo conocimientos básicos en la programación en el lenguaje C + +, aportaré en lo que pueda para realizar con éxito la idea planteada. |
-| <img src="assets/img/cover/Andreow.jpg " width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362          | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mi principal meta es especializarme en la creación de agentes inteligentes y soluciones basadas en Inteligencia Artificial, con enfoque en aprendizaje automático, procesamiento del lenguaje natural y sistemas autónomos.| Tengo experiencia en múltiples lenguajes de programación como Python, C#, Java, JavaScript y SQL, y estoy familiarizado con frameworks comoVue.js, ASP.NET Core y TensorFlow/Keras. Me apasiona aprender tecnologías emergentes y aplicarlas en proyectos reales que generen impacto. |
-| <img src="assets/img/cover/gabriel.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479        | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
+| <img src="/Assets/img/cover/carlos.jpg" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | soy un estudiante de Ingeniería de Software, tengo 22 años y vivo en Lima. Mis pasatiempos son hacer deporte, jugar videojuegos y escuchar música. Me gusta trabajar en equipo porque de esta manera todos los integrantes podemos dar nuestro punto de vista e ideas para poder lograr el objetivo del curso |  Tengo conocimientos básicos en C#, Java y Python, y estoy en constante búsqueda de mejorar mis habilidades técnicas.|
+| <img src="/Assets/img/cover/Franco.jpeg" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345             |  Soy estudiante de la carrera de Ingeniería de Software. Mi principal meta es poder desarrollar software de manera freelance. Me interesa mucho desarrollar software para maquinas industriales | Tengo conocimientos básicos en C++, HTML, Python y Typescript |
+| <img src="/Assets/img/cover/Gianfranco.jpg" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343              | Me gusta observar el comportamiento de las personas para así crear un ambiente cómodo y activo; soy práctico y racional para los percances que puedan surgir.  | Si bien poseo conocimientos básicos en la programación en el lenguaje C + +, aportaré en lo que pueda para realizar con éxito la idea planteada. |
+| <img src="/Assets/img/cover/Andreow.jpg " width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362          | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mi principal meta es especializarme en la creación de agentes inteligentes y soluciones basadas en Inteligencia Artificial, con enfoque en aprendizaje automático, procesamiento del lenguaje natural y sistemas autónomos.| Tengo experiencia en múltiples lenguajes de programación como Python, C#, Java, JavaScript y SQL, y estoy familiarizado con frameworks comoVue.js, ASP.NET Core y TensorFlow/Keras. Me apasiona aprender tecnologías emergentes y aplicarlas en proyectos reales que generen impacto. |
+| <img src="/Assets/img/cover/gabriel.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479        | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
 
 
 # 1.2. Solución Profile
@@ -366,7 +366,7 @@ Cada hipótesis fue traducida en un Lean UX Canvas formal, siguiendo un enfoque 
 
 Este trabajo metodológico permitió no solo establecer un marco claro de experimentación y validación temprana de las decisiones de diseño y tecnología, sino también alinear todos los esfuerzos de desarrollo a métricas de éxito específicas y medibles. Así, el apartado de Lean UX Canvas representa una pieza fundamental dentro del enfoque de construcción iterativa, ágil y centrada en el usuario de Moveo, asegurando que cada funcionalidad propuesta responde a necesidades reales, riesgos priorizados y oportunidades de negocio tangibles.
 
-![Lean ux Canva](assets/img/chapter-1/Leanuxcanva.jpg)
+![Lean ux Canva](/Assets/img/chapter-1/Leanuxcanva.jpg)
 
 
 ## 1.3. Segmentos objetivo
@@ -412,21 +412,21 @@ Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones qu
   Esta plataforma se especializa en el alquiler de coches en Perú. Ofrece una amplia gama de vehículos y opciones de alquiler, así como información sobre destinos turísticos en Perú. 
   La plataforma también permite a los usuarios comparar precios y reservar coches en línea.
   <div style="text-align: center;">
- <img src="assets/img/chapter-1/PeruRentACar.png" width=310  alt="">
+ <img src="/Assets/img/chapter-1/PeruRentACar.png" width=310  alt="">
   </div>
   
 - **Kayak:**
   Kayak es una de las plataformas de búsqueda de viajes más grandes del mundo. Permite a los usuarios buscar y comparar precios de vuelos, hoteles y alquiler de coches en una sola plataforma. 
   Kayak también ofrece herramientas para planificar viajes, como alertas de precios y recomendaciones personalizadas.
   <div style="text-align: center;">
-<img src="assets/img/chapter-1/Kayak.png" width=310  alt="">
+<img src="/Assets/img/chapter-1/Kayak.png" width=310  alt="">
   </div>
 
 - **Budget Car Rental Peru:**
   A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional que ofrece servicios de alquiler de coches en Perú. 
   La plataforma permite a los usuarios buscar y comparar precios de coches de alquiler en diferentes ubicaciones y reservar en línea. Budget Car Rental también ofrece opciones de alquiler a largo plazo y programas de fidelización.
   <div style="text-align: center;">
-<img src="assets/img/chapter-1/Budget.png" width=310  alt="">
+<img src="/Assets/img/chapter-1/Budget.png" width=310  alt="">
   </div>
 
 ### 2.1.1. Análisis competitivo.
@@ -607,7 +607,7 @@ Video de todas las entrevistas: http://bit.ly/46qhU6i
 **Dispositivos utilizados:** iPhone (exclusivo)  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-1](assets/img//chapter-2//entrevista-1.png)
+![Entrevistado-1](/Assets/img//chapter-2//entrevista-1.png)
 **Instante en el que inicia:** 0:00   
 **Duración de la entrevista:** 2:42 min  
 
@@ -642,7 +642,7 @@ Alisa es una joven emprendedora, estudiante y digital native que alquila su Toyo
 **Dispositivos utilizados:** iPhone (exclusivo), Laptop solo para entretenimiento  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-2](assets/img//chapter-2//entrevista-2.png)
+![Entrevistado-2](/Assets/img//chapter-2//entrevista-2.png)
 **Instante en el que inicia:** 2:43   
 **Fin de la entrevista:** 5:31 min  
 
@@ -678,7 +678,7 @@ Mathías es un emprendedor digital nativo. Maneja su negocio de alquiler (Hyunda
 **Dispositivos utilizados:** iPhone (principal), Laptop ocasional  
 **Navegador habitual:** Safari (móvil), Chrome (laptop)  
 **Imagen de entrevista:**  
-![Entrevistado-3](assets/img//chapter-2//entrevista-3.png)
+![Entrevistado-3](/Assets/img//chapter-2//entrevista-3.png)
 **Instante en el que inicia:** 7:15  
 **Duración de la entrevista:** 3:37 min  
 
@@ -714,7 +714,7 @@ Mauricio es un joven organizado, pragmático y con mentalidad de emprendedor. Al
 **Dispositivos utilizados:** iPhone  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-4](assets/img/chapter-2/entrevista-4.png)
+![Entrevistado-4](/Assets/img/chapter-2/entrevista-4.png)
 **Instante en el que inicia:** 10:53  
 **Duración de la entrevista:** 3:42 min  
 
@@ -749,7 +749,7 @@ Claudia es una joven realista, precavida y enfocada en la justicia. Alquila auto
 **Dispositivos utilizados:** Celular Android, Laptop ocasional  
 **Navegador habitual:** Chrome  
 **Imagen de entrevista:**  
-![Entrevistado-5](assets/img//chapter-2//entrevista-5.png)
+![Entrevistado-5](/Assets/img//chapter-2//entrevista-5.png)
 **Instante en el que inicia:** 13:35 
 **Duración de la entrevista:** 9:28 min  
 
@@ -783,7 +783,7 @@ Gabriel no alquila autos directamente, pero ha observado de cerca la operación 
 **Dispositivos utilizados:** iPhone (exclusivo)  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-6](assets/img//chapter-2//entrevista-6.png)
+![Entrevistado-6](/Assets/img//chapter-2//entrevista-6.png)
 **Instante en el que inicia:** 22:07  
 **Duración de la entrevista:** 4:40 min  
 
@@ -867,17 +867,17 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 
 ### Estadisticas:
 
-![Estadistica-1a](assets/img//chapter-2/estadistica-1a.png)
+![Estadistica-1a](/Assets/img//chapter-2/estadistica-1a.png)
 
-![Estadistica-1b](assets/img//chapter-2/estadistica-1b.png)
+![Estadistica-1b](/Assets/img//chapter-2/estadistica-1b.png)
 
-![Estadistica-1c](assets/img//chapter-2/estadistica-1c.png)
+![Estadistica-1c](/Assets/img//chapter-2/estadistica-1c.png)
 
-![Estadistica-1d](/Assets//img/chapter-2/estadistica-1d.png)
+![Estadistica-1d](/Assets/img/chapter-2/estadistica-1d.png)
 
-![Estadistica-1e](assets/img//chapter-2/estadistica-1e.png)
+![Estadistica-1e](/Assets/img//chapter-2/estadistica-1e.png)
 
-![Estadistica-1f](assets/img//chapter-2/estadistica-1f.png)
+![Estadistica-1f](/Assets/img//chapter-2/estadistica-1f.png)
 
 ---
 
@@ -926,17 +926,17 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 
 ### Estadisticas:
 
-![Estadistica-2a](assets/img//chapter-2/estadistica-2a.png)
+![Estadistica-2a](/Assets/img//chapter-2/estadistica-2a.png)
 
-![Estadistica-2b](assets/img//chapter-2/estadistica-2b.png)
+![Estadistica-2b](/Assets/img//chapter-2/estadistica-2b.png)
 
-![Estadistica-2c](assets/img//chapter-2/estadistica-2c.png)
+![Estadistica-2c](/Assets/img//chapter-2/estadistica-2c.png)
 
-![Estadistica-2d](assets/img//chapter-2/estadistica-2d.png)
+![Estadistica-2d](/Assets/img//chapter-2/estadistica-2d.png)
 
-![Estadistica-2e](assets/img//chapter-2/estadistica-2e.png)
+![Estadistica-2e](/Assets/img//chapter-2/estadistica-2e.png)
 
-![Estadistica-2f](assets/img//chapter-2/estadistica-2f.png)
+![Estadistica-2f](/Assets/img//chapter-2/estadistica-2f.png)
 
 
 
@@ -984,7 +984,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 
 #### Persona 1: Propietario Emprendedor Digital
 
-![User-persona-1](assets/img//chapter-2/Roy-userpersona.png)
+![User-persona-1](/Assets/img//chapter-2/Roy-userpersona.png)
 
 **Nombre:** Roy Hsie  
 **Edad:** 24 años  
@@ -1016,7 +1016,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 
 #### Persona 2: Inquilina Justiciera Digital
 
-![User-persona-2](assets/img//chapter-2/Gabriel-userpersona.png)
+![User-persona-2](/Assets/img//chapter-2/Gabriel-userpersona.png)
 
 **Nombre:** Gabriel Torres  
 **Edad:** 19 años  
@@ -1084,13 +1084,13 @@ La actividad se centró en dos segmentos clave:
 
 Segmento Objetivo 1: **Propietario de vehículos** 
 
-![journey map 2](assets/img/chapter-2/Journey%20map-Roy.png)
+![journey map 2](/Assets/img/chapter-2/Journey%20map-Roy.png)
 
 Se puede evidenciar el flujo de trabajo y captación de Roy para encontrar nuevos clientes, no es ideal y se encuentra frustrado con la poca seguridad que le ofrecen las plataformas gratuitas, por eso no las usa.
 
 Segmento Objetivo 2: **Inquilinos**
 
-![journey map 2](assets/img/chapter-2/Journey%20Map-Gabriel.png)
+![journey map 2](/Assets/img/chapter-2/Journey%20Map-Gabriel.png)
 
 Por su lado Gabriel se siente frustrado por la falta de opciones y la poca seguridad que le ofrecen las plataformas gratuitas, por ello una vez identifica dueños confiables, deja de utilizar dicha plataforma a menos que sea estrictamente necesario.
 
@@ -1103,11 +1103,11 @@ Como parte del proceso de diseño centrado en el usuario para **Moveo**, se elab
 
 Segmento 1: **Propietarios**
 
-![empathy map Gabriel](assets/img/chapter-2/Empathy%20map-Roy.png)
+![empathy map Gabriel](/Assets/img/chapter-2/Empathy%20map-Roy.png)
 
 Segmento 2: **Inquilinos**
 
-![empathy map Gabriel](assets/img/chapter-2/Empathy%20map-Gabriel.png)
+![empathy map Gabriel](/Assets/img/chapter-2/Empathy%20map-Gabriel.png)
 
 ### 2.4. Big Picture Event Storming
 
@@ -1115,7 +1115,7 @@ En esta sección, el equipo presenta el resultado de una sesión colaborativa de
 
 El objetivo fue mapear los eventos clave que ocurren desde que un propietario decide alquilar su auto hasta que un inquilino lo devuelve (o surge un conflicto), identificando actores, sistemas externos, relaciones, y — sobre todo — los problemas reales y oportunidades de mejora que emergen del proceso actual.
 
-![big picture event storming](assets/img/chapter-2/big-picture.png)
+![big picture event storming](/Assets/img/chapter-2/big-picture.png)
 
 Link del event stotming: https://miro.com/app/board/uXjVJF6vK1o=/?share_link_id=355761890687
 
@@ -1150,12 +1150,12 @@ Este mapa describe la experiencia ideal de dos usuarios clave en la plataforma:
  **Segmento 1: Propietario (Roy)**  
 Busca una forma segura y sencilla de ganar dinero extra alquilando su auto. Valora la verificación de identidad, la publicación guiada, el chat seguro dentro de la app, los contratos automáticos y los pagos sin contacto. Su motivación principal: confianza, simplicidad y profesionalismo.
 
-![Segmento-1](assets/img//chapter-3/segmento-1.png)
+![Segmento-1](/Assets/img//chapter-3/segmento-1.png)
 
  **Segmento 2: Inquilino (Gabriel)**  
 Necesita un auto rápido, confiable y sin riesgos. Confía en fotos verificadas, reseñas reales, historial del vehículo y procesos claros. Valora la reserva con un clic, el pago digital, las llaves virtuales y el soporte integrado. Su motivación: seguridad, ahorro de tiempo y tranquilidad.
 
-![Segmento-2](assets/img//chapter-3/segmento-2.png)
+![Segmento-2](/Assets/img//chapter-3/segmento-2.png)
 
 Miro con el To-Be: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497
 
@@ -1216,7 +1216,7 @@ Deliverables: Las soluciones que la plataforma ofrece para provocar esos cambios
 
 User Stories: Las historias de usuario concretas que implementan cada deliverable, asegurando trazabilidad desde la estrategia hasta la funcionalidad
 
-![Impact-map](assets/img//chapter-3/Impact-map.png)
+![Impact-map](/Assets/img//chapter-3/Impact-map.png)
 
 ## 3.4. Product Backlog.
 
@@ -1272,7 +1272,7 @@ Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea
 Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
 
 <p align="center">
-<img src="./assets/chapter-4/Logo.png" alt="Moveo_Logo" height="500"/>
+<img src="/Assets/chapter-4/Logo.png" alt="Moveo_Logo" height="500"/>
 </p>
 
 
@@ -1283,20 +1283,20 @@ La tipografía debe transmitir claridad, calidez y profesionalismo. Por esa raz�
 En este caso se usará **Poppins** para titulos y/o subtitulos e **Inter** para texto y/o subtexto.
 
 <p align="center">
-<img src="./assets/chapter-4/Typography.png" alt="Moveo_Typo"/>
+<img src="/Assets/chapter-4/Typography.png" alt="Moveo_Typo"/>
 </p>
 
-![tipografia usada](assets/chapter-4/typografia.png)
+![tipografia usada](/Assets/chapter-4/typografia.png)
 
 #### Colors
 
 Elegimos los siguientes colores buscando plasmar una paleta que influya seguridad y profesionalismo:
 
 <p align="center">
-<img src="./assets/chapter-4/Color.png" alt="Moveo_Colors"/>
+<img src="/Assets/chapter-4/Color.png" alt="Moveo_Colors"/>
 </p>
 
-![Colores usados](assets/chapter-4/Colores.png)
+![Colores usados](/Assets/chapter-4/Colores.png)
 
 
 #### Spacing
@@ -1340,7 +1340,7 @@ Nuestro propósito es garantizar una experiencia de usuario coherente y sin fric
 Si bien ambos acceden a las mismas secciones, la diferencia radica en los niveles de permiso. Los dueños pueden prestar el transporte, ofrecer rutas de aventuras y prestar servicios adicionales, mientras que los inquilinos cuentan únicamente con acceso a la visualización de autos, aventuras y servicios disponibles, además de la posibilidad de filtrar por locación, fecha y/o cantidad de personas.
 
 <p align="center">
-<img src="./assets/chapter-4/Diagrama.png" alt="Moveo_Diagram"/>
+<img src="/Assets/chapter-4/Diagrama.png" alt="Moveo_Diagram"/>
 </p>
 
 Como se ve en el diagrama, se sigue un proceso estructurado para facilitar la gestión de la salud de los pacientes, permitiendo la interacción entre médicos y familiares. Aquí explicamos cada etapa del proceso y las funciones disponibles:
@@ -1486,43 +1486,43 @@ Los wireframes representan la estructura básica y funcional de la landing page 
 ---
 
 #### Header y Hero
-![header y hero](assets/chapter-4/wire-header-hero.png)  
+![header y hero](/Assets/chapter-4/wire-header-hero.png)  
 *Define la primera impresión del usuario: logo, menú de navegación, llamado a acción principal (“Alquila tu auto” o “Encuentra tu viaje”) y espacio para imagen/video hero. Diseñado para captar atención en menos de 3 segundos.*
 
 ---
 
 #### What is Moveo
-![what is moveo](assets/chapter-4/wire-whatismoveo.png)  
+![what is moveo](/Assets/chapter-4/wire-whatismoveo.png)  
 *Sección explicativa que comunica el valor central de Moveo: conectar propietarios e inquilinos con confianza, transparencia y tecnología. Incluye iconografía simple y bullets de beneficios.*
 
 ---
 
 #### Team Members
-![Tema members](assets/chapter-4/wire-team.png)  
+![Tema members](/Assets/chapter-4/wire-team.png)  
 *Muestra al equipo fundador o clave. Construye confianza y humaniza la marca. Cada tarjeta incluye foto, nombre, rol y redes sociales.*
 
 ---
 
 #### Services
-![services](assets/chapter-4/wire-services.png)  
+![services](/Assets/chapter-4/wire-services.png)  
 *Presenta los servicios principales: alquiler de autos, aventuras guiadas, seguros integrados. Usa tarjetas modulares con ícono, título y descripción corta.*
 
 ---
 
 #### Moveo Services — Learn More
-![moveo services learn more](assets/chapter-4/wire-services.png)  
+![moveo services learn more](/Assets/chapter-4/wire-services.png)  
 *Sección de profundización: explica cómo funciona la plataforma, pasos para alquilar o listar un auto, y garantías de seguridad. Incluye botones de CTA secundarios.*
 
 ---
 
 #### Impacto de Moveo
-![Impacto de moveo](assets/chapter-4/wire-impact.png)  
+![Impacto de moveo](/Assets/chapter-4/wire-impact.png)  
 *Visualiza métricas de impacto: “+500 autos listados”, “+2000 viajes realizados”, “98% de satisfacción”. Refuerza credibilidad y escala.*
 
 ---
 
 #### Footer
-![Footer](assets/chapter-4/wire-questions.png)  
+![Footer](/Assets/chapter-4/wire-questions.png)  
 *Contiene enlaces legales, contacto, redes sociales, newsletter y logos de partners o certificaciones. Es la base de confianza y cierre de la página.*
 
 ---
@@ -1537,43 +1537,43 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ---
 
 #### Header y Hero
-![header y hero](assets/chapter-4/header%20y%20hero.png)  
+![header y hero](/Assets/chapter-4/header%20y%20hero.png)  
 *Hero impactante con fondo dinámico (auto en movimiento), tipografía bold, botón principal con sombra y hover effect. Transmite energía, libertad y confianza.*
 
 ---
 
 #### What is Moveo
-![what is moveo](assets/chapter-4/what%20is%20Moveo.png)  
+![what is moveo](/Assets/chapter-4/what%20is%20Moveo.png)  
 *Diseño limpio con ilustraciones vectoriales, gradientes suaves y cards con sombras sutiles. Comunica profesionalismo y cercanía.*
 
 ---
 
 #### Team Members
-![Tema members](assets/chapter-4/teammember.png)  
+![Tema members](/Assets/chapter-4/teammember.png)  
 *Fotos profesionales con fondo desenfocado, bordes redondeados, hover con redes sociales. Genera empatía y confianza institucional.*
 
 ---
 
 #### Services
-![services](assets/chapter-4/services.png)  
+![services](/Assets/chapter-4/services.png)  
 *Iconos personalizados, colores por categoría, animaciones de entrada suaves. Cada servicio tiene un tono visual que refuerza su propósito (ej. verde para “seguro”, azul para “aventuras”).*
 
 ---
 
 #### Moveo Services — Learn More
-![moveo services learn more](assets/chapter-4/moveo.png)  
+![moveo services learn more](/Assets/chapter-4/moveo.png)  
 *Sección con fondo dividido, ilustración a la izquierda y texto a la derecha. Botones con estados hover y focus definidos. Microcopy persuasivo y claro.*
 
 ---
 
 #### Impacto de Moveo
-![Impacto de moveo](assets/chapter-4/impacto.png)  
+![Impacto de moveo](/Assets/chapter-4/impacto.png)  
 *Números grandes en negrita, íconos animados al scroll, fondo con textura sutil. Diseñado para generar asombro y validación social.*
 
 ---
 
 #### Footer
-![Footer](assets/chapter-4/footer.png)  
+![Footer](/Assets/chapter-4/footer.png)  
 *Fondo oscuro, texto claro, separadores sutiles. Incluye logo pequeño, links organizados en columnas, formulario de newsletter con validación visual y redes con íconos hover.*
 
 ---
@@ -1583,12 +1583,12 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.4.1. Web Applications Wireframes
 
 <p align="center">
-  <img src="./assets/chapter-4/App_wireframe_1.png" alt="app_wireframes_1"/>
+  <img src="/Assets/chapter-4/App_wireframe_1.png" alt="app_wireframes_1"/>
 </p>
 *Wireframe de la pantalla principal de la app: feed de autos disponibles, filtros superiores (ubicación, fechas, tipo de auto), barra de navegación inferior. Enfoque en funcionalidad y flujo de búsqueda.*
 
 <p align="center">
-  <img src="./assets/chapter-4/App_wireframe_2.png" alt="app_wireframes_2"/>
+  <img src="/Assets/chapter-4/App_wireframe_2.png" alt="app_wireframes_2"/>
 </p>
 *Wireframe del perfil de usuario y detalle de auto: información del dueño, fotos, reseñas, botón de reserva, sección de preguntas frecuentes. Define la estructura de toma de decisión.*
 
@@ -1597,7 +1597,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 <p align="center">
-  <img src="./assets/chapter-4/moveo_wireflow.jpg" alt="app_wireflow"/>
+  <img src="/Assets/chapter-4/moveo_wireflow.jpg" alt="app_wireflow"/>
 </p>
 *Mapa visual del flujo completo del usuario: desde el onboarding → búsqueda → reserva → pago → entrega → calificación. Identifica puntos críticos y oportunidades de mejora en la experiencia.*
 
@@ -1606,7 +1606,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.4.3. Web Applications Mock-ups
 
 <p align="center">
-  <img src="./assets/chapter-4/Moveo App Mockup.png" alt="app_mockup"/>
+  <img src="/Assets/chapter-4/Moveo App Mockup.png" alt="app_mockup"/>
 </p>
 *Diseño visual final de la aplicación móvil. Paleta de colores vibrante pero profesional, tipografía legible, componentes con estados interactivos (presionado, cargando, error). Refleja la identidad de marca en cada pantalla.*
 
@@ -1615,7 +1615,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.4.4. Web Applications User Flow Diagrams
 
 <p align="center">
-  <img src="./assets/chapter-4/user_flow_diagram.jpg" alt="userflow"/>
+  <img src="/Assets/chapter-4/user_flow_diagram.jpg" alt="userflow"/>
 </p>
 *Diagrama detallado de los caminos que sigue un usuario para completar tareas clave: “Reservar un auto en 3 clics”, “Publicar mi auto en 5 pasos”, “Dejar una reseña”. Sirve para validar usabilidad y eliminar fricciones.*
 
@@ -1624,7 +1624,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ## 4.5. Web Applications Prototyping
 
 <p align="center">
-  <img src="./assets/chapter-4/protoype_moveo.png" alt="prototype"/>
+  <img src="/Assets/chapter-4/protoype_moveo.png" alt="prototype"/>
 </p>
 *Prototipo interactivo de alta fidelidad. Permite simular la navegación real entre pantallas, probar transiciones, microinteracciones y flujos completos. Herramienta esencial para pruebas de usabilidad con usuarios reales antes del desarrollo.*
 
@@ -1638,7 +1638,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.6.1. Software Architecture Context Diagram
 
 <p align="center">
-  <img src="./assets/chapter-4/moveo_context.png" alt="moveo_context_diagram"/>
+  <img src="/Assets/chapter-4/moveo_context.png" alt="moveo_context_diagram"/>
 </p>
 *Diagrama de contexto que muestra cómo Moveo se relaciona con actores externos: usuarios (propietarios e inquilinos), sistemas de pago (Yape, Plin), servicios de geolocalización, y notificaciones push. Define los límites del sistema.*
 
@@ -1647,7 +1647,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.6.2. Software Architecture Container Diagrams
 
 <p align="center">
-  <img src="./assets/chapter-4/moveo_container.png" alt="moveo_container_diagram"/>
+  <img src="/Assets/chapter-4/moveo_container.png" alt="moveo_container_diagram"/>
 </p>
 *Desglosa la arquitectura en contenedores: frontend (React), backend (Node.js), base de datos (PostgreSQL), almacenamiento de archivos (AWS S3), y servicios externos (Firebase Auth, Cloudinary). Muestra cómo se comunican entre sí.*
 
@@ -1657,31 +1657,31 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 
 **UserBC (User Bounded Context):**
 <p align="center">
-  <img src="./assets/chapter-4/userBC.png" alt="userBC"/>
+  <img src="/Assets/chapter-4/userBC.png" alt="userBC"/>
 </p>
 *Gestiona autenticación, autorización y perfiles de usuario. Componentes clave: AuthService, UserService, RoleManager.*
 
 **ProfileBC (Profile Bounded Context):**
 <p align="center">
-  <img src="./assets/chapter-4/profileBC.png" alt="profileBC"/>
+  <img src="/Assets/chapter-4/profileBC.png" alt="profileBC"/>
 </p>
 *Maneja la información detallada del usuario: documentos subidos, historial de alquileres, reputación, preferencias. Componentes: ProfileService, DocumentValidator, ReputationEngine.*
 
 **CarRentBC (Car Rental Bounded Context):**
 <p align="center">
-  <img src="./assets/chapter-4/carBC.png" alt="CarRentBC"/>
+  <img src="/Assets/chapter-4/carBC.png" alt="CarRentBC"/>
 </p>
 *Core del negocio: listado de autos, reservas, pagos, contratos digitales. Componentes: CarListingService, BookingManager, PaymentGateway, ContractGenerator.*
 
 **AdventureBC (Adventure Bounded Context):**
 <p align="center">
-  <img src="./assets/chapter-4/adventureBC.png" alt="adventureBC"/>
+  <img src="/Assets/chapter-4/adventureBC.png" alt="adventureBC"/>
 </p>
 *Opcional: gestiona paquetes de “aventuras” (rutas turísticas, guías, seguros especiales). Componentes: AdventureCatalog, RoutePlanner, GuideMatcher.*
 
 **ServiceBC (Service Bounded Context):**
 <p align="center">
-  <img src="./assets/chapter-4/serviceBC.png" alt="serviceBC"/>
+  <img src="/Assets/chapter-4/serviceBC.png" alt="serviceBC"/>
 </p>
 *Maneja servicios transversales: notificaciones, alertas, soporte, reportes. Componentes: NotificationService, AlertEngine, SupportTicketSystem.*
 
@@ -1692,7 +1692,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.7.1. Class Diagrams
 
 <p align="center">
-  <img src="./assets/chapter-4/moveo_class.png" alt="moveo_class_diagram"/>
+  <img src="/Assets/chapter-4/moveo_class.png" alt="moveo_class_diagram"/>
 </p>
 *Diagrama UML que modela las clases principales del sistema: User, Car, Booking, Payment, Review, Document, etc. Muestra atributos, métodos, relaciones (herencia, asociación, agregación) y responsabilidades. Base para el desarrollo orientado a objetos.*
 
@@ -1703,7 +1703,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.8.1. Database Diagram
 
 <p align="center">
-  <img src="./assets/chapter-4/move_db.png" alt="moveo_database_diagram"/>
+  <img src="/Assets/chapter-4/move_db.png" alt="moveo_database_diagram"/>
 </p>
 *Modelo entidad-relación (ERD) de la base de datos. Tablas principales: users, cars, bookings, payments, reviews, documents, notifications. Muestra claves primarias, foráneas, índices y relaciones (1:1, 1:N, N:M). Optimizado para consultas de reserva, reputación y reportes.*
 
@@ -1947,7 +1947,7 @@ El enfoque de este sprint es **completar la experiencia del usuario en la págin
 |  |  | T36 | Validar envío de formulario | Probar con correo real. | 2 | QA | Done |
 
 
-![foto sprint 1 trello](assets/chapter-5/sprint-1-trello.png)
+![foto sprint 1 trello](/Assets/chapter-5/sprint-1-trello.png)
 
 ---
 
@@ -2003,7 +2003,7 @@ La página es completamente responsive, está optimizada para SEO, y cuenta con 
 > **📹 Enlace al video de demostración (navegación y funcionalidades):**  
 > https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EfbDbq8O2vJLjZqHrR1-WQ4BJ_stYdiTVMOVlDR6QnnATA?e=LFGgeR
 
-![hero](assets/chapter-5/netlify.png)  
+![hero](/Assets/chapter-5/netlify.png)  
 
 **Estado del Sprint:**  
 **COMPLETADO.**  
@@ -2049,9 +2049,9 @@ Cada push a `main` o merge de Pull Request dispara automáticamente:
 4. Despliegue del sitio estático
 5. Notificación por correo y Slack al equipo
 
-![netlify](assets/chapter-5/netlify1.png)  
+![netlify](/Assets/chapter-5/netlify1.png)  
 
-![netlify](assets/chapter-5/netlify2.png)  
+![netlify](/Assets/chapter-5/netlify2.png)  
 
 ---
 
@@ -2075,11 +2075,11 @@ El sitio incluye todas las secciones desarrolladas en el Sprint 1:
 
 El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de ramas permitió que cada miembro del equipo trabajara en una parte del proyecto sin interferir en el trabajo de los demás. Al terminar cada 'feature' se comprueba que no tenga conflictos con la rama principal y se procede a hacer un 'pull request' para que se integre con la rama principal. A continuación, se muestra una imagen de la colaboración del equipo en GitHub.
 
-![commits-1](assets/chapter-5//insight%20(1).png)
+![commits-1](/Assets/chapter-5//insight%20(1).png)
 
-![commits-1](assets/chapter-5//insight%20(2).png)
+![commits-1](/Assets/chapter-5//insight%20(2).png)
 
-![commits-1](assets/chapter-5//insight%20(3).png)
+![commits-1](/Assets/chapter-5//insight%20(3).png)
 
 ### Bibliografia
 
