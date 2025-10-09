@@ -2243,6 +2243,10 @@ Build Command: npm run build
 Publish Directory: dist
 Variables de entorno: VITE_API_URL, VITE_APP_ENV
 
+### 5.2.2.8. Team Collaboration Insights during Sprint
+El equipo desarrolló la aplicación web usando GitFlow, con ramas específicas para cada feature. El uso de ramas permitió que cada miembro del equipo trabajara en diferentes módulos sin generar conflictos.
+
+
 ### Bibliografia
 
 
