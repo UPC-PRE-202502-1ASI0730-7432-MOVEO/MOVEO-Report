@@ -1887,10 +1887,10 @@ A continuación, se detallan los aspectos definidos y los roles asignados:
 | Team Member (Last Name, First Name) | GitHub Username | LP | ID | IN | DO | RI |
 |-----------------------------------|-----------------|----|----|----|----|----|
 | Andreow Santiago                  | andrews5738     | L  | C  | C  | C  | C  |
-| Gianfranco Luna                   | --------------- | C  | L  | C  | C  | C  |
-| Carlos De La Cruz Villarreal      | --------------- | C  | C  | L  | C  | C  |
-| Franco Huang Liu                  | --------------- | C  | C  | C  | L  | C  |
-| Sebastian Zuñiga                  | --------------- | C  | C  | C  | C  | L  |
+| Gianfranco Luna                   | gianfranco4991  | C  | L  | C  | C  | C  |
+| Carlos De La Cruz Villarreal      | carlos03dlc 	  | C  | C  | L  | C  | C  |
+| Franco Huang Liu                  | st4rlght05 	  | C  | C  | C  | L  | C  |
+| Sebastian Zuñiga                  | sezunii 		  | C  | C  | C  | C  | L  |
 
 **Legenda de Aspectos:**
 - **LP**: Landing Page Implementation — Desarrollo de la página principal con HTML, CSS, Bootstrap y estructura semántica.
@@ -2190,6 +2190,7 @@ Sprint Backlog – Sprint 2
 | | | T79 | Validar cálculos de comisiones | Verificar precisión de cálculos mostrados | 2 | QA | Done |
 | | | T80 | Crear endpoint GET /api/pricing | Endpoint para obtener configuración de precios | 3 | Backend | Done |
 
+![foto sprint 2 trello](/Assets/chapter-5/trello-def.png)
 
 Estado Final del Sprint 2
 Todos los Work Items han sido completados y verificados. La aplicación web está lista para:
