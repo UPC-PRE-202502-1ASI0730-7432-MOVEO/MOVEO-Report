@@ -2166,6 +2166,12 @@ A continuación, se presenta la lista de fuentes, herramientas, plataformas y re
 
 ---
 
-### Concluciones
+### Conclusiones
+
+**TB1**
 
 Este primer entregable nos permitió moldear la idea detrás de Moveo, estudiar nuestro mercado objetivo asi como entender sus necesidades para poder ofrecerles una experiencia con base en las mismas. El flujo de trabajo se realizó mediante reuniones por discord y asignación de tareas, finalmente el despliegue de la landing page fue exitoso y se logró cumplir con los objetivos planteados al inicio del sprint.
+
+**TP**
+
+Finalizar este entregable nos permitió avanzar de manera concreta en las user stories definidas, destacando la relevancia de la planificación y organización en el desarrollo de software. La construcción de los bounded contexts planteados en la documentación inicial refleja el progreso alcanzado en la aplicación. Asimismo, se implementaron las correcciones derivadas del feedback de la entrega anterior, fortaleciendo la calidad y coherencia del front-end.
