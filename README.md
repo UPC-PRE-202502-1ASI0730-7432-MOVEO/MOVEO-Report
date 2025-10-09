@@ -2075,11 +2075,173 @@ El sitio incluye todas las secciones desarrolladas en el Sprint 1:
 
 El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de ramas permitió que cada miembro del equipo trabajara en una parte del proyecto sin interferir en el trabajo de los demás. Al terminar cada 'feature' se comprueba que no tenga conflictos con la rama principal y se procede a hacer un 'pull request' para que se integre con la rama principal. A continuación, se muestra una imagen de la colaboración del equipo en GitHub.
 
+
+
+
+
+
+
 ![commits-1](/Assets/chapter-5//insight%20(1).png)
 
 ![commits-1](/Assets/chapter-5//insight%20(2).png)
 
 ![commits-1](/Assets/chapter-5//insight%20(3).png)
+
+
+## 5.2.2. Sprint 2 
+### 5.2.2.1. Sprint Planning 2
+A continuación, se detallan los aspectos principales del Sprint Planning Meeting realizado para el Sprint 2.
+
+| Sprint # | Sprint 2 |
+|----------|----------|
+| **Sprint Planning Background** | |
+| Date | 2025-09-24 |
+| Time | 14:00 PM (GMT-5) |
+| Location | Reunión virtual por Discord (Lima, Perú) |
+| Prepared By | Andreow Santiago |
+| Attendees (to planning meeting) | Andreow Santiago, Gianfranco Luna, Carlos De La Cruz Villarreal, Franco Huang Liu, Sebastian Zuñiga |
+| **Sprint n – 1 Review Summary** | En el Sprint 1 se completó exitosamente el desarrollo y despliegue de la Landing Page de Moveo. Se implementaron todas las secciones clave (Hero, Beneficios, Testimonios, Cómo funciona, FAQ, Equipo, Privacidad, Navegación y Contacto) con un diseño responsive, optimizado para SEO y con soporte multilingüe básico. La página fue desplegada en Netlify y está completamente funcional. |
+| **Sprint n – 1 Retrospective Summary** | El equipo identificó como fortalezas la comunicación efectiva a través de Discord, la distribución clara de responsabilidades mediante la matriz LACX y el cumplimiento de todos los objetivos planteados. Como áreas de mejora se identificó la necesidad de realizar más pruebas de usabilidad con usuarios reales y establecer convenciones de código más estrictas desde el inicio. Para el Sprint 2 se acordó implementar revisiones de código (code reviews) antes de cada merge y realizar testing incremental durante el desarrollo. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | **Our focus is on** delivering a functional vehicle management module for owners and essential features for renters on the Moveo web application. **We believe it delivers** a complete, intuitive and secure user experience that allows owners to publish, edit and manage their vehicles efficiently, while renters can report issues and access transparent pricing information. **This will be confirmed when** the web application is deployed on Render with a working REST API, all CRUD operations for vehicles are functional, state management (Active/Inactive) works correctly, rental history is accessible, the problem reporting system is operational, and the pricing section displays accurate commission information. |
+| **Sprint 2 Velocity** | 26 |
+| **Sum of Story Points** | 26 |
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+En esta sección se presentan los principales aspectos funcionales y técnicos abordados durante el Sprint 2 del desarrollo de Moveo. Cada aspecto corresponde a un componente crítico del alcance del sprint, dividido en cinco pilares fundamentales: desarrollo del frontend web, desarrollo de la API backend, diseño e integración de base de datos, actualización del informe técnico y despliegue con testing.
+Para cada aspecto, se ha asignado un Líder (L), quien asumió la responsabilidad principal de su diseño, implementación o coordinación técnica; y uno o más Colaboradores (C), quienes participaron activamente en la ejecución, revisión, pruebas o soporte.
+
+
+| Team Member (Last Name, First Name) | GitHub Username | FE | BE | DB | IN | DP |
+|-------------------------------------|-----------------|----|----|----|----|-----|
+| De La Cruz Villarreal, Carlos Alejandro | U20211c036 | **L** | C | C | C | C |
+| Huang Liu, Franco Gabriel | U202310345 | C | **L** | C | C | C |
+| Luna Morales, Gianfranco | U201824343 | C | C | **L** | C | C |
+| Santiago Peña, Andreow Jomark | U202317362 | C | C | C | **L** | C |
+| Zuñiga Calle, Sebastian Gabriel | U20221b479 | C | C | C | C | **L** |
+
+Leyenda de Aspectos:
+
+FE: Frontend Web Application — Desarrollo de componentes Vue.js, gestión de estado, enrutamiento y UI/UX
+BE: Backend API Development — Desarrollo de endpoints RESTful, lógica de negocio, validaciones y controladores
+DB: Database Design & Integration — Diseño de esquemas, migraciones, consultas SQL y optimización
+IN: Informe Técnico — Actualización, estructuración y redacción de la documentación del Sprint 2
+DP: Deployment & Testing — Configuración de Render, CI/CD, pruebas de integración y QA
+
+### 5.2.2.3. Sprint Backlog 2
+A continuación, se presenta el Sprint Backlog para Sprint 2, que contiene las User Stories seleccionadas del Product Backlog para la segunda iteración del proyecto Moveo. Este sprint se enfoca en el desarrollo de la aplicación web, específicamente en el módulo de gestión de vehículos para propietarios y funcionalidades complementarias.
+El enfoque de este sprint es completar el flujo CRUD completo de vehículos, gestión de estados, historial de alquileres, sistema de reportes de problemas y visualización de información de precios. Las tareas están asignadas a roles técnicos (Frontend, Backend, DB, QA) y estimadas en horas de trabajo.
+
+Duración del Sprint: 2 semanas
+Objetivo del Sprint: Entregar el módulo completo de gestión de vehículos funcional, testeado y desplegado en producción.
+
+Sprint Backlog – Sprint 2
+| Sprint # | Sprint 2 |
+|----------|----------|
+| **User Story** | **Work-Item / Task** |
+
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+|----|-------|-------|-------|-------------|-------------------|--------------|-------|
+| **HU07** | Publicar un vehículo | T37 | Diseñar wireframe del formulario de publicación | Crear estructura del formulario con campos: modelo, año, fotos, precio, ubicación, descripción | 3 | UX/UI | Done |
+| | | T38 | Desarrollar mock-up del formulario | Implementar diseño visual con validaciones y estados de error | 4 | UX/UI | Done |
+| | | T39 | Implementar componente de formulario en Vue | Crear componente con validación de campos y carga de imágenes | 8 | Frontend | Done |
+| | | T40 | Desarrollar endpoint POST /api/vehicles | Crear endpoint para registrar nuevo vehículo en la base de datos | 6 | Backend | Done |
+| | | T41 | Implementar subida de imágenes a servidor | Configurar almacenamiento de fotos (Cloudinary o similar) | 5 | Backend | Done |
+| | | T42 | Crear tabla vehicles en la base de datos | Diseñar esquema con campos necesarios y relaciones | 4 | DB | Done |
+| | | T43 | Validar funcionalidad end-to-end | Probar flujo completo desde frontend hasta persistencia | 3 | QA | Done |
+| **HU33** | Ver y gestionar mis vehículos publicados | T44 | Diseñar wireframe de lista de vehículos | Estructurar vista de lista con cards, filtros y paginación | 3 | UX/UI | Done |
+| | | T45 | Desarrollar mock-up de la lista | Ajustar diseño visual con estados (Activo/Inactivo) | 4 | UX/UI | Done |
+| | | T46 | Implementar componente de lista en Vue | Crear componente con filtros por estado y búsqueda | 7 | Frontend | Done |
+| | | T47 | Desarrollar endpoint GET /api/vehicles/owner/:id | Endpoint para obtener vehículos de un propietario | 5 | Backend | Done |
+| | | T48 | Implementar paginación en backend | Agregar soporte para paginación de resultados | 4 | Backend | Done |
+| | | T49 | Validar filtros y rendimiento | Probar filtros y optimización de consultas | 2 | QA | Done |
+| **HU35** | Editar la información de un vehículo publicado | T50 | Diseñar wireframe del formulario de edición | Crear estructura prellenada con datos actuales | 2 | UX/UI | Done |
+| | | T51 | Desarrollar mock-up de edición | Implementar diseño con estados de guardado | 3 | UX/UI | Done |
+| | | T52 | Implementar componente de edición en Vue | Crear formulario que cargue datos existentes | 6 | Frontend | Done |
+| | | T53 | Desarrollar endpoint PUT /api/vehicles/:id | Endpoint para actualizar información del vehículo | 5 | Backend | Done |
+| | | T54 | Implementar actualización de imágenes | Permitir agregar/eliminar fotos existentes | 4 | Backend | Done |
+| | | T55 | Validar actualización en tiempo real | Verificar que cambios se reflejen inmediatamente | 2 | QA | Done |
+| **HU36** | Cambiar el estado de un vehículo (Activar/Desactivar) | T56 | Diseñar toggle de estado en lista | Crear componente de switch Activo/Inactivo | 2 | UX/UI | Done |
+| | | T57 | Implementar lógica de cambio de estado | Desarrollar función que actualice estado en frontend | 3 | Frontend | Done |
+| | | T58 | Desarrollar endpoint PATCH /api/vehicles/:id/status | Endpoint para cambiar solo el estado del vehículo | 4 | Backend | Done |
+| | | T59 | Actualizar visibilidad en búsquedas | Asegurar que vehículos inactivos no aparezcan en búsquedas | 3 | Backend | Done |
+| | | T60 | Validar comportamiento del toggle | Probar cambios de estado y persistencia | 2 | QA | Done |
+| **HU37** | Ver el historial de alquileres de un vehículo específico | T61 | Diseñar wireframe de historial | Crear estructura de línea de tiempo con reservas | 3 | UX/UI | Done |
+| | | T62 | Desarrollar mock-up del historial | Implementar diseño visual con reseñas y detalles | 4 | UX/UI | Done |
+| | | T63 | Implementar componente de historial en Vue | Crear vista expandible con información detallada | 6 | Frontend | Done |
+| | | T64 | Desarrollar endpoint GET /api/vehicles/:id/rentals | Endpoint para obtener historial de alquileres | 5 | Backend | Done |
+| | | T65 | Crear tabla rentals y relaciones | Diseñar esquema con relaciones a vehicles y users | 4 | DB | Done |
+| | | T66 | Implementar cálculo de estadísticas | Agregar métricas: total ganado, promedio de calificación | 4 | Backend | Done |
+| | | T67 | Validar visualización de reseñas | Verificar que comentarios se muestren correctamente | 2 | QA | Done |
+| **HU20** | Reportar un problema con un auto | T68 | Diseñar wireframe de formulario de reporte | Crear estructura con descripción, fotos y categoría | 3 | UX/UI | Done |
+| | | T69 | Desarrollar mock-up de reporte | Implementar diseño con carga de evidencias | 3 | UX/UI | Done |
+| | | T70 | Implementar componente de reporte en Vue | Crear formulario con validación y carga de fotos | 6 | Frontend | Done |
+| | | T71 | Desarrollar endpoint POST /api/reports | Endpoint para registrar reportes de problemas | 5 | Backend | Done |
+| | | T72 | Crear tabla reports en la base de datos | Diseñar esquema con relaciones a rentals y users | 3 | DB | Done |
+| | | T73 | Implementar sistema de tickets | Asignar número de seguimiento automático | 4 | Backend | Done |
+| | | T74 | Validar notificaciones de reporte | Verificar que soporte reciba alertas | 2 | QA | Done |
+| **HU03** | Ver planes de precios y comisiones | T75 | Diseñar wireframe de sección de precios | Crear estructura con tablas comparativas | 2 | UX/UI | Done |
+| | | T76 | Desarrollar mock-up de precios | Implementar diseño visual con calculadora | 3 | UX/UI | Done |
+| | | T77 | Implementar componente de precios en Vue | Crear vista estática con información detallada | 4 | Frontend | Done |
+| | | T78 | Implementar calculadora interactiva | Permitir simular costos según días y precio | 5 | Frontend | Done |
+| | | T79 | Validar cálculos de comisiones | Verificar precisión de cálculos mostrados | 2 | QA | Done |
+| | | T80 | Crear endpoint GET /api/pricing | Endpoint para obtener configuración de precios | 3 | Backend | Done |
+
+
+Estado Final del Sprint 2
+Todos los Work Items han sido completados y verificados. La aplicación web está lista para:
+
+-Publicación en producción (Render)
+-Pruebas de integración con usuarios reales
+-Retroalimentación para el Sprint 3 (módulo de búsqueda y reservas para inquilinos)
+
+Enlace al tablero de Kanban (Trello):
+https://trello.com/b/VRvBNLHD/moveo-apps-web
+
+### 5.2.2.4. Testing Suite Evidence for Sprint Review
+Durante el Sprint 2, se implementaron pruebas automatizadas para garantizar la calidad y estabilidad de las funcionalidades desarrolladas. Se utilizaron las siguientes herramientas y metodologías:
+Frontend Testing (Vue.js)
+
+Framework: Vitest 
+Cobertura: Componentes críticos del módulo de gestión de vehículos
+Tipos de pruebas:
+
+Unit tests para componentes individuales
+Integration tests para flujos completos
+E2E tests con Cypress para validación de usuario final
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+En este Sprint, el equipo logró implementar y desplegar completamente el módulo de gestión de vehículos para propietarios y funcionalidades complementarias para inquilinos en la aplicación web de Moveo. Se desarrollaron todas las funcionalidades clave: publicación de vehículos, listado y gestión, edición de información, cambio de estado (Activo/Inactivo), historial de alquileres, sistema de reportes de problemas y visualización de precios y comisiones.
+La aplicación es completamente funcional, con integración completa entre frontend (Vue.js), backend (API REST) y base de datos (PostgreSQL). Además, se implementó el despliegue automático en Render con CI/CD integrado.
+
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Durante el Sprint 2, se desarrolló y documentó la API RESTful para el módulo de gestión de vehículos. A continuación, se presenta la documentación de los principales endpoints implementados:
+
+Endpoints Implementados
+| Endpoint | Método | Descripción | Parámetros | Respuesta |
+|----------|--------|-------------|------------|-----------|
+| `/api/vehicles` | POST | Crear un nuevo vehículo | Body: `{ model, year, price, location, photos[], description }` | `201 Created` - Vehículo creado |
+| `/api/vehicles/owner/:ownerId` | GET | Obtener vehículos de un propietario | Param: `ownerId`, Query: `status, page, limit` | `200 OK` - Lista de vehículos |
+| `/api/vehicles/:id` | GET | Obtener detalles de un vehículo | Param: `id` | `200 OK` - Datos del vehículo |
+| `/api/vehicles/:id` | PUT | Actualizar información de vehículo | Param: `id`, Body: datos a actualizar | `200 OK` - Vehículo actualizado |
+| `/api/vehicles/:id/status` | PATCH | Cambiar estado del vehículo | Param: `id`, Body: `{ status: "active" \| "inactive" }` | `200 OK` - Estado actualizado |
+| `/api/vehicles/:id/rentals` | GET | Obtener historial de alquileres | Param: `id` | `200 OK` - Lista de alquileres |
+| `/api/reports` | POST | Crear reporte de problema | Body: `{ rentalId, description, photos[], category }` | `201 Created` - Reporte creado |
+| `/api/pricing` | GET | Obtener configuración de precios | - | `200 OK` - Estructura de precios |
+
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+En este Sprint, se completó con éxito el despliegue de la aplicación web de Moveo en producción, utilizando Render como plataforma de hosting para el frontend. Se implementó un flujo de CI/CD automatizado que garantiza despliegues rápidos y confiables.
+
+
+Configuración de Despliegue
+Frontend (Vue.js)
+
+Plataforma: Render (Static Site)
+Build Command: npm run build
+Publish Directory: dist
+Variables de entorno: VITE_API_URL, VITE_APP_ENV
 
 ### Bibliografia
 
