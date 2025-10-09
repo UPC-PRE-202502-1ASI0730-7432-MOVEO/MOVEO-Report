@@ -319,8 +319,7 @@ Los arrendatarios, en cambio, acceden a tarifas variables y flexibles, con opcio
 
 ### 1.2.2.1. Lean UX Problem Statement
 
-La propuesta de MOVEO nace como respuesta a la falta de opciones innovadoras en el mercado de alquiler de vehículos. Actualmente, gran parte de las compañías del rubro trabajan con un esquema rígido, caracterizado por una oferta limitada y costos elevados para los usuarios. Otro aspecto que no ha sido bien explotado por los competidores es el hecho de que la mayoría depende de contar con una flota propia de autos, lo que exige una fuerte inversión inicial y reduce la flexibilidad del negocio. En contraste, nuestro modelo se fundamenta en no adquirir vehículos, sino en integrar aquellos que pertenecen a los propietarios registrados, generando así un sistema más ligero y escalable.
-El valor diferencial de MOVEO se basa y encuentra en esta estructura de “entrada y salida”: los dueños incorporan sus autos a la plataforma, mientras que los arrendatarios acceden a ellos bajo un esquema seguro y eficiente. De esta manera, tanto propietarios como usuarios obtienen beneficios económicos, consolidando un círculo de confianza y rentabilidad.
+MOVEO tiene como objetivo ofrecer un servicio de alquiler de vehículos accesible, flexible y rentable, conectando de manera segura y eficiente a propietarios y arrendatarios a través de una plataforma digital. Sin embargo, el mercado actual se caracteriza por la falta de innovación, modelos de negocio rígidos, altos costos para los usuarios y una fuerte dependencia de flotas propias, lo que limita la escalabilidad y reduce la diversidad de la oferta. Ante esta situación, se plantea la necesidad de mejorar el modelo de servicio mediante un sistema más adaptable e inclusivo, que permita ampliar la participación de propietarios particulares y optimizar la experiencia de alquiler sin requerir una inversión directa en vehículos.
 
 Consideramos que habremos alcanzado un avance significativo cuando logremos que el número de propietarios inscritos crezca de forma constante y que la oferta de vehículos disponibles se adapte a la demanda real del mercado.
 
@@ -353,11 +352,11 @@ El mayor reto es garantizar la seguridad y confianza de los propietarios respect
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
-1. Consideramos que los propietarios interesados en generar ingresos pasivos, sin invertir grandes sumas ni dedicar mucho tiempo, verán en nuestra plataforma una fuente confiable para monetizar sus vehículos.
+1. Consideramos que los propietarios interesados en generar ingresos pasivos, sin realizar grandes inversiones ni dedicar demasiado tiempo a la gestión, verán en MOVEO una alternativa confiable para monetizar sus vehículos. Consideraremos que hemos alcanzado el éxito cuando estos propietarios incrementen el uso de la plataforma y obtengan ingresos recurrentes mediante el alquiler de sus autos, evidenciando confianza y satisfacción en el servicio.
 
-2. Creemos que los arrendatarios que buscan alternativas de alquiler flexibles y asequibles optarán por MOVEO, debido a su sencillez de uso, precios competitivos y garantías de seguridad.
+2. Creemos que los arrendatarios que buscan opciones de alquiler más flexibles, asequibles y seguras optarán por MOVEO gracias a su facilidad de uso, precios competitivos y garantías de protección. Consideraremos que hemos alcanzado el éxito cuando la frecuencia de alquiler y la tasa de retención de usuarios aumenten, junto con una mejora perceptible en los niveles de satisfacción reportados.
 
-3. Suponemos que, al operar bajo un modelo sin grupo de automoviles listos para la reserva y alquiler correspondiente propio, podremos redirigir recursos hacia innovación y mejoras en la experiencia de usuario. Esto nos permitirá mantener tarifas estables y atractivas, atrayendo tanto a quienes alquilan como a quienes ofrecen sus autos.
+3. Suponemos que al implementar un modelo operativo sin una flota propia de vehículos, podremos destinar mayores recursos a la innovación tecnológica y a la optimización de la experiencia de usuario. Consideraremos que hemos alcanzado el éxito cuando los indicadores de eficiencia operativa y de experiencia del cliente reflejen una reducción de costos, estabilidad en las tarifas y un incremento sostenido en el número de transacciones exitosas.
 
 #### 1.2.2.4. Lean UX Canvas.
 En el apartado de Lean UX Canvas se desarrolló una estructuración completa y académica de las principales hipótesis estratégicas que sustentan la propuesta de valor y la arquitectura de la plataforma Moveo
