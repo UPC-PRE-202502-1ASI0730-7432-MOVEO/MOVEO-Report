@@ -4,9 +4,10 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>Aplicaciones Web - </strong><br>
-    <strong>Profesor:  </strong><br>
-    <strong>INFORME TB1  </strong><br>
+    <strong>Aplicaciones Web </strong><br>
+    <strong>Profesor: Oscar Ivan Villafuentes Bazan </strong><br>
+    <strong>INFORME DE TRABAJO PARCIAL</strong><br>
+    <strong> CICLO 2025-20</strong><br>
 </p>
 
 <center>
@@ -25,12 +26,12 @@
 |Franco Gabriel Huang Liu              | U202310345  |
 |Gianfranco Luna Morales               | U201824343  |
 |Andreow Jomark Santiago Peña          | U202317362  |
-|Sebastian Gabriel Zuñiga Calle        | u20221b479  |
+
 
 </div>
 
 <center>
-<br> SEPTIEMBRE 2025
+<br> OCTUBRE 2025
 </center> 
 
 # Registro de Versiones del Informe
@@ -43,7 +44,12 @@
 |0.4| 12/09/2025 | Carlos De la Cruz | Avance to be escenary |
 |0.5| 13/09/2025 | Gianfranco Luna | implementacion de user stories y entrevistas |
 |0.6| 14/09/2025 | Gianfranco Luna | implementacion de capitulo 4 style guidelines|
-|0.7| 15/09/2025 | Andreow | implementacion de la totalidad del capitulo 5|
+|0.7| 15/09/2025 | Andreow Santiago | implementacion de la totalidad del capitulo 5|
+|1.1| 05/10/2025 | Franco Huang | Correcion de los comentarios del profesor|
+|1.1| 05/10/2025 | Carlos De la Cruz | implementacion de las nuevas user stories|
+|1.2| 06/10/2025 | Gianfranco Luna | implementacion del sprint 2 el planning|
+|1.2| 06/10/2025 | Andreow Santiago | Correciones del bibliografica|
+
 
 # Project Report Collaboration Insights
 
@@ -79,24 +85,62 @@ Este historial de actualizaciones coincide con el trabajo desarrollado durante e
 Actividad en GitHub - TB1 (Septiembre 2025)
 Se muestra el gráfico de actividad en GitHub durante la preparación del TB1:
 
-![Actividad TB-1 Report](/Assets/img/chapter-1/tb-1.png)
+![Actividad TB-1 Report](Assets/img/chapter-1/tb-1.png)
 
-![Actividad TB-1 Landing](/Assets/img/chapter-1/tb-1c.png)
+![Actividad TB-1 Landing](Assets/img/chapter-1/tb-1c.png)
 
 Commits para TB1
 Estos commits reflejan el progreso constante y la colaboración entre los miembros del equipo.
 
-![Commits TB-1 Report](/Assets/img/chapter-1/tb-1a.png)
+![Commits TB-1 Report](Assets/img/chapter-1/tb-1a.png)
 
 Commit
 
-![Commits TB-1 Landing](/Assets/img/chapter-1/tb-1d.png)
+![Commits TB-1 Landing](Assets/img/chapter-1/tb-1d.png)
 
 Network graph para TB1
 
-![Network TB-1](/Assets/img/chapter-1/tb-1b.png)
+![Network TB-1](Assets/img/chapter-1/tb-1b.png)
 
-![Network TB-1 Landing](/Assets/img/chapter-1/tb-1e.png)
+![Network TB-1 Landing](Assets/img/chapter-1/tb-1e.png)
+
+
+#### TP1
+
+La entrega del TP1 finalizó con éxito y está documentada en el repositorio de Github perteneciente a la organización del equipo:
+
+Link al repositorio de la organización: https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-frontend
+
+Durante el desarrollo del Sprint 2, se siguieron los siguientes lineamientos:
+
+- Los contenidos y funcionalidades fueron desarrolladas utilizando **React Native** para la app móvil y **JSON Server** como fake API, asegurando una arquitectura clara y escalable.
+- Cada cambio realizado fue respaldado mediante **commits en el repositorio**, garantizando trazabilidad y control de versiones del avance del proyecto.
+- Se crearon los artefactos necesarios utilizando las herramientas recomendadas. Las imágenes utilizadas fueron obtenidas a través de la carpeta `assets` o publicadas desde Imgur, para su correcta integración en la documentación y la app.
+- Se realizaron **reuniones periódicas** (daily standups y planning) para coordinar el avance de las funcionalidades clave del Sprint 2, centrado en el desarrollo de la **aplicación móvil funcional** y la integración con el **fake API** que simula el backend.
+
+**Coherencia con el Registro de Versiones del Informe**  
+Los cambios realizados durante esta etapa están alineados con la evolución del documento, reflejando el trabajo colaborativo y el constante refinamiento del producto por parte del equipo.
+
+Este historial de actualizaciones coincide con el trabajo desarrollado durante el TP1, mostrando cómo el equipo fue avanzando en la construcción de una app funcional de forma continua y colaborativa.
+
+**Actividad en GitHub - TP1 (Octubre 2025)**  
+Se muestra el gráfico de actividad en GitHub durante la preparación del TP1:
+
+![Actividad TP-1 Report](/Assets/img/chapter-1/tp1-a.png)
+
+
+**Commits para TP1**  
+Estos commits reflejan el progreso constante y la colaboración entre los miembros del equipo.
+
+![Commits TP-1 App](/Assets/img/chapter-1/tp1-a.png)
+
+**Network graph para TP1**
+
+
+![Network TP-1 App](/Assets/img/chapter-1/tp1-b.png)
+
+
+
 
 # Contenido
 
@@ -205,41 +249,87 @@ Network graph para TB1
 
 # Student Outcome
 
-<table> <tr> <td><b>Criterio específico</b></td> <td><b>Acciones realizadas</b></td> <td><b>Conclusiones</b></td> </tr> <tr> <td> <p>Trabaja en equipo para proporcionar liderazgo en forma conjunta</p> </td> <td> 
-  <p><strong>TB1</strong></p> 
- <p><strong>Luna Morales, Gianfranco:</strong>Facilité todas las reuniones de planning del Sprint 1 donde coordiné la distribución de HU entre desarrolladores, propuse la metodología de seguimiento en Trello que adoptamos como equipo y medié los conflictos que surgieron sobre la priorización de features, logrando que todos llegáramos a consensos constructivos.</p> 
-  <p><strong>De la cruz Villareal,Carlos Alejandro:</strong>Propuse la estructura de archivos que seguimos para mantener el código organizado y compartí tutoriales básicos de Git con los compañeros que tenían menos experiencia.</p> 
-  <p><strong>Huang Liu, Franco Gabriel :</strong>Lideré el análisis exhaustivo de nuestros competidores Peru Rent A Car, Kayak y Budget Car Rental, coordiné todas las sesiones de user research y testing de usabilidad, facilité workshops de ideación para UX/UI donde todos aportamos ideas creativas, y representé constantemente la voz del usuario en las decisiones técnicas para mantener el foco en la experiencia.</p> 
-  <p><strong>Santiago Peña, Andreow Jomark :</strong>Organicé las reuniones iniciales del equipo para definir roles y responsabilidades, coordiné la creación del repositorio GitHub y la estructura de carpetas del proyecto, facilité las sesiones de brainstorming para definir el alcance del landing page y medié en la toma de decisiones sobre qué secciones incluir en la primera versión de MOVEO</p>
-  <p><strong>Zuñiga Calle, Sebastian Gabriel :</strong>Lideré la validación manual de todas las secciones del landing page para asegurar que funcionaran correctamente, coordiné las pruebas de responsividad en diferentes dispositivos con ayuda de mis compañeros, propuse mejoras de usabilidad basadas en mi navegación por el sitio, y guié las correcciones finales antes de la entrega para garantizar que todo estuviera pulido.</p>
-  
-  
+<table>
+  <tr>
+    <td><b>Criterio específico</b></td>
+    <td><b>Acciones realizadas</b></td>
+    <td><b>Conclusiones</b></td>
+  </tr>
 
+  <!-- PRIMER CRITERIO: Trabaja en equipo para proporcionar liderazgo en forma conjunta -->
+  <tr>
+    <td>
+      <p>Trabaja en equipo para proporcionar liderazgo en forma conjunta</p>
+    </td>
+    <td>
+      <p><strong>TB1</strong></p>
+      <p><strong>Luna Morales, Gianfranco:</strong> Facilité todas las reuniones de planning del Sprint 1 donde coordiné la distribución de HU entre desarrolladores, propuse la metodología de seguimiento en Trello que adoptamos como equipo y medié los conflictos que surgieron sobre la priorización de features, logrando que todos llegáramos a consensos constructivos.</p>
+      <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Propuse la estructura de archivos que seguimos para mantener el código organizado y compartí tutoriales básicos de Git con los compañeros que tenían menos experiencia.</p>
+      <p><strong>Huang Liu, Franco Gabriel:</strong> Lideré el análisis exhaustivo de nuestros competidores Peru Rent A Car, Kayak y Budget Car Rental, coordiné todas las sesiones de user research y testing de usabilidad, facilité workshops de ideación para UX/UI donde todos aportamos ideas creativas, y representé constantemente la voz del usuario en las decisiones técnicas para mantener el foco en la experiencia.</p>
+      <p><strong>Santiago Peña, Andreow Jomark:</strong> Organicé las reuniones iniciales del equipo para definir roles y responsabilidades, coordiné la creación del repositorio GitHub y la estructura de carpetas del proyecto, facilité las sesiones de brainstorming para definir el alcance del landing page y medié en la toma de decisiones sobre qué secciones incluir en la primera versión de MOVEO.</p>
+      <p><strong>Zuñiga Calle, Sebastian Gabriel:</strong> Lideré la validación manual de todas las secciones del landing page para asegurar que funcionaran correctamente, coordiné las pruebas de responsividad en diferentes dispositivos con ayuda de mis compañeros, propuse mejoras de usabilidad basadas en mi navegación por el sitio, y guié las correcciones finales antes de la entrega para garantizar que todo estuviera pulido.</p>
+    </td>
+    <td>
+      <p><strong>TB1</strong></p>
+      <p>En conclusión: La comunicación efectiva y constante entre los miembros favoreció la coordinación y el avance armónico del proyecto.</p>
+    </td>
+  </tr>
 
+  <tr>
+    <td>
+      <p>Trabaja en equipo para proporcionar liderazgo en forma conjunta</p>
+    </td>
+    <td>
+      <p><strong>TP1</strong></p>
+      <p><strong>Luna Morales, Gianfranco:</strong> Facilité todas las reuniones de planning del Sprint 1 donde coordiné la distribución de HU entre desarrolladores, propuse la metodología de seguimiento en Trello que adoptamos como equipo y medié los conflictos que surgieron sobre la priorización de features, logrando que todos llegáramos a consensos constructivos.</p>
+      <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Propuse la estructura de archivos que seguimos para mantener el código organizado y compartí tutoriales básicos de Git con los compañeros que tenían menos experiencia.</p>
+      <p><strong>Huang Liu, Franco Gabriel:</strong> Lideré el análisis exhaustivo de nuestros competidores Peru Rent A Car, Kayak y Budget Car Rental, coordiné todas las sesiones de user research y testing de usabilidad, facilité workshops de ideación para UX/UI donde todos aportamos ideas creativas, y representé constantemente la voz del usuario en las decisiones técnicas para mantener el foco en la experiencia.</p>
+      <p><strong>Santiago Peña, Andreow Jomark:</strong> Organicé las reuniones iniciales del equipo para definir roles y responsabilidades, coordiné la creación del repositorio GitHub y la estructura de carpetas del proyecto, facilité las sesiones de brainstorming para definir el alcance del landing page y medié en la toma de decisiones sobre qué secciones incluir en la primera versión de MOVEO.</p>
+      <p><strong>Zuñiga Calle, Sebastian Gabriel:</strong> Lideré la validación manual de todas las secciones del landing page para asegurar que funcionaran correctamente, coordiné las pruebas de responsividad en diferentes dispositivos con ayuda de mis compañeros, propuse mejoras de usabilidad basadas en mi navegación por el sitio, y guié las correcciones finales antes de la entrega para garantizar que todo estuviera pulido.</p>
+    </td>
+    <td>
+      <p><strong>TP1</strong></p>
+      <p>En conclusión: El liderazgo compartido y la distribución equitativa de responsabilidades permitieron consolidar un equipo cohesionado, capaz de tomar decisiones conjuntas y responder de forma ágil a los desafíos del proyecto.</p>
+    </td>
+  </tr>
 
-</td>
-<td>
-  <p><strong>TB1</strong></p>
-  <p>En conclusión: La comunicación efectiva y constante entre los miembros favoreció la coordinación y el avance armónico del proyecto.</p>
+  <!-- SEGUNDO CRITERIO: Crea un entorno colaborativo e inclusivo... -->
+  <tr>
+    <td>
+      <p><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></p>
+    </td>
+    <td>
+      <p><strong>TB1</strong></p>
+      <p><strong>Luna Morales, Gianfranco:</strong> Creé el workspace de Trello completo y definí el flujo de trabajo que seguimos actualmente, establecí junto al equipo la Definition of Ready y Done que nos guía en cada tarea, organicé daily standups virtuales diarios e implementé retrospectivas semanales donde todos participamos para mejorar continuamente nuestros procesos.</p>
+      <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Configuré el repositorio de GitHub con las ramas principales para que todos pudieran trabajar sin conflictos, establecí como meta crear un landing page responsive y funcional, dividí el desarrollo en componentes básicos (header, hero section, features, footer) asignando uno a cada miembro, y ayudé a resolver los problemas técnicos básicos que surgieron durante el desarrollo.</p>
+      <p><strong>Huang Liu, Franco Gabriel:</strong> Diseñé wireframes de forma colaborativa involucrando a todo el equipo en las decisiones de diseño, establecí métricas UX específicas como tiempo de carga menor a 3 segundos y usabilidad superior al 85%, organicé sesiones de testing con usuarios reales para validar nuestras hipótesis y creé un design system unificado que mantiene la coherencia visual en todo el proyecto.</p>
+      <p><strong>Santiago Peña, Andreow Jomark:</strong> Creé el canal de comunicación principal del equipo en WhatsApp y Discord, establecí las metas iniciales de completar el landing page y la documentación básica para la primera entrega, planifiqué la distribución de tareas entre compañeros según sus fortalezas e implementé reuniones de seguimiento diarias para mantener a todos alineados con los objetivos.</p>
+      <p><strong>Zuñiga Calle, Sebastian Gabriel:</strong> Creé una lista de verificación básica que usamos como equipo para revisar cada sección del landing page, establecí como meta que el sitio se viera bien en móvil y desktop sin errores visuales, organicé sesiones de testing grupal donde todos navegamos el sitio y reportamos observaciones, e implementé un proceso de revisión final donde cada uno verificó el trabajo de otro compañero antes de dar por terminado.</p>
+    </td>
+    <td>
+      <p><strong>TB1</strong></p>
+      <p>En conclusión: La comunicación interdisciplinaria permitió un mejor desarrollo y entendimiento del proyecto en todas sus fases.</p>
+    </td>
+  </tr>
 
-</td>
-</tr> <tr> <td> <p><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></p> </td> <td> <p><strong>TB1</strong></p> 
-<p><strong>Luna Morales, Gianfranco:</strong>Creé el workspace de Trello completo y definí el flujo de trabajo que seguimos actualmente, establecí junto al equipo la Definition of Ready y Done que nos guía en cada tarea, organicé daily standups virtuales diarios e implementé retrospectivas semanales donde todos participamos para mejorar continuamente nuestros procesos.</p>
- <p><strong>De la cruz Villareal,Carlos Alejandro:</strong>Configuré el repositorio de GitHub con las ramas principales para que todos pudieran trabajar sin conflictos, establecí como meta crear un landing page responsive y funcional, dividí el desarrollo en componentes básicos (header, hero section, features, footer) asignando uno a cada miembro, y ayudé a resolver los problemas técnicos básicos que surgieron durante el desarrollo.</p> 
-  <p><strong>Huang Liu, Franco Gabriel :</strong>Diseñé wireframes de forma colaborativa involucrando a todo el equipo en las decisiones de diseño, establecí métricas UX específicas como tiempo de carga menor a 3 segundos y usabilidad superior al 85%, organicé sesiones de testing con usuarios reales para validar nuestras hipótesis y creé un design system unificado que mantiene la coherencia visual en todo el proyecto.</p> 
-  <p><strong>Santiago Peña, Andreow Jomark :</strong>Creé el canal de comunicación principal del equipo en WhatsApp y Discord, establecí las metas iniciales de completar el landing page y la documentación básica para la primera entrega, planifiqué la distribución de tareas entre compañeros según sus fortalezas e implementé reuniones de seguimiento diarias para mantener a todos alineados con los objetivos.</p>
-  <p><strong>Zuñiga Calle, Sebastian Gabriel :</strong>Creé una lista de verificación básica que usamos como equipo para revisar cada sección del landing page, establecí como meta que el sitio se viera bien en móvil y desktop sin errores visuales, organicé sesiones de testing grupal donde todos navegamos el sitio y reportamos observaciones, e implementé un proceso de revisión final donde cada uno verificó el trabajo de otro compañero antes de dar por terminado.</p>
-
-
-</td>
-<td>
-  <p><strong>TB1</strong></p>
-  <p>En conclusión: La comunicación interdisciplinaria permitió un mejor desarrollo y entendimiento del proyecto en todas sus fases.</p>
-  
- 
-
-</td>
-</tr> </table>
+  <tr>
+    <td>
+      <p><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></p>
+    </td>
+    <td>
+      <p><strong>TP1</strong></p>
+      <p><strong>Luna Morales, Gianfranco:</strong> Creé el workspace de Trello completo y definí el flujo de trabajo que seguimos actualmente, establecí junto al equipo la Definition of Ready y Done que nos guía en cada tarea, organicé daily standups virtuales diarios e implementé retrospectivas semanales donde todos participamos para mejorar continuamente nuestros procesos.</p>
+      <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Configuré el repositorio de GitHub con las ramas principales para que todos pudieran trabajar sin conflictos, establecí como meta crear un landing page responsive y funcional, dividí el desarrollo en componentes básicos (header, hero section, features, footer) asignando uno a cada miembro, y ayudé a resolver los problemas técnicos básicos que surgieron durante el desarrollo.</p>
+      <p><strong>Huang Liu, Franco Gabriel:</strong> Diseñé wireframes de forma colaborativa involucrando a todo el equipo en las decisiones de diseño, establecí métricas UX específicas como tiempo de carga menor a 3 segundos y usabilidad superior al 85%, organicé sesiones de testing con usuarios reales para validar nuestras hipótesis y creé un design system unificado que mantiene la coherencia visual en todo el proyecto.</p>
+      <p><strong>Santiago Peña, Andreow Jomark:</strong> Creé el canal de comunicación principal del equipo en WhatsApp y Discord, establecí las metas iniciales de completar el landing page y la documentación básica para la primera entrega, planifiqué la distribución de tareas entre compañeros según sus fortalezas e implementé reuniones de seguimiento diarias para mantener a todos alineados con los objetivos.</p>
+      <p><strong>Zuñiga Calle, Sebastian Gabriel:</strong> Creé una lista de verificación básica que usamos como equipo para revisar cada sección del landing page, establecí como meta que el sitio se viera bien en móvil y desktop sin errores visuales, organicé sesiones de testing grupal donde todos navegamos el sitio y reportamos observaciones, e implementé un proceso de revisión final donde cada uno verificó el trabajo de otro compañero antes de dar por terminado.</p>
+    </td>
+    <td>
+      <p><strong>TP1</strong></p>
+      <p>En conclusión: El enfoque colaborativo, la planificación clara y el compromiso colectivo con las metas definidas fueron clave para cumplir con los objetivos de esta entrega de manera eficaz y con calidad.</p>
+    </td>
+  </tr>
+</table>
 
 
 # Capítulo I: Introducción
@@ -257,11 +347,11 @@ Visión: Aspiramos a consolidarnos como la plataforma más reconocida en el Per�
 
 | Integrantes                                                                                                   | Descripción | Conocimientos |
 |:--------------------------------------------------------------------------------------------------------------| :--- | :--- |
-| <img src="/Assets/img/cover/carlos.jpg" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | soy un estudiante de Ingeniería de Software, tengo 22 años y vivo en Lima. Mis pasatiempos son hacer deporte, jugar videojuegos y escuchar música. Me gusta trabajar en equipo porque de esta manera todos los integrantes podemos dar nuestro punto de vista e ideas para poder lograr el objetivo del curso |  Tengo conocimientos básicos en C#, Java y Python, y estoy en constante búsqueda de mejorar mis habilidades técnicas.|
-| <img src="/Assets/img/cover/Franco.jpeg" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345             |  Soy estudiante de la carrera de Ingeniería de Software. Mi principal meta es poder desarrollar software de manera freelance. Me interesa mucho desarrollar software para maquinas industriales | Tengo conocimientos básicos en C++, HTML, Python y Typescript |
-| <img src="/Assets/img/cover/Gianfranco.jpg" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343              | Me gusta observar el comportamiento de las personas para así crear un ambiente cómodo y activo; soy práctico y racional para los percances que puedan surgir.  | Si bien poseo conocimientos básicos en la programación en el lenguaje C + +, aportaré en lo que pueda para realizar con éxito la idea planteada. |
-| <img src="/Assets/img/cover/Andreow.jpg " width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362          | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mi principal meta es especializarme en la creación de agentes inteligentes y soluciones basadas en Inteligencia Artificial, con enfoque en aprendizaje automático, procesamiento del lenguaje natural y sistemas autónomos.| Tengo experiencia en múltiples lenguajes de programación como Python, C#, Java, JavaScript y SQL, y estoy familiarizado con frameworks comoVue.js, ASP.NET Core y TensorFlow/Keras. Me apasiona aprender tecnologías emergentes y aplicarlas en proyectos reales que generen impacto. |
-| <img src="/Assets/img/cover/gabriel.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479        | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
+| <img src="Assets/img/cover/carlos.jpg" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | soy un estudiante de Ingeniería de Software, tengo 22 años y vivo en Lima. Mis pasatiempos son hacer deporte, jugar videojuegos y escuchar música. Me gusta trabajar en equipo porque de esta manera todos los integrantes podemos dar nuestro punto de vista e ideas para poder lograr el objetivo del curso |  Tengo conocimientos básicos en C#, Java y Python, y estoy en constante búsqueda de mejorar mis habilidades técnicas.|
+| <img src="Assets/img/cover/Franco.jpeg" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345             |  Soy estudiante de la carrera de Ingeniería de Software. Mi principal meta es poder desarrollar software de manera freelance. Me interesa mucho desarrollar software para maquinas industriales | Tengo conocimientos básicos en C++, HTML, Python y Typescript |
+| <img src="Assets/img/cover/Gianfranco.jpg" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343              | Me gusta observar el comportamiento de las personas para así crear un ambiente cómodo y activo; soy práctico y racional para los percances que puedan surgir.  | Si bien poseo conocimientos básicos en la programación en el lenguaje C + +, aportaré en lo que pueda para realizar con éxito la idea planteada. |
+| <img src="Assets/img/cover/Andreow.jpg " width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362          | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mi principal meta es especializarme en la creación de agentes inteligentes y soluciones basadas en Inteligencia Artificial, con enfoque en aprendizaje automático, procesamiento del lenguaje natural y sistemas autónomos.| Tengo experiencia en múltiples lenguajes de programación como Python, C#, Java, JavaScript y SQL, y estoy familiarizado con frameworks comoVue.js, ASP.NET Core y TensorFlow/Keras. Me apasiona aprender tecnologías emergentes y aplicarlas en proyectos reales que generen impacto. |
+| <img src="Assets/img/cover/gabriel.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479        | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
 
 
 # 1.2. Solución Profile
@@ -365,7 +455,7 @@ Cada hipótesis fue traducida en un Lean UX Canvas formal, siguiendo un enfoque 
 
 Este trabajo metodológico permitió no solo establecer un marco claro de experimentación y validación temprana de las decisiones de diseño y tecnología, sino también alinear todos los esfuerzos de desarrollo a métricas de éxito específicas y medibles. Así, el apartado de Lean UX Canvas representa una pieza fundamental dentro del enfoque de construcción iterativa, ágil y centrada en el usuario de Moveo, asegurando que cada funcionalidad propuesta responde a necesidades reales, riesgos priorizados y oportunidades de negocio tangibles.
 
-![Lean ux Canva](/Assets/img/chapter-1/Leanuxcanva.jpg)
+![Lean ux Canva](Assets/img/chapter-1/Leanuxcanva.jpg)
 
 
 ## 1.3. Segmentos objetivo
@@ -411,21 +501,21 @@ Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones qu
   Esta plataforma se especializa en el alquiler de coches en Perú. Ofrece una amplia gama de vehículos y opciones de alquiler, así como información sobre destinos turísticos en Perú. 
   La plataforma también permite a los usuarios comparar precios y reservar coches en línea.
   <div style="text-align: center;">
- <img src="/Assets/img/chapter-1/PeruRentACar.png" width=310  alt="">
+ <img src="Assets/img/chapter-1/PeruRentACar.png" width=310  alt="">
   </div>
   
 - **Kayak:**
   Kayak es una de las plataformas de búsqueda de viajes más grandes del mundo. Permite a los usuarios buscar y comparar precios de vuelos, hoteles y alquiler de coches en una sola plataforma. 
   Kayak también ofrece herramientas para planificar viajes, como alertas de precios y recomendaciones personalizadas.
   <div style="text-align: center;">
-<img src="/Assets/img/chapter-1/Kayak.png" width=310  alt="">
+<img src="Assets/img/chapter-1/Kayak.png" width=310  alt="">
   </div>
 
 - **Budget Car Rental Peru:**
   A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional que ofrece servicios de alquiler de coches en Perú. 
   La plataforma permite a los usuarios buscar y comparar precios de coches de alquiler en diferentes ubicaciones y reservar en línea. Budget Car Rental también ofrece opciones de alquiler a largo plazo y programas de fidelización.
   <div style="text-align: center;">
-<img src="/Assets/img/chapter-1/Budget.png" width=310  alt="">
+<img src="Assets/img/chapter-1/Budget.png" width=310  alt="">
   </div>
 
 ### 2.1.1. Análisis competitivo.
@@ -606,7 +696,7 @@ Video de todas las entrevistas: http://bit.ly/46qhU6i
 **Dispositivos utilizados:** iPhone (exclusivo)  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-1](/Assets/img//chapter-2//entrevista-1.png)
+![Entrevistado-1](Assets/img//chapter-2//entrevista-1.png)
 **Instante en el que inicia:** 0:00   
 **Duración de la entrevista:** 2:42 min  
 
@@ -641,7 +731,7 @@ Alisa es una joven emprendedora, estudiante y digital native que alquila su Toyo
 **Dispositivos utilizados:** iPhone (exclusivo), Laptop solo para entretenimiento  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-2](/Assets/img//chapter-2//entrevista-2.png)
+![Entrevistado-2](Assets/img//chapter-2//entrevista-2.png)
 **Instante en el que inicia:** 2:43   
 **Fin de la entrevista:** 5:31 min  
 
@@ -677,7 +767,7 @@ Mathías es un emprendedor digital nativo. Maneja su negocio de alquiler (Hyunda
 **Dispositivos utilizados:** iPhone (principal), Laptop ocasional  
 **Navegador habitual:** Safari (móvil), Chrome (laptop)  
 **Imagen de entrevista:**  
-![Entrevistado-3](/Assets/img//chapter-2//entrevista-3.png)
+![Entrevistado-3](Assets/img//chapter-2//entrevista-3.png)
 **Instante en el que inicia:** 7:15  
 **Duración de la entrevista:** 3:37 min  
 
@@ -713,7 +803,7 @@ Mauricio es un joven organizado, pragmático y con mentalidad de emprendedor. Al
 **Dispositivos utilizados:** iPhone  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-4](/Assets/img/chapter-2/entrevista-4.png)
+![Entrevistado-4](Assets/img/chapter-2/entrevista-4.png)
 **Instante en el que inicia:** 10:53  
 **Duración de la entrevista:** 3:42 min  
 
@@ -748,7 +838,7 @@ Claudia es una joven realista, precavida y enfocada en la justicia. Alquila auto
 **Dispositivos utilizados:** Celular Android, Laptop ocasional  
 **Navegador habitual:** Chrome  
 **Imagen de entrevista:**  
-![Entrevistado-5](/Assets/img//chapter-2//entrevista-5.png)
+![Entrevistado-5](Assets/img//chapter-2//entrevista-5.png)
 **Instante en el que inicia:** 13:35 
 **Duración de la entrevista:** 9:28 min  
 
@@ -782,7 +872,7 @@ Gabriel no alquila autos directamente, pero ha observado de cerca la operación 
 **Dispositivos utilizados:** iPhone (exclusivo)  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-6](/Assets/img//chapter-2//entrevista-6.png)
+![Entrevistado-6](Assets/img//chapter-2//entrevista-6.png)
 **Instante en el que inicia:** 22:07  
 **Duración de la entrevista:** 4:40 min  
 
@@ -866,17 +956,17 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 
 ### Estadisticas:
 
-![Estadistica-1a](/Assets/img//chapter-2/estadistica-1a.png)
+![Estadistica-1a](Assets/img//chapter-2/estadistica-1a.png)
 
-![Estadistica-1b](/Assets/img//chapter-2/estadistica-1b.png)
+![Estadistica-1b](Assets/img//chapter-2/estadistica-1b.png)
 
-![Estadistica-1c](/Assets/img//chapter-2/estadistica-1c.png)
+![Estadistica-1c](Assets/img//chapter-2/estadistica-1c.png)
 
-![Estadistica-1d](/Assets/img/chapter-2/estadistica-1d.png)
+![Estadistica-1d](Assets/img/chapter-2/estadistica-1d.png)
 
-![Estadistica-1e](/Assets/img//chapter-2/estadistica-1e.png)
+![Estadistica-1e](Assets/img//chapter-2/estadistica-1e.png)
 
-![Estadistica-1f](/Assets/img//chapter-2/estadistica-1f.png)
+![Estadistica-1f](Assets/img//chapter-2/estadistica-1f.png)
 
 ---
 
@@ -925,17 +1015,17 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 
 ### Estadisticas:
 
-![Estadistica-2a](/Assets/img//chapter-2/estadistica-2a.png)
+![Estadistica-2a](Assets/img//chapter-2/estadistica-2a.png)
 
-![Estadistica-2b](/Assets/img//chapter-2/estadistica-2b.png)
+![Estadistica-2b](Assets/img//chapter-2/estadistica-2b.png)
 
-![Estadistica-2c](/Assets/img//chapter-2/estadistica-2c.png)
+![Estadistica-2c](Assets/img//chapter-2/estadistica-2c.png)
 
-![Estadistica-2d](/Assets/img//chapter-2/estadistica-2d.png)
+![Estadistica-2d](Assets/img//chapter-2/estadistica-2d.png)
 
-![Estadistica-2e](/Assets/img//chapter-2/estadistica-2e.png)
+![Estadistica-2e](Assets/img//chapter-2/estadistica-2e.png)
 
-![Estadistica-2f](/Assets/img//chapter-2/estadistica-2f.png)
+![Estadistica-2f](Assets/img//chapter-2/estadistica-2f.png)
 
 
 
@@ -983,7 +1073,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 
 #### Persona 1: Propietario Emprendedor Digital
 
-![User-persona-1](/Assets/img//chapter-2/Roy-userpersona.png)
+![User-persona-1](Assets/img//chapter-2/Roy-userpersona.png)
 
 **Nombre:** Roy Hsie  
 **Edad:** 24 años  
@@ -1015,7 +1105,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 
 #### Persona 2: Inquilina Justiciera Digital
 
-![User-persona-2](/Assets/img//chapter-2/Gabriel-userpersona.png)
+![User-persona-2](Assets/img//chapter-2/Gabriel-userpersona.png)
 
 **Nombre:** Gabriel Torres  
 **Edad:** 19 años  
@@ -1083,13 +1173,13 @@ La actividad se centró en dos segmentos clave:
 
 Segmento Objetivo 1: **Propietario de vehículos** 
 
-![journey map 2](/Assets/img/chapter-2/Journey%20map-Roy.png)
+![journey map 2](Assets/img/chapter-2/Journey%20map-Roy.png)
 
 Se puede evidenciar el flujo de trabajo y captación de Roy para encontrar nuevos clientes, no es ideal y se encuentra frustrado con la poca seguridad que le ofrecen las plataformas gratuitas, por eso no las usa.
 
 Segmento Objetivo 2: **Inquilinos**
 
-![journey map 2](/Assets/img/chapter-2/Journey%20Map-Gabriel.png)
+![journey map 2](Assets/img/chapter-2/Journey%20Map-Gabriel.png)
 
 Por su lado Gabriel se siente frustrado por la falta de opciones y la poca seguridad que le ofrecen las plataformas gratuitas, por ello una vez identifica dueños confiables, deja de utilizar dicha plataforma a menos que sea estrictamente necesario.
 
@@ -1102,11 +1192,11 @@ Como parte del proceso de diseño centrado en el usuario para **Moveo**, se elab
 
 Segmento 1: **Propietarios**
 
-![empathy map Gabriel](/Assets/img/chapter-2/Empathy%20map-Roy.png)
+![empathy map Gabriel](Assets/img/chapter-2/Empathy%20map-Roy.png)
 
 Segmento 2: **Inquilinos**
 
-![empathy map Gabriel](/Assets/img/chapter-2/Empathy%20map-Gabriel.png)
+![empathy map Gabriel](Assets/img/chapter-2/Empathy%20map-Gabriel.png)
 
 ### 2.4. Big Picture Event Storming
 
@@ -1114,7 +1204,7 @@ En esta sección, el equipo presenta el resultado de una sesión colaborativa de
 
 El objetivo fue mapear los eventos clave que ocurren desde que un propietario decide alquilar su auto hasta que un inquilino lo devuelve (o surge un conflicto), identificando actores, sistemas externos, relaciones, y — sobre todo — los problemas reales y oportunidades de mejora que emergen del proceso actual.
 
-![big picture event storming](/Assets/img/chapter-2/big-picture.png)
+![big picture event storming](Assets/img/chapter-2/big-picture.png)
 
 Link del event stotming: https://miro.com/app/board/uXjVJF6vK1o=/?share_link_id=355761890687
 
@@ -1149,12 +1239,12 @@ Este mapa describe la experiencia ideal de dos usuarios clave en la plataforma:
  **Segmento 1: Propietario (Roy)**  
 Busca una forma segura y sencilla de ganar dinero extra alquilando su auto. Valora la verificación de identidad, la publicación guiada, el chat seguro dentro de la app, los contratos automáticos y los pagos sin contacto. Su motivación principal: confianza, simplicidad y profesionalismo.
 
-![Segmento-1](/Assets/img//chapter-3/segmento-1.png)
+![Segmento-1](Assets/img//chapter-3/segmento-1.png)
 
  **Segmento 2: Inquilino (Gabriel)**  
 Necesita un auto rápido, confiable y sin riesgos. Confía en fotos verificadas, reseñas reales, historial del vehículo y procesos claros. Valora la reserva con un clic, el pago digital, las llaves virtuales y el soporte integrado. Su motivación: seguridad, ahorro de tiempo y tranquilidad.
 
-![Segmento-2](/Assets/img//chapter-3/segmento-2.png)
+![Segmento-2](Assets/img//chapter-3/segmento-2.png)
 
 Miro con el To-Be: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497
 
@@ -1220,7 +1310,7 @@ Deliverables: Las soluciones que la plataforma ofrece para provocar esos cambios
 
 User Stories: Las historias de usuario concretas que implementan cada deliverable, asegurando trazabilidad desde la estrategia hasta la funcionalidad
 
-![Impact-map](/Assets/img//chapter-3/Impact-map.png)
+![Impact-map](Assets/img//chapter-3/Impact-map.png)
 
 ## 3.4. Product Backlog.
 
@@ -1282,7 +1372,7 @@ Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea
 Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
 
 <p align="center">
-<img src="/Assets/chapter-4/Logo.png" alt="Moveo_Logo" height="500"/>
+<img src="Assets/chapter-4/Logo.png" alt="Moveo_Logo" height="500"/>
 </p>
 
 
@@ -1293,20 +1383,20 @@ La tipografía debe transmitir claridad, calidez y profesionalismo. Por esa raz�
 En este caso se usará **Poppins** para titulos y/o subtitulos e **Inter** para texto y/o subtexto.
 
 <p align="center">
-<img src="/Assets/chapter-4/Typography.png" alt="Moveo_Typo"/>
+<img src="Assets/chapter-4/Typography.png" alt="Moveo_Typo"/>
 </p>
 
-![tipografia usada](/Assets/chapter-4/typografia.png)
+![tipografia usada](Assets/chapter-4/typografia.png)
 
 #### Colors
 
 Elegimos los siguientes colores buscando plasmar una paleta que influya seguridad y profesionalismo:
 
 <p align="center">
-<img src="/Assets/chapter-4/Color.png" alt="Moveo_Colors"/>
+<img src="Assets/chapter-4/Color.png" alt="Moveo_Colors"/>
 </p>
 
-![Colores usados](/Assets/chapter-4/Colores.png)
+![Colores usados](Assets/chapter-4/Colores.png)
 
 
 #### Spacing
@@ -1350,7 +1440,7 @@ Nuestro propósito es garantizar una experiencia de usuario coherente y sin fric
 Si bien ambos acceden a las mismas secciones, la diferencia radica en los niveles de permiso. Los dueños pueden prestar el transporte, ofrecer rutas de aventuras y prestar servicios adicionales, mientras que los inquilinos cuentan únicamente con acceso a la visualización de autos, aventuras y servicios disponibles, además de la posibilidad de filtrar por locación, fecha y/o cantidad de personas.
 
 <p align="center">
-<img src="/Assets/chapter-4/Diagrama.png" alt="Moveo_Diagram"/>
+<img src="Assets/chapter-4/Diagrama.png" alt="Moveo_Diagram"/>
 </p>
 
 Como se ve en el diagrama, se sigue un proceso estructurado para facilitar la gestión de la salud de los pacientes, permitiendo la interacción entre médicos y familiares. Aquí explicamos cada etapa del proceso y las funciones disponibles:
@@ -1496,43 +1586,43 @@ Los wireframes representan la estructura básica y funcional de la landing page 
 ---
 
 #### Header y Hero
-![header y hero](/Assets/chapter-4/wire-header-hero.png)  
+![header y hero](Assets/chapter-4/wire-header-hero.png)  
 *Define la primera impresión del usuario: logo, menú de navegación, llamado a acción principal (“Alquila tu auto” o “Encuentra tu viaje”) y espacio para imagen/video hero. Diseñado para captar atención en menos de 3 segundos.*
 
 ---
 
 #### What is Moveo
-![what is moveo](/Assets/chapter-4/wire-whatismoveo.png)  
+![what is moveo](Assets/chapter-4/wire-whatismoveo.png)  
 *Sección explicativa que comunica el valor central de Moveo: conectar propietarios e inquilinos con confianza, transparencia y tecnología. Incluye iconografía simple y bullets de beneficios.*
 
 ---
 
 #### Team Members
-![Tema members](/Assets/chapter-4/wire-team.png)  
+![Tema members](Assets/chapter-4/wire-team.png)  
 *Muestra al equipo fundador o clave. Construye confianza y humaniza la marca. Cada tarjeta incluye foto, nombre, rol y redes sociales.*
 
 ---
 
 #### Services
-![services](/Assets/chapter-4/wire-services.png)  
+![services](Assets/chapter-4/wire-services.png)  
 *Presenta los servicios principales: alquiler de autos, aventuras guiadas, seguros integrados. Usa tarjetas modulares con ícono, título y descripción corta.*
 
 ---
 
 #### Moveo Services — Learn More
-![moveo services learn more](/Assets/chapter-4/wire-services.png)  
+![moveo services learn more](Assets/chapter-4/wire-services.png)  
 *Sección de profundización: explica cómo funciona la plataforma, pasos para alquilar o listar un auto, y garantías de seguridad. Incluye botones de CTA secundarios.*
 
 ---
 
 #### Impacto de Moveo
-![Impacto de moveo](/Assets/chapter-4/wire-impact.png)  
+![Impacto de moveo](Assets/chapter-4/wire-impact.png)  
 *Visualiza métricas de impacto: “+500 autos listados”, “+2000 viajes realizados”, “98% de satisfacción”. Refuerza credibilidad y escala.*
 
 ---
 
 #### Footer
-![Footer](/Assets/chapter-4/wire-questions.png)  
+![Footer](Assets/chapter-4/wire-questions.png)  
 *Contiene enlaces legales, contacto, redes sociales, newsletter y logos de partners o certificaciones. Es la base de confianza y cierre de la página.*
 
 ---
@@ -1547,43 +1637,43 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ---
 
 #### Header y Hero
-![header y hero](/Assets/chapter-4/header%20y%20hero.png)  
+![header y hero](Assets/chapter-4/header%20y%20hero.png)  
 *Hero impactante con fondo dinámico (auto en movimiento), tipografía bold, botón principal con sombra y hover effect. Transmite energía, libertad y confianza.*
 
 ---
 
 #### What is Moveo
-![what is moveo](/Assets/chapter-4/what%20is%20Moveo.png)  
+![what is moveo](Assets/chapter-4/what%20is%20Moveo.png)  
 *Diseño limpio con ilustraciones vectoriales, gradientes suaves y cards con sombras sutiles. Comunica profesionalismo y cercanía.*
 
 ---
 
 #### Team Members
-![Tema members](/Assets/chapter-4/teammember.png)  
+![Tema members](Assets/chapter-4/teammember.png)  
 *Fotos profesionales con fondo desenfocado, bordes redondeados, hover con redes sociales. Genera empatía y confianza institucional.*
 
 ---
 
 #### Services
-![services](/Assets/chapter-4/services.png)  
+![services](Assets/chapter-4/services.png)  
 *Iconos personalizados, colores por categoría, animaciones de entrada suaves. Cada servicio tiene un tono visual que refuerza su propósito (ej. verde para “seguro”, azul para “aventuras”).*
 
 ---
 
 #### Moveo Services — Learn More
-![moveo services learn more](/Assets/chapter-4/moveo.png)  
+![moveo services learn more](Assets/chapter-4/moveo.png)  
 *Sección con fondo dividido, ilustración a la izquierda y texto a la derecha. Botones con estados hover y focus definidos. Microcopy persuasivo y claro.*
 
 ---
 
 #### Impacto de Moveo
-![Impacto de moveo](/Assets/chapter-4/impacto.png)  
+![Impacto de moveo](Assets/chapter-4/impacto.png)  
 *Números grandes en negrita, íconos animados al scroll, fondo con textura sutil. Diseñado para generar asombro y validación social.*
 
 ---
 
 #### Footer
-![Footer](/Assets/chapter-4/footer.png)  
+![Footer](Assets/chapter-4/footer.png)  
 *Fondo oscuro, texto claro, separadores sutiles. Incluye logo pequeño, links organizados en columnas, formulario de newsletter con validación visual y redes con íconos hover.*
 
 ---
@@ -1593,12 +1683,12 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.4.1. Web Applications Wireframes
 
 <p align="center">
-  <img src="/Assets/chapter-4/App_wireframe_1.png" alt="app_wireframes_1"/>
+  <img src="Assets/chapter-4/App_wireframe_1.png" alt="app_wireframes_1"/>
 </p>
 *Wireframe de la pantalla principal de la app: feed de autos disponibles, filtros superiores (ubicación, fechas, tipo de auto), barra de navegación inferior. Enfoque en funcionalidad y flujo de búsqueda.*
 
 <p align="center">
-  <img src="/Assets/chapter-4/App_wireframe_2.png" alt="app_wireframes_2"/>
+  <img src="Assets/chapter-4/App_wireframe_2.png" alt="app_wireframes_2"/>
 </p>
 *Wireframe del perfil de usuario y detalle de auto: información del dueño, fotos, reseñas, botón de reserva, sección de preguntas frecuentes. Define la estructura de toma de decisión.*
 
@@ -1607,7 +1697,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 <p align="center">
-  <img src="/Assets/chapter-4/moveo_wireflow.jpg" alt="app_wireflow"/>
+  <img src="Assets/chapter-4/moveo_wireflow.jpg" alt="app_wireflow"/>
 </p>
 *Mapa visual del flujo completo del usuario: desde el onboarding → búsqueda → reserva → pago → entrega → calificación. Identifica puntos críticos y oportunidades de mejora en la experiencia.*
 
@@ -1616,7 +1706,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.4.3. Web Applications Mock-ups
 
 <p align="center">
-  <img src="/Assets/chapter-4/Moveo App Mockup.png" alt="app_mockup"/>
+  <img src="Assets/chapter-4/Moveo App Mockup.png" alt="app_mockup"/>
 </p>
 *Diseño visual final de la aplicación móvil. Paleta de colores vibrante pero profesional, tipografía legible, componentes con estados interactivos (presionado, cargando, error). Refleja la identidad de marca en cada pantalla.*
 
@@ -1625,7 +1715,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.4.4. Web Applications User Flow Diagrams
 
 <p align="center">
-  <img src="/Assets/chapter-4/user_flow_diagram.jpg" alt="userflow"/>
+  <img src="Assets/chapter-4/user_flow_diagram.jpg" alt="userflow"/>
 </p>
 *Diagrama detallado de los caminos que sigue un usuario para completar tareas clave: “Reservar un auto en 3 clics”, “Publicar mi auto en 5 pasos”, “Dejar una reseña”. Sirve para validar usabilidad y eliminar fricciones.*
 
@@ -1634,7 +1724,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ## 4.5. Web Applications Prototyping
 
 <p align="center">
-  <img src="/Assets/chapter-4/protoype_moveo.png" alt="prototype"/>
+  <img src="Assets/chapter-4/protoype_moveo.png" alt="prototype"/>
 </p>
 *Prototipo interactivo de alta fidelidad. Permite simular la navegación real entre pantallas, probar transiciones, microinteracciones y flujos completos. Herramienta esencial para pruebas de usabilidad con usuarios reales antes del desarrollo.*
 
@@ -1648,7 +1738,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.6.1. Software Architecture Context Diagram
 
 <p align="center">
-  <img src="/Assets/chapter-4/moveo_context.png" alt="moveo_context_diagram"/>
+  <img src="Assets/chapter-4/moveo_context.png" alt="moveo_context_diagram"/>
 </p>
 *Diagrama de contexto que muestra cómo Moveo se relaciona con actores externos: usuarios (propietarios e inquilinos), sistemas de pago (Yape, Plin), servicios de geolocalización, y notificaciones push. Define los límites del sistema.*
 
@@ -1657,7 +1747,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.6.2. Software Architecture Container Diagrams
 
 <p align="center">
-  <img src="/Assets/chapter-4/moveo_container.png" alt="moveo_container_diagram"/>
+  <img src="Assets/chapter-4/moveo_container.png" alt="moveo_container_diagram"/>
 </p>
 *Desglosa la arquitectura en contenedores: frontend (React), backend (Node.js), base de datos (PostgreSQL), almacenamiento de archivos (AWS S3), y servicios externos (Firebase Auth, Cloudinary). Muestra cómo se comunican entre sí.*
 
@@ -1667,31 +1757,31 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 
 **UserBC (User Bounded Context):**
 <p align="center">
-  <img src="/Assets/chapter-4/userBC.png" alt="userBC"/>
+  <img src="Assets/chapter-4/userBC.png" alt="userBC"/>
 </p>
 *Gestiona autenticación, autorización y perfiles de usuario. Componentes clave: AuthService, UserService, RoleManager.*
 
 **ProfileBC (Profile Bounded Context):**
 <p align="center">
-  <img src="/Assets/chapter-4/profileBC.png" alt="profileBC"/>
+  <img src="Assets/chapter-4/profileBC.png" alt="profileBC"/>
 </p>
 *Maneja la información detallada del usuario: documentos subidos, historial de alquileres, reputación, preferencias. Componentes: ProfileService, DocumentValidator, ReputationEngine.*
 
 **CarRentBC (Car Rental Bounded Context):**
 <p align="center">
-  <img src="/Assets/chapter-4/carBC.png" alt="CarRentBC"/>
+  <img src="Assets/chapter-4/carBC.png" alt="CarRentBC"/>
 </p>
 *Core del negocio: listado de autos, reservas, pagos, contratos digitales. Componentes: CarListingService, BookingManager, PaymentGateway, ContractGenerator.*
 
 **AdventureBC (Adventure Bounded Context):**
 <p align="center">
-  <img src="/Assets/chapter-4/adventureBC.png" alt="adventureBC"/>
+  <img src="Assets/chapter-4/adventureBC.png" alt="adventureBC"/>
 </p>
 *Opcional: gestiona paquetes de “aventuras” (rutas turísticas, guías, seguros especiales). Componentes: AdventureCatalog, RoutePlanner, GuideMatcher.*
 
 **ServiceBC (Service Bounded Context):**
 <p align="center">
-  <img src="/Assets/chapter-4/serviceBC.png" alt="serviceBC"/>
+  <img src="Assets/chapter-4/serviceBC.png" alt="serviceBC"/>
 </p>
 *Maneja servicios transversales: notificaciones, alertas, soporte, reportes. Componentes: NotificationService, AlertEngine, SupportTicketSystem.*
 
@@ -1702,7 +1792,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.7.1. Class Diagrams
 
 <p align="center">
-  <img src="/Assets/chapter-4/moveo_class.png" alt="moveo_class_diagram"/>
+  <img src="Assets/chapter-4/moveo_class.png" alt="moveo_class_diagram"/>
 </p>
 *Diagrama UML que modela las clases principales del sistema: User, Car, Booking, Payment, Review, Document, etc. Muestra atributos, métodos, relaciones (herencia, asociación, agregación) y responsabilidades. Base para el desarrollo orientado a objetos.*
 
@@ -1713,7 +1803,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.8.1. Database Diagram
 
 <p align="center">
-  <img src="/Assets/chapter-4/move_db.png" alt="moveo_database_diagram"/>
+  <img src="Assets/chapter-4/move_db.png" alt="moveo_database_diagram"/>
 </p>
 *Modelo entidad-relación (ERD) de la base de datos. Tablas principales: users, cars, bookings, payments, reviews, documents, notifications. Muestra claves primarias, foráneas, índices y relaciones (1:1, 1:N, N:M). Optimizado para consultas de reserva, reputación y reportes.*
 
@@ -1957,7 +2047,7 @@ El enfoque de este sprint es **completar la experiencia del usuario en la págin
 |  |  | T36 | Validar envío de formulario | Probar con correo real. | 2 | QA | Done |
 
 
-![foto sprint 1 trello](/Assets/chapter-5/sprint-1-trello.png)
+![foto sprint 1 trello](Assets/chapter-5/sprint-1-trello.png)
 
 ---
 
@@ -2011,9 +2101,9 @@ La página es completamente responsive, está optimizada para SEO, y cuenta con 
 > https://moveo-landing.netlify.app/
 
 > **📹 Enlace al video de demostración (navegación y funcionalidades):**  
-> https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EfbDbq8O2vJLjZqHrR1-WQ4BJ_stYdiTVMOVlDR6QnnATA?e=LFGgeR
+> [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EfbDbq8O2vJLjZqHrR1-WQ4BJ_stYdiTVMOVlDR6QnnATA?e=LFGgeR](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EfbDbq8O2vJLjZqHrR1-WQ4BJ_stYdiTVMOVlDR6QnnATA?e=LFGgeR)
 
-![hero](/Assets/chapter-5/netlify.png)  
+![hero](Assets/chapter-5/netlify.png)  
 
 **Estado del Sprint:**  
 **COMPLETADO.**  
@@ -2059,9 +2149,9 @@ Cada push a `main` o merge de Pull Request dispara automáticamente:
 4. Despliegue del sitio estático
 5. Notificación por correo y Slack al equipo
 
-![netlify](/Assets/chapter-5/netlify1.png)  
+![netlify](Assets/chapter-5/netlify1.png)  
 
-![netlify](/Assets/chapter-5/netlify2.png)  
+![netlify](Assets/chapter-5/netlify2.png)  
 
 ---
 
@@ -2085,11 +2175,11 @@ El sitio incluye todas las secciones desarrolladas en el Sprint 1:
 
 El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de ramas permitió que cada miembro del equipo trabajara en una parte del proyecto sin interferir en el trabajo de los demás. Al terminar cada 'feature' se comprueba que no tenga conflictos con la rama principal y se procede a hacer un 'pull request' para que se integre con la rama principal. A continuación, se muestra una imagen de la colaboración del equipo en GitHub.
 
-![commits-1](/Assets/chapter-5//insight%20(1).png)
+![commits-1](Assets/chapter-5//insight%20(1).png)
 
-![commits-1](/Assets/chapter-5//insight%20(2).png)
+![commits-1](Assets/chapter-5//insight%20(2).png)
 
-![commits-1](/Assets/chapter-5//insight%20(3).png)
+![commits-1](Assets/chapter-5//insight%20(3).png)
 
 ## 5.2.2. Sprint 2 
 ### 5.2.2.1. Sprint Planning 2
@@ -2190,7 +2280,7 @@ Sprint Backlog – Sprint 2
 | | | T79 | Validar cálculos de comisiones | Verificar precisión de cálculos mostrados | 2 | QA | Done |
 | | | T80 | Crear endpoint GET /api/pricing | Endpoint para obtener configuración de precios | 3 | Backend | Done |
 
-![foto sprint 2 trello](/Assets/chapter-5/trello-def.png)
+![foto sprint 2 trello](Assets/chapter-5/trello-def.png)
 
 Estado Final del Sprint 2
 Todos los Work Items han sido completados y verificados. La aplicación web está lista para:
@@ -2202,25 +2292,92 @@ Todos los Work Items han sido completados y verificados. La aplicación web est�
 Enlace al tablero de Kanban (Trello):
 https://trello.com/b/VRvBNLHD/moveo-apps-web
 
-### 5.2.2.4. Testing Suite Evidence for Sprint Review
-Durante el Sprint 2, se implementaron pruebas automatizadas para garantizar la calidad y estabilidad de las funcionalidades desarrolladas. Se utilizaron las siguientes herramientas y metodologías:
-Frontend Testing (Vue.js)
+### 5.2.2.4. Development Evidence for Sprint Review
 
-Framework: Vitest 
-Cobertura: Componentes críticos del módulo de gestión de vehículos
-Tipos de pruebas:
 
-Unit tests para componentes individuales
-Integration tests para flujos completos
-E2E tests con Cypress para validación de usuario final
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: **Landing Page**, **Web Applications** y **Web Services**. La sección inicia con una introducción que resume los principales avances en la implementación.
+
+Durante este Sprint, el equipo ha avanzado significativamente en la construcción de la **aplicación móvil funcional** de Moveo, integrando módulos clave como autenticación, gestión de reservas, historial de pagos, visualización de vehículos y rutas globales. Además, se implementó un **fake API** utilizando JSON Server para simular servicios backend, permitiendo el desarrollo paralelo entre frontend y backend sin dependencias externas. Se realizaron mejoras estructurales en el repositorio, incluyendo organización de ramas, integración continua mediante pull requests y correcciones de bugs críticos. Los commits reflejan un enfoque ágil, con entregas incrementales, pruebas continuas y colaboración interdisciplinaria entre desarrolladores front y back.
+
+A continuación, se presenta la tabla con los commits relacionados con la implementación durante el Sprint 2:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/render-deployment-setup` | `8ed0e0c` | `Merge pull request #10 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feature/render-deployment-setup` | Implementación del script de despliegue `start.sh` para Render. Preparación del entorno de producción. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/owner-vehicles-view-implementation` | `8b8dbd8` | `Merge pull request #9 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feature/owner-vehicles-view-implementation` | Implementación de la vista de vehículos para propietarios. Incluye listado, edición y estado de disponibilidad. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/global-routes-setup` | `5364d12` | `Merge pull request #8 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feature/global-routes-setup` | Configuración de rutas globales para navegación entre componentes (login, dashboard, rentals, payments). | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/owner-vehicle-management-setup` | `9c1757a` | `Merge pull request #7 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feature/owner-vehicle-management-setup` | Implementación del módulo de gestión de vehículos para propietarios (agregar, editar, eliminar). | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/rental-add-vehicle-and-requests` | `8334f82` | `Merge pull request #6 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feature/rental-add-vehicle-and-requests` | Integración de funcionalidad para agregar vehículos y gestionar solicitudes de reserva. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/car-rental-section-implementation` | `2422bab` | `Merge pull request #4 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feature/car-rental-section-implementation` | Implementación de la sección de alquiler de autos con filtros, dimensiones y visualización de resultados. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feat/payment-module` | `a076c56` | `Merge pull request #3 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feat/payment-module` | Desarrollo del módulo de pagos: vista, gestión y almacenamiento de historial de transacciones. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feat/adventure-list` | `0b2cc46` | `Merge pull request #2 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feat/adventure-list` | Implementación de lista de aventuras con filtrado, visualización y almacenamiento en store. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `4f51090` | `Merge branch 'develop' into feature/global-routes-setup` | Integración de cambios desde develop hacia la rama de rutas globales. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `45f93d3` | `feat(rental): implement rental status tracking` | Implementación del seguimiento del estado de las reservas (pendiente, confirmada, completada). | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `d2b2a61` | `feat(rental): implement vehicle edit functionality` | Funcionalidad para editar detalles de vehículos desde la interfaz de usuario. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `ed752cd` | `feat(api): implement backend API integration` | Conexión del frontend con el fake API para consumir endpoints de usuarios, vehículos y reservas. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `63d8df1` | `chore(deploy): implement start.sh script for deployment` | Script de despliegue automatizado para Render. Preparación del entorno de producción. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `4379457` | `chore(deploy): implement start.sh script` | Implementación inicial del script de inicio para despliegue en Render. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `b0b5a98` | `feat(rental): implement payment functionality for rentals` | Integración de pago en el flujo de reserva. Conexión con módulo de pagos. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `df51cbc` | `feat(payment): implement rental payment history` | Visualización del historial de pagos asociados a cada reserva. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `7bd4b00` | `feat(rental): implement vehicle detail page with rental history` | Página de detalle de vehículo con historial de alquileres asociados. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `889b463` | `feat(rental): implement vehicle detail view` | Vista detallada de vehículo con información completa y botones de acción. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `fe92773` | `fix(db): correct errors in db.json for payments` | Corrección de errores en el archivo de base de datos simulada para pagos. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `a2b5c23` | `chore(cleanup): remove mocked files` | Limpieza de archivos mock obsoletos tras la implementación real de APIs. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `2163b67` | `feat(add my vehicles)` | Funcionalidad para que los propietarios agreguen sus vehículos al sistema. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `0684bad` | `feat(payment): added payment view` | Creación de la vista de pago con campos y validaciones básicas. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `a677699` | `feat(payment): added payment management` | Gestión de pagos desde el panel de administración. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `2c6fe1f` | `feat(payment): added payment entity` | Definición de entidad de pago en el modelo de datos del fake API. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `45e3074` | `feat(car-rental): implement rental filter and dimension adjustments` | Ajustes visuales y funcionales en el filtro de alquiler de autos. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `99f328d` | `feat(navigation): implement user-based routing and toolbar` | Implementación de rutas basadas en rol (cliente/proprietario) y barra de navegación dinámica. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `dfd75ce` | `feat(rental): implement rental with cars in bounded context` | Integración de reservas dentro del contexto limitado de vehículos disponibles. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `1fcfbb9` | `fix(adventure): fixed adventure api not getting all the adventures` | Corrección de bug en la API de aventuras que no devolvía todos los registros. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `7642353` | `fix(adventure): fixed adventure store not saving element` | Corrección de persistencia en el store de aventuras. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `44387f2` | `fix(adventure): fixed list element not showing` | Corrección visual en la lista de aventuras que no mostraba elementos. | 08/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `1b9e729` | `feat(src): added temporal code in router` | Código temporal en el router para prueba de rutas. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `af5fa57` | `feat(src): added temporal code in main.js` | Código temporal en main.js para pruebas de carga. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `cd19944` | `feat(src): added temporal App.vue` | Componente temporal App.vue para prueba de renderizado. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `188178e` | `feat(adventure): added adventure list` | Implementación inicial de la lista de aventuras. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `c7b89ca` | `feat(adventure): added adventure form` | Formulario para agregar nuevas aventuras. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `0b81627` | `feat(src): added the i18n code` | Implementación básica de internacionalización (i18n) en el código fuente. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `96a0e9d` | `feat(locales): added basic english and basic spanish for adventures` | Traducciones básicas en inglés y español para el módulo de aventuras. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `3a538e1` | `feat(shared): added base api and endpoints for adventure` | Definición de endpoints base para el módulo de aventuras en el fake API. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `6440f93` | `fix(adventure): fixed adventures api` | Corrección de endpoint de aventuras que no respondía correctamente. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `01219ce` | `fix(adventure): fixed adventure store` | Corrección de lógica en el store de aventuras. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `35679e8` | `fix(adventure): fixed adventure assembler` | Corrección en el ensamblador de aventuras que generaba datos incorrectos. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `0c35bc2` | `feat(rental): implement components in rental bounded context` | Implementación de componentes UI para el contexto de alquiler. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `07e793e` | `feat(car-rental): implement model and infrastructure` | Creación del modelo y estructura básica para el módulo de alquiler de autos. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `36399fa` | `feat(adventure): add store for adventures` | Implementación del store Vuex/Pinia para manejar estado de aventuras. | 07/10/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `b3d40f` | `feat(adventure): add api assembler for adventures` | Assembler para transformar respuestas de API en objetos de aventuras. | 07/10/2025 |
+
 
 ### 5.2.2.5. Execution Evidence for Sprint Review
 En este Sprint, el equipo logró implementar y desplegar completamente el módulo de gestión de vehículos para propietarios y funcionalidades complementarias para inquilinos en la aplicación web de Moveo. Se desarrollaron todas las funcionalidades clave: publicación de vehículos, listado y gestión, edición de información, cambio de estado (Activo/Inactivo), historial de alquileres, sistema de reportes de problemas y visualización de precios y comisiones.
-La aplicación es completamente funcional, con integración completa entre frontend (Vue.js), backend (API REST) y base de datos (PostgreSQL). Además, se implementó el despliegue automático en Render con CI/CD integrado.
+La aplicación es completamente funcional, con integración completa entre frontend (Vue.js), fake api. Además, se implementó el despliegue automático en Render con CI/CD integrado.
+
+Link de la aplicacion:
+https://moveo-frontend-0sbk.onrender.com/
+
+Link del video:
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EZVv8TEE4kZFgsIMpUVQhNcB_mQfA9Np8apIf5ByhJ1bKw?e=F1DVfd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EZVv8TEE4kZFgsIMpUVQhNcB_mQfA9Np8apIf5ByhJ1bKw?e=F1DVfd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+![evidnecia app](assets/chapter-5/app-evidence%20(1).png)
+
+![evidnecia app](assets/chapter-5/app-evidence%20(2).png)
+
+![evidnecia app](assets/chapter-5/app-evidence%20(3).png)
+
+![evidnecia app](assets/chapter-5/app-evidence%20(4).png)
+
+![evidnecia app](assets/chapter-5/app-evidence%20(5).png)
+
+![evidnecia app](assets/chapter-5/app-evidence%20(6).png)
+
+![evidnecia app](assets/chapter-5/app-evidence%20(7).png)
 
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
-Durante el Sprint 2, se desarrolló y documentó la API RESTful para el módulo de gestión de vehículos. A continuación, se presenta la documentación de los principales endpoints implementados:
+Durante el Sprint 2, se desarrolló y documentó la FAKE API para el módulo de gestión de vehículos. A continuación, se presenta la documentación de los principales endpoints implementados:
 
 Endpoints Implementados
 | Endpoint | Método | Descripción | Parámetros | Respuesta |
@@ -2241,18 +2398,47 @@ En este Sprint, se completó con éxito el despliegue de la aplicación web de M
 
 Configuración de Despliegue
 Frontend (Vue.js)
-
 Plataforma: Render (Static Site)
 Build Command: npm run build
 Publish Directory: dist
-Variables de entorno: VITE_API_URL, VITE_APP_ENV
+
+![render 1](assets/chapter-5/render%20(4).png)
+
+![render 1](assets/chapter-5/render%20(5).png)
+
+![render 1](assets/chapter-5/render%20(6).png)
+
+
+Ademas se implemento la fake api en render
+
+![render 1](assets/chapter-5/render%20(1).png)
+
+![render 1](assets/chapter-5/render%20(2).png)
+
+![render 1](assets/chapter-5/render%20(3).png)
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint
 El equipo desarrolló la aplicación web usando GitFlow, con ramas específicas para cada feature. El uso de ramas permitió que cada miembro del equipo trabajara en diferentes módulos sin generar conflictos.
 
+commits:
+
+![commit tp](assets/img/chapter-1/tp1-a.png)
+
+network:
+![network tp](assets/img/chapter-1/tp1-b.png)
+
+
+### Conclusiones
+
+**TB1**
+
+Este primer entregable nos permitió moldear la idea detrás de Moveo, estudiar nuestro mercado objetivo asi como entender sus necesidades para poder ofrecerles una experiencia con base en las mismas. El flujo de trabajo se realizó mediante reuniones por discord y asignación de tareas, finalmente el despliegue de la landing page fue exitoso y se logró cumplir con los objetivos planteados al inicio del sprint.
+
+**TP**
+
+Finalizar este entregable nos permitió avanzar de manera concreta en las user stories definidas, destacando la relevancia de la planificación y organización en el desarrollo de software. La construcción de los bounded contexts planteados en la documentación inicial refleja el progreso alcanzado en la aplicación. Asimismo, se implementaron las correcciones derivadas del feedback de la entrega anterior, fortaleciendo la calidad y coherencia del front-end.
 
 ### Bibliografia
-
 
 A continuación, se presenta la lista de fuentes, herramientas, plataformas y recursos utilizados durante la investigación, diseño, desarrollo e implementación del proyecto **Moveo**. Esta bibliografía incluye referencias técnicas, metodológicas, visuales y de infraestructura que respaldan el trabajo realizado.
 
@@ -2270,9 +2456,6 @@ A continuación, se presenta la lista de fuentes, herramientas, plataformas y re
   *Compilado en:* http://bit.ly/46qhU6i  
   *Evidencia audiovisual del proceso de needfinding y validación de supuestos.*
 
-- **Videos de expo grupal**  
-  Link:https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EdJ_Z3Fz6bJPq3Gr6gcDWfsB9o_eRQXAQ9ODNCXJ3AsjyQ?e=0SXfoj
-  
 
 - **UXPressia**  
   *Herramienta empleada para la creación de User Personas y Empathy Maps basados en datos reales de entrevistas.*
@@ -2319,19 +2502,110 @@ A continuación, se presenta la lista de fuentes, herramientas, plataformas y re
 
 - **Imágenes y fotografías de equipo y testimonios**  
   *Hospedadas en el sitio y utilizadas para generar confianza y humanizar la marca.*  
-  Ejemplo: https://moveo-landing.netlify.app/src/assets/carlos.jpg
+  Ejemplo: https://moveo-landing.netlify.app/srcAssets/carlos.jpg
 
 - **Ilustraciones y assets gráficos**  
   *Creados por el equipo de diseño o adaptados de librerías libres de derechos (Freepik, Flaticon, Undraw).*
 
----
 
-### Conclusiones
+## Anexos
 
-**TB1**
+### link del video del TB-1
 
-Este primer entregable nos permitió moldear la idea detrás de Moveo, estudiar nuestro mercado objetivo asi como entender sus necesidades para poder ofrecerles una experiencia con base en las mismas. El flujo de trabajo se realizó mediante reuniones por discord y asignación de tareas, finalmente el despliegue de la landing page fue exitoso y se logró cumplir con los objetivos planteados al inicio del sprint.
+Link
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EdJ_Z3Fz6bJPq3Gr6gcDWfsB9o_eRQXAQ9ODNCXJ3AsjyQ?e=0SXfoj](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EdJ_Z3Fz6bJPq3Gr6gcDWfsB9o_eRQXAQ9ODNCXJ3AsjyQ?e=0SXfoj)
 
-**TP**
+### Link del video del TP-1
 
-Finalizar este entregable nos permitió avanzar de manera concreta en las user stories definidas, destacando la relevancia de la planificación y organización en el desarrollo de software. La construcción de los bounded contexts planteados en la documentación inicial refleja el progreso alcanzado en la aplicación. Asimismo, se implementaron las correcciones derivadas del feedback de la entrega anterior, fortaleciendo la calidad y coherencia del front-end.
+link:
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EfDKQv9Ps3ZPouHG_wFJbEABjDxUWDTlHu7u9ToZSV3Qag?e=MyeEeu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EfDKQv9Ps3ZPouHG_wFJbEABjDxUWDTlHu7u9ToZSV3Qag?e=MyeEeu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+### 1. Logo de Moveo (versión final)
+![](Assets/chapter-4/Logo.png)
+
+### 2. Tipografía utilizada en la marca (Poppins e Inter)
+![](Assets/chapter-4/typografia.png)
+
+### 3. Paleta de colores oficial de Moveo
+![](Assets/chapter-4/Colores.png)
+
+### 4. Wireframe – Header y Hero de la Landing Page
+![](Assets/chapter-4/wire-header-hero.png)
+
+### 5. Wireframe – Sección “What is Moveo”
+![](Assets/chapter-4/wire-whatismoveo.png)
+
+### 6. Wireframe – Sección de equipo
+![](Assets/chapter-4/wire-team.png)
+
+### 7. Wireframe – Sección de servicios
+![](Assets/chapter-4/wire-services.png)
+
+### 8. Wireframe – Sección de impacto
+![](Assets/chapter-4/wire-impact.png)
+
+### 9. Wireframe – Footer
+![](Assets/chapter-4/wire-questions.png)
+
+### 10. Mock-up final – Hero de la Landing Page
+![](Assets/chapter-4/header%20y%20hero.png)
+
+### 11. Mock-up final – Sección “What is Moveo”
+![](Assets/chapter-4/what%20is%20Moveo.png)
+
+### 12. Mock-up final – Equipo
+![](Assets/chapter-4/teammember.png)
+
+### 13. Mock-up final – Servicios
+![](Assets/chapter-4/services.png)
+
+### 14. Mock-up final – Impacto
+![](Assets/chapter-4/impacto.png)
+
+### 15. Mock-up final – Footer
+![](Assets/chapter-4/footer.png)
+
+### 16. Wireframe de la aplicación móvil – Pantalla principal
+![](Assets/chapter-4/App_wireframe_1.png)
+
+### 17. Wireframe de la aplicación móvil – Detalle de auto y perfil
+![](Assets/chapter-4/App_wireframe_2.png)
+
+### 18. Diagrama de flujo de usuario (Wireflow)
+![](Assets/chapter-4/moveo_wireflow.jpg)
+
+### 19. Mock-up final de la aplicación móvil
+![](Assets/chapter-4/Moveo%20App%20Mockup.png)
+
+### 20. Prototipo interactivo – Vista general
+![](Assets/chapter-4/protoype_moveo.png)
+
+### 21. Diagrama de contexto del sistema (C4)
+![](Assets/chapter-4/moveo_context.png)
+
+### 22. Diagrama de contenedores (C4)
+![](Assets/chapter-4/moveo_container.png)
+
+### 23. Diagrama de componentes – Car Rental Bounded Context
+![](Assets/chapter-4/carBC.png)
+
+### 24. Diagrama de clases UML
+![](Assets/chapter-4/moveo_class.png)
+
+### 25. Diagrama de base de datos (ERD)
+![](Assets/chapter-4/move_db.png)
+
+### 26. Tablero de Trello – Sprint 1
+![](Assets/chapter-5/sprint-1-trello.png)
+
+### 27. Tablero de Trello – Sprint 2
+![](Assets/chapter-5/trello-def.png)
+
+### 28. Evidencia de despliegue en Netlify – Landing Page
+![](Assets/chapter-5/netlify.png)
+
+### 29. Capturas de la aplicación web funcional (Sprint 2)
+![](assets/chapter-5/app-evidence%20(1).png)
+
+### 30. Configuración de despliegue en Render – Fake API
+![](assets/chapter-5/render%20(1).png)
