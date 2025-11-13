@@ -2242,6 +2242,7 @@ Sprint Backlog – Sprint 2
 |----------|----------|
 | **User Story** | **Work-Item / Task** |
 
+
 | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
 |----|-------|-------|-------|-------------|-------------------|--------------|-------|
 | **HU07** | Publicar un vehículo | T37 | Diseñar wireframe del formulario de publicación | Crear estructura del formulario con campos: modelo, año, fotos, precio, ubicación, descripción | 3 | UX/UI | Done |
@@ -2302,7 +2303,6 @@ Enlace al tablero de Kanban (Trello):
 https://trello.com/b/VRvBNLHD/moveo-apps-web
 
 ### 5.2.2.4. Development Evidence for Sprint Review
-
 
 En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: **Landing Page**, **Web Applications** y **Web Services**. La sección inicia con una introducción que resume los principales avances en la implementación.
 
@@ -2388,6 +2388,7 @@ Link del video:
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 Durante el Sprint 2, se desarrolló y documentó la FAKE API para el módulo de gestión de vehículos. A continuación, se presenta la documentación de los principales endpoints implementados:
 
+
 Endpoints Implementados
 | Endpoint | Método | Descripción | Parámetros | Respuesta |
 |----------|--------|-------------|------------|-----------|
@@ -2404,13 +2405,15 @@ Endpoints Implementados
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review
 En este Sprint, se completó con éxito el despliegue de la aplicación web de Moveo en producción, utilizando Render como plataforma de hosting para el frontend. Se implementó un flujo de CI/CD automatizado que garantiza despliegues rápidos y confiables.
 
-
 Configuración de Despliegue
 Frontend (Vue.js)
+
 Plataforma: Render (Static Site)
 Build Command: npm run build
 Publish Directory: dist
-
+                             
+Variables de entorno: VITE_API_URL, VITE_APP_ENV
+                             
 ![render 1](assets/chapter-5/render%20(4).png)
 
 ![render 1](assets/chapter-5/render%20(5).png)
@@ -2426,6 +2429,9 @@ Ademas se implemento la fake api en render
 
 ![render 1](assets/chapter-5/render%20(3).png)
 
+
+
+
 ### 5.2.2.8. Team Collaboration Insights during Sprint
 El equipo desarrolló la aplicación web usando GitFlow, con ramas específicas para cada feature. El uso de ramas permitió que cada miembro del equipo trabajara en diferentes módulos sin generar conflictos.
 
@@ -2438,7 +2444,6 @@ network:
 
 
 ## 5.2.3. Sprint 3
-
 ### 5.2.3.1. Sprint Planning 3
 A continuación, se detallan los aspectos principales del Sprint Planning Meeting realizado para el Sprint 3.
 
