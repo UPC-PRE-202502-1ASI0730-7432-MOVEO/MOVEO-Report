@@ -3,10 +3,10 @@
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Ingeniería de Software</strong><br>
-    <strong>Aplicaciones Web </strong><br>
+    <strong>Ingeniería de Software 2025-20</strong><br>
+    <strong>Aplicaciones Web - 7432 </strong><br>
     <strong>Profesor: Oscar Ivan Villafuentes Bazan </strong><br>
-    <strong>INFORME DE TRABAJO PARCIAL</strong><br>
+    <strong>INFORME DE TRABAJO FINAL</strong><br>
     <strong> CICLO 2025-20</strong><br>
 </p>
 
@@ -36,20 +36,29 @@
 
 # Registro de Versiones del Informe
 
-|version|Fecha|Autor|Descripcion de Modificacion|
-|---|---|---|---|
-|0.1| 29/08/2025 | Andreow Santiago | Creacion y primera version del informe |
-|0.2| 08/09/2025 | Franco Huang | Avance de Syle Guidelines  |
-|0.3| 10/09/2025 | Franco Huang | Avance de Information Architecture y entrevistas  |
-|0.4| 12/09/2025 | Carlos De la Cruz | Avance to be escenary |
-|0.5| 13/09/2025 | Gianfranco Luna | implementacion de user stories y entrevistas |
-|0.6| 14/09/2025 | Gianfranco Luna | implementacion de capitulo 4 style guidelines|
-|0.7| 15/09/2025 | Andreow Santiago | implementacion de la totalidad del capitulo 5|
-|1.1| 05/10/2025 | Franco Huang | Correcion de los comentarios del profesor|
-|1.1| 05/10/2025 | Carlos De la Cruz | implementacion de las nuevas user stories|
-|1.2| 06/10/2025 | Gianfranco Luna | implementacion del sprint 2 el planning|
-|1.2| 06/10/2025 | Andreow Santiago | Correciones del bibliografica|
-
+| Versión | Fecha       | Autor               | Descripción de Modificación |
+|---------|-------------|---------------------|-----------------------------|
+| 0.1     | 29/08/2025  | Andreow Santiago    | Creación y primera versión del informe |
+| 0.2     | 08/09/2025  | Franco Huang        | Avance de Style Guidelines |
+| 0.3     | 10/09/2025  | Franco Huang        | Avance de Information Architecture y entrevistas |
+| 0.4     | 12/09/2025  | Carlos De la Cruz   | Avance de escenario de uso (to be scenario) |
+| 0.5     | 13/09/2025  | Gianfranco Luna     | Implementación de user stories y resumen de entrevistas con usuarios |
+| 0.6     | 14/09/2025  | Gianfranco Luna     | Implementación del capítulo 4: Style Guidelines |
+| 0.7     | 15/09/2025  | Andreow Santiago    | Implementación completa del capítulo 5: Arquitectura de la aplicación |
+| 1.1     | 05/10/2025  | Franco Huang        | Corrección de comentarios del profesor: revisión de coherencia técnica y redacción |
+| 1.2     | 05/10/2025  | Carlos De la Cruz   | Implementación de nuevas user stories derivadas de validación con usuarios reales |
+| 1.3     | 06/10/2025  | Gianfranco Luna     | Implementación del Sprint 2: Planificación, backlog refinado y criterios de aceptación |
+| 1.4     | 06/10/2025  | Andreow Santiago    | Correcciones de la bibliografía: actualización a normas APA 7ª edición y verificación de fuentes |
+| 1.5     | 08/10/2025  | Carlos De la Cruz   | Revisión y consolidación del capítulo 3: Metodología Agile aplicada al proyecto |
+| 1.6     | 10/10/2025  | Gianfranco Luna     | Documentación del Sprint 2: Desarrollo de funcionalidades clave del core de nuestro producto |
+| 1.7     | 13/10/2025  | Franco Huang        | Integración de feedback del profesor: corrección del capítulo en la parte del hypothesis |
+| 1.8     | 14/10/2025  | Carlos De la Cruz   | Actualización de las métricas del proyecto y validación con prototipo funcional |
+| 1.9     | 13/11/2025  | Andreow Santiago    | Elaboración final del capítulo 5: revisión y coherencia del informe completo |
+| 2.1     | 05/11/2025  | Andreow Santiago    | Inicio del Sprint 3: desarrollo del backend implementación de módulos y gestión de usuarios |
+| 2.2     | 07/11/2025  | Carlos De la Cruz   | Documentación del diseño de base de datos |
+| 2.3     | 08/11/2025  | Gianfranco Luna     | Realización de entrevistas de validación con usuarios finales |
+| 2.4     | 09/11/2025  | Franco Huang        | Ajustes en endpoints del backend basados en retroalimentación de pruebas de integración y usabilidad |
+| 2.5     | 10/11/2025  | Andreow Santiago    | Finalización del desarrollo backend cobertura de pruebas unitarias , documentación API con Swagger |
 
 # Project Report Collaboration Insights
 
