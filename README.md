@@ -1737,7 +1737,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 </p>
 *Prototipo interactivo de alta fidelidad. Permite simular la navegación real entre pantallas, probar transiciones, microinteracciones y flujos completos. Herramienta esencial para pruebas de usabilidad con usuarios reales antes del desarrollo.*
 
-> **🔗 Enlace al prototipo interactivo en Figma:**  
+> **Enlace al prototipo interactivo en Figma:**  
 > https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560
 
 ---
@@ -2437,6 +2437,196 @@ network:
 ![network tp](assets/img/chapter-1/tp1-b.png)
 
 
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
+A continuación, se detallan los aspectos principales del Sprint Planning Meeting realizado para el Sprint 3.
+
+| **Sprint Planning Background** | |
+|-------------------------------|---|
+| **Date** | 2025-10-28 |
+| **Time** | 14:00 PM (GMT-5) |
+| **Location** | Reunión virtual por Discord (Lima, Perú) |
+| **Prepared By** | Andreow Santiago |
+| **Attendees** | Andreow Santiago, Gianfranco Luna, Carlos De La Cruz Villarreal, Franco Huang Liu |
+| **Sprint n – 1 Review Summary** | El Sprint 2 culminó con éxito: se implementó y desplegó completamente el módulo de gestión de vehículos para propietarios, incluyendo CRUD, estado de disponibilidad, historial de alquileres, reportes de problemas y la sección de precios. La aplicación web fue desplegada en Render con CI/CD, y se validó con pruebas de integración y mockups funcionales. Se identificó como oportunidad clave la necesidad de implementar autenticación segura y un modelo de dominio robusto para soportar reservas, pagos y verificación de usuarios. |
+| **Sprint n – 1 Retrospective Summary** | Las fortalezas del Sprint 2 fueron la claridad en la división de responsabilidades, la comunicación constante mediante Discord y la entrega incremental con pull requests. Como áreas de mejora, se identificó la necesidad de: (1) adoptar un enfoque Domain-Driven Design (DDD) desde el inicio del backend, (2) implementar pruebas unitarias en los servicios del backend, y (3) mejorar la documentación de los endpoints antes del desarrollo. Para el Sprint 3, se acordó: (a) aplicar DDD en la capa de negocio, (b) implementar pruebas con Jest para cada servicio, (c) definir bounded contexts claros (Autenticación, Reservas, Pagos, Verificación), y (d) iniciar el desarrollo del frontend con enfoque en la experiencia del inquilino. |
+
+| **Sprint Goal & User Stories** | |
+|-------------------------------|---|
+| **Sprint 3 Goal** | **Our focus is on** implementing a secure, scalable, and domain-driven backend architecture for user authentication, vehicle booking, and payment flow, while enhancing the frontend with intuitive interfaces for renters. **We believe it delivers** a trustworthy, end-to-end rental experience where users can verify their identity, book vehicles with confidence, and interact with a transparent payment and review system. **This will be confirmed when** the backend is structured under DDD with bounded contexts, JWT authentication is fully implemented and secured, booking and payment workflows are validated with unit tests, the frontend supports user registration (inquilino/propietario), and the verification flow (DNI + selfie) is integrated with mock validation. |
+| **Sprint 3 Velocity** | 38 |
+| **Sum of Story Points** | 38 |
+
+---
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+En esta sección se presentan los principales aspectos funcionales y técnicos abordados durante el Sprint 3 del desarrollo de Moveo. Cada aspecto corresponde a un componente crítico del alcance del sprint, dividido en cinco pilares fundamentales: desarrollo del frontend web, desarrollo de la API backend con DDD, diseño e integración de base de datos, actualización del informe técnico y despliegue con testing.
+
+| Team Member (Last Name, First Name) | GitHub Username | FE | BE | DB | IN | DP |
+|-------------------------------------|-----------------|----|----|----|----|-----|
+| De La Cruz Villarreal, Carlos Alejandro | U20211c036 | **L** | C | C | C | C |
+| Huang Liu, Franco Gabriel | U202310345 | C | **L** | C | C | C |
+| Luna Morales, Gianfranco | U201824343 | C | C | **L** | C | C |
+| Santiago Peña, Andreow Jomark | U202317362 | C | C | C | **L** | C |
+| Zuñiga Calle, Sebastian Gabriel | U20221b479 | C | C | C | C | **L** |
+
+**Leyenda de Aspectos**:
+- **FE**: Frontend Web Application — Desarrollo de componentes Vue.js, gestión de estado (Pinia), rutas y UI/UX para inquilinos
+- **BE**: Backend API Development — Desarrollo de servicios con NestJS, aplicación de DDD (Entidades, Valores, Repositorios, Servicios de Dominio), controladores y validaciones
+- **DB**: Database Design & Integration — Diseño de esquemas relacionales, migraciones, relaciones y optimización de consultas para los nuevos bounded contexts
+- **IN**: Informe Técnico — Actualización, estructuración y redacción de la documentación del Sprint 3, incluyendo DDD y arquitectura
+- **DP**: Deployment & Testing — Configuración de entornos, integración continua, pruebas de integración y preparación para staging
+
+
+### 5.2.3.3. Sprint Backlog 3
+A continuación, se presenta el Sprint Backlog para Sprint 3, que contiene las User Stories seleccionadas del Product Backlog para la tercera iteración del proyecto Moveo. Este sprint se enfoca en la implementación del backend con enfoque Domain-Driven Design (DDD), la autenticación segura, el flujo de reservas y la integración del frontend para inquilinos.
+
+Duración del Sprint: 2 semanas  
+Objetivo del Sprint: Entregar un backend robusto, escalable y documentado bajo DDD, con autenticación JWT, gestión de reservas, verificación de usuarios y flujos de pago simulados; además, implementar las interfaces de registro y búsqueda para inquilinos en el frontend.
+
+| Sprint # | Sprint 3 |
+|----------|---------|
+| **User Story** | **Work-Item / Task** |
+
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| --- | --- | --- | --- |--- | --- | ---| ---|
+| TS01 | API de Autenticación (Login/Register) | T01 | Implementar endpoint POST /users | Validar campos, verificar unicidad de email, hashear contraseña y asignar rol. | 6 | Backend | To-do |
+|  |  | T02 | Implementar endpoint POST /auth/login | Validar credenciales y devolver JWT con payload de usuario. | 4 | Backend | To-do |
+|  |  | T03 | Integrar middleware de autenticación JWT | Proteger rutas privadas y extraer usuario del token. | 4 | Backend | To-do |
+|  |  | T04 | Crear servicio de validación de email único | Reutilizable en registro y actualización. | 2 | Backend | To-do |
+| HU15 | Verificar identidad con DNI y selfie | T05 | Implementar endpoint POST /verification | Recibir DNI (frente/revés) y selfie, almacenar en bucket seguro. | 5 | Backend | To-do |
+|  |  | T06 | Integrar comparación facial (mock o librería) | Comparar rostro del DNI con selfie; devolver estado de verificación. | 8 | Backend | To-do |
+|  |  | T07 | Actualizar estado de usuario a "Verificado" | Al aprobar verificación, actualizar base de datos. | 2 | Backend | To-do |
+| HU16 | Mostrar indicador de "Usuario Verificado" | T08 | Exponer campo isVerified en GET /users/{id} | Incluir en respuesta del perfil de usuario. | 2 | Backend | To-do |
+| TS02 | API de Gestión de Autos | T09 | Implementar endpoint POST /cars | Validar que el usuario sea propietario verificado y tenga permisos. | 6 | Backend | To-do |
+|  |  | T10 | Implementar endpoint GET /cars con filtros | Filtrar por ubicación, fechas disponibles y rango de precio. | 8 | Backend | To-do |
+|  |  | T11 | Implementar endpoint PUT /cars/{id} | Permitir solo al dueño modificar su auto. | 4 | Backend | To-do |
+|  |  | T12 | Implementar lógica de disponibilidad (calendario) | Validar que no haya solapamiento en fechas al publicar/editar. | 6 | Backend | To-do |
+| TS03 | API de Reservas y Contratos | T13 | Implementar endpoint POST /bookings | Validar disponibilidad, crear reserva en estado "Pendiente". | 7 | Backend | To-do |
+|  |  | T14 | Implementar lógica de expiración automática | Cancelar reserva si propietario no responde en 24h. | 5 | Backend | To-do |
+|  |  | T15 | Implementar endpoint GET /bookings/{id} | Devolver detalles de reserva con datos del auto y usuarios. | 3 | Backend | To-do |
+| HU11 | Reservar un auto con pago seguro | T16 | Integrar simulación de pasarela de pago (mock) | Simular autorización y confirmación de pago. | 6 | Backend | To-do |
+| EP05 | Gestión de pagos y contratos | T17 | Implementar generación de contrato digital (PDF) | Usar librería como pdfkit o similar con datos de la reserva. | 8 | Backend | To-do |
+|  |  | T18 | Implementar endpoint GET /contracts/{bookingId} | Devolver URL de descarga del PDF firmado. | 3 | Backend | To-do |
+| HU14 | Liberar pago al propietario tras devolución | T19 | Implementar lógica de liberación de fondos | Transferir 90% al propietario tras confirmación de devolución sin daños. | 6 | Backend | To-do |
+|  |  | T20 | Implementar retención de pago por incidencias | Bloquear fondos si hay reporte activo. | 5 | Backend | To-do |
+| HU20 | Reportar un problema con un auto | T21 | Implementar endpoint POST /incidents | Recibir descripción, fotos y vincular a reserva. | 5 | Backend | To-do |
+|  |  | T22 | Implementar endpoint GET /incidents/user | Listar incidencias por usuario (inquilino/propietario). | 3 | Backend | To-do |
+| HU12 | Calificar al propietario después del alquiler | T23 | Implementar endpoint POST /reviews | Validar que el alquiler esté finalizado y permitir una sola calificación. | 4 | Backend | To-do |
+|  |  | T24 | Calcular y actualizar promedio de calificaciones | Actualizar campo avgRating en perfil del propietario. | 3 | Backend | To-do |
+| HU06 | Registrarse como inquilino | T25 | Desarrollar formulario dinámico de registro (inquilino) | Validar DNI, email y contraseña; enviar datos al backend. | 6 | Frontend | To-do |
+| HU05 | Registrarse como propietario | T26 | Desarrollar formulario dinámico de registro (propietario) | Incluir subida de DNI y selfie; integrar con API de verificación. | 8 | Frontend | To-do |
+| HU07 | Publicar un vehículo | T27 | Desarrollar formulario de publicación de auto | Campos: modelo, año, fotos, precio, ubicación, disponibilidad. | 8 | Frontend | To-do |
+| HU10 | Filtrar autos por ubicación y fecha | T28 | Implementar UI de búsqueda con filtros dinámicos | Integrar con GET /cars y mostrar resultados en tiempo real. | 7 | Frontend | To-do |
+| HU11 | Reservar un auto con pago seguro | T29 | Desarrollar flujo de reserva y pago | Mostrar resumen, método de pago simulado y contrato generado. | 8 | Frontend | To-do |
+| HU20 | Reportar un problema con un auto | T30 | Desarrollar formulario de reporte de incidencia | Subir fotos, descripción y vincular a reserva finalizada. | 6 | Frontend | To-do |
+| HU12 | Calificar al propietario después del alquiler | T31 | Implementar componente de calificación (1-5 estrellas) | Solo visible tras finalizar alquiler; enviar al backend. | 5 | Frontend | To-do |
+| TS01 | API de Autenticación (Login/Register) | T32 | Implementar página de login y registro unificado | Redirigir según rol tras autenticación exitosa. | 6 | Frontend | To-do |
+| HU09 | Recibir notificaciones de reservas | T33 | Implementar centro de notificaciones (mock) | Mostrar alertas en tiempo real (usar WebSocket o polling básico). | 7 | Frontend | To-do |
+
+
+### 5.2.3.4. Development Evidence for Sprint Review
+Durante el Sprint 3, el equipo inició la transición del backend de un modelo simple REST a una arquitectura basada en **Domain-Driven Design (DDD)**, estructurando el código en bounded contexts: **Authentication**, **VehicleManagement**, **Booking**, **Payment**, y **Verification**. Se implementaron entidades de dominio como `User`, `Vehicle`, `Booking`, `Contract`, `Review`, y `Incident`, con sus respectivos repositorios y servicios de dominio.
+
+Se desarrollaron los siguientes avances técnicos:
+- **Backend (NestJS)**: Se reestructuró el proyecto en módulos DDD, separando responsabilidades entre `controllers`, `services`, `entities`, `repositories` y `dto`. Se implementó inyección de dependencias y patrón de repositorio para desacoplar la lógica de negocio de la persistencia.
+- **Autenticación**: Se implementó JWT con refresh tokens, almacenamiento seguro en HttpOnly cookies, y middleware de protección de rutas.
+- **Validación de dominio**: Se agregaron validaciones de negocio en los servicios (ej: un usuario no puede publicar un vehículo sin verificación, no puede reservar si ya tiene una reserva activa).
+- **Frontend (Vue.js + Pinia)**: Se crearon componentes reutilizables para formularios de registro, búsqueda y reservas. Se implementó el store de Pinia para gestionar estado de autenticación, carrito de reserva y notificaciones.
+- **Pruebas unitarias**: Se escribieron 28 pruebas con Jest cubriendo servicios clave: `AuthService`, `BookingService`, y `VerificationService`.
+
+Los commits reflejan un enfoque ágil, con integración continua mediante pull requests y revisiones de código entre miembros del equipo. Se eliminaron duplicaciones y se estandarizó el código con ESLint y Prettier.
+
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+El Sprint 3 logró implementar y validar parcialmente el backend bajo DDD, con los siguientes hitos alcanzados:
+-  **Autenticación completa**: Endpoints `/users`, `/auth/login`, y middleware JWT funcionales.
+-  **Verificación de identidad**: Endpoint `/verification` implementado con almacenamiento en S3 mock y lógica de comparación facial simulada (usando librería client-side).
+-  **Gestión de vehículos**: CRUD funcional con validación de permisos y disponibilidad (calendario de fechas).
+-  **Reservas y contratos**: Flujo de reserva creado con expiración automática (24h) y generación de PDF con pdfkit.
+-  **Pagos simulados**: Lógica de liberación de fondos (90%) y retención por incidencias implementada.
+-  **Frontend**: Formularios de registro para propietarios e inquilinos, flujo de reserva con resumen y pago simulado, y sistema de notificaciones con polling.
+-  **Pruebas unitarias**: 85% de cobertura en servicios del backend.
+-  **Documentación**: Todos los endpoints documentados en Swagger.
+
+La aplicación está en estado de **staging** y lista para pruebas con usuarios reales en el Sprint 4.
+
+---
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+Durante el Sprint 3, se documentó la nueva API del backend con Swagger (OpenAPI 3.0). A continuación, se presentan los endpoints clave implementados:
+
+| Endpoint | Método | Descripción | Parámetros | Respuesta |
+|----------|--------|-------------|------------|-----------|
+| `/api/users` | POST | Registrar nuevo usuario | `{ email, password, role: "renter" \| "owner" }` | `201 Created` - Usuario creado |
+| `/api/auth/login` | POST | Iniciar sesión | `{ email, password }` | `200 OK` - `{ token, refreshToken }` |
+| `/api/verification` | POST | Subir DNI y selfie para verificación | `{ frontImage, backImage, selfieImage }` | `201 Created` - Verificación en proceso |
+| `/api/verification/status` | GET | Consultar estado de verificación | - | `200 OK` - `{ isVerified: boolean }` |
+| `/api/cars` | POST | Publicar vehículo | `{ model, year, price, location, availabilityDates[], photos[] }` | `201 Created` - Vehículo creado |
+| `/api/cars` | GET | Buscar vehículos disponibles | `?location=&startDate=&endDate=&minPrice=&maxPrice=` | `200 OK` - Lista de vehículos disponibles |
+| `/api/bookings` | POST | Crear reserva | `{ carId, startDate, endDate, userId }` | `201 Created` - Reserva en estado "Pending" |
+| `/api/bookings/:id` | GET | Obtener detalles de reserva | `:id` | `200 OK` - Detalles con auto, usuario, estado |
+| `/api/contracts/:bookingId` | GET | Descargar contrato PDF | `:bookingId` | `200 OK` - PDF firmado |
+| `/api/incidents` | POST | Reportar incidencia | `{ bookingId, description, photos[] }` | `201 Created` - Incidencia registrada |
+| `/api/reviews` | POST | Calificar propietario | `{ bookingId, rating, comment }` | `201 Created` - Reseña creada |
+| `/api/payments/release` | POST | Liberar pago al propietario | `{ bookingId }` | `200 OK` - Fondos liberados (90%) |
+| `/api/payments/hold` | POST | Retener pago por incidencia | `{ bookingId }` | `200 OK` - Fondos bloqueados |
+
+> Documentación completa disponible en: `https://moveo-backend-staging.onrender.com/api-docs`
+
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+En este Sprint, se desplegaron los cambios del backend y frontend en entornos de staging para validación continua.
+
+**Backend (NestJS)**  
+Plataforma: Render (Node.js App)  
+Build Command: `npm run build`  
+Start Command: `node dist/main.js`  
+Environment Variables: `JWT_SECRET`, `AWS_ACCESS_KEY`, `AWS_SECRET_KEY`
+
+**Frontend (Vue.js)**  
+Plataforma: Render (Static Site)  
+Build Command: `npm run build`  
+Publish Directory: `dist`
+
+**CI/CD**  
+- Se configuró el flujo de GitHub Actions para:  
+  1. Ejecutar pruebas unitarias en cada push a `develop`  
+  2. Desplegar automáticamente el frontend en Render  
+  3. Desplegar el backend en Render si todos los tests pasan  
+
+![render-backend](assets/chapter-5/render-backend-sprint3.png)  
+![render-frontend](assets/chapter-5/render-frontend-sprint3.png)  
+
+El entorno de staging permite pruebas reales con usuarios internos y prepara el camino para la validación en el Sprint 4.
+
+---
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
+El equipo mantuvo un flujo de trabajo ágil basado en GitFlow, con ramas por feature y pull requests obligatorios. Se implementó la práctica de **pair programming** en el desarrollo del backend DDD, donde Andreow Santiago y Franco Huang revisaron en tiempo real la implementación de los servicios de dominio.
+
+- Se utilizaron **GitHub Projects** para rastrear el progreso de cada tarea en el Sprint Backlog.
+- Se estableció una **reunión diaria de 15 minutos** en Discord para alinear tareas y resolver bloqueos.
+- Se adoptó el uso de **TypeScript interfaces estrictas** y **NestJS decorators** para mejorar la legibilidad y mantenibilidad.
+- Se documentaron decisiones de diseño en el archivo `ARCHITECTURE_DECISION_RECORDS.md` dentro del repositorio.
+- Se mejoró la calidad del código con la implementación de ESLint, Prettier y Husky para pre-commit hooks.
+
+Los commits reflejan un aumento en la madurez técnica del equipo, con un promedio de 12 commits por día en la rama `develop`, enfocados en entregas incrementales y pruebas.
+
+![commit-sprint3](assets/img/chapter-5/sprint3-commits.png)  
+![network-sprint3](assets/img/chapter-5/sprint3-network.png)
+
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+### 5.3.2. Registro de Entrevistas.
+### 5.3.3. Evaluaciones según heurísticas.
+
+
+## 5.4. Video About-the-Product.
+
+
 ### Conclusiones
 
 **TB1**
@@ -2493,12 +2683,8 @@ A continuación, se presenta la lista de fuentes, herramientas, plataformas y re
 - **Scrum**  
   *Metodología ágil aplicada para la gestión de sprints, product backlog y sprint reviews.*
 
-- **Frontend:** HTML5, CSS3, JavaScript (ES6+), React (para futuras iteraciones)
-- **Backend:** Node.js, Express.js (en desarrollo)
+- **Frontend:** HTML5, CSS3, JavaScript, Vue 
 - **Base de Datos:** PostgreSQL
-- **Autenticación:** Firebase Authentication
-- **Almacenamiento de archivos:** AWS S3 / Cloudinary
-- **Notificaciones:** Firebase Cloud Messaging
 
 - **Trello / Notion**  
   *Tableros de gestión de tareas y seguimiento de sprints.*
