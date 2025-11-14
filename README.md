@@ -2532,17 +2532,33 @@ Objetivo del Sprint: Entregar un backend robusto, escalable y documentado bajo D
 
 
 ### 5.2.3.4. Development Evidence for Sprint Review
-Durante el Sprint 3, el equipo inició la transición del backend de un modelo simple REST a una arquitectura basada en **Domain-Driven Design (DDD)**, estructurando el código en bounded contexts: **Authentication**, **VehicleManagement**, **Booking**, **Payment**, y **Verification**. Se implementaron entidades de dominio como `User`, `Vehicle`, `Booking`, `Contract`, `Review`, y `Incident`, con sus respectivos repositorios y servicios de dominio.
 
-Se desarrollaron los siguientes avances técnicos:
-- **Backend (NestJS)**: Se reestructuró el proyecto en módulos DDD, separando responsabilidades entre `controllers`, `services`, `entities`, `repositories` y `dto`. Se implementó inyección de dependencias y patrón de repositorio para desacoplar la lógica de negocio de la persistencia.
-- **Autenticación**: Se implementó JWT con refresh tokens, almacenamiento seguro en HttpOnly cookies, y middleware de protección de rutas.
-- **Validación de dominio**: Se agregaron validaciones de negocio en los servicios (ej: un usuario no puede publicar un vehículo sin verificación, no puede reservar si ya tiene una reserva activa).
-- **Frontend (Vue.js + Pinia)**: Se crearon componentes reutilizables para formularios de registro, búsqueda y reservas. Se implementó el store de Pinia para gestionar estado de autenticación, carrito de reserva y notificaciones.
-- **Pruebas unitarias**: Se escribieron 28 pruebas con Jest cubriendo servicios clave: `AuthService`, `BookingService`, y `VerificationService`.
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: **Landing Page**, **Web Applications** y **Web Services**. La sección inicia con una introducción que resume los principales avances en la implementación.
 
-Los commits reflejan un enfoque ágil, con integración continua mediante pull requests y revisiones de código entre miembros del equipo. Se eliminaron duplicaciones y se estandarizó el código con ESLint y Prettier.
+Durante este Sprint, el equipo ha enfocado sus esfuerzos en la estructuración inicial del backend, definiendo la arquitectura base y los módulos fundamentales. Se ha iniciado la refactorización completa del modelo de dominio y persistencia para las entidades `User`, `Vehicle` y `Rental`. Se han implementado los servicios CRUD y endpoints correspondientes para el módulo de alquileres (`rental`) y gestión de usuarios (`user-management`). Además, se ha establecido la configuración básica para despliegue en producción (Railway), se han resuelto problemas de conexión y se ha configurado CORS para permitir la comunicación con el frontend. El proyecto se ha inicializado con una estructura base funcional, incluyendo un archivo `.gitignore` y un `Dockerfile` para contenerización.
 
+A continuación, se presenta la tabla con los commits relacionados con la implementación durante el Sprint 3:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/cors-configuration` | `fd17f6d` | `Merge pull request #3 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feature/cors-configuration` | Implementación de la configuración de CORS en el programa para permitir peticiones desde el frontend. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `63a68fd` | `feat(routes): implement dependencies for routing` | Implementación de dependencias necesarias para la configuración de rutas en el backend. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `e1cc779` | `feat(api): implement CORS configuration in program` | Configuración explícita de CORS en el archivo principal del programa para habilitar solicitudes cruzadas. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `db84582` | `feat(deploy): implement development and deployment setup on Railway` | Configuración inicial para desarrollo y despliegue en la plataforma Railway. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `3736c61` | `Update Program.cs` | Actualización del archivo `Program.cs` para integrar configuraciones de servicio y middleware. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `d5414de` | `fix/Production Connection` | Corrección de la conexión a la base de datos en modo de producción. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `b1f2477` | `fix: dockerfile_v.3` | Actualización y corrección del archivo Dockerfile v.3 para la contenerización del servicio. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `b9c5794` | `fix:Dockerfile file` | Corrección de errores en el archivo Dockerfile para garantizar el correcto funcionamiento del contenedor. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `1d7e6ad` | `feat/app settings for production` | Configuración de ajustes de la aplicación específicos para el entorno de producción. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feat/rentalManagement` | `62ddf18` | `Merge pull request #2 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feat/rentalManagement` | Integración de los cambios para la gestión de alquileres, incluyendo modelos y servicios. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feat/rentalManagement` | `7a9b4c5` | `feat/.gitignore file` | Adición del archivo `.gitignore` para excluir archivos y carpetas innecesarios del control de versiones. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feat/rentalManagement` | `9d9a2d0` | `Merge pull request #1 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feat/rentalManagement` | Integración inicial de la funcionalidad de gestión de alquileres. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feat/rentalManagement` | `2f107cc` | `feat: Dockerfile file` | Creación del archivo Dockerfile para la contenerización del módulo de gestión de alquileres. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feat/rentalManagement` | `4f2c466` | `feat: Refactor complete domain and persistence model for User, Vehicle, and Rental` | Refactorización completa del modelo de dominio y persistencia para las entidades User, Vehicle y Rental. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `9a74974` | `feat(rental): add CRUD services and endpoints` | Implementación de los servicios CRUD y endpoints REST para el módulo de alquileres. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `2554d02` | `feat(user-management): fully functional backend with user CRUD and commands` | Backend completamente funcional con operaciones CRUD y comandos para la gestión de usuarios. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `5fd075d` | `feat(main): Added base project` | Creación del proyecto base con la estructura inicial y dependencias básicas. | 12/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `fd4d607` | `Initial commit` | Commit inicial del repositorio con la estructura base del proyecto. | 12/11/2025 |
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
@@ -2627,30 +2643,26 @@ Los commits reflejan un aumento en la madurez técnica del equipo, con un promed
 ## 5.3. Validation Interviews
 
 En esta sección, el equipo documenta las actividades de validación realizadas con usuarios reales durante el desarrollo del proyecto Moveo. El objetivo es evaluar la usabilidad, claridad y utilidad de la aplicación web a través de entrevistas estructuradas, observación directa de flujos de usuario y análisis heurístico. Todas las sesiones se ejecutaron en entorno web (navegador de escritorio), comenzando desde la **Landing Page** y avanzando por funcionalidades clave del sistema. Los hallazgos obtenidos guían las mejoras del producto y validan las decisiones de diseño.
-
 ### 5.3.1. Diseño de Entrevistas
 
-Esta sección detalla el diseño metodológico de las entrevistas de validación realizadas durante el proyecto Moveo. El enfoque se centró exclusivamente en la **versión web** de la aplicación. Cada sesión inició en el **Landing Page**, replicando el flujo real de un usuario nuevo, y se evaluaron tareas esenciales del sistema.
+Esta sección detalla el diseño metodológico de las entrevistas de validación realizadas durante el proyecto **Moveo**. El enfoque se centró exclusivamente en la **versión web** de la aplicación. Cada sesión inició en la `Landing Page`, replicando el flujo real de un usuario nuevo, y se evaluaron tareas esenciales del sistema.
 
 El proceso se estructuró en tres fases:
+
 1. **Recolección inicial**: Aplicación de formularios digitales (Google Forms) para identificar perfiles y necesidades.
 2. **Entrevista cualitativa**: Sesión guiada en la que el participante interactuó con la app web, realizando tareas específicas.
 3. **Evaluación heurística**: Análisis posterior basado en principios de usabilidad, arquitectura de información y diseño inclusivo.
 
 Se siguieron buenas prácticas de diseño de entrevistas:
+
 - Preguntas abiertas y no sugestivas.
 - Secuencia lógica: de lo general a lo específico.
 - Enfoque en comportamientos reales, no hipotéticos.
 
-#### Formularios Digitales Utilizados:
-- **Segmento Propietarios**: [https://forms.gle/uyVSkqSiuiKx1nb69](https://forms.gle/uyVSkqSiuiKx1nb69)
-- **Segmento Inquilinos**: [https://forms.gle/kz3BdxPoZHKNgqUg9](https://forms.gle/kz3BdxPoZHKNgqUg9)
-
----
 
 #### Flujos de Usuario Evaluados (User Flows - Web)
 
-Durante las entrevistas, se solicitó a los participantes interactuar con los siguientes flujos clave del sistema, iniciando siempre desde el **Landing Page**:
+Durante las entrevistas, se solicitó a los participantes interactuar con los siguientes flujos clave del sistema, iniciando siempre desde la `Landing Page`:
 
 | Tarea | Descripción |
 |------|-------------|
@@ -2662,121 +2674,103 @@ Durante las entrevistas, se solicitó a los participantes interactuar con los si
 | **6. Publicación de un vehículo (propietario)** | Completar formulario con modelo, fotos, precio, disponibilidad. |
 | **7. Cancelación de una reserva** | Acceder al historial de reservas, seleccionar una reserva activa y cancelarla antes del inicio del alquiler. |
 
-Estos flujos fueron evaluados en una versión funcional del frontend desplegado en staging, accesible únicamente desde navegador web (Chrome, Safari, Firefox).
+Estos flujos fueron evaluados en una versión funcional del frontend desplegado en *staging*, accesible únicamente desde navegador web (Chrome, Safari, Firefox).
 
 ---
 
 ### 5.3.2. Registro de Entrevistas
 
-Se realizaron un total de **6 entrevistas de validación**, cumpliendo con el rango requerido de 3 a 5 por segmento (3 propietarios, 3 inquilinos). Cada sesión fue grabada en video, almacenada en Microsoft Stream y referenciada con tiempo exacto de inicio y duración. Todas las pruebas se realizaron en entorno web, iniciando desde el **Landing Page**.
+Se realizaron un total de **6 entrevistas de validación**, cumpliendo con el rango requerido de 3 a 5 por segmento (3 propietarios, 3 inquilinos). Cada sesión fue grabada en video, almacenada en Microsoft Stream y referenciada con tiempo exacto de inicio y duración. Todas las pruebas se realizaron en entorno web, iniciando desde la `Landing Page`.
 
-> 🔗 **Video completo de todas las entrevistas:**  
-> [http://bit.ly/46qhU6i](http://bit.ly/46qhU6i)
+> 🔗 **Video completo de todas las entrevistas:**  http://bit.ly/46qhU6i
 
 #### Segmento 1: Propietarios
 
-##### Entrevistado 1: Alisa Goicochea  
+##### Entrevistado 1: Alisa Goicochea
 - **Edad:** 22 años  
 - **Ocupación:** Estudiante de Marketing Digital + Alquiladora de autos  
 - **Distrito:** Miraflores  
 - **Dispositivos utilizados:** Laptop (MacBook Air), navegador Chrome  
-- **Navegador habitual:** Chrome  
-- **Imagen de entrevista:**  
-  ![Alisa Goicochea](Assets/img/chapter-2/entrevista-1.png)  
 - **Instante en el que inicia:** 0:00  
-- **Duración de la entrevista:** 2:42 min  
+- **Duración de la entrevista:** 2:42 min
 
-###### Resumen:  
+###### Resumen:
 Alisa comenzó en el Landing Page y destacó la claridad del mensaje principal: "Alquila tu auto fácil y seguro". Hizo clic en "Regístrate" sin dudar. Valoró positivamente el formulario de registro y publicación, completando ambos flujos en menos de 5 minutos. Evaluó la apertura de un ticket como "clara y útil", especialmente al poder adjuntar fotos del daño. No intentó cancelar una reserva (no aplica a su rol), pero expresó que debería ser posible hacerlo sin penalidad si es con anticipación.
 
 ---
 
-##### Entrevistado 2: Mathías Peña  
+##### Entrevistado 2: Mathías Peña
 - **Edad:** 24 años  
 - **Ocupación:** Estudiante de Administración (UNI) + Emprendedor de alquiler de autos (3 vehículos)  
 - **Distrito:** Surco  
 - **Dispositivos utilizados:** Laptop (MacBook Pro), navegador Safari  
-- **Navegador habitual:** Safari  
-- **Imagen de entrevista:**  
-  ![Mathías Peña](Assets/img/chapter-2/entrevista-2.png)  
 - **Instante en el que inicia:** 2:43  
-- **Fin de la entrevista:** 5:31 min  
+- **Fin de la entrevista:** 5:31 min
 
-###### Resumen:  
+###### Resumen:
 Mathías navegó desde el Landing Page, interesándose por la sección "¿Cómo funciona?". Publicó un vehículo rápidamente. Al probar la apertura de un ticket, sugirió permitir adjuntar videos cortos además de fotos. Consideró que el sistema de cancelación debería incluir un resumen de condiciones (¿se devuelve el depósito?) antes de confirmar.
 
 ---
 
-##### Entrevistado 3: Mauricio Salas  
+##### Entrevistado 3: Mauricio Salas
 - **Edad:** 22 años  
 - **Ocupación:** Estudiante de Administración (UPC) + Freelancer en redes sociales + Alquiler de auto  
 - **Distrito:** Miraflores  
 - **Dispositivos utilizados:** Laptop (Lenovo), navegador Chrome  
-- **Navegador habitual:** Chrome  
-- **Imagen de entrevista:**  
-  ![Mauricio Salas](Assets/img/chapter-2/entrevista-3.png)  
 - **Instante en el que inicia:** 7:15  
-- **Duración de la entrevista:** 3:37 min  
+- **Duración de la entrevista:** 3:37 min
 
-###### Resumen:  
+###### Resumen:
 Mauricio completó el flujo de publicación y apertura de ticket. Valoró que el ticket quede vinculado a la reserva específica. Sugirió que al cancelar una reserva, el sistema muestre claramente si hay penalidades o devolución parcial de fondos.
 
 ---
 
 #### Segmento 2: Inquilinos
 
-##### Entrevistado 4: Claudia Sifuentes  
+##### Entrevistado 4: Claudia Sifuentes
 - **Edad:** 21 años  
 - **Ocupación:** Estudiante de Psicología + Trabajo media jornada en cafetería  
 - **Distrito:** San Juan de Lurigancho  
 - **Dispositivos utilizados:** Laptop (HP Pavilion), navegador Chrome  
-- **Navegador habitual:** Chrome  
-- **Imagen de entrevista:**  
-  ![Claudia Sifuentes](Assets/img/chapter-2/entrevista-4.png)  
 - **Instante en el que inicia:** 10:53  
-- **Duración de la entrevista:** 3:42 min  
+- **Duración de la entrevista:** 3:42 min
 
-###### Resumen:  
+###### Resumen:
 Claudia reservó un auto desde el Landing Page. Posteriormente, canceló una reserva simulada y consideró el proceso "simple y transparente". También abrió un ticket por "asiento roto" y valoró que el formulario sea claro. Criticó que no haya un chat integrado para aclarar dudas antes de abrir un ticket.
 
 ---
 
-##### Entrevistado 5: Gabriel Eduardo Torres Campos  
+##### Entrevistado 5: Gabriel Eduardo Torres Campos
 - **Edad:** 19 años  
 - **Ocupación:** Estudiante  
 - **Distrito:** Lima (no especificado)  
 - **Dispositivos utilizados:** Laptop (Dell), navegador Chrome  
-- **Navegador habitual:** Chrome  
-- **Imagen de entrevista:**  
-  ![Gabriel Torres](Assets/img/chapter-2/entrevista-5.png)  
 - **Instante en el que inicia:** 13:35  
-- **Duración de la entrevista:** 9:28 min  
+- **Duración de la entrevista:** 9:28 min
 
-###### Resumen:  
+###### Resumen:
 Gabriel completó la reserva y luego la canceló. Notó que el sistema no muestra un mensaje de confirmación de cancelación por correo. Al abrir un ticket, sugirió incluir categorías predefinidas de incidencias (mecánicas, limpieza, documentación) para agilizar el reporte.
 
 ---
 
-##### Entrevistado 6: Angie Leyva  
+##### Entrevistado 6: Angie Leyva
 - **Edad:** 21 años  
 - **Ocupación:** Estudiante de Comunicación + Community Manager freelance  
 - **Distrito:** San Miguel  
 - **Dispositivos utilizados:** Laptop (MacBook Air), navegador Safari  
-- **Navegador habitual:** Safari  
-- **Imagen de entrevista:**  
-  ![Angie Leyva](Assets/img/chapter-2/entrevista-6.png)  
 - **Instante en el que inicia:** 22:07  
-- **Duración de la entrevista:** 4:40 min  
+- **Duración de la entrevista:** 4:40 min
 
-###### Resumen:  
+###### Resumen:
 Angie navegó desde el Landing Page y reservó un auto. Al cancelar, solicitó que el sistema muestre un resumen del reembolso esperado. Al abrir un ticket, criticó que no haya un número de seguimiento visible en la interfaz ("¿cómo sé que lo recibieron?"). Recomendó añadir un sistema de notificaciones que confirme la recepción del ticket y cualquier actualización posterior.
 
 ---
 
 ### 5.3.3. Evaluaciones según Heurísticas
 
-#### UX Heuristics & Principles Evaluation  
-**Usability – Inclusive Design – Information Architecture**  
+#### UX Heuristics & Principles Evaluation
+**Usability – Inclusive Design – Information Architecture**
+
 **CARRERA:** Ingeniería de Software  
 **CURSO:** Aplicaciones Web  
 **SECCIÓN:** 7432  
@@ -2811,7 +2805,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 4 | Problema muy grave: impide al usuario continuar con el uso de la herramienta. |
 
 #### TABLA RESUMEN:
-| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| # | Problema | Escala de severidad | Heurística/Principio violada |
 |---|---------|---------------------|-------------------------------|
 | 1 | El botón de "Reservar" no permanece visible al hacer scroll en web | 2 | Usability: Libertad y control del usuario |
 | 2 | Falta notificación al cancelar una reserva (email o en app) | 2 | Usability: Visibilidad del estado del sistema |
@@ -2820,43 +2814,46 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 5 | Imágenes de autos no tienen atributo "alt" | 2 | Inclusive Design: Proporciona experiencias comparables |
 | 6 | No hay resumen de condiciones de cancelación antes de confirmar | 2 | Usability: Prevención de errores |
 
-#### DESCRIPCIÓN DE PROBLEMAS:
+---
 
-**PROBLEMA #1: El botón de "Reservar" no permanece visible al hacer scroll en web**  
+#### DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1: El botón de "Reservar" no permanece visible al hacer scroll en web**
 - **Severidad:** 2  
 - **Heurística violada:** Usabilidad - Libertad y control del usuario  
 - **Problema:** El botón de acción principal se pierde al hacer scroll en páginas largas de detalles del vehículo.  
 - **Recomendación:** Implementar un botón fijo en la parte inferior de la ventana del navegador durante el flujo de reserva.
 
-**PROBLEMA #2: Falta notificación al cancelar una reserva**  
+**PROBLEMA #2: Falta notificación al cancelar una reserva**
 - **Severidad:** 2  
 - **Heurística violada:** Usabilidad - Visibilidad del estado del sistema  
 - **Problema:** El usuario no recibe confirmación inmediata (ni en la app ni por email) de que su cancelación fue procesada.  
 - **Recomendación:** Mostrar un mensaje en pantalla y enviar un correo de confirmación con detalles de la cancelación.
 
-**PROBLEMA #3: No existe número de seguimiento visible para tickets**  
+**PROBLEMA #3: No existe número de seguimiento visible para tickets**
 - **Severidad:** 3  
 - **Heurística violada:** Usabilidad - Visibilidad del estado del sistema  
 - **Problema:** Tras abrir un ticket, el usuario no ve un número de caso ni actualizaciones, lo que genera incertidumbre.  
-- **Recomendación:** Mostrar inmediatamente un número de ticket (ej: #MOV-2025-001) y permitir su seguimiento desde el historial.
+- **Recomendación:** Mostrar inmediatamente un número de ticket (ej: `#MOV-2025-001`) y permitir su seguimiento desde el historial.
 
-**PROBLEMA #4: Formulario de tickets no incluye categorías predefinidas**  
+**PROBLEMA #4: Formulario de tickets no incluye categorías predefinidas**
 - **Severidad:** 2  
 - **Heurística violada:** Information Architecture - Is it usable?  
 - **Problema:** El usuario debe describir todo el problema desde cero, sin guía.  
 - **Recomendación:** Añadir un dropdown con categorías (Limpieza, Daño mecánico, Daño estético, Documentación, Otro).
 
-**PROBLEMA #5: Imágenes de autos no tienen atributo "alt"**  
+**PROBLEMA #5: Imágenes de autos no tienen atributo "alt"**
 - **Severidad:** 2  
 - **Heurística violada:** Inclusive Design - Proporciona experiencias comparables  
 - **Problema:** Accesibilidad reducida para usuarios con discapacidad visual.  
 - **Recomendación:** Agregar atributos `alt` descriptivos a todas las imágenes.
 
-**PROBLEMA #6: No hay resumen de condiciones de cancelación antes de confirmar**  
+**PROBLEMA #6: No hay resumen de condiciones de cancelación antes de confirmar**
 - **Severidad:** 2  
 - **Heurística violada:** Usabilidad - Prevención de errores  
 - **Problema:** El usuario confirma la cancelación sin saber si habrá penalidades o reembolsos.  
 - **Recomendación:** Mostrar un resumen claro antes del botón de confirmación: "Se devolverá el 80% del pago. ¿Confirmar cancelación?".
+
 
 ## 5.4. Video About-the-Product.
 
