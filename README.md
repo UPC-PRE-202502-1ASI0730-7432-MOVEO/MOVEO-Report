@@ -148,8 +148,36 @@ Estos commits reflejan el progreso constante y la colaboración entre los miembr
 
 ![Network TP-1 App](/Assets/img/chapter-1/tp1-b.png)
 
+#### TB2 - Backend
 
+La entrega del TB2 para el componente Backend finalizó con éxito y está documentada en el repositorio de Github perteneciente a la organización del equipo:
 
+Link al repositorio de la organización: https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-backend
+
+Durante el desarrollo del Sprint 3, se siguieron los siguientes lineamientos:
+
+- Los contenidos y funcionalidades fueron desarrolladas utilizando **.NET Core** para la API REST y **Entity Framework** para la interacción con la base de datos, asegurando una arquitectura robusta y orientada a dominios (DDD).
+- Cada cambio realizado fue respaldado mediante **commits en el repositorio**, garantizando trazabilidad y control de versiones del avance del proyecto.
+- Se crearon los artefactos necesarios utilizando las herramientas recomendadas. Se configuraron archivos como `.gitignore`, `Dockerfile` y `Program.cs` para la correcta configuración, contenerización y despliegue del backend.
+- Se realizaron **reuniones periódicas** (daily standups y planning) para coordinar el avance de las funcionalidades clave del Sprint 3, centrado en la **estructuración del backend bajo DDD**, la implementación de módulos como **Usuarios, Vehículos y Alquileres**, y la **configuración para despliegue en la nube** (Railway y Render).
+
+**Coherencia con el Registro de Versiones del Informe**
+Los cambios realizados durante esta etapa están alineados con la evolución del documento, reflejando el trabajo colaborativo y el constante refinamiento del producto por parte del equipo.
+
+Este historial de actualizaciones coincide con el trabajo desarrollado durante el TB2, mostrando cómo el equipo fue avanzando en la construcción de un backend funcional y bien estructurado de forma continua y colaborativa.
+
+**Actividad en GitHub - TB2 Backend (Noviembre 2025)**
+Se muestra el gráfico de actividad en GitHub durante la preparación del TB2 para el backend:
+
+![Actividad TB-2 Backend ](/Assets/chapter-5/sprint-3-commits.png) 
+**Commits para TB2 Backend**
+Estos commits reflejan el progreso constante y la colaboración entre los miembros del equipo en el desarrollo del backend.
+
+![Commits TB-2 Backend ](/Assets/chapter-5/sprint-3-commits.png) 
+
+**Network graph para TB2 Backend**
+
+![Network TB-2 Backend ](/Assets/chapter-5/sprint-3-network.png)
 
 # Contenido
 
@@ -276,7 +304,6 @@ Estos commits reflejan el progreso constante y la colaboración entre los miembr
       <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Propuse la estructura de archivos que seguimos para mantener el código organizado y compartí tutoriales básicos de Git con los compañeros que tenían menos experiencia.</p>
       <p><strong>Huang Liu, Franco Gabriel:</strong> Lideré el análisis exhaustivo de nuestros competidores Peru Rent A Car, Kayak y Budget Car Rental, coordiné todas las sesiones de user research y testing de usabilidad, facilité workshops de ideación para UX/UI donde todos aportamos ideas creativas, y representé constantemente la voz del usuario en las decisiones técnicas para mantener el foco en la experiencia.</p>
       <p><strong>Santiago Peña, Andreow Jomark:</strong> Organicé las reuniones iniciales del equipo para definir roles y responsabilidades, coordiné la creación del repositorio GitHub y la estructura de carpetas del proyecto, facilité las sesiones de brainstorming para definir el alcance del landing page y medié en la toma de decisiones sobre qué secciones incluir en la primera versión de MOVEO.</p>
-      <p><strong>Zuñiga Calle, Sebastian Gabriel:</strong> Lideré la validación manual de todas las secciones del landing page para asegurar que funcionaran correctamente, coordiné las pruebas de responsividad en diferentes dispositivos con ayuda de mis compañeros, propuse mejoras de usabilidad basadas en mi navegación por el sitio, y guié las correcciones finales antes de la entrega para garantizar que todo estuviera pulido.</p>
     </td>
     <td>
       <p><strong>TB1</strong></p>
@@ -294,11 +321,27 @@ Estos commits reflejan el progreso constante y la colaboración entre los miembr
       <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Propuse la estructura de archivos que seguimos para mantener el código organizado y compartí tutoriales básicos de Git con los compañeros que tenían menos experiencia.</p>
       <p><strong>Huang Liu, Franco Gabriel:</strong> Lideré el análisis exhaustivo de nuestros competidores Peru Rent A Car, Kayak y Budget Car Rental, coordiné todas las sesiones de user research y testing de usabilidad, facilité workshops de ideación para UX/UI donde todos aportamos ideas creativas, y representé constantemente la voz del usuario en las decisiones técnicas para mantener el foco en la experiencia.</p>
       <p><strong>Santiago Peña, Andreow Jomark:</strong> Organicé las reuniones iniciales del equipo para definir roles y responsabilidades, coordiné la creación del repositorio GitHub y la estructura de carpetas del proyecto, facilité las sesiones de brainstorming para definir el alcance del landing page y medié en la toma de decisiones sobre qué secciones incluir en la primera versión de MOVEO.</p>
-      <p><strong>Zuñiga Calle, Sebastian Gabriel:</strong> Lideré la validación manual de todas las secciones del landing page para asegurar que funcionaran correctamente, coordiné las pruebas de responsividad en diferentes dispositivos con ayuda de mis compañeros, propuse mejoras de usabilidad basadas en mi navegación por el sitio, y guié las correcciones finales antes de la entrega para garantizar que todo estuviera pulido.</p>
     </td>
     <td>
       <p><strong>TP1</strong></p>
       <p>En conclusión: El liderazgo compartido y la distribución equitativa de responsabilidades permitieron consolidar un equipo cohesionado, capaz de tomar decisiones conjuntas y responder de forma ágil a los desafíos del proyecto.</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <p>Trabaja en equipo para proporcionar liderazgo en forma conjunta</p>
+    </td>
+    <td>
+      <p><strong>TB2</strong></p>
+      <p><strong>Luna Morales, Gianfranco:</strong> Facilité las reuniones de planning del Sprint 3, coordinando la distribución de tareas para la implementación de los módulos de Usuario, Vehículo y Alquiler en el backend. Propuse y ayudé a configurar la integración de CI/CD en GitHub Actions para automatizar las pruebas y despliegues. Medié discusiones técnicas sobre la arquitectura DDD, guiando al equipo hacia soluciones prácticas y alineadas con los objetivos del sprint.</p>
+      <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Propuse y estructuré la carpeta `docs` para alojar la documentación de la API y los esquemas de DDD. Guié a algunos compañeros en la configuración de entornos de desarrollo .NET y Docker, compartiendo guías y resolviendo dudas técnicas para nivelar conocimientos.</p>
+      <p><strong>Huang Liu, Franco Gabriel:</strong> Lideré la definición de los esquemas de datos para los modelos de dominio en el backend, asegurando consistencia y alineación con la lógica de negocio. Coordiné las sesiones de validación de la API con el frontend, actuando como puente entre ambos equipos de desarrollo y representando el enfoque en la experiencia de usuario desde la perspectiva del backend.</p>
+      <p><strong>Santiago Peña, Andreow Jomark:</strong> Organicé y coordiné reuniones para alinear el desarrollo del backend con los requerimientos del frontend, facilitando la comunicación entre ambos equipos. Lideré la configuración inicial del repositorio `MOVEO-backend`, la estructura base del proyecto .NET y la integración con el sistema de control de versiones y la documentación.</p>
+    </td>
+    <td>
+      <p><strong>TB2</strong></p>
+      <p>En conclusión: El liderazgo compartido se mantuvo y se fortaleció, permitiendo una distribución efectiva de tareas técnicas complejas y una toma de decisiones colaborativa y eficiente durante el desarrollo del backend en el Sprint 3.</p>
     </td>
   </tr>
 
@@ -313,7 +356,6 @@ Estos commits reflejan el progreso constante y la colaboración entre los miembr
       <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Configuré el repositorio de GitHub con las ramas principales para que todos pudieran trabajar sin conflictos, establecí como meta crear un landing page responsive y funcional, dividí el desarrollo en componentes básicos (header, hero section, features, footer) asignando uno a cada miembro, y ayudé a resolver los problemas técnicos básicos que surgieron durante el desarrollo.</p>
       <p><strong>Huang Liu, Franco Gabriel:</strong> Diseñé wireframes de forma colaborativa involucrando a todo el equipo en las decisiones de diseño, establecí métricas UX específicas como tiempo de carga menor a 3 segundos y usabilidad superior al 85%, organicé sesiones de testing con usuarios reales para validar nuestras hipótesis y creé un design system unificado que mantiene la coherencia visual en todo el proyecto.</p>
       <p><strong>Santiago Peña, Andreow Jomark:</strong> Creé el canal de comunicación principal del equipo en WhatsApp y Discord, establecí las metas iniciales de completar el landing page y la documentación básica para la primera entrega, planifiqué la distribución de tareas entre compañeros según sus fortalezas e implementé reuniones de seguimiento diarias para mantener a todos alineados con los objetivos.</p>
-      <p><strong>Zuñiga Calle, Sebastian Gabriel:</strong> Creé una lista de verificación básica que usamos como equipo para revisar cada sección del landing page, establecí como meta que el sitio se viera bien en móvil y desktop sin errores visuales, organicé sesiones de testing grupal donde todos navegamos el sitio y reportamos observaciones, e implementé un proceso de revisión final donde cada uno verificó el trabajo de otro compañero antes de dar por terminado.</p>
     </td>
     <td>
       <p><strong>TB1</strong></p>
@@ -331,15 +373,30 @@ Estos commits reflejan el progreso constante y la colaboración entre los miembr
       <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Configuré el repositorio de GitHub con las ramas principales para que todos pudieran trabajar sin conflictos, establecí como meta crear un landing page responsive y funcional, dividí el desarrollo en componentes básicos (header, hero section, features, footer) asignando uno a cada miembro, y ayudé a resolver los problemas técnicos básicos que surgieron durante el desarrollo.</p>
       <p><strong>Huang Liu, Franco Gabriel:</strong> Diseñé wireframes de forma colaborativa involucrando a todo el equipo en las decisiones de diseño, establecí métricas UX específicas como tiempo de carga menor a 3 segundos y usabilidad superior al 85%, organicé sesiones de testing con usuarios reales para validar nuestras hipótesis y creé un design system unificado que mantiene la coherencia visual en todo el proyecto.</p>
       <p><strong>Santiago Peña, Andreow Jomark:</strong> Creé el canal de comunicación principal del equipo en WhatsApp y Discord, establecí las metas iniciales de completar el landing page y la documentación básica para la primera entrega, planifiqué la distribución de tareas entre compañeros según sus fortalezas e implementé reuniones de seguimiento diarias para mantener a todos alineados con los objetivos.</p>
-      <p><strong>Zuñiga Calle, Sebastian Gabriel:</strong> Creé una lista de verificación básica que usamos como equipo para revisar cada sección del landing page, establecí como meta que el sitio se viera bien en móvil y desktop sin errores visuales, organicé sesiones de testing grupal donde todos navegamos el sitio y reportamos observaciones, e implementé un proceso de revisión final donde cada uno verificó el trabajo de otro compañero antes de dar por terminado.</p>
     </td>
     <td>
       <p><strong>TP1</strong></p>
       <p>En conclusión: El enfoque colaborativo, la planificación clara y el compromiso colectivo con las metas definidas fueron clave para cumplir con los objetivos de esta entrega de manera eficaz y con calidad.</p>
     </td>
   </tr>
-</table>
 
+  <tr>
+    <td>
+      <p><b>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</b></p>
+    </td>
+    <td>
+      <p><strong>TB2</strong></p>
+      <p><strong>Luna Morales, Gianfranco:</strong> Actualicé el workspace de Trello para el Sprint 3, definiendo columnas específicas para tareas de backend (DDD, API, Despliegue). Establecí junto al equipo metas claras para la implementación de los módulos de Usuario, Vehículo y Alquiler, y las tareas de despliegue en Railway y Render. Organicé daily standups enfocados en el avance del backend y coordiné retrospectivas para mejorar el flujo de trabajo del equipo técnico.</p>
+      <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Configuré el repositorio `MOVEO-backend` con las ramas `main`, `develop`, y feature branches para cada módulo. Establecí como meta crear una API funcional con endpoints CRUD para los módulos principales. Dividí el desarrollo en tareas específicas de dominio, persistencia y controladores, asignando responsabilidades y ayudando a mantener la coherencia del código.</p>
+      <p><strong>Huang Liu, Franco Gabriel:</strong> Colaboré en la definición de los objetivos técnicos del backend, enfocados en la correcta implementación de la lógica de negocio. Establecí metas de calidad para los esquemas de datos y la documentación de la API. Planifiqué y participé en sesiones de integración entre el backend y el frontend para garantizar que los servicios cumplieran con los requisitos de la interfaz de usuario.</p>
+      <p><strong>Santiago Peña, Andreow Jomark:</strong> Establecí como meta principal la creación de un backend robusto y bien documentado. Planifiqué la integración con los servicios de nube (Railway, Render) y coordiné tareas para la configuración de CI/CD. Organizó reuniones de seguimiento para alinear el avance del backend con el cronograma del sprint y los objetivos generales del proyecto.</p>
+    </td>
+    <td>
+      <p><strong>TB2</strong></p>
+      <p>En conclusión: La planificación meticulosa, la definición clara de metas técnicas y el mantenimiento de un entorno colaborativo permitieron al equipo avanzar de manera cohesiva y eficiente en la implementación del backend durante el Sprint 3, cumpliendo con los objetivos establecidos.</p>
+    </td>
+  </tr>
+</table>
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -360,7 +417,6 @@ Visión: Aspiramos a consolidarnos como la plataforma más reconocida en el Per�
 | <img src="Assets/img/cover/Franco.jpeg" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345             |  Soy estudiante de la carrera de Ingeniería de Software. Mi principal meta es poder desarrollar software de manera freelance. Me interesa mucho desarrollar software para maquinas industriales | Tengo conocimientos básicos en C++, HTML, Python y Typescript |
 | <img src="Assets/img/cover/Gianfranco.jpg" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343              | Me gusta observar el comportamiento de las personas para así crear un ambiente cómodo y activo; soy práctico y racional para los percances que puedan surgir.  | Si bien poseo conocimientos básicos en la programación en el lenguaje C + +, aportaré en lo que pueda para realizar con éxito la idea planteada. |
 | <img src="Assets/img/cover/Andreow.jpg " width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362          | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mi principal meta es especializarme en la creación de agentes inteligentes y soluciones basadas en Inteligencia Artificial, con enfoque en aprendizaje automático, procesamiento del lenguaje natural y sistemas autónomos.| Tengo experiencia en múltiples lenguajes de programación como Python, C#, Java, JavaScript y SQL, y estoy familiarizado con frameworks comoVue.js, ASP.NET Core y TensorFlow/Keras. Me apasiona aprender tecnologías emergentes y aplicarlas en proyectos reales que generen impacto. |
-| <img src="Assets/img/cover/gabriel.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479        | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
 
 
 # 1.2. Solución Profile
@@ -2530,19 +2586,38 @@ Objetivo del Sprint: Entregar un backend robusto, escalable y documentado bajo D
 | TS01 | API de Autenticación (Login/Register) | T32 | Implementar página de login y registro unificado | Redirigir según rol tras autenticación exitosa. | 6 | Frontend | To-do |
 | HU09 | Recibir notificaciones de reservas | T33 | Implementar centro de notificaciones (mock) | Mostrar alertas en tiempo real (usar WebSocket o polling básico). | 7 | Frontend | To-do |
 
+![foto sprint 3 trello](Assets/chapter-5/trelo-3.png)
+
+
 
 ### 5.2.3.4. Development Evidence for Sprint Review
-Durante el Sprint 3, el equipo inició la transición del backend de un modelo simple REST a una arquitectura basada en **Domain-Driven Design (DDD)**, estructurando el código en bounded contexts: **Authentication**, **VehicleManagement**, **Booking**, **Payment**, y **Verification**. Se implementaron entidades de dominio como `User`, `Vehicle`, `Booking`, `Contract`, `Review`, y `Incident`, con sus respectivos repositorios y servicios de dominio.
 
-Se desarrollaron los siguientes avances técnicos:
-- **Backend (NestJS)**: Se reestructuró el proyecto en módulos DDD, separando responsabilidades entre `controllers`, `services`, `entities`, `repositories` y `dto`. Se implementó inyección de dependencias y patrón de repositorio para desacoplar la lógica de negocio de la persistencia.
-- **Autenticación**: Se implementó JWT con refresh tokens, almacenamiento seguro en HttpOnly cookies, y middleware de protección de rutas.
-- **Validación de dominio**: Se agregaron validaciones de negocio en los servicios (ej: un usuario no puede publicar un vehículo sin verificación, no puede reservar si ya tiene una reserva activa).
-- **Frontend (Vue.js + Pinia)**: Se crearon componentes reutilizables para formularios de registro, búsqueda y reservas. Se implementó el store de Pinia para gestionar estado de autenticación, carrito de reserva y notificaciones.
-- **Pruebas unitarias**: Se escribieron 28 pruebas con Jest cubriendo servicios clave: `AuthService`, `BookingService`, y `VerificationService`.
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: **Landing Page**, **Web Applications** y **Web Services**. La sección inicia con una introducción que resume los principales avances en la implementación.
 
-Los commits reflejan un enfoque ágil, con integración continua mediante pull requests y revisiones de código entre miembros del equipo. Se eliminaron duplicaciones y se estandarizó el código con ESLint y Prettier.
+Durante este Sprint, el equipo ha enfocado sus esfuerzos en la estructuración inicial del backend, definiendo la arquitectura base y los módulos fundamentales. Se ha iniciado la refactorización completa del modelo de dominio y persistencia para las entidades `User`, `Vehicle` y `Rental`. Se han implementado los servicios CRUD y endpoints correspondientes para el módulo de alquileres (`rental`) y gestión de usuarios (`user-management`). Además, se ha establecido la configuración básica para despliegue en producción (Railway), se han resuelto problemas de conexión y se ha configurado CORS para permitir la comunicación con el frontend. El proyecto se ha inicializado con una estructura base funcional, incluyendo un archivo `.gitignore` y un `Dockerfile` para contenerización.
 
+A continuación, se presenta la tabla con los commits relacionados con la implementación durante el Sprint 3:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/cors-configuration` | `fd17f6d` | `Merge pull request #3 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feature/cors-configuration` | Implementación de la configuración de CORS en el programa para permitir peticiones desde el frontend. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `63a68fd` | `feat(routes): implement dependencies for routing` | Implementación de dependencias necesarias para la configuración de rutas en el backend. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `e1cc779` | `feat(api): implement CORS configuration in program` | Configuración explícita de CORS en el archivo principal del programa para habilitar solicitudes cruzadas. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `db84582` | `feat(deploy): implement development and deployment setup on Railway` | Configuración inicial para desarrollo y despliegue en la plataforma Railway. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `3736c61` | `Update Program.cs` | Actualización del archivo `Program.cs` para integrar configuraciones de servicio y middleware. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `d5414de` | `fix/Production Connection` | Corrección de la conexión a la base de datos en modo de producción. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `b1f2477` | `fix: dockerfile_v.3` | Actualización y corrección del archivo Dockerfile v.3 para la contenerización del servicio. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `b9c5794` | `fix:Dockerfile file` | Corrección de errores en el archivo Dockerfile para garantizar el correcto funcionamiento del contenedor. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `1d7e6ad` | `feat/app settings for production` | Configuración de ajustes de la aplicación específicos para el entorno de producción. | 14/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feat/rentalManagement` | `62ddf18` | `Merge pull request #2 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feat/rentalManagement` | Integración de los cambios para la gestión de alquileres, incluyendo modelos y servicios. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feat/rentalManagement` | `7a9b4c5` | `feat/.gitignore file` | Adición del archivo `.gitignore` para excluir archivos y carpetas innecesarios del control de versiones. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feat/rentalManagement` | `9d9a2d0` | `Merge pull request #1 from UPC-PRE-202502-1ASI0730-7432-MOVEO/feat/rentalManagement` | Integración inicial de la funcionalidad de gestión de alquileres. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feat/rentalManagement` | `2f107cc` | `feat: Dockerfile file` | Creación del archivo Dockerfile para la contenerización del módulo de gestión de alquileres. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feat/rentalManagement` | `4f2c466` | `feat: Refactor complete domain and persistence model for User, Vehicle, and Rental` | Refactorización completa del modelo de dominio y persistencia para las entidades User, Vehicle y Rental. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `9a74974` | `feat(rental): add CRUD services and endpoints` | Implementación de los servicios CRUD y endpoints REST para el módulo de alquileres. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `2554d02` | `feat(user-management): fully functional backend with user CRUD and commands` | Backend completamente funcional con operaciones CRUD y comandos para la gestión de usuarios. | 13/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `5fd075d` | `feat(main): Added base project` | Creación del proyecto base con la estructura inicial y dependencias básicas. | 12/11/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `develop` | `fd4d607` | `Initial commit` | Commit inicial del repositorio con la estructura base del proyecto. | 12/11/2025 |
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
@@ -2558,70 +2633,90 @@ El Sprint 3 logró implementar y validar parcialmente el backend bajo DDD, con l
 
 La aplicación está en estado de **staging** y lista para pruebas con usuarios reales en el Sprint 4.
 
----
+
+Link de la aplicacion:
+https://moveo-backend-xvu0.onrender.com/swagger/index.html
+
+Link del video:
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQB-uXAMakeESKrSUUCVP-0dAcBSSDAYmIYy0KaaXCjM1Uw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=rgbGKc](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQB-uXAMakeESKrSUUCVP-0dAcBSSDAYmIYy0KaaXCjM1Uw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=rgbGKc)
+
+
+
+![backend 1](assets/chapter-5/backend-1.jpg)
+
+![deploy 1](assets/chapter-5/backend-2.jpg)
+
+![deploy 1](assets/chapter-5/backend-3.jpg)
+
+![deploy 1](assets/chapter-5/backend-4.jpg)
+
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
-Durante el Sprint 3, se documentó la nueva API del backend con Swagger (OpenAPI 3.0). A continuación, se presentan los endpoints clave implementados:
+
+En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. La sección inicia con una introducción en la que se resume los logros alcanzados en relación con Documentación de Web Services para este Sprint.
+
+Durante el Sprint 3, se consolidó y documentó la API del backend `Moveo_backend` 1.0 bajo el estándar OpenAPI 3.0, utilizando Swagger. La documentación está disponible en [https://moveo-backend-xvu0.onrender.com/swagger/v1/swagger.json](https://moveo-backend-xvu0.onrender.com/swagger/v1/swagger.json) y despliegada en [https://moveo-backend-xvu0.onrender.com/swagger](https://moveo-backend-xvu0.onrender.com/swagger). Esta API cubre los módulos de Usuarios, Vehículos y Alquileres, proporcionando una interfaz clara y estandarizada para la interacción con el sistema. Se han definido esquemas de datos detallados para todos los objetos de dominio, facilitando la integración y el entendimiento de la estructura de la información.
+
+A continuación, se presenta una tabla con los endpoints clave documentados:
 
 | Endpoint | Método | Descripción | Parámetros | Respuesta |
 |----------|--------|-------------|------------|-----------|
-| `/api/users` | POST | Registrar nuevo usuario | `{ email, password, role: "renter" \| "owner" }` | `201 Created` - Usuario creado |
-| `/api/auth/login` | POST | Iniciar sesión | `{ email, password }` | `200 OK` - `{ token, refreshToken }` |
-| `/api/verification` | POST | Subir DNI y selfie para verificación | `{ frontImage, backImage, selfieImage }` | `201 Created` - Verificación en proceso |
-| `/api/verification/status` | GET | Consultar estado de verificación | - | `200 OK` - `{ isVerified: boolean }` |
-| `/api/cars` | POST | Publicar vehículo | `{ model, year, price, location, availabilityDates[], photos[] }` | `201 Created` - Vehículo creado |
-| `/api/cars` | GET | Buscar vehículos disponibles | `?location=&startDate=&endDate=&minPrice=&maxPrice=` | `200 OK` - Lista de vehículos disponibles |
-| `/api/bookings` | POST | Crear reserva | `{ carId, startDate, endDate, userId }` | `201 Created` - Reserva en estado "Pending" |
-| `/api/bookings/:id` | GET | Obtener detalles de reserva | `:id` | `200 OK` - Detalles con auto, usuario, estado |
-| `/api/contracts/:bookingId` | GET | Descargar contrato PDF | `:bookingId` | `200 OK` - PDF firmado |
-| `/api/incidents` | POST | Reportar incidencia | `{ bookingId, description, photos[] }` | `201 Created` - Incidencia registrada |
-| `/api/reviews` | POST | Calificar propietario | `{ bookingId, rating, comment }` | `201 Created` - Reseña creada |
-| `/api/payments/release` | POST | Liberar pago al propietario | `{ bookingId }` | `200 OK` - Fondos liberados (90%) |
-| `/api/payments/hold` | POST | Retener pago por incidencia | `{ bookingId }` | `200 OK` - Fondos bloqueados |
+| `/api/v1/users` | POST | Registrar nuevo usuario o propietario | `{ email, password, firstName, lastName, role }` (usando `CreateUserCommand`) | `201 Created` - Usuario creado con ID |
+| `/api/v1/users` | GET | Listar todos los usuarios | - | `200 OK` - Lista de usuarios |
+| `/api/v1/users/{id}` | PUT | Actualizar datos de un usuario | `:id`, `{ firstName, lastName, ... }` (usando `UpdateUserCommand`) | `200 OK` - Usuario actualizado |
+| `/api/v1/users/{id}` | DELETE | Eliminar un usuario | `:id` | `200 OK` - Usuario eliminado |
+| `/api/v1/users/{id}/password` | PUT | Cambiar contraseña de un usuario | `:id`, `{ newPassword }` (usando `ChangePasswordCommand`) | `200 OK` - Contraseña actualizada |
+| `/api/v1/users/{id}/role` | PUT | Cambiar rol de un usuario | `:id`, `{ newRole }` (usando `ChangeUserRoleCommand`) | `200 OK` - Rol actualizado |
+| `/api/v1/vehicles` | POST | Publicar un nuevo vehículo | `{ model, year, dailyPrice, location, ownerId, ... }` (usando `CreateVehicleCommand`) | `201 Created` - Vehículo creado |
+| `/api/v1/vehicles` | GET | Buscar y listar vehículos disponibles | - | `200 OK` - Lista de vehículos |
+| `/api/v1/vehicles/{id}` | PUT | Actualizar información de un vehículo | `:id`, `{ model, year, dailyPrice, ... }` (usando `UpdateVehicleCommand`) | `200 OK` - Vehículo actualizado |
+| `/api/v1/vehicles/{id}` | DELETE | Eliminar un vehículo | `:id` | `200 OK` - Vehículo eliminado |
+| `/api/v1/rentals` | POST | Crear una nueva reserva de alquiler | `{ vehicleId, renterId, ownerId, rentalPeriod, totalPrice, ... }` (usando `CreateRentalCommand`) | `201 Created` - Reserva creada |
+| `/api/v1/rentals` | GET | Listar todas las reservas | - | `200 OK` - Lista de alquileres |
+| `/api/v1/rentals/{id}` | PUT | Actualizar una reserva | `:id`, `{ totalPrice, ... }` (usando `UpdateRentalCommand`) | `200 OK` - Reserva actualizada |
+| `/api/v1/rentals/{id}/cancel` | PUT | Cancelar una reserva activa | `:id`, `{ reason }` (usando `CancelRentalCommand`) | `200 OK` - Reserva cancelada |
+| `/api/v1/rentals/{id}/finish` | PUT | Finalizar una reserva completada | `:id` (usando `FinishRentalCommand`) | `200 OK` - Reserva finalizada |
 
-> Documentación completa disponible en: `https://moveo-backend-staging.onrender.com/api-docs`
-
+**URL del Repositorio del Servicio Web:** `https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-backend`  
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
-En este Sprint, se desplegaron los cambios del backend y frontend en entornos de staging para validación continua.
 
-**Backend (NestJS)**  
-Plataforma: Render (Node.js App)  
-Build Command: `npm run build`  
-Start Command: `node dist/main.js`  
-Environment Variables: `JWT_SECRET`, `AWS_ACCESS_KEY`, `AWS_SECRET_KEY`
+En esta sección se resume los procesos realizados en relación con Deployment durante este Sprint. La sección inicia con una introducción explicando qué se ha realizado con respecto a despliegue durante este Sprint.
 
-**Frontend (Vue.js)**  
-Plataforma: Render (Static Site)  
-Build Command: `npm run build`  
-Publish Directory: `dist`
+Durante este Sprint, se realizaron los procesos de despliegue para el backend desarrollado en .NET Core. Se configuraron las plataformas cloud Railway y Render para alojar la aplicación y su base de datos. Se crearon cuentas en ambos proveedores y se configuraron los recursos necesarios para el entorno de staging. El proyecto backend fue preparado para despliegue utilizando contenedores Docker, facilitando la portabilidad y consistencia entre entornos de desarrollo y producción. Se configuraron variables de entorno críticas como cadenas de conexión a la base de datos y claves de acceso a servicios externos. Se integraron los flujos de CI/CD para automatizar el proceso de despliegue al subir cambios a la rama `develop`. Abarca actividades de creación de cuentas, configuración de recursos en cloud providers, configuración de proyectos de desarrollo para integración o automatización de labor de Deployment, entre otros. Se considera dentro del proceso de Deployment todos los productos: Landing Page, Web Applications y Web Services. Se debe adicionar capturas en imagen y explicaciones de los pasos realizados durante el Sprint.
 
-**CI/CD**  
-- Se configuró el flujo de GitHub Actions para:  
-  1. Ejecutar pruebas unitarias en cada push a `develop`  
-  2. Desplegar automáticamente el frontend en Render  
-  3. Desplegar el backend en Render si todos los tests pasan  
+**Backend (.NET Core)**  
+- **Plataforma de Base de Datos:** Railway  
+  - Se creó una instancia de base de datos PostgreSQL en Railway para alojar los datos del sistema.
+  - Se configuró la cadena de conexión y se integró con el proyecto backend.
 
-![render-backend](assets/chapter-5/render-backend-sprint3.png)  
-![render-frontend](assets/chapter-5/render-frontend-sprint3.png)  
+- **Plataforma de Aplicación:** Render  
+  - Se creó una cuenta en Render y se configuró un servicio web para alojar la aplicación .NET Core.
+  - El proyecto fue empaquetado y desplegado utilizando un archivo `Dockerfile`.
+  - Se configuraron las variables de entorno necesarias (como la cadena de conexión a la base de datos de Railway) en el panel de Render.
+  - Se configuró el flujo de CI/CD para desplegar automáticamente en Render al hacer push a la rama `develop`. 
 
-El entorno de staging permite pruebas reales con usuarios internos y prepara el camino para la validación en el Sprint 4.
+Deploy Frontend
+![render-backend](assets/chapter-5/render%20(1).png)  
 
----
+Deploy Backend: 
+![deploy 1](assets/chapter-5/deploy-backend.jpg)
+
+![deploy 1](assets/chapter-5/backend-deploy.jpg)
+
+
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
 El equipo mantuvo un flujo de trabajo ágil basado en GitFlow, con ramas por feature y pull requests obligatorios. Se implementó la práctica de **pair programming** en el desarrollo del backend DDD, donde Andreow Santiago y Franco Huang revisaron en tiempo real la implementación de los servicios de dominio.
 
 - Se utilizaron **GitHub Projects** para rastrear el progreso de cada tarea en el Sprint Backlog.
 - Se estableció una **reunión diaria de 15 minutos** en Discord para alinear tareas y resolver bloqueos.
-- Se adoptó el uso de **TypeScript interfaces estrictas** y **NestJS decorators** para mejorar la legibilidad y mantenibilidad.
-- Se documentaron decisiones de diseño en el archivo `ARCHITECTURE_DECISION_RECORDS.md` dentro del repositorio.
 - Se mejoró la calidad del código con la implementación de ESLint, Prettier y Husky para pre-commit hooks.
 
 Los commits reflejan un aumento en la madurez técnica del equipo, con un promedio de 12 commits por día en la rama `develop`, enfocados en entregas incrementales y pruebas.
 
-![commit-sprint3](assets/img/chapter-5/sprint3-commits.png)  
-![network-sprint3](assets/img/chapter-5/sprint3-network.png)
+![commit-sprint3](assets/chapter-5/sprint-3-commits.png)  
+![network-sprint3](assets/chapter-5/sprint-3-network.png)  
 
 ## 5.2.4. Sprint 4
 ### 5.2.4.1. Sprint Planning 4
@@ -2790,30 +2885,26 @@ Los commits reflejan un aumento en la madurez técnica del equipo, con un promed
 ## 5.3. Validation Interviews
 
 En esta sección, el equipo documenta las actividades de validación realizadas con usuarios reales durante el desarrollo del proyecto Moveo. El objetivo es evaluar la usabilidad, claridad y utilidad de la aplicación web a través de entrevistas estructuradas, observación directa de flujos de usuario y análisis heurístico. Todas las sesiones se ejecutaron en entorno web (navegador de escritorio), comenzando desde la **Landing Page** y avanzando por funcionalidades clave del sistema. Los hallazgos obtenidos guían las mejoras del producto y validan las decisiones de diseño.
-
 ### 5.3.1. Diseño de Entrevistas
 
-Esta sección detalla el diseño metodológico de las entrevistas de validación realizadas durante el proyecto Moveo. El enfoque se centró exclusivamente en la **versión web** de la aplicación. Cada sesión inició en el **Landing Page**, replicando el flujo real de un usuario nuevo, y se evaluaron tareas esenciales del sistema.
+Esta sección detalla el diseño metodológico de las entrevistas de validación realizadas durante el proyecto **Moveo**. El enfoque se centró exclusivamente en la **versión web** de la aplicación. Cada sesión inició en la `Landing Page`, replicando el flujo real de un usuario nuevo, y se evaluaron tareas esenciales del sistema.
 
 El proceso se estructuró en tres fases:
+
 1. **Recolección inicial**: Aplicación de formularios digitales (Google Forms) para identificar perfiles y necesidades.
 2. **Entrevista cualitativa**: Sesión guiada en la que el participante interactuó con la app web, realizando tareas específicas.
 3. **Evaluación heurística**: Análisis posterior basado en principios de usabilidad, arquitectura de información y diseño inclusivo.
 
 Se siguieron buenas prácticas de diseño de entrevistas:
+
 - Preguntas abiertas y no sugestivas.
 - Secuencia lógica: de lo general a lo específico.
 - Enfoque en comportamientos reales, no hipotéticos.
 
-#### Formularios Digitales Utilizados:
-- **Segmento Propietarios**: [https://forms.gle/uyVSkqSiuiKx1nb69](https://forms.gle/uyVSkqSiuiKx1nb69)
-- **Segmento Inquilinos**: [https://forms.gle/kz3BdxPoZHKNgqUg9](https://forms.gle/kz3BdxPoZHKNgqUg9)
-
----
 
 #### Flujos de Usuario Evaluados (User Flows - Web)
 
-Durante las entrevistas, se solicitó a los participantes interactuar con los siguientes flujos clave del sistema, iniciando siempre desde el **Landing Page**:
+Durante las entrevistas, se solicitó a los participantes interactuar con los siguientes flujos clave del sistema, iniciando siempre desde la `Landing Page`:
 
 | Tarea | Descripción |
 |------|-------------|
@@ -2825,127 +2916,115 @@ Durante las entrevistas, se solicitó a los participantes interactuar con los si
 | **6. Publicación de un vehículo (propietario)** | Completar formulario con modelo, fotos, precio, disponibilidad. |
 | **7. Cancelación de una reserva** | Acceder al historial de reservas, seleccionar una reserva activa y cancelarla antes del inicio del alquiler. |
 
-Estos flujos fueron evaluados en una versión funcional del frontend desplegado en staging, accesible únicamente desde navegador web (Chrome, Safari, Firefox).
+Estos flujos fueron evaluados en una versión funcional del frontend desplegado en *staging*, accesible únicamente desde navegador web (Chrome, Safari, Firefox).
 
 ---
 
 ### 5.3.2. Registro de Entrevistas
 
-Se realizaron un total de **6 entrevistas de validación**, cumpliendo con el rango requerido de 3 a 5 por segmento (3 propietarios, 3 inquilinos). Cada sesión fue grabada en video, almacenada en Microsoft Stream y referenciada con tiempo exacto de inicio y duración. Todas las pruebas se realizaron en entorno web, iniciando desde el **Landing Page**.
+Se realizaron un total de **6 entrevistas de validación**, cumpliendo con el rango requerido de 3 a 5 por segmento (3 propietarios, 3 inquilinos). Cada sesión fue grabada en video, almacenada en Microsoft Stream y referenciada con tiempo exacto de inicio y duración. Todas las pruebas se realizaron en entorno web, iniciando desde la `Landing Page`.
 
-> 🔗 **Video completo de todas las entrevistas:**  
-> [http://bit.ly/46qhU6i](http://bit.ly/46qhU6i)
+>  **Video completo de todas las entrevistas:** [https://n9.cl/3hn0g](https://n9.cl/3hn0gc)
 
 #### Segmento 1: Propietarios
 
-##### Entrevistado 1: Alisa Goicochea  
+##### Entrevistado 1: Alisa Goicochea
 - **Edad:** 22 años  
 - **Ocupación:** Estudiante de Marketing Digital + Alquiladora de autos  
 - **Distrito:** Miraflores  
 - **Dispositivos utilizados:** Laptop (MacBook Air), navegador Chrome  
-- **Navegador habitual:** Chrome  
-- **Imagen de entrevista:**  
-  ![Alisa Goicochea](Assets/img/chapter-2/entrevista-1.png)  
 - **Instante en el que inicia:** 0:00  
-- **Duración de la entrevista:** 2:42 min  
+- **Duración de la entrevista:** 2:42 min
 
-###### Resumen:  
+###### Resumen:
 Alisa comenzó en el Landing Page y destacó la claridad del mensaje principal: "Alquila tu auto fácil y seguro". Hizo clic en "Regístrate" sin dudar. Valoró positivamente el formulario de registro y publicación, completando ambos flujos en menos de 5 minutos. Evaluó la apertura de un ticket como "clara y útil", especialmente al poder adjuntar fotos del daño. No intentó cancelar una reserva (no aplica a su rol), pero expresó que debería ser posible hacerlo sin penalidad si es con anticipación.
 
----
+![entrevista 1](assets/chapter-5/entrevistas-app%20(1).png)
 
-##### Entrevistado 2: Mathías Peña  
+
+##### Entrevistado 2: Mathías Peña
 - **Edad:** 24 años  
 - **Ocupación:** Estudiante de Administración (UNI) + Emprendedor de alquiler de autos (3 vehículos)  
 - **Distrito:** Surco  
 - **Dispositivos utilizados:** Laptop (MacBook Pro), navegador Safari  
-- **Navegador habitual:** Safari  
-- **Imagen de entrevista:**  
-  ![Mathías Peña](Assets/img/chapter-2/entrevista-2.png)  
 - **Instante en el que inicia:** 2:43  
-- **Fin de la entrevista:** 5:31 min  
+- **Fin de la entrevista:** 5:31 min
 
-###### Resumen:  
+###### Resumen:
 Mathías navegó desde el Landing Page, interesándose por la sección "¿Cómo funciona?". Publicó un vehículo rápidamente. Al probar la apertura de un ticket, sugirió permitir adjuntar videos cortos además de fotos. Consideró que el sistema de cancelación debería incluir un resumen de condiciones (¿se devuelve el depósito?) antes de confirmar.
 
----
+![entrevista 2](assets/chapter-5/entrevistas-app%20(6).png)
 
-##### Entrevistado 3: Mauricio Salas  
+
+##### Entrevistado 3: Mauricio Salas
 - **Edad:** 22 años  
 - **Ocupación:** Estudiante de Administración (UPC) + Freelancer en redes sociales + Alquiler de auto  
 - **Distrito:** Miraflores  
 - **Dispositivos utilizados:** Laptop (Lenovo), navegador Chrome  
-- **Navegador habitual:** Chrome  
-- **Imagen de entrevista:**  
-  ![Mauricio Salas](Assets/img/chapter-2/entrevista-3.png)  
 - **Instante en el que inicia:** 7:15  
-- **Duración de la entrevista:** 3:37 min  
+- **Duración de la entrevista:** 3:37 min
 
-###### Resumen:  
+###### Resumen:
 Mauricio completó el flujo de publicación y apertura de ticket. Valoró que el ticket quede vinculado a la reserva específica. Sugirió que al cancelar una reserva, el sistema muestre claramente si hay penalidades o devolución parcial de fondos.
+
+![entrevista 3](assets/chapter-5/entrevistas-app%20(5).png)
+
 
 ---
 
 #### Segmento 2: Inquilinos
 
-##### Entrevistado 4: Claudia Sifuentes  
+##### Entrevistado 4: Claudia Sifuentes
 - **Edad:** 21 años  
 - **Ocupación:** Estudiante de Psicología + Trabajo media jornada en cafetería  
 - **Distrito:** San Juan de Lurigancho  
 - **Dispositivos utilizados:** Laptop (HP Pavilion), navegador Chrome  
-- **Navegador habitual:** Chrome  
-- **Imagen de entrevista:**  
-  ![Claudia Sifuentes](Assets/img/chapter-2/entrevista-4.png)  
 - **Instante en el que inicia:** 10:53  
-- **Duración de la entrevista:** 3:42 min  
+- **Duración de la entrevista:** 3:42 min
 
-###### Resumen:  
+###### Resumen:
 Claudia reservó un auto desde el Landing Page. Posteriormente, canceló una reserva simulada y consideró el proceso "simple y transparente". También abrió un ticket por "asiento roto" y valoró que el formulario sea claro. Criticó que no haya un chat integrado para aclarar dudas antes de abrir un ticket.
 
----
+![entrevista 4](assets/chapter-5/entrevistas-app%20(3).png)
 
-##### Entrevistado 5: Gabriel Eduardo Torres Campos  
-- **Edad:** 19 años  
-- **Ocupación:** Estudiante  
+##### Entrevistado 5: Jackelin Peña Pariona
+- **Edad:** 38 años  
+- **Ocupación:** Ingenieria  
 - **Distrito:** Lima (no especificado)  
 - **Dispositivos utilizados:** Laptop (Dell), navegador Chrome  
-- **Navegador habitual:** Chrome  
-- **Imagen de entrevista:**  
-  ![Gabriel Torres](Assets/img/chapter-2/entrevista-5.png)  
 - **Instante en el que inicia:** 13:35  
-- **Duración de la entrevista:** 9:28 min  
+- **Duración de la entrevista:** 9:28 min
 
-###### Resumen:  
+###### Resumen:
 Gabriel completó la reserva y luego la canceló. Notó que el sistema no muestra un mensaje de confirmación de cancelación por correo. Al abrir un ticket, sugirió incluir categorías predefinidas de incidencias (mecánicas, limpieza, documentación) para agilizar el reporte.
 
----
+![entrevista 5](assets/chapter-5/entrevistas-app%20(4).png)
 
-##### Entrevistado 6: Angie Leyva  
+##### Entrevistado 6: Angie Leyva
 - **Edad:** 21 años  
 - **Ocupación:** Estudiante de Comunicación + Community Manager freelance  
 - **Distrito:** San Miguel  
 - **Dispositivos utilizados:** Laptop (MacBook Air), navegador Safari  
-- **Navegador habitual:** Safari  
-- **Imagen de entrevista:**  
-  ![Angie Leyva](Assets/img/chapter-2/entrevista-6.png)  
 - **Instante en el que inicia:** 22:07  
-- **Duración de la entrevista:** 4:40 min  
+- **Duración de la entrevista:** 4:40 min
 
-###### Resumen:  
+###### Resumen:
 Angie navegó desde el Landing Page y reservó un auto. Al cancelar, solicitó que el sistema muestre un resumen del reembolso esperado. Al abrir un ticket, criticó que no haya un número de seguimiento visible en la interfaz ("¿cómo sé que lo recibieron?"). Recomendó añadir un sistema de notificaciones que confirme la recepción del ticket y cualquier actualización posterior.
+![entrevista 6](assets/chapter-5/entrevistas-app%20(2).png)
 
 ---
 
 ### 5.3.3. Evaluaciones según Heurísticas
 
-#### UX Heuristics & Principles Evaluation  
-**Usability – Inclusive Design – Information Architecture**  
+#### UX Heuristics & Principles Evaluation
+**Usability – Inclusive Design – Information Architecture**
+
 **CARRERA:** Ingeniería de Software  
 **CURSO:** Aplicaciones Web  
 **SECCIÓN:** 7432  
 **PROFESORES:** Todos  
 **AUDITOR:** Equipo Moveo  
-**CLIENTES:** Alisa Goicochea, Mathías Peña, Mauricio Salas, Claudia Sifuentes, Gabriel Torres, Angie Leyva  
+**CLIENTES:** Alisa Goicochea, Mathías Peña, Mauricio Salas, Claudia Sifuentes, Jackelin Peña, Angie Leyva  
 **SITE o APP A EVALUAR:** Moveo Web App (Staging - Sprint 3)
 
 #### TAREAS A EVALUAR:
@@ -2974,7 +3053,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 4 | Problema muy grave: impide al usuario continuar con el uso de la herramienta. |
 
 #### TABLA RESUMEN:
-| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| # | Problema | Escala de severidad | Heurística/Principio violada |
 |---|---------|---------------------|-------------------------------|
 | 1 | El botón de "Reservar" no permanece visible al hacer scroll en web | 2 | Usability: Libertad y control del usuario |
 | 2 | Falta notificación al cancelar una reserva (email o en app) | 2 | Usability: Visibilidad del estado del sistema |
@@ -2983,45 +3062,54 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 5 | Imágenes de autos no tienen atributo "alt" | 2 | Inclusive Design: Proporciona experiencias comparables |
 | 6 | No hay resumen de condiciones de cancelación antes de confirmar | 2 | Usability: Prevención de errores |
 
-#### DESCRIPCIÓN DE PROBLEMAS:
+---
 
-**PROBLEMA #1: El botón de "Reservar" no permanece visible al hacer scroll en web**  
+#### DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1: El botón de "Reservar" no permanece visible al hacer scroll en web**
 - **Severidad:** 2  
 - **Heurística violada:** Usabilidad - Libertad y control del usuario  
 - **Problema:** El botón de acción principal se pierde al hacer scroll en páginas largas de detalles del vehículo.  
 - **Recomendación:** Implementar un botón fijo en la parte inferior de la ventana del navegador durante el flujo de reserva.
 
-**PROBLEMA #2: Falta notificación al cancelar una reserva**  
+**PROBLEMA #2: Falta notificación al cancelar una reserva**
 - **Severidad:** 2  
 - **Heurística violada:** Usabilidad - Visibilidad del estado del sistema  
 - **Problema:** El usuario no recibe confirmación inmediata (ni en la app ni por email) de que su cancelación fue procesada.  
 - **Recomendación:** Mostrar un mensaje en pantalla y enviar un correo de confirmación con detalles de la cancelación.
 
-**PROBLEMA #3: No existe número de seguimiento visible para tickets**  
+**PROBLEMA #3: No existe número de seguimiento visible para tickets**
 - **Severidad:** 3  
 - **Heurística violada:** Usabilidad - Visibilidad del estado del sistema  
 - **Problema:** Tras abrir un ticket, el usuario no ve un número de caso ni actualizaciones, lo que genera incertidumbre.  
-- **Recomendación:** Mostrar inmediatamente un número de ticket (ej: #MOV-2025-001) y permitir su seguimiento desde el historial.
+- **Recomendación:** Mostrar inmediatamente un número de ticket (ej: `#MOV-2025-001`) y permitir su seguimiento desde el historial.
 
-**PROBLEMA #4: Formulario de tickets no incluye categorías predefinidas**  
+**PROBLEMA #4: Formulario de tickets no incluye categorías predefinidas**
 - **Severidad:** 2  
 - **Heurística violada:** Information Architecture - Is it usable?  
 - **Problema:** El usuario debe describir todo el problema desde cero, sin guía.  
 - **Recomendación:** Añadir un dropdown con categorías (Limpieza, Daño mecánico, Daño estético, Documentación, Otro).
 
-**PROBLEMA #5: Imágenes de autos no tienen atributo "alt"**  
+**PROBLEMA #5: Imágenes de autos no tienen atributo "alt"**
 - **Severidad:** 2  
 - **Heurística violada:** Inclusive Design - Proporciona experiencias comparables  
 - **Problema:** Accesibilidad reducida para usuarios con discapacidad visual.  
 - **Recomendación:** Agregar atributos `alt` descriptivos a todas las imágenes.
 
-**PROBLEMA #6: No hay resumen de condiciones de cancelación antes de confirmar**  
+**PROBLEMA #6: No hay resumen de condiciones de cancelación antes de confirmar**
 - **Severidad:** 2  
 - **Heurística violada:** Usabilidad - Prevención de errores  
 - **Problema:** El usuario confirma la cancelación sin saber si habrá penalidades o reembolsos.  
 - **Recomendación:** Mostrar un resumen claro antes del botón de confirmación: "Se devolverá el 80% del pago. ¿Confirmar cancelación?".
 
-## 5.4. Video About-the-Product.
+
+### 5.4. Video About-the-Product
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQDPQ5YyN1O_QIO4JX8FIfWQAZ1GaYIZ07I54Y53Rnq2l4A?e=j6rzna&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQDPQ5YyN1O_QIO4JX8FIfWQAZ1GaYIZ07I54Y53Rnq2l4A?e=j6rzna&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+dale click al enlace te direccionara correctamente el emoji es solo visual
+
+En este video se mostró el avance del desarrollo del producto, incluyendo el frontend, el backend y la landing page.
 
 
 ### Conclusiones
@@ -3033,6 +3121,14 @@ Este primer entregable nos permitió moldear la idea detrás de Moveo, estudiar 
 **TP**
 
 Finalizar este entregable nos permitió avanzar de manera concreta en las user stories definidas, destacando la relevancia de la planificación y organización en el desarrollo de software. La construcción de los bounded contexts planteados en la documentación inicial refleja el progreso alcanzado en la aplicación. Asimismo, se implementaron las correcciones derivadas del feedback de la entrega anterior, fortaleciendo la calidad y coherencia del front-end.
+
+**TB2**
+
+Este segundo entregable permitió avanzar significativamente en la arquitectura del sistema, con el desarrollo completo del backend y la actualización integral del frontend. Se implementaron las APIs necesarias para soportar las funcionalidades clave de Moveo, integrándose de forma eficiente con los componentes del frontend ya existentes. Además, se optimizaron las interfaces de usuario basándose en feedback previo, mejorando la usabilidad y coherencia visual.
+
+Paralelamente, se realizaron entrevistas de validación con usuarios reales del mercado objetivo para corroborar que las funcionalidades propuestas resolvían sus necesidades reales, y se llevó a cabo un análisis heurístico de la interfaz siguiendo los principios de Nielsen, identificando y corrigiendo problemas de usabilidad antes de la próxima fase de pruebas.
+
+Esta etapa consolidó la base técnica del proyecto, asegurando que tanto el servidor como la interfaz estén alineados con las user stories definidas y validadas por el usuario, listos para las siguientes fases de prueba y despliegue.
 
 ### Bibliografia
 
@@ -3092,12 +3188,6 @@ A continuación, se presenta la lista de fuentes, herramientas, plataformas y re
 - **Gherkin (Given-When-Then)**  
   *Formato utilizado para redacción de criterios de aceptación en User Stories.*
 
-- **Imágenes y fotografías de equipo y testimonios**  
-  *Hospedadas en el sitio y utilizadas para generar confianza y humanizar la marca.*  
-  Ejemplo: https://moveo-landing.netlify.app/srcAssets/carlos.jpg
-
-- **Ilustraciones y assets gráficos**  
-  *Creados por el equipo de diseño o adaptados de librerías libres de derechos (Freepik, Flaticon, Undraw).*
 
 
 ## Anexos
@@ -3111,6 +3201,13 @@ Link
 
 link:
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EfDKQv9Ps3ZPouHG_wFJbEABjDxUWDTlHu7u9ToZSV3Qag?e=MyeEeu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EfDKQv9Ps3ZPouHG_wFJbEABjDxUWDTlHu7u9ToZSV3Qag?e=MyeEeu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+### Link del video del TB-2
+Link:
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQAiiWTrPfQJQrMNsVAlpO8_AaLsM0Pe2xV1aokdoiVYPr0?e=JxgY0x&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQAiiWTrPfQJQrMNsVAlpO8_AaLsM0Pe2xV1aokdoiVYPr0?e=JxgY0x&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 
 ### 1. Logo de Moveo (versión final)
 ![](Assets/chapter-4/Logo.png)
