@@ -3,7 +3,7 @@
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Ingeniería de Software 2025-20</strong><br>
+    <strong>Ingeniería de Software</strong><br>
     <strong>Aplicaciones Web - 7432 </strong><br>
     <strong>Profesor: Oscar Ivan Villafuentes Bazan </strong><br>
     <strong>INFORME DE TRABAJO FINAL</strong><br>
@@ -22,7 +22,6 @@
 
 | Member                               | Code        |
 |:--------------------------------------:|:-------------:|
-|Carlos Alejandro De la cruz Villareal | U20211c036  |
 |Franco Gabriel Huang Liu              | U202310345  |
 |Gianfranco Luna Morales               | U201824343  |
 |Andreow Jomark Santiago Peña          | U202317362  |
@@ -41,24 +40,26 @@
 | 0.1     | 29/08/2025  | Andreow Santiago    | Creación y primera versión del informe |
 | 0.2     | 08/09/2025  | Franco Huang        | Avance de Style Guidelines |
 | 0.3     | 10/09/2025  | Franco Huang        | Avance de Information Architecture y entrevistas |
-| 0.4     | 12/09/2025  | Carlos De la Cruz   | Avance de escenario de uso (to be scenario) |
+| 0.4     | 12/09/2025  | Andreow Santiago   | Avance de escenario de uso (to be scenario) |
 | 0.5     | 13/09/2025  | Gianfranco Luna     | Implementación de user stories y resumen de entrevistas con usuarios |
 | 0.6     | 14/09/2025  | Gianfranco Luna     | Implementación del capítulo 4: Style Guidelines |
 | 0.7     | 15/09/2025  | Andreow Santiago    | Implementación completa del capítulo 5: Arquitectura de la aplicación |
 | 1.1     | 05/10/2025  | Franco Huang        | Corrección de comentarios del profesor: revisión de coherencia técnica y redacción |
-| 1.2     | 05/10/2025  | Carlos De la Cruz   | Implementación de nuevas user stories derivadas de validación con usuarios reales |
+| 1.2     | 05/10/2025  | Andreow Santiago   | Implementación de nuevas user stories derivadas de validación con usuarios reales |
 | 1.3     | 06/10/2025  | Gianfranco Luna     | Implementación del Sprint 2: Planificación, backlog refinado y criterios de aceptación |
 | 1.4     | 06/10/2025  | Andreow Santiago    | Correcciones de la bibliografía: actualización a normas APA 7ª edición y verificación de fuentes |
-| 1.5     | 08/10/2025  | Carlos De la Cruz   | Revisión y consolidación del capítulo 3: Metodología Agile aplicada al proyecto |
+| 1.5     | 08/10/2025  | Gianfranco Luna   | Revisión y consolidación del capítulo 3: Metodología Agile aplicada al proyecto |
 | 1.6     | 10/10/2025  | Gianfranco Luna     | Documentación del Sprint 2: Desarrollo de funcionalidades clave del core de nuestro producto |
 | 1.7     | 13/10/2025  | Franco Huang        | Integración de feedback del profesor: corrección del capítulo en la parte del hypothesis |
-| 1.8     | 14/10/2025  | Carlos De la Cruz   | Actualización de las métricas del proyecto y validación con prototipo funcional |
+| 1.8     | 14/10/2025  | Franco Huang   | Actualización de las métricas del proyecto y validación con prototipo funcional |
 | 1.9     | 13/11/2025  | Andreow Santiago    | Elaboración final del capítulo 5: revisión y coherencia del informe completo |
 | 2.1     | 05/11/2025  | Andreow Santiago    | Inicio del Sprint 3: desarrollo del backend implementación de módulos y gestión de usuarios |
-| 2.2     | 07/11/2025  | Carlos De la Cruz   | Documentación del diseño de base de datos |
+| 2.2     | 07/11/2025  | Franco Huang    | Documentación del diseño de base de datos |
 | 2.3     | 08/11/2025  | Gianfranco Luna     | Realización de entrevistas de validación con usuarios finales |
 | 2.4     | 09/11/2025  | Franco Huang        | Ajustes en endpoints del backend basados en retroalimentación de pruebas de integración y usabilidad |
-| 2.5     | 10/11/2025  | Andreow Santiago    | Finalización del desarrollo backend cobertura de pruebas unitarias , documentación API con Swagger |
+| 2.5     | 15/11/2025  | Andreow Santiago    | Finalización del desarrollo backend cobertura de pruebas unitarias , documentación API con Swagger |
+| 2.6     | 28/11/2025  | Franco Huang      | Finalización del desarrollo del token en el backend |
+| 2.7     | 01/12/2025  | Gianfranco Luna     | implementacion de IAM en el frontend |
 
 # Project Report Collaboration Insights
 
@@ -70,9 +71,15 @@ Link del reporte del equipo:
 
 https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-Report
 
-Link del reporte del equipo: 
+Link del landing pague del equipo: 
 
 https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-Landing
+
+Link al frontend del equipo:  
+https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-frontend
+
+Link del backend del equipo:
+https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-backend?tab=readme-ov-file
 
 #### TB1
 
@@ -119,6 +126,13 @@ Network graph para TB1
 La entrega del TP1 finalizó con éxito y está documentada en el repositorio de Github perteneciente a la organización del equipo:
 
 Link al repositorio de la organización: https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-frontend
+
+Link al landing pague de la solucion: https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-Report
+
+Link al reporte de la solucion: https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-Report
+
+Link al frontend de la solucion: https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-frontend
+
 
 Durante el desarrollo del 2, se siguieron los siguientes lineamientos:
 
@@ -273,10 +287,8 @@ Estos commits reflejan el progreso constante y la colaboración entre los miembr
     <td>
       <p><strong>TB1</strong></p>
       <p><strong>Luna Morales, Gianfranco:</strong> Facilité todas las reuniones de planning del Sprint 1 donde coordiné la distribución de HU entre desarrolladores, propuse la metodología de seguimiento en Trello que adoptamos como equipo y medié los conflictos que surgieron sobre la priorización de features, logrando que todos llegáramos a consensos constructivos.</p>
-      <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Propuse la estructura de archivos que seguimos para mantener el código organizado y compartí tutoriales básicos de Git con los compañeros que tenían menos experiencia.</p>
       <p><strong>Huang Liu, Franco Gabriel:</strong> Lideré el análisis exhaustivo de nuestros competidores Peru Rent A Car, Kayak y Budget Car Rental, coordiné todas las sesiones de user research y testing de usabilidad, facilité workshops de ideación para UX/UI donde todos aportamos ideas creativas, y representé constantemente la voz del usuario en las decisiones técnicas para mantener el foco en la experiencia.</p>
       <p><strong>Santiago Peña, Andreow Jomark:</strong> Organicé las reuniones iniciales del equipo para definir roles y responsabilidades, coordiné la creación del repositorio GitHub y la estructura de carpetas del proyecto, facilité las sesiones de brainstorming para definir el alcance del landing page y medié en la toma de decisiones sobre qué secciones incluir en la primera versión de MOVEO.</p>
-      <p><strong>Zuñiga Calle, Sebastian Gabriel:</strong> Lideré la validación manual de todas las secciones del landing page para asegurar que funcionaran correctamente, coordiné las pruebas de responsividad en diferentes dispositivos con ayuda de mis compañeros, propuse mejoras de usabilidad basadas en mi navegación por el sitio, y guié las correcciones finales antes de la entrega para garantizar que todo estuviera pulido.</p>
     </td>
     <td>
       <p><strong>TB1</strong></p>
@@ -291,10 +303,8 @@ Estos commits reflejan el progreso constante y la colaboración entre los miembr
     <td>
       <p><strong>TP1</strong></p>
       <p><strong>Luna Morales, Gianfranco:</strong> Facilité todas las reuniones de planning del Sprint 1 donde coordiné la distribución de HU entre desarrolladores, propuse la metodología de seguimiento en Trello que adoptamos como equipo y medié los conflictos que surgieron sobre la priorización de features, logrando que todos llegáramos a consensos constructivos.</p>
-      <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Propuse la estructura de archivos que seguimos para mantener el código organizado y compartí tutoriales básicos de Git con los compañeros que tenían menos experiencia.</p>
       <p><strong>Huang Liu, Franco Gabriel:</strong> Lideré el análisis exhaustivo de nuestros competidores Peru Rent A Car, Kayak y Budget Car Rental, coordiné todas las sesiones de user research y testing de usabilidad, facilité workshops de ideación para UX/UI donde todos aportamos ideas creativas, y representé constantemente la voz del usuario en las decisiones técnicas para mantener el foco en la experiencia.</p>
       <p><strong>Santiago Peña, Andreow Jomark:</strong> Organicé las reuniones iniciales del equipo para definir roles y responsabilidades, coordiné la creación del repositorio GitHub y la estructura de carpetas del proyecto, facilité las sesiones de brainstorming para definir el alcance del landing page y medié en la toma de decisiones sobre qué secciones incluir en la primera versión de MOVEO.</p>
-      <p><strong>Zuñiga Calle, Sebastian Gabriel:</strong> Lideré la validación manual de todas las secciones del landing page para asegurar que funcionaran correctamente, coordiné las pruebas de responsividad en diferentes dispositivos con ayuda de mis compañeros, propuse mejoras de usabilidad basadas en mi navegación por el sitio, y guié las correcciones finales antes de la entrega para garantizar que todo estuviera pulido.</p>
     </td>
     <td>
       <p><strong>TP1</strong></p>
@@ -310,10 +320,8 @@ Estos commits reflejan el progreso constante y la colaboración entre los miembr
     <td>
       <p><strong>TB1</strong></p>
       <p><strong>Luna Morales, Gianfranco:</strong> Creé el workspace de Trello completo y definí el flujo de trabajo que seguimos actualmente, establecí junto al equipo la Definition of Ready y Done que nos guía en cada tarea, organicé daily standups virtuales diarios e implementé retrospectivas semanales donde todos participamos para mejorar continuamente nuestros procesos.</p>
-      <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Configuré el repositorio de GitHub con las ramas principales para que todos pudieran trabajar sin conflictos, establecí como meta crear un landing page responsive y funcional, dividí el desarrollo en componentes básicos (header, hero section, features, footer) asignando uno a cada miembro, y ayudé a resolver los problemas técnicos básicos que surgieron durante el desarrollo.</p>
       <p><strong>Huang Liu, Franco Gabriel:</strong> Diseñé wireframes de forma colaborativa involucrando a todo el equipo en las decisiones de diseño, establecí métricas UX específicas como tiempo de carga menor a 3 segundos y usabilidad superior al 85%, organicé sesiones de testing con usuarios reales para validar nuestras hipótesis y creé un design system unificado que mantiene la coherencia visual en todo el proyecto.</p>
       <p><strong>Santiago Peña, Andreow Jomark:</strong> Creé el canal de comunicación principal del equipo en WhatsApp y Discord, establecí las metas iniciales de completar el landing page y la documentación básica para la primera entrega, planifiqué la distribución de tareas entre compañeros según sus fortalezas e implementé reuniones de seguimiento diarias para mantener a todos alineados con los objetivos.</p>
-      <p><strong>Zuñiga Calle, Sebastian Gabriel:</strong> Creé una lista de verificación básica que usamos como equipo para revisar cada sección del landing page, establecí como meta que el sitio se viera bien en móvil y desktop sin errores visuales, organicé sesiones de testing grupal donde todos navegamos el sitio y reportamos observaciones, e implementé un proceso de revisión final donde cada uno verificó el trabajo de otro compañero antes de dar por terminado.</p>
     </td>
     <td>
       <p><strong>TB1</strong></p>
@@ -328,10 +336,8 @@ Estos commits reflejan el progreso constante y la colaboración entre los miembr
     <td>
       <p><strong>TP1</strong></p>
       <p><strong>Luna Morales, Gianfranco:</strong> Creé el workspace de Trello completo y definí el flujo de trabajo que seguimos actualmente, establecí junto al equipo la Definition of Ready y Done que nos guía en cada tarea, organicé daily standups virtuales diarios e implementé retrospectivas semanales donde todos participamos para mejorar continuamente nuestros procesos.</p>
-      <p><strong>De la cruz Villareal, Carlos Alejandro:</strong> Configuré el repositorio de GitHub con las ramas principales para que todos pudieran trabajar sin conflictos, establecí como meta crear un landing page responsive y funcional, dividí el desarrollo en componentes básicos (header, hero section, features, footer) asignando uno a cada miembro, y ayudé a resolver los problemas técnicos básicos que surgieron durante el desarrollo.</p>
       <p><strong>Huang Liu, Franco Gabriel:</strong> Diseñé wireframes de forma colaborativa involucrando a todo el equipo en las decisiones de diseño, establecí métricas UX específicas como tiempo de carga menor a 3 segundos y usabilidad superior al 85%, organicé sesiones de testing con usuarios reales para validar nuestras hipótesis y creé un design system unificado que mantiene la coherencia visual en todo el proyecto.</p>
       <p><strong>Santiago Peña, Andreow Jomark:</strong> Creé el canal de comunicación principal del equipo en WhatsApp y Discord, establecí las metas iniciales de completar el landing page y la documentación básica para la primera entrega, planifiqué la distribución de tareas entre compañeros según sus fortalezas e implementé reuniones de seguimiento diarias para mantener a todos alineados con los objetivos.</p>
-      <p><strong>Zuñiga Calle, Sebastian Gabriel:</strong> Creé una lista de verificación básica que usamos como equipo para revisar cada sección del landing page, establecí como meta que el sitio se viera bien en móvil y desktop sin errores visuales, organicé sesiones de testing grupal donde todos navegamos el sitio y reportamos observaciones, e implementé un proceso de revisión final donde cada uno verificó el trabajo de otro compañero antes de dar por terminado.</p>
     </td>
     <td>
       <p><strong>TP1</strong></p>
@@ -356,11 +362,10 @@ Visión: Aspiramos a consolidarnos como la plataforma más reconocida en el Per�
 
 | Integrantes                                                                                                   | Descripción | Conocimientos |
 |:--------------------------------------------------------------------------------------------------------------| :--- | :--- |
-| <img src="Assets/img/cover/carlos.jpg" width="100" height="100"> <br>Carlos Alejandro De la cruz Villareal u20211c036 | soy un estudiante de Ingeniería de Software, tengo 22 años y vivo en Lima. Mis pasatiempos son hacer deporte, jugar videojuegos y escuchar música. Me gusta trabajar en equipo porque de esta manera todos los integrantes podemos dar nuestro punto de vista e ideas para poder lograr el objetivo del curso |  Tengo conocimientos básicos en C#, Java y Python, y estoy en constante búsqueda de mejorar mis habilidades técnicas.|
 | <img src="Assets/img/cover/Franco.jpeg" width="100" height="100"> <br>Franco Gabriel Huang Liu u202310345             |  Soy estudiante de la carrera de Ingeniería de Software. Mi principal meta es poder desarrollar software de manera freelance. Me interesa mucho desarrollar software para maquinas industriales | Tengo conocimientos básicos en C++, HTML, Python y Typescript |
 | <img src="Assets/img/cover/Gianfranco.jpg" width="100" height="100"> <br>Gianfranco Luna Morales  u201824343              | Me gusta observar el comportamiento de las personas para así crear un ambiente cómodo y activo; soy práctico y racional para los percances que puedan surgir.  | Si bien poseo conocimientos básicos en la programación en el lenguaje C + +, aportaré en lo que pueda para realizar con éxito la idea planteada. |
-| <img src="Assets/img/cover/Andreow.jpg " width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362          | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mi principal meta es especializarme en la creación de agentes inteligentes y soluciones basadas en Inteligencia Artificial, con enfoque en aprendizaje automático, procesamiento del lenguaje natural y sistemas autónomos.| Tengo experiencia en múltiples lenguajes de programación como Python, C#, Java, JavaScript y SQL, y estoy familiarizado con frameworks comoVue.js, ASP.NET Core y TensorFlow/Keras. Me apasiona aprender tecnologías emergentes y aplicarlas en proyectos reales que generen impacto. |
-| <img src="Assets/img/cover/gabriel.jpg" width="100" height="100"> <br>Sebastian Gabriel Zuñiga Calle u20221b479        | Soy estudiante de la carrera de Ingeniería de Software. Mi principal interes se basa en aprender nuevas tecnologías constantemente,  el desarrollo en web y desarrollo de aplicaciones son mis principales areas a las que me inclino. | Cuento con conocimientos en los lenguajes de programación: C++, C#, Python y JavaScript. Siempre listo para utilizarlos en el desarrollo y solución de problemas. |
+| <img src="Assets/img/cover/Andreow.jpg " width="100" height="100"> <br>Andreow Jomark Santiago Peña u202317362          | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Mi principal meta es especializarme en la creación de agentes inteligentes y soluciones basadas en Inteligencia Artificial, con enfoque en aprendizaje automático, procesamiento del lenguaje natural y sistemas autónomos.| Tengo experiencia en múltiples lenguajes de programación como Python, C#, Java, JavaScript y SQL, y estoy familiarizado con frameworks como Vue.js, ASP.NET Core y TensorFlow/Keras. Me apasiona aprender tecnologías emergentes y aplicarlas en proyectos reales que generen impacto. |
+
 
 
 # 1.2. Solución Profile
@@ -1758,7 +1763,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 <p align="center">
   <img src="Assets/chapter-4/moveo_container.png" alt="moveo_container_diagram"/>
 </p>
-*Desglosa la arquitectura en contenedores: frontend (React), backend (Node.js), base de datos (PostgreSQL), almacenamiento de archivos (AWS S3), y servicios externos (Firebase Auth, Cloudinary). Muestra cómo se comunican entre sí.*
+*Desglosa la arquitectura en contenedores: frontend (React), backend (.net), base de datos (PostgreSQL), almacenamiento de archivos (AWS S3), y servicios externos (Firebase Auth, Cloudinary). Muestra cómo se comunican entre sí.*
 
 ---
 
@@ -1832,7 +1837,7 @@ A lo largo del desarrollo del proyecto, aplicaremos las siguientes normas o conv
 | Convención de estilos de codificación | Seguir las convenciones de codificación de Microsoft C#, es decir usar espacios en blanco para mejorar legibilidad, convenciones de nombre para clases, funciones, constantes; y también usar nombres claros o lógicos para variables. |
 | Convención de documentación | Todo el código relevante —especialmente funciones complejas, clases y APIs— debe estar documentado con comentarios claros, concisos y actualizados. Los comentarios deben explicar el “por qué”, no solo el “qué”. |
 | Convención de control de versiones | Se utilizará el flujo de trabajo **Git Flow** junto con las convenciones de **Conventional Commits**. Todos los mensajes de commit estarán en inglés y seguirán el formato: `<type>(<scope>): <description>`. Ejemplos: <ul><li>`feat(auth): add email validation`</li><li>`fix(login): resolve session timeout bug`</li><li>`chore(deps): update Newtonsoft.Json to v13.0.3`</li></ul> Las ramas se organizarán como: `main` (estable), `develop` (integración), y ramas de características (`feature/`), correcciones (`bugfix/`) o hotfixes (`hotfix/`). Cada cambio se desarrolla en una rama independiente y se fusiona mediante pull request revisado por al menos un compañero. |
-| Convención de gestión de dependencias | En el caso de C# usaremos el administrador de paquetes NuGet. Para el caso de Javascript usaremos Node.JS. |
+| Convención de gestión de dependencias | En el caso de C# usaremos el administrador de paquetes NuGet |
 | Convención de pruebas | Utilizar comentarios descriptivos y claros para explicar el propósito del test y codigo. |
 | Convención de seguridad |Encriptar las contraseñas de los usuarios con distintos algoritmos. Implementar sistema de autenticación seguro para proteger el acceso al sistema. Instalar librerías para validar la información ingresada por el usuario en los formularios. |
 | Convención de colaboración y comunicación | <ul><li>Se utilizará **Discord** como plataforma principal  para llamadas o reuniones.</li><li>Se realizarán reuniones semanales sincrónicas para revisar avances, resolver bloqueos y compartir aprendizajes.</li><li>Se fomentará una cultura de retroalimentación constructiva, colaboración activa y aprendizaje mutuo a partir de errores y mejores prácticas.</li></ul> |
@@ -1847,7 +1852,7 @@ En esta sección, se explican los softwares utilziados para el desarrollo de nue
 | Vue 3                   | Framework progresivo de JavaScript para construir interfaces de usuario modernas y reactivas. Vue 3 introduce mejoras significativas en rendimiento, tamaño del bundle y reactividad con el sistema de reactividad basado en Proxy. Ideal para SPAs y aplicaciones escalables.                           | Nuestro propósito de uso es desarrollar interfaces frontend dinámicas, modulares y altamente interactivas, aprovechando la simplicidad de Vue, su ecosistema robusto (Vue Router, Pinia, Vite) y su integración fluida con herramientas modernas de desarrollo, permitiendo un ciclo de desarrollo ágil y mantenible. | Software Development    | https://vuejs.org/                            |
 | Microsoft .NET          | Plataforma de desarrollo gratuita, multiplataforma y de código abierto para construir aplicaciones web, móviles, de escritorio, microservicios y APIs. Compatible con Windows, Linux y macOS. Incluye bibliotecas, lenguajes y herramientas para todo el ciclo de vida del desarrollo.                  | Nuestro propósito de uso es construir servicios backend robustos, escalables y de alto rendimiento utilizando .NET 8 (o superior), aprovechando su soporte para APIs REST, gRPC, Entity Framework Core y su integración nativa con Azure, garantizando productividad y estabilidad en entornos empresariales.      | Software Development    | https://dotnet.microsoft.com/download         |
 | C#                      | Lenguaje de programación moderno, orientado a objetos y de tipado estático, desarrollado por Microsoft como parte de la plataforma .NET. Es conocido por su claridad, seguridad y potencia para construir desde aplicaciones simples hasta sistemas empresariales complejos.                            | Nuestro propósito de uso es implementar la lógica de negocio de nuestros servicios backend con C# 12 (o superior), aprovechando sus características avanzadas (record types, pattern matching, async/await) para escribir código limpio, mantenible y eficiente dentro del ecosistema .NET.                         | Software Development    | Incluido en .NET SDK: https://dotnet.microsoft.com/download |
-| JetBrains WebStorm      | IDE especializado en desarrollo web moderno, con soporte integral para JavaScript, TypeScript, Vue, React, Node.js, HTML/CSS y herramientas de depuración, linting y refactorización inteligente.                                                                                                        | Nuestro propósito de uso es desarrollar interfaces frontend complejas con Vue 3 y TypeScript, aprovechando su autocompletado avanzado, navegación rápida, integración con terminal y debugging en tiempo real, sin necesidad de plugins adicionales.                                                              | Software Development    | https://www.jetbrains.com/webstorm/           |
+| JetBrains WebStorm      | IDE especializado en desarrollo web moderno, con soporte integral para JavaScript, TypeScript, Vue, HTML/CSS y herramientas de depuración, linting y refactorización inteligente.                                                                                                        | Nuestro propósito de uso es desarrollar interfaces frontend complejas con Vue 3 y TypeScript, aprovechando su autocompletado avanzado, navegación rápida, integración con terminal y debugging en tiempo real, sin necesidad de plugins adicionales.                                                              | Software Development    | https://www.jetbrains.com/webstorm/           |
 | Postman                 | Plataforma colaborativa para diseñar, probar, documentar y monitorear APIs. Ofrece colecciones, entornos, pruebas automáticas, mocks, documentación dinámica y soporte para MCP (Model Context Protocol) para IA.                                                                                          | Nuestro propósito de uso es validar endpoints de nuestros servicios .NET, crear y mantener documentación actualizada, compartir colecciones con el equipo, y automatizar pruebas de integración y regresión, eliminando la dependencia de herramientas externas.                                                  | Software Development    | https://www.postman.com/downloads/ \| https://identity.getpostman.com/login — Disponible como app de escritorio y SaaS. |
 | UXPressia               | Plataforma visual para crear mapas de experiencia del usuario (journey maps), personas y servicios, con plantillas profesionales, exportación a PDF/PPTX y vinculación con datos en tiempo real.                                                                                                           | Nuestro propósito de uso es comprender y comunicar de forma visual el recorrido del usuario, identificar puntos de dolor, alinear equipos no técnicos y fundamentar decisiones de diseño con evidencia centrada en el cliente.                                                                                       | Product UX/UI Design    | https://uxpressia.com/                        |
 | Lucidchart              | Plataforma de diagramación visual con soporte para IA, diagramas C4, arquitectura de sistemas, flujos de proceso, ERD, org charts y más. Permite colaboración en tiempo real e integración con Jira, Confluence, Notion, etc.                                                                                 | Nuestro propósito de uso es documentar y comunicar la arquitectura del sistema mediante diagramas claros, visuales y actualizables, facilitando la comprensión entre desarrolladores, testers y stakeholders no técnicos.                                                                                            | Product UX/UI Design    | https://www.lucidchart.com/                   |
@@ -1967,7 +1972,7 @@ A continuación, se detallan los aspectos principales del Sprint Planning Meetin
 | **Time** | 14:00 PM (GMT-5) | 
 | **Location** | Reunión virtual por Discord (Lima, Perú) |
 | **Prepared By**  | Andreow Santiago |
-| **Attendees (to planning meeting)** | Andreow Santiago, Gianfranco Luna , Carlos De La Cruz Villarreal, Franco Huang Liu, Sebastian Zuñiga | 
+| **Attendees (to planning meeting)** | Andreow Santiago, Gianfranco Luna, Franco Huang Liu | 
 | **Sprint n – 1 Review Summary** | No aplica. Este es el primer sprint del proyecto; no existe un Sprint anterior. |
 | **Sprint n – 1 Retrospective Summary** | No aplica. Este es el primer sprint del proyecto; no existe un Sprint anterior. |
 | ***Sprint Goal & User Stories*** | |
@@ -1987,9 +1992,7 @@ A continuación, se detallan los aspectos definidos y los roles asignados:
 |-----------------------------------|-----------------|----|----|----|----|----|
 | Andreow Santiago                  | andrews5738     | L  | C  | C  | C  | C  |
 | Gianfranco Luna                   | gianfranco4991  | C  | L  | C  | C  | C  |
-| Carlos De La Cruz Villarreal      | carlos03dlc 	  | C  | C  | L  | C  | C  |
 | Franco Huang Liu                  | st4rlght05 	  | C  | C  | C  | L  | C  |
-| Sebastian Zuñiga                  | sezunii 		  | C  | C  | C  | C  | L  |
 
 **Legenda de Aspectos:**
 - **LP**: Landing Page Implementation — Desarrollo de la página principal con HTML, CSS, Bootstrap y estructura semántica.
@@ -2085,7 +2088,7 @@ A continuación, se presenta la tabla con los commits relacionados con la implem
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |------------|--------|-----------|----------------|---------------------|---------------------|
 | `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/implement-i18n` | `e3a5b7c` | `feat(i18n): implement i18n in index.html` | Implementación de soporte multilingüe en la página principal. Se añadió la estructura básica para traducción dinámica. | 19/09/2025 |
-| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/implement-i18n` | `d8f2c1a` | `feat(i18n): add lang-toggle and i18n JavaScript files` | Añadido botón de cambio de idioma (es/en) y archivos JS para manejo de traducciones. | 19/09/2025 |
+| `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/implement-i18n` | `d8f2c1a` | `feat(i18n): add lang-toggle and i18n JavaScript files` | Añadido botón de cambio de idioma (es/en) y archivos json para manejo de traducciones. | 19/09/2025 |
 | `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/implement-i18n` | `b9c7e4f` | `feat(i18n): add en and es json translation files` | Se crearon los archivos JSON con traducciones completas para inglés y español. | 19/09/2025 |
 | `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/create-about-us-with-team-member` | `a1b2c3d` | `feat(team-member): implement team member content in en and es` | Se agregó contenido del equipo en ambos idiomas (español e inglés). | 19/09/2025 |
 | `UPC-PRE-202502-1ASI0730-7432-MOVEO` | `feature/create-about-us-with-team-member` | `f4e5d6c` | `style(team-member): implement team member styling` | Estilos CSS aplicados al componente de miembros del equipo para diseño responsive. | 19/09/2025 |
@@ -2201,7 +2204,7 @@ A continuación, se detallan los aspectos principales del Sprint Planning Meetin
 | Time | 14:00 PM (GMT-5) |
 | Location | Reunión virtual por Discord (Lima, Perú) |
 | Prepared By | Andreow Santiago |
-| Attendees (to planning meeting) | Andreow Santiago, Gianfranco Luna, Carlos De La Cruz Villarreal, Franco Huang Liu, Sebastian Zuñiga |
+| Attendees (to planning meeting) | Andreow Santiago, Gianfranco Luna, Franco Huang Liu |
 | **Sprint n – 1 Review Summary** | En el Sprint 1 se completó exitosamente el desarrollo y despliegue de la Landing Page de Moveo. Se implementaron todas las secciones clave (Hero, Beneficios, Testimonios, Cómo funciona, FAQ, Equipo, Privacidad, Navegación y Contacto) con un diseño responsive, optimizado para SEO y con soporte multilingüe básico. La página fue desplegada en Netlify y está completamente funcional. |
 | **Sprint n – 1 Retrospective Summary** | El equipo identificó como fortalezas la comunicación efectiva a través de Discord, la distribución clara de responsabilidades mediante la matriz LACX y el cumplimiento de todos los objetivos planteados. Como áreas de mejora se identificó la necesidad de realizar más pruebas de usabilidad con usuarios reales y establecer convenciones de código más estrictas desde el inicio. Para el Sprint 2 se acordó implementar revisiones de código (code reviews) antes de cada merge y realizar testing incremental durante el desarrollo. |
 | **Sprint Goal & User Stories** | |
@@ -2216,11 +2219,9 @@ Para cada aspecto, se ha asignado un Líder (L), quien asumió la responsabilida
 
 | Team Member (Last Name, First Name) | GitHub Username | FE | BE | DB | IN | DP |
 |-------------------------------------|-----------------|----|----|----|----|-----|
-| De La Cruz Villarreal, Carlos Alejandro | U20211c036 | **L** | C | C | C | C |
 | Huang Liu, Franco Gabriel | U202310345 | C | **L** | C | C | C |
 | Luna Morales, Gianfranco | U201824343 | C | C | **L** | C | C |
 | Santiago Peña, Andreow Jomark | U202317362 | C | C | C | **L** | C |
-| Zuñiga Calle, Sebastian Gabriel | U20221b479 | C | C | C | C | **L** |
 
 Leyenda de Aspectos:
 
@@ -2453,7 +2454,7 @@ A continuación, se detallan los aspectos principales del Sprint Planning Meetin
 | **Time** | 14:00 PM (GMT-5) |
 | **Location** | Reunión virtual por Discord (Lima, Perú) |
 | **Prepared By** | Andreow Santiago |
-| **Attendees** | Andreow Santiago, Gianfranco Luna, Carlos De La Cruz Villarreal, Franco Huang Liu |
+| **Attendees** | Andreow Santiago, Gianfranco Luna, Franco Huang Liu |
 | **Sprint n – 1 Review Summary** | El Sprint 2 culminó con éxito: se implementó y desplegó completamente el módulo de gestión de vehículos para propietarios, incluyendo CRUD, estado de disponibilidad, historial de alquileres, reportes de problemas y la sección de precios. La aplicación web fue desplegada en Render con CI/CD, y se validó con pruebas de integración y mockups funcionales. Se identificó como oportunidad clave la necesidad de implementar autenticación segura y un modelo de dominio robusto para soportar reservas, pagos y verificación de usuarios. |
 | **Sprint n – 1 Retrospective Summary** | Las fortalezas del Sprint 2 fueron la claridad en la división de responsabilidades, la comunicación constante mediante Discord y la entrega incremental con pull requests. Como áreas de mejora, se identificó la necesidad de: (1) adoptar un enfoque Domain-Driven Design (DDD) desde el inicio del backend, (2) implementar pruebas unitarias en los servicios del backend, y (3) mejorar la documentación de los endpoints antes del desarrollo. Para el Sprint 3, se acordó: (a) aplicar DDD en la capa de negocio, (b) implementar pruebas con Jest para cada servicio, (c) definir bounded contexts claros (Autenticación, Reservas, Pagos, Verificación), y (d) iniciar el desarrollo del frontend con enfoque en la experiencia del inquilino. |
 
@@ -2470,15 +2471,13 @@ En esta sección se presentan los principales aspectos funcionales y técnicos a
 
 | Team Member (Last Name, First Name) | GitHub Username | FE | BE | DB | IN | DP |
 |-------------------------------------|-----------------|----|----|----|----|-----|
-| De La Cruz Villarreal, Carlos Alejandro | U20211c036 | **L** | C | C | C | C |
 | Huang Liu, Franco Gabriel | U202310345 | C | **L** | C | C | C |
 | Luna Morales, Gianfranco | U201824343 | C | C | **L** | C | C |
 | Santiago Peña, Andreow Jomark | U202317362 | C | C | C | **L** | C |
-| Zuñiga Calle, Sebastian Gabriel | U20221b479 | C | C | C | C | **L** |
 
 **Leyenda de Aspectos**:
 - **FE**: Frontend Web Application — Desarrollo de componentes Vue.js, gestión de estado (Pinia), rutas y UI/UX para inquilinos
-- **BE**: Backend API Development — Desarrollo de servicios con NestJS, aplicación de DDD (Entidades, Valores, Repositorios, Servicios de Dominio), controladores y validaciones
+- **BE**: Backend API Development — Desarrollo de servicios con .NET, aplicación de DDD (Entidades, Valores, Repositorios, Servicios de Dominio), controladores y validaciones
 - **DB**: Database Design & Integration — Diseño de esquemas relacionales, migraciones, relaciones y optimización de consultas para los nuevos bounded contexts
 - **IN**: Informe Técnico — Actualización, estructuración y redacción de la documentación del Sprint 3, incluyendo DDD y arquitectura
 - **DP**: Deployment & Testing — Configuración de entornos, integración continua, pruebas de integración y preparación para staging
@@ -2535,7 +2534,7 @@ Objetivo del Sprint: Entregar un backend robusto, escalable y documentado bajo D
 Durante el Sprint 3, el equipo inició la transición del backend de un modelo simple REST a una arquitectura basada en **Domain-Driven Design (DDD)**, estructurando el código en bounded contexts: **Authentication**, **VehicleManagement**, **Booking**, **Payment**, y **Verification**. Se implementaron entidades de dominio como `User`, `Vehicle`, `Booking`, `Contract`, `Review`, y `Incident`, con sus respectivos repositorios y servicios de dominio.
 
 Se desarrollaron los siguientes avances técnicos:
-- **Backend (NestJS)**: Se reestructuró el proyecto en módulos DDD, separando responsabilidades entre `controllers`, `services`, `entities`, `repositories` y `dto`. Se implementó inyección de dependencias y patrón de repositorio para desacoplar la lógica de negocio de la persistencia.
+- **Backend (.NET)**: Se reestructuró el proyecto en módulos DDD, separando responsabilidades entre `controllers`, `services`, `entities`, `repositories` y `dto`. Se implementó inyección de dependencias y patrón de repositorio para desacoplar la lógica de negocio de la persistencia.
 - **Autenticación**: Se implementó JWT con refresh tokens, almacenamiento seguro en HttpOnly cookies, y middleware de protección de rutas.
 - **Validación de dominio**: Se agregaron validaciones de negocio en los servicios (ej: un usuario no puede publicar un vehículo sin verificación, no puede reservar si ya tiene una reserva activa).
 - **Frontend (Vue.js + Pinia)**: Se crearon componentes reutilizables para formularios de registro, búsqueda y reservas. Se implementó el store de Pinia para gestionar estado de autenticación, carrito de reserva y notificaciones.
@@ -2585,10 +2584,9 @@ Durante el Sprint 3, se documentó la nueva API del backend con Swagger (OpenAPI
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 En este Sprint, se desplegaron los cambios del backend y frontend en entornos de staging para validación continua.
 
-**Backend (NestJS)**  
-Plataforma: Render (Node.js App)  
+**Backend (.NET)**  
+Plataforma: Render (.NET App)  
 Build Command: `npm run build`  
-Start Command: `node dist/main.js`  
 Environment Variables: `JWT_SECRET`, `AWS_ACCESS_KEY`, `AWS_SECRET_KEY`
 
 **Frontend (Vue.js)**  
@@ -2614,7 +2612,7 @@ El equipo mantuvo un flujo de trabajo ágil basado en GitFlow, con ramas por fea
 
 - Se utilizaron **GitHub Projects** para rastrear el progreso de cada tarea en el Sprint Backlog.
 - Se estableció una **reunión diaria de 15 minutos** en Discord para alinear tareas y resolver bloqueos.
-- Se adoptó el uso de **TypeScript interfaces estrictas** y **NestJS decorators** para mejorar la legibilidad y mantenibilidad.
+- Se adoptó el uso de **TypeScript interfaces estrictas** y **.NET decorators** para mejorar la legibilidad y mantenibilidad.
 - Se documentaron decisiones de diseño en el archivo `ARCHITECTURE_DECISION_RECORDS.md` dentro del repositorio.
 - Se mejoró la calidad del código con la implementación de ESLint, Prettier y Husky para pre-commit hooks.
 
@@ -2656,9 +2654,9 @@ En esta sección se presentan los principales aspectos funcionales y técnicos a
 
 **Leyenda de Aspectos**:
 - **FE**: Frontend Web Application — Desarrollo de componentes Vue.js, gestión de estado (Pinia), rutas y UI/UX para inquilinos
-- **BE**: Backend API Development — Desarrollo de servicios con NestJS, aplicación de DDD (Entidades, Valores, Repositorios, Servicios de Dominio), controladores y validaciones
+- **BE**: Backend API Development — Desarrollo de servicios con .NET, aplicación de DDD (Entidades, Valores, Repositorios, Servicios de Dominio), controladores y validaciones
 - **DB**: Database Design & Integration — Diseño de esquemas relacionales, migraciones, relaciones y optimización de consultas para los nuevos bounded contexts
-- **IN**: Informe Técnico — Actualización, estructuración y redacción de la documentación del Sprint 3, incluyendo DDD y arquitectura
+- **IN**: Informe Técnico — Actualización, estructuración y redacción de la documentación del Sprint 4, incluyendo DDD y arquitectura
 - **DP**: Deployment & Testing — Configuración de entornos, integración continua, pruebas de integración y preparación para staging
 
 ### 5.2.4.3. Sprint Backlog 4
@@ -2673,25 +2671,25 @@ Objetivo del Sprint: Entregar un backend robusto, escalable y documentado bajo D
 
 | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
 | --- | --- | --- | --- |--- | --- | ---| ---|
-| TS04 | Implementación de pagos con Stripe | T01 | Crear sesión de pago (POST /payments/stripe/checkout) | VCrear PaymentIntent/CheckoutSession con monto y rentalId. | 6 | Backend | To-do |
-|  |  | T02 | Webhook Stripe (POST /payments/stripe/webhook) | Procesar eventos: payment_succeeded, payment_failed, refund. | 6 | Backend | To-do |
-|  |  | T03 | Actualizar estado del Rental por webhook | rental.status = “Pagado”. | 3 | Backend | To-do |
-|  |  | T04 | Integrar Stripe Checkout en Frontend | Botón de pago → checkout.url de Stripe. | 6 | Frontend | To-do |
-|  |  | T05 | Crear pantallas /payment/success y /payment/cancel | Retroalimentación del pago en frontend. | 3 | Frontend | To-do |
-| HU15 | Gestionar rentas | T06 |  Implementar endpoint POST /rentals | Crear nueva renta con validaciones. | 6 | Backend | To-do |
-|  |  | T07 | Implementar endpoint PUT /rentals/{id} | Comparar rostro del DNI con selfie; devolver estado de verificación. | 4 | Backend | To-do |
-|  |  | T08 | Implementar endpoint UI “Mis Rentas” | Listar todas las rentas del usuario. | 6 | Frontend | To-do |
-| TS02 | API de Notificaciones | T09 | Implementar endpoint POST /notifications | Crear una notificación manual o del sistema. | 4 | Backend | To-do |
-|  |  | T10 | Implementar endpoint PUT /notifications/{id}/read | Marcar una notificación como leída. | 2 | Backend | To-do |
-|  |  | T11 | Implementar endpoint PUT /notifications/user/{id}/read-all | Marcar todas como leídas. | 4 | Backend | To-do |
-| TS03 | API de Tickets de Soporte | T12 | Implementar endpoint POST /support-tickets | Crear ticket de soporte. | 4 | Backend | To-do |
-|  |  | T13 | Implementar endpoint PUT /support-tickets/{id} | Actualizar ticket (estado, categoría, prioridad). | 4 | Backend | To-do |
+| TS04 | Implementación de pagos con Stripe | T01 | Crear sesión de pago (POST /payments/stripe/checkout) | Crear PaymentIntent/CheckoutSession con monto y rentalId. | 6 | Backend | Done |
+|  |  | T02 | Webhook Stripe (POST /payments/stripe/webhook) | Procesar eventos: payment_succeeded, payment_failed, refund. | 6 | Backend | Done |
+|  |  | T03 | Actualizar estado del Rental por webhook | rental.status = “Pagado”. | 3 | Backend | Done |
+|  |  | T04 | Integrar Stripe Checkout en Frontend | Botón de pago → checkout.url de Stripe. | 6 | Frontend | Done |
+|  |  | T05 | Crear pantallas /payment/success y /payment/cancel | Retroalimentación del pago en frontend. | 3 | Frontend | Done |
+| HU15 | Gestionar rentas | T06 | Implementar endpoint POST /rentals | Crear nueva renta con validaciones. | 6 | Backend | Done |
+|  |  | T07 | Implementar endpoint PUT /rentals/{id} | Comparar rostro del DNI con selfie; devolver estado de verificación. | 4 | Backend | Done |
+|  |  | T08 | Implementar endpoint UI “Mis Rentas” | Listar todas las rentas del usuario. | 6 | Frontend | Done |
+| TS02 | API de Notificaciones | T09 | Implementar endpoint POST /notifications | Crear una notificación manual o del sistema. | 4 | Backend | Done |
+|  |  | T10 | Implementar endpoint PUT /notifications/{id}/read | Marcar una notificación como leída. | 2 | Backend | Done |
+|  |  | T11 | Implementar endpoint PUT /notifications/user/{id}/read-all | Marcar todas como leídas. | 4 | Backend | Done |
+| TS03 | API de Tickets de Soporte | T12 | Implementar endpoint POST /support-tickets | Crear ticket de soporte. | 4 | Backend | Done |
+|  |  | T13 | Implementar endpoint PUT /support-tickets/{id} | Actualizar ticket (estado, categoría, prioridad). | 4 | Backend | Done |
 
 ### 5.2.4.4. Development Evidence for Sprint Review
 Durante el Sprint 4, el equipo continuó la transición del backend de un modelo simple REST a una arquitectura basada en **Domain-Driven Design (DDD)**, estructurando el código en bounded contexts: **Authentication**, **VehicleManagement**, **Booking**, **Payment**, y **Verification**. Se implementaron más entidades de dominio como `AdventureRoutes`, `Auth`, `Notifications`, `SupportTickets`, con sus respectivos repositorios y servicios de dominio.
 
 Se desarrollaron los siguientes avances técnicos:
-- **Backend (NestJS)**: Se reestructuró el proyecto en módulos DDD, separando responsabilidades entre `controllers`, `services`, `entities`, `repositories` y `dto`. Se implementó inyección de dependencias y patrón de repositorio para desacoplar la lógica de negocio de la persistencia.
+- **Backend (>NET)**: Se reestructuró el proyecto en módulos DDD, separando responsabilidades entre `controllers`, `services`, `entities`, `repositories` y `dto`. Se implementó inyección de dependencias y patrón de repositorio para desacoplar la lógica de negocio de la persistencia.
 - **Autenticación**: Se implementó JWT con refresh tokens, almacenamiento seguro en HttpOnly cookies, y middleware de protección de rutas.
 - **Validación de dominio**: Se agregaron validaciones de negocio en los servicios (ej: un usuario no puede publicar un vehículo sin verificación, no puede reservar si ya tiene una reserva activa).
 - **Frontend (Vue.js + Pinia)**: Se crearon componentes reutilizables para formularios de registro, búsqueda y reservas. Se implementó el store de Pinia para gestionar las aventuras registradas.
@@ -2749,10 +2747,9 @@ Durante el Sprint 4, se documentó la nueva API del backend con Swagger (OpenAPI
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 En este Sprint, se desplegaron los cambios del backend y frontend en entornos de staging para validación continua.
 
-**Backend (NestJS)**  
-Plataforma: Render (Node.js App)  
+**Backend (.NET)**  
+Plataforma: Render (.NET App)  
 Build Command: `npm run build`  
-Start Command: `node dist/main.js`  
 Environment Variables: `JWT_SECRET`, `AWS_ACCESS_KEY`, `AWS_SECRET_KEY`
 
 **Frontend (Vue.js)**  
@@ -2778,7 +2775,7 @@ El equipo mantuvo un flujo de trabajo ágil basado en GitFlow, con ramas por fea
 
 - Se utilizaron **GitHub Projects** para rastrear el progreso de cada tarea en el Sprint Backlog.
 - Se estableció una **reunión diaria de 15 minutos** en Discord para alinear tareas y resolver bloqueos.
-- Se adoptó el uso de **TypeScript interfaces estrictas** y **NestJS decorators** para mejorar la legibilidad y mantenibilidad.
+- Se adoptó el uso de **TypeScript interfaces estrictas** y **.NET decorators** para mejorar la legibilidad y mantenibilidad.
 - Se documentaron decisiones de diseño en el archivo `ARCHITECTURE_DECISION_RECORDS.md` dentro del repositorio.
 - Se mejoró la calidad del código con la implementación de ESLint, Prettier y Husky para pre-commit hooks.
 
@@ -2834,8 +2831,8 @@ Estos flujos fueron evaluados en una versión funcional del frontend desplegado 
 Se realizaron un total de **6 entrevistas de validación**, cumpliendo con el rango requerido de 3 a 5 por segmento (3 propietarios, 3 inquilinos). Cada sesión fue grabada en video, almacenada en Microsoft Stream y referenciada con tiempo exacto de inicio y duración. Todas las pruebas se realizaron en entorno web, iniciando desde el **Landing Page**.
 
 > 🔗 **Video completo de todas las entrevistas:**  
-> [http://bit.ly/46qhU6i](http://bit.ly/46qhU6i)
-
+> https://acortar.link/4jIxfQ
+> 
 #### Segmento 1: Propietarios
 
 ##### Entrevistado 1: Alisa Goicochea  
@@ -3023,6 +3020,15 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 ## 5.4. Video About-the-Product.
 
+El **Video About-the-Product** de Moveo está diseñado para presentar de forma clara, cercana y profesional tanto el modelo de negocio como las funcionalidades clave de la plataforma. Dirigido principalmente a los visitantes de la *Landing Page* y a los futuros usuarios de la aplicación, el video explica cómo Moveo conecta a propietarios e inquilinos para alquilar vehículos de forma segura, flexible y confiable.  
+
+El tono del video es **sereno, empático y profesional**, alineado con la identidad de marca de Moveo, y destaca los valores centrales: **confianza, transparencia y facilidad de uso**. Además, incluye un **testimonio real** de **Alisa Goicochea**, una de las participantes en nuestras entrevistas de validación, quien comparte su experiencia positiva al usar una solución similar y expresa su entusiasmo por una plataforma como Moveo que resuelve sus principales preocupaciones como propietaria de un vehículo.
+
+![About the product](Assets/chapter-5/bout%20the%20product%20moveo.png)
+
+- **Duración:** 4:52  
+- **Enlace a Microsoft Stream:** https://acortar.link/sblclx
+- **Enlace a YouTube (para incrustar en la Landing Page):** https://youtu.be/7QczDwCSsGQ
 
 ### Conclusiones
 
@@ -3094,7 +3100,6 @@ A continuación, se presenta la lista de fuentes, herramientas, plataformas y re
 
 - **Imágenes y fotografías de equipo y testimonios**  
   *Hospedadas en el sitio y utilizadas para generar confianza y humanizar la marca.*  
-  Ejemplo: https://moveo-landing.netlify.app/srcAssets/carlos.jpg
 
 - **Ilustraciones y assets gráficos**  
   *Creados por el equipo de diseño o adaptados de librerías libres de derechos (Freepik, Flaticon, Undraw).*
@@ -3103,14 +3108,34 @@ A continuación, se presenta la lista de fuentes, herramientas, plataformas y re
 ## Anexos
 
 ### link del video del TB-1
+  En este video se presenta el informe técnico del proyecto junto con la primera versión del *Landing Page*, donde se comunica la propuesta de valor de Moveo, sus beneficios y la identidad del equipo.  
 
-Link
-[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EdJ_Z3Fz6bJPq3Gr6gcDWfsB9o_eRQXAQ9ODNCXJ3AsjyQ?e=0SXfoj](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EdJ_Z3Fz6bJPq3Gr6gcDWfsB9o_eRQXAQ9ODNCXJ3AsjyQ?e=0SXfoj)
+Link:
+https://bit.ly/48Ba4YN
 
 ### Link del video del TP-1
+  Esta entrega muestra la integración del *Landing Page* con la aplicación web funcional, incluyendo interfaces para propietarios e inquilinos. El frontend consume una *Fake API* (simulada con JSON Server) que permite probar flujos como publicación de vehículos, búsqueda, reservas y gestión de aventuras, sin depender del backend real.  
+
 
 link:
-[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EfDKQv9Ps3ZPouHG_wFJbEABjDxUWDTlHu7u9ToZSV3Qag?e=MyeEeu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EfDKQv9Ps3ZPouHG_wFJbEABjDxUWDTlHu7u9ToZSV3Qag?e=MyeEeu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+https://bit.ly/4pPeCli
+
+### Link del video del TB-2
+
+  En esta etapa se presenta la arquitectura backend desarrollada con .NET bajo los principios de *Domain-Driven Design (DDD)*, gestión de usuarios, vehículos, reservas, pagos simulados, verificación de identidad, notificaciones y soporte. El frontend ya consume estos servicios reales, validando la integración completa del sistema.  
+
+
+link:
+https://bit.ly/3KzqMzs
+
+### Link del video del TF-1
+
+  Este video muestra la solución completa y final de **Moveo**: el backend en .NET con autenticación por token JWT, autorización por roles, gestión completa de vehículos, reservas, pagos (simulados), verificación biométrica y soporte; todo integrado con el frontend en Vue.js, donde propietarios e inquilinos pueden interactuar de forma segura, intuitiva y completamente funcional.  
+
+
+link:
+https://bit.ly/4pJy82r
+
 
 ### 1. Logo de Moveo (versión final)
 ![](Assets/chapter-4/Logo.png)
