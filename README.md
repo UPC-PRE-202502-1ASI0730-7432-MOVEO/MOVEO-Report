@@ -85,7 +85,7 @@ Durante el desarrollo del informe, se siguieron los siguientes lineamientos:
 Los contenidos asignados a cada miembro fueron redactados y estructurados utilizando el formato Markdown , asegurando una presentación clara y estandarizada.
 Cada cambio realizado fue respaldado mediante commits en el repositorio, garantizando trazabilidad y control de versiones del avance del proyecto.
 Se crearon los artefactos necesarios utilizando las herramientas recomendadas. Las imágenes utilizadas fueron obtenidas a través de la carpeta assets o publicadas desde Imgur , para su correcta integración en el informe.
-Se realizaron reuniones periódicas para coordinar el avance de los elementos del informe y reportar los progresos del Sprint 1, centrado en la definición inicial del alcance del proyecto y el diseño preliminar del sistema.
+Se realizaron reuniones periódicas para coordinar el avance de los elementos del informe y reportar los progresos del 1, centrado en la definición inicial del alcance del proyecto y el diseño preliminar del sistema.
 Coherencia con el Registro de Versiones del Informe
 Los cambios realizados durante esta etapa están alineados con la evolución del documento, reflejando el trabajo colaborativo y constante refinamiento del contenido por parte del equipo.
 
@@ -120,7 +120,7 @@ La entrega del TP1 finalizó con éxito y está documentada en el repositorio de
 
 Link al repositorio de la organización: https://github.com/UPC-PRE-202502-1ASI0730-7432-MOVEO/MOVEO-frontend
 
-Durante el desarrollo del Sprint 2, se siguieron los siguientes lineamientos:
+Durante el desarrollo del 2, se siguieron los siguientes lineamientos:
 
 - Los contenidos y funcionalidades fueron desarrolladas utilizando **React Native** para la app móvil y **JSON Server** como fake API, asegurando una arquitectura clara y escalable.
 - Cada cambio realizado fue respaldado mediante **commits en el repositorio**, garantizando trazabilidad y control de versiones del avance del proyecto.
@@ -2623,6 +2623,169 @@ Los commits reflejan un aumento en la madurez técnica del equipo, con un promed
 ![commit-sprint3](assets/img/chapter-5/sprint3-commits.png)  
 ![network-sprint3](assets/img/chapter-5/sprint3-network.png)
 
+## 5.2.4. Sprint 4
+### 5.2.4.1. Sprint Planning 4
+A continuación, se detallan los aspectos principales del Sprint Planning Meeting realizado para el Sprint 4.
+
+| **Sprint Planning Background** | |
+|-------------------------------|---|
+| **Date** | 2025-10-28 |
+| **Time** | 14:00 PM (GMT-5) |
+| **Location** | Reunión virtual por Discord (Lima, Perú) |
+| **Prepared By** | Andreow Santiago |
+| **Attendees** | Andreow Santiago, Gianfranco Luna, Franco Huang Liu |
+| **Sprint n – 1 Review Summary** | El Sprint 4 culminó con éxito: se implementó y desplegó completamente el backend con el token, el maejo de usuarios, vehiculos, reservas, aventuras, notificaciones, pagos y los reviews |
+| **Sprint n – 1 Retrospective Summary** | Las fortalezas del Sprint 4 fueron la claridad en la división de responsabilidades, la comunicación constante mediante Discord y la entrega incremental con pull requests. Como áreas de mejora, se identificó la necesidad de: (1) adoptar un enfoque Domain-Driven Design (DDD) desde el inicio del backend, (2) implementar pruebas unitarias en los servicios del backend, y (3) mejorar la documentación de los endpoints antes del desarrollo. Para el Sprint 3, se acordó: (a) aplicar DDD en la capa de negocio, (b) implementar pruebas con Jest para cada servicio, (c) definir bounded contexts claros (Autenticación, Reservas, Pagos, Verificación), y (d) iniciar el desarrollo del frontend con enfoque en la experiencia del inquilino. |
+
+| **Sprint Goal & User Stories** | |
+|-------------------------------|---|
+| **Sprint 4 Goal** | **Our focus is on** implementing a secure, scalable, and domain-driven backend architecture for user authentication, vehicle booking, and payment flow, while enhancing the frontend with intuitive interfaces for renters. **We believe it delivers** a trustworthy, end-to-end rental experience where users can verify their identity, book vehicles with confidence, and interact with a transparent payment and review system. **This will be confirmed when** the backend is structured under DDD with bounded contexts, JWT authentication is fully implemented and secured, booking and payment workflows are validated with unit tests, the frontend supports user registration (inquilino/propietario), and the verification flow (DNI + selfie) is integrated with mock validation. |
+| **Sprint 4 Velocity** | 38 |
+| **Sum of Story Points** | 38 |
+
+---
+
+### 5.2.4.2. Aspect Leaders and Collaborators
+En esta sección se presentan los principales aspectos funcionales y técnicos abordados durante el Sprint 3 del desarrollo de Moveo. Cada aspecto corresponde a un componente crítico del alcance del sprint, dividido en cinco pilares fundamentales: desarrollo del frontend web, desarrollo de la API backend con DDD, diseño e integración de base de datos, actualización del informe técnico y despliegue con testing.
+
+| Team Member (Last Name, First Name) | GitHub Username | FE | BE | DB | IN | DP |
+|-------------------------------------|-----------------|----|----|----|----|-----|
+| Huang Liu, Franco Gabriel | U202310345 | C | **L** | C | C | C |
+| Luna Morales, Gianfranco | U201824343 | C | C | **L** | C | C |
+| Santiago Peña, Andreow Jomark | U202317362 | C | C | C | **L** | C |
+
+**Leyenda de Aspectos**:
+- **FE**: Frontend Web Application — Desarrollo de componentes Vue.js, gestión de estado (Pinia), rutas y UI/UX para inquilinos
+- **BE**: Backend API Development — Desarrollo de servicios con NestJS, aplicación de DDD (Entidades, Valores, Repositorios, Servicios de Dominio), controladores y validaciones
+- **DB**: Database Design & Integration — Diseño de esquemas relacionales, migraciones, relaciones y optimización de consultas para los nuevos bounded contexts
+- **IN**: Informe Técnico — Actualización, estructuración y redacción de la documentación del Sprint 3, incluyendo DDD y arquitectura
+- **DP**: Deployment & Testing — Configuración de entornos, integración continua, pruebas de integración y preparación para staging
+
+### 5.2.4.3. Sprint Backlog 4
+A continuación, se presenta el Sprint Backlog para Sprint 4, que contiene las User Stories seleccionadas del Product Backlog para la tercera iteración del proyecto Moveo. Este sprint se enfoca en la implementación del backend con enfoque Domain-Driven Design (DDD), la autenticación segura, el flujo de reservas y la integración del frontend para inquilinos.
+
+Duración del Sprint: 2 semanas  
+Objetivo del Sprint: Entregar un backend robusto, escalable y documentado bajo DDD, con autenticación JWT, autorización via token; además establecer comunicación del backend con con el frontend.
+
+| Sprint # | Sprint 4 |
+|----------|---------|
+| **User Story** | **Work-Item / Task** |
+
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| --- | --- | --- | --- |--- | --- | ---| ---|
+| TS04 | Implementación de pagos con Stripe | T01 | Crear sesión de pago (POST /payments/stripe/checkout) | VCrear PaymentIntent/CheckoutSession con monto y rentalId. | 6 | Backend | To-do |
+|  |  | T02 | Webhook Stripe (POST /payments/stripe/webhook) | Procesar eventos: payment_succeeded, payment_failed, refund. | 6 | Backend | To-do |
+|  |  | T03 | Actualizar estado del Rental por webhook | rental.status = “Pagado”. | 3 | Backend | To-do |
+|  |  | T04 | Integrar Stripe Checkout en Frontend | Botón de pago → checkout.url de Stripe. | 6 | Frontend | To-do |
+|  |  | T05 | Crear pantallas /payment/success y /payment/cancel | Retroalimentación del pago en frontend. | 3 | Frontend | To-do |
+| HU15 | Gestionar rentas | T06 |  Implementar endpoint POST /rentals | Crear nueva renta con validaciones. | 6 | Backend | To-do |
+|  |  | T07 | Implementar endpoint PUT /rentals/{id} | Comparar rostro del DNI con selfie; devolver estado de verificación. | 4 | Backend | To-do |
+|  |  | T08 | Implementar endpoint UI “Mis Rentas” | Listar todas las rentas del usuario. | 6 | Frontend | To-do |
+| TS02 | API de Notificaciones | T09 | Implementar endpoint POST /notifications | Crear una notificación manual o del sistema. | 4 | Backend | To-do |
+|  |  | T10 | Implementar endpoint PUT /notifications/{id}/read | Marcar una notificación como leída. | 2 | Backend | To-do |
+|  |  | T11 | Implementar endpoint PUT /notifications/user/{id}/read-all | Marcar todas como leídas. | 4 | Backend | To-do |
+| TS03 | API de Tickets de Soporte | T12 | Implementar endpoint POST /support-tickets | Crear ticket de soporte. | 4 | Backend | To-do |
+|  |  | T13 | Implementar endpoint PUT /support-tickets/{id} | Actualizar ticket (estado, categoría, prioridad). | 4 | Backend | To-do |
+
+### 5.2.4.4. Development Evidence for Sprint Review
+Durante el Sprint 4, el equipo continuó la transición del backend de un modelo simple REST a una arquitectura basada en **Domain-Driven Design (DDD)**, estructurando el código en bounded contexts: **Authentication**, **VehicleManagement**, **Booking**, **Payment**, y **Verification**. Se implementaron más entidades de dominio como `AdventureRoutes`, `Auth`, `Notifications`, `SupportTickets`, con sus respectivos repositorios y servicios de dominio.
+
+Se desarrollaron los siguientes avances técnicos:
+- **Backend (NestJS)**: Se reestructuró el proyecto en módulos DDD, separando responsabilidades entre `controllers`, `services`, `entities`, `repositories` y `dto`. Se implementó inyección de dependencias y patrón de repositorio para desacoplar la lógica de negocio de la persistencia.
+- **Autenticación**: Se implementó JWT con refresh tokens, almacenamiento seguro en HttpOnly cookies, y middleware de protección de rutas.
+- **Validación de dominio**: Se agregaron validaciones de negocio en los servicios (ej: un usuario no puede publicar un vehículo sin verificación, no puede reservar si ya tiene una reserva activa).
+- **Frontend (Vue.js + Pinia)**: Se crearon componentes reutilizables para formularios de registro, búsqueda y reservas. Se implementó el store de Pinia para gestionar las aventuras registradas.
+- **Pruebas unitarias**: Se escribieron 28 pruebas con Jest cubriendo servicios clave: `AuthService`, `BookingService`, y `VerificationService`.
+
+Los commits reflejan un enfoque ágil, con integración continua mediante pull requests y revisiones de código entre miembros del equipo. Se eliminaron duplicaciones y se estandarizó el código con ESLint y Prettier.
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+El Sprint 3 logró implementar y validar parcialmente el backend bajo DDD, con los siguientes hitos alcanzados:
+-  **Autenticación completa**: Endpoints `/users`, `/auth/login`, y middleware JWT funcionales.
+-  **Verificación de identidad**: Endpoint `/verification` implementado con almacenamiento en S3 mock y lógica de comparación facial simulada (usando librería client-side).
+-  **Gestión de vehículos**: CRUD funcional con validación de permisos y disponibilidad (calendario de fechas).
+-  **Reservas y contratos**: Flujo de reserva creado con expiración automática (24h) y generación de PDF con pdfkit.
+-  **Pagos simulados**: Lógica de liberación de fondos (90%) y retención por incidencias implementada.
+-  **Frontend**: Formularios de registro para propietarios e inquilinos, flujo de reserva con resumen y pago simulado, y sistema de notificaciones con polling.
+-  **Pruebas unitarias**: 85% de cobertura en servicios del backend.
+-  **Documentación**: Todos los endpoints documentados en Swagger.
+
+La aplicación está en estado de **staging** y lista para pruebas con usuarios reales en el Sprint 4.
+
+---
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+Durante el Sprint 4, se documentó la nueva API del backend con Swagger (OpenAPI 3.0). A continuación, se presentan los endpoints clave implementados:
+
+| Endpoint | Método | Descripción | Parámetros | Respuesta |
+|----------|--------|-------------|------------|-----------|
+| `/api/users` | POST | Registrar nuevo usuario | `{ email, password, role: "renter" \| "owner" }` | `201 Created` - Usuario creado |
+| `/api/auth/login` | POST | Iniciar sesión | `{ email, password }` | `200 OK` - `{ token, refreshToken }` |
+| `/api/verification` | POST | Subir DNI y selfie para verificación | `{ frontImage, backImage, selfieImage }` | `201 Created` - Verificación en proceso |
+| `/api/verification/status` | GET | Consultar estado de verificación | - | `200 OK` - `{ isVerified: boolean }` |
+| `/api/cars` | POST | Publicar vehículo | `{ model, year, price, location, availabilityDates[], photos[] }` | `201 Created` - Vehículo creado |
+| `/api/cars` | GET | Buscar vehículos disponibles | `?location=&startDate=&endDate=&minPrice=&maxPrice=` | `200 OK` - Lista de vehículos disponibles |
+| `/api/bookings` | POST | Crear reserva | `{ carId, startDate, endDate, userId }` | `201 Created` - Reserva en estado "Pending" |
+| `/api/bookings/:id` | GET | Obtener detalles de reserva | `:id` | `200 OK` - Detalles con auto, usuario, estado |
+| `/api/contracts/:bookingId` | GET | Descargar contrato PDF | `:bookingId` | `200 OK` - PDF firmado |
+| `/api/incidents` | POST | Reportar incidencia | `{ bookingId, description, photos[] }` | `201 Created` - Incidencia registrada |
+| `/api/reviews` | POST | Calificar propietario | `{ bookingId, rating, comment }` | `201 Created` - Reseña creada |
+| `/api/payments/release` | POST | Liberar pago al propietario | `{ bookingId }` | `200 OK` - Fondos liberados (90%) |
+| `/api/payments/hold` | POST | Retener pago por incidencia | `{ bookingId }` | `200 OK` - Fondos bloqueados |
+| `/api/adventure-routes` | POST | Registrar una aventura nueva | `{ name, title, description, startlocation, endlocation, type, difficulty, estimatedcost }` | `201 Created` - Aventura creada |
+| `/api/adventure-routes` | GET | Buscar aventuras disponibles | `{ ownerId, type, difficulty, featured: "true" \| "false" }` | `200 OK` - Lista de aventuras |
+| `/api/adventure-routes/:routeId` | GET | Buscar aventuras por ruta | `{ routeId }` | `200 OK` - Lista de aventuras por ruta |
+| `/api/notifications/` | POST | Crear notificaciión nueva | `{ userId }` | `200 OK` - Notificación creada |
+| `/api/notifications/` | GET | Buscar notificaciónes | `{ userId, read: "true" \| "false" }` | `200 OK` - Lista de notificaciones |
+| `/api/rentals` | POST | Registrar una reserva nueva | `{ vehicleId, renterId, ownerId, startDate, endDate, totalPrice, pickupLocation, returnLocation, notes, adventureRouteId }` | `201 Created` - Reserva creada |
+| `/api/rentals` | GET | Buscar reservas | `{ vehicleId, renterId, ownerId, status: "true" \| "false" }` | `200 OK` - Lista de reservas |
+| `/api/support-tickets` | POST | Registrar un ticket de soporte | `{ userId, subject, description, category, priority, type, relatedId, relatedType, estimatedCost, vehicleId, vehicleName, rentalId, renterId, renterName, attatchments[] }` | `200 OK` - Ticket creado |
+| `/api/support-tickets` | GET | Buscar ticket de soporte | `{ id }` | `200 OK` - Lista de tickets |
+| `/api/user-reviews` | POST | Registrar un review nuevo | `{ reviewerId, reviewedUserid, rentalId, rating, comment, type }` | `201 Created` - Review Creada |
+| `/api/user-reviews` | GET | Buscar review | `{ reviewerId, reviewedUserid, rentalId, type }` | `200 OK` - Lista de Reviews |
+
+> Documentación completa disponible en: `https://moveo-backend-staging.onrender.com/api-docs`
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+En este Sprint, se desplegaron los cambios del backend y frontend en entornos de staging para validación continua.
+
+**Backend (NestJS)**  
+Plataforma: Render (Node.js App)  
+Build Command: `npm run build`  
+Start Command: `node dist/main.js`  
+Environment Variables: `JWT_SECRET`, `AWS_ACCESS_KEY`, `AWS_SECRET_KEY`
+
+**Frontend (Vue.js)**  
+Plataforma: Render (Static Site)  
+Build Command: `npm run build`  
+Publish Directory: `dist`
+
+**CI/CD**  
+- Se configuró el flujo de GitHub Actions para:  
+  1. Ejecutar pruebas unitarias en cada push a `develop`  
+  2. Desplegar automáticamente el frontend en Render  
+  3. Desplegar el backend en Render si todos los tests pasan  
+
+![render-backend](assets/chapter-5/render-backend-sprint4.png)  
+![render-frontend](assets/chapter-5/render-frontend-sprint4.png)  
+
+El entorno de staging permite pruebas reales con usuarios internos y prepara el camino para la validación en el Sprint 4.
+
+---
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
+El equipo mantuvo un flujo de trabajo ágil basado en GitFlow, con ramas por feature y pull requests obligatorios. Se implementó la práctica de **pair programming** en el desarrollo del backend DDD, donde Andreow Santiago y Franco Huang revisaron en tiempo real la implementación de los servicios de dominio.
+
+- Se utilizaron **GitHub Projects** para rastrear el progreso de cada tarea en el Sprint Backlog.
+- Se estableció una **reunión diaria de 15 minutos** en Discord para alinear tareas y resolver bloqueos.
+- Se adoptó el uso de **TypeScript interfaces estrictas** y **NestJS decorators** para mejorar la legibilidad y mantenibilidad.
+- Se documentaron decisiones de diseño en el archivo `ARCHITECTURE_DECISION_RECORDS.md` dentro del repositorio.
+- Se mejoró la calidad del código con la implementación de ESLint, Prettier y Husky para pre-commit hooks.
+
+Los commits reflejan un aumento en la madurez técnica del equipo, con un promedio de 12 commits por día en la rama `develop`, enfocados en entregas incrementales y pruebas.
+
+![commit-sprint4](assets/img/chapter-5/sprint4-commits.png)  
+![network-sprint4](assets/img/chapter-5/sprint4-network.png)
 
 ## 5.3. Validation Interviews
 
