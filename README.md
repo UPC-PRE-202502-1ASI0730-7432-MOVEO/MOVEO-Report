@@ -3365,122 +3365,54 @@ https://bit.ly/3KzqMzs
 
   Este video muestra la solución completa y final de **Moveo**: el backend en .NET con autenticación por token JWT, autorización por roles, gestión completa de vehículos, reservas, pagos (simulados), verificación biométrica y soporte; todo integrado con el frontend en Vue.js, donde propietarios e inquilinos pueden interactuar de forma segura, intuitiva y completamente funcional.  
 
-
 link:
 https://bit.ly/4pJy82r
 
+### Link de los videos de about the product
 
+### Links de los videos de about the team:
+https://youtu.be/ltTQBXUw1GI
+https://acortar.link/uHECQk
 
-### 1. Logo de Moveo (versión final)
-![](Assets/chapter-4/Logo.png)
+### Link del trello:
+https://trello.com/b/VRvBNLHD/moveo-apps-web
 
-### 2. Tipografía utilizada en la marca (Poppins e Inter)
-![](Assets/chapter-4/typografia.png)
+### Link de las entrevistas:
+http://bit.ly/46qhU6i
 
-### 3. Paleta de colores oficial de Moveo
-![](Assets/chapter-4/Colores.png)
+### Link de las entrevistas de validación:
+https://acortar.link/4jIxfQ
 
-### 4. Wireframe – Header y Hero de la Landing Page
-![](Assets/chapter-4/wire-header-hero.png)
+### Link del formulario segmento propietarios: 
+https://forms.gle/uyVSkqSiuiKx1nb69
 
-### 5. Wireframe – Sección “What is Moveo”
-![](Assets/chapter-4/wire-whatismoveo.png)
+### Link del formulario segmento Inquilinos: 
+https://forms.gle/kz3BdxPoZHKNgqUg9
 
-### 6. Wireframe – Sección de equipo
-![](Assets/chapter-4/wire-team.png)
+### Link del To-Be Scenario Mapping:
+https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497
 
-### 7. Wireframe – Sección de servicios
-![](Assets/chapter-4/wire-services.png)
+### Link del diseño final en figma:
+https://www.figma.com/design/lRjIRg3YuUVRpVKoibbAKt/Moveo-Landing-Mockup?node-id=0-1&t=xZb8804mKmhW8bFn-1
 
-### 8. Wireframe – Sección de impacto
-![](Assets/chapter-4/wire-impact.png)
+### Link del prototipo interactivo en figma:
+https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-
 
-### 9. Wireframe – Footer
-![](Assets/chapter-4/wire-questions.png)
+### Link de video demostración Sprint 1 (Landing Page):
+https://acortar.link/JOZzLz
 
-### 10. Mock-up final – Hero de la Landing Page
-![](Assets/chapter-4/header%20y%20hero.png)
+### Link de video demostración Sprint 2 (Web App):
+https://acortar.link/LaMrxI
 
-### 11. Mock-up final – Sección “What is Moveo”
-![](Assets/chapter-4/what%20is%20Moveo.png)
+### Link de video demostración Sprint 3 (Backend):
+https://acortar.link/5BCYNm
 
-### 12. Mock-up final – Equipo
-![](Assets/chapter-4/teammember.png)
+### Link de video demostración Sprint 4 (Integración completa):
+https://url-shortener.me/1PGL
 
-### 13. Mock-up final – Servicios
-![](Assets/chapter-4/services.png)
+##Tabla de imagenes
 
-### 14. Mock-up final – Impacto
-![](Assets/chapter-4/impacto.png)
-
-### 15. Mock-up final – Footer
-![](Assets/chapter-4/footer.png)
-
-### 16. Wireframe de la aplicación móvil – Pantalla principal
-![](Assets/chapter-4/App_wireframe_1.png)
-
-### 17. Wireframe de la aplicación móvil – Detalle de auto y perfil
-![](Assets/chapter-4/App_wireframe_2.png)
-
-### 18. Diagrama de flujo de usuario (Wireflow)
-![](Assets/chapter-4/moveo_wireflow.jpg)
-
-### 19. Mock-up final de la aplicación móvil
-![](Assets/chapter-4/Moveo%20App%20Mockup.png)
-
-### 20. Prototipo interactivo – Vista general
-![](Assets/chapter-4/protoype_moveo.png)
-
-### 21. Diagrama de contexto del sistema (C4)
-![](Assets/chapter-4/moveo_context.png)
-
-### 22. Diagrama de contenedores (C4)
-![](Assets/chapter-4/moveo_container.png)
-
-### 23. Diagrama de componentes – Car Rental Bounded Context
-![](Assets/chapter-4/carBC.png)
-
-### 24. Diagrama de clases UML
-![](Assets/chapter-4/moveo_class.png)
-
-### 25. Diagrama de base de datos (ERD)
-![](Assets/chapter-4/move_db.png)
-
-### 26. Tablero de Trello – Sprint 1
-![](Assets/chapter-5/sprint-1-trello.png)
-
-### 27. Tablero de Trello – Sprint 2
-![](Assets/chapter-5/trello-def.png)
-
-### 28. Evidencia de despliegue en Netlify – Landing Page
-![](Assets/chapter-5/netlify.png)
-
-### 29. Capturas de la aplicación web funcional (Sprint 2)
-![](Assets/chapter-5/app-evidence%20(1).png)
-![](Assets/chapter-5/app-evidence%20(2).png)
-![](Assets/chapter-5/app-evidence%20(3).png)
-![](Assets/chapter-5/app-evidence%20(4).png)
-![](Assets/chapter-5/app-evidence%20(5).png)
-
-### 30. Configuración de despliegue en Render – Fake API
-![](Assets/chapter-5/render%20(1).png)
-![](Assets/chapter-5/render%20(2).png)
-![](Assets/chapter-5/render%20(3).png)
-![](Assets/chapter-5/render%20(4).png)
-![](Assets/chapter-5/render%20(5).png)
-![](Assets/chapter-5/render%20(6).png)
-
-### 31. Tablero de Trello – Sprint 3
-![](Assets/chapter-5/trelo-3.png)
-
-### 28. Evidencia de despliegue del Backend
-![](Assets/chapter-5/backend-1.png)
-![](Assets/chapter-5/backend-2.png)
-![](Assets/chapter-5/backend-3.png)
-
-#Tabla de imagenes
-
-## 📸 Tabla Completa de Imágenes Utilizadas
+### Tabla Completa de Imágenes Utilizadas
 
 | Imagen | Nombre | Ubicación |
 |--------|--------|-----------|
