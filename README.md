@@ -2692,7 +2692,7 @@ El Sprint 3 logró implementar y validar parcialmente el backend bajo DDD, con l
 -  **Pruebas unitarias**: 85% de cobertura en servicios del backend.
 -  **Documentación**: Todos los endpoints documentados en Swagger.
 
-La aplicación está en estado de **staging** y lista para pruebas con usuarios reales en el Sprint 4.
+La aplicación está en estado de **staging** y lista para pruebas con usuarios reales en el Sprint 3.
 
 
 Link de la aplicacion:
@@ -2913,6 +2913,12 @@ El Sprint 3 logró implementar y validar parcialmente el backend bajo DDD, con l
 -  **Documentación**: Todos los endpoints documentados en Swagger.
 
 La aplicación está en estado de **staging** y lista para pruebas con usuarios reales en el Sprint 4.
+
+Link de la aplicacion:
+https://moveo-frontend-0sbk.onrender.com/
+
+Link del video:
+https://url-shortener.me/1PGL
 
 ---
 
