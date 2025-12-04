@@ -3456,7 +3456,25 @@ https://bit.ly/4pJy82r
 ![](Assets/chapter-5/netlify.png)
 
 ### 29. Capturas de la aplicación web funcional (Sprint 2)
-![](assets/chapter-5/app-evidence%20(1).png)
+![](Assets/chapter-5/app-evidence%20(1).png)
+![](Assets/chapter-5/app-evidence%20(2).png)
+![](Assets/chapter-5/app-evidence%20(3).png)
+![](Assets/chapter-5/app-evidence%20(4).png)
+![](Assets/chapter-5/app-evidence%20(5).png)
 
 ### 30. Configuración de despliegue en Render – Fake API
-![](assets/chapter-5/render%20(1).png)
+![](Assets/chapter-5/render%20(1).png)
+![](Assets/chapter-5/render%20(2).png)
+![](Assets/chapter-5/render%20(3).png)
+![](Assets/chapter-5/render%20(4).png)
+![](Assets/chapter-5/render%20(5).png)
+![](Assets/chapter-5/render%20(6).png)
+
+### 31. Tablero de Trello – Sprint 3
+![](Assets/chapter-5/trelo-3.png)
+
+### 28. Evidencia de despliegue del Backend
+![](Assets/chapter-5/backend-1.png)
+![](Assets/chapter-5/backend-2.png)
+![](Assets/chapter-5/backend-3.png)
+![](Assets/chapter-5/backend-4.png)
