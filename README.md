@@ -3477,4 +3477,143 @@ https://bit.ly/4pJy82r
 ![](Assets/chapter-5/backend-1.png)
 ![](Assets/chapter-5/backend-2.png)
 ![](Assets/chapter-5/backend-3.png)
-![](Assets/chapter-5/backend-4.png)
+
+#Tabla de imagenes
+
+## 📸 Tabla Completa de Imágenes Utilizadas
+
+| Imagen | Nombre | Ubicación |
+|--------|--------|-----------|
+| <img src="Assets/chapter-4/App_wireframe_1.png" width="120"/> | App_wireframe_1 | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/App_wireframe_2.png" width="120"/> | App_wireframe_2 | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/Color.png" width="120"/> | Color | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/Colores.png" width="120"/> | Colores | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/Diagrama.png" width="120"/> | Diagrama | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/L1.png" width="120"/> | L1 | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/L2.png" width="120"/> | L2 | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/L3.png" width="120"/> | L3 | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/L4.png" width="120"/> | L4 | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/Logo.png" width="120"/> | Logo | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/Moveo App Mockup.png" width="120"/> | Moveo App Mockup | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/Typography.png" width="120"/> | Typography | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/adventureBC.png" width="120"/> | adventureBC | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/carBC.png" width="120"/> | carBC | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/footer.png" width="120"/> | footer | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/header y hero.png" width="120"/> | header y hero | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/impacto.png" width="120"/> | impacto | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/move_db.png" width="120"/> | move_db | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/moveo.png" width="120"/> | moveo | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/moveo_class.png" width="120"/> | moveo_class | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/moveo_container.png" width="120"/> | moveo_container | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/moveo_context.png" width="120"/> | moveo_context | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/moveo_wireflow.jpg" width="120"/> | moveo_wireflow | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/profileBC.png" width="120"/> | profileBC | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/protoype_moveo.png" width="120"/> | protoype_moveo | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/serviceBC.png" width="120"/> | serviceBC | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/services.png" width="120"/> | services | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/teammember.png" width="120"/> | teammember | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/testimonios.png" width="120"/> | testimonios | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/typografia.png" width="120"/> | typografia | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/userBC.png" width="120"/> | userBC | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/user_flow_diagram.jpg" width="120"/> | user_flow_diagram | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/what is Moveo.png" width="120"/> | what is Moveo | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/wire-header-hero.png" width="120"/> | wire-header-hero | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/wire-impact.png" width="120"/> | wire-impact | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/wire-questions.png" width="120"/> | wire-questions | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/wire-services.png" width="120"/> | wire-services | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/wire-team.png" width="120"/> | wire-team | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/wire-testimonios.png" width="120"/> | wire-testimonios | Assets/chapter-4/ |
+| <img src="Assets/chapter-4/wire-whatismoveo.png" width="120"/> | wire-whatismoveo | Assets/chapter-4/ |
+| <img src="Assets/chapter-5/TF-github (1).png" width="120"/> | TF-github (1) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/TF-github (2).png" width="120"/> | TF-github (2) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/about-the-team.png" width="120"/> | about-the-team | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/app-evidence (1).png" width="120"/> | app-evidence (1) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/app-evidence (2).png" width="120"/> | app-evidence (2) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/app-evidence (3).png" width="120"/> | app-evidence (3) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/app-evidence (4).png" width="120"/> | app-evidence (4) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/app-evidence (5).png" width="120"/> | app-evidence (5) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/app-evidence (6).png" width="120"/> | app-evidence (6) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/app-evidence (7).png" width="120"/> | app-evidence (7) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/app-evidence (8).png" width="120"/> | app-evidence (8) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/backend con token (1).png" width="120"/> | backend con token (1) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/backend con token (2).png" width="120"/> | backend con token (2) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/backend-1.jpg" width="120"/> | backend-1 | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/backend-2.jpg" width="120"/> | backend-2 | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/backend-3.jpg" width="120"/> | backend-3 | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/backend-4.jpg" width="120"/> | backend-4 | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/backend-deploy.jpg" width="120"/> | backend-deploy | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/bout the product moveo.png" width="120"/> | bout the product moveo | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/deploy-backend.jpg" width="120"/> | deploy-backend | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/entrevistas-app (1).png" width="120"/> | entrevistas-app (1) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/entrevistas-app (2).png" width="120"/> | entrevistas-app (2) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/entrevistas-app (3).png" width="120"/> | entrevistas-app (3) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/entrevistas-app (4).png" width="120"/> | entrevistas-app (4) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/entrevistas-app (5).png" width="120"/> | entrevistas-app (5) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/entrevistas-app (6).png" width="120"/> | entrevistas-app (6) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/insight (1).png" width="120"/> | insight (1) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/insight (2).png" width="120"/> | insight (2) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/insight (3).png" width="120"/> | insight (3) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/netlify.png" width="120"/> | netlify | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/netlify1.png" width="120"/> | netlify1 | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/netlify2.png" width="120"/> | netlify2 | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/railway (1).png" width="120"/> | railway (1) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/railway (2).png" width="120"/> | railway (2) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/railway (3).png" width="120"/> | railway (3) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/render (1).png" width="120"/> | render (1) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/render (2).png" width="120"/> | render (2) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/render (3).png" width="120"/> | render (3) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/render (4).png" width="120"/> | render (4) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/render (5).png" width="120"/> | render (5) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/render (6).png" width="120"/> | render (6) | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/sprint-1-trello.png" width="120"/> | sprint-1-trello | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/sprint-3-commits.png" width="120"/> | sprint-3-commits | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/sprint-3-network.png" width="120"/> | sprint-3-network | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/trello-def.png" width="120"/> | trello-def | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/trello-tf.png" width="120"/> | trello-tf | Assets/chapter-5/ |
+| <img src="Assets/chapter-5/trelo-3.png" width="120"/> | trelo-3 | Assets/chapter-5/ |
+| <img src="Assets/img/chapter-1/Budget.png" width="120"/> | Budget | img/chapter-1/ |
+| <img src="Assets/img/chapter-1/Kayak.png" width="120"/> | Kayak | img/chapter-1/ |
+| <img src="Assets/img/chapter-1/Leanuxcanva.jpg" width="120"/> | Leanuxcanva | img/chapter-1/ |
+| <img src="Assets/img/chapter-1/PeruRentACar.png" width="120"/> | PeruRentACar | img/chapter-1/ |
+| <img src="Assets/img/chapter-1/tb-1.png" width="120"/> | tb-1 | img/chapter-1/ |
+| <img src="Assets/img/chapter-1/tb-1a.png" width="120"/> | tb-1a | img/chapter-1/ |
+| <img src="Assets/img/chapter-1/tb-1b.png" width="120"/> | tb-1b | img/chapter-1/ |
+| <img src="Assets/img/chapter-1/tb-1c.png" width="120"/> | tb-1c | img/chapter-1/ |
+| <img src="Assets/img/chapter-1/tb-1d.png" width="120"/> | tb-1d | img/chapter-1/ |
+| <img src="Assets/img/chapter-1/tb-1e.png" width="120"/> | tb-1e | img/chapter-1/ |
+| <img src="Assets/img/chapter-1/tp1-a.png" width="120"/> | tp1-a | img/chapter-1/ |
+| <img src="Assets/img/chapter-1/tp1-b.png" width="120"/> | tp1-b | img/chapter-1/ |
+| <img src="Assets/img/chapter-2/Empathy map-Gabriel.png" width="120"/> | Empathy map-Gabriel | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/Empathy map-Roy.png" width="120"/> | Empathy map-Roy | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/Gabriel-userpersona.png" width="120"/> | Gabriel-userpersona | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/Journey Map-Gabriel.png" width="120"/> | Journey Map-Gabriel | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/Journey map-Roy.png" width="120"/> | Journey map-Roy | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/Roy-userpersona.png" width="120"/> | Roy-userpersona | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/big-picture.png" width="120"/> | big-picture | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/entrevista-1.png" width="120"/> | entrevista-1 | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/entrevista-2.png" width="120"/> | entrevista-2 | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/entrevista-3.png" width="120"/> | entrevista-3 | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/entrevista-4.png" width="120"/> | entrevista-4 | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/entrevista-5.png" width="120"/> | entrevista-5 | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/entrevista-6.png" width="120"/> | entrevista-6 | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-1a.png" width="120"/> | estadistica-1a | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-1b.png" width="120"/> | estadistica-1b | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-1c.png" width="120"/> | estadistica-1c | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-1d.png" width="120"/> | estadistica-1d | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-1e.png" width="120"/> | estadistica-1e | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-1f.png" width="120"/> | estadistica-1f | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-2a.png" width="120"/> | estadistica-2a | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-2b.png" width="120"/> | estadistica-2b | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-2c.png" width="120"/> | estadistica-2c | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-2d.png" width="120"/> | estadistica-2d | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-2e.png" width="120"/> | estadistica-2e | img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-2f.png" width="120"/> | estadistica-2f | img/chapter-2/ |
+| <img src="Assets/img/chapter-3/Impact-map.png" width="120"/> | Impact-map | img/chapter-3/ |
+| <img src="Assets/img/chapter-3/segmento-1.png" width="120"/> | segmento-1 | img/chapter-3/ |
+| <img src="Assets/img/chapter-3/segmento-2.png" width="120"/> | segmento-2 | img/chapter-3/ |
+| <img src="Assets/img/cover/Andreow.jpg" width="120"/> | Andreow | cover/ |
+| <img src="Assets/img/cover/Franco.jpeg" width="120"/> | Franco | cover/ |
+| <img src="Assets/img/cover/Gabriel.png" width="120"/> | Gabriel | cover/ |
+| <img src="Assets/img/cover/Gianfranco.jpg" width="120"/> | Gianfranco | cover/ |
+| <img src="Assets/img/cover/carlos.jpg" width="120"/> | carlos | cover/ |
+| <img src="Assets/img/cover/gabriel.jpg" width="120"/> | gabriel | cover/ |
